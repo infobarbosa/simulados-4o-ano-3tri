@@ -1,0 +1,647 @@
+{
+ "id": "geografia-multidisciplinar-1-2",
+ "disciplina": "Geografia",
+ "prova": "Multidisciplinar 1",
+ "cabecalho": "SIMULADO • GEOGRAFIA • 4º ANO • MULTIDISCIPLINAR 1 (3º TRIMESTRE)",
+ "titulo": "Geografia — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 7 — Atividades econômicas do espaço rural • págs. 70–79",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — Geografia 4º ano (Edebê), Capítulo 7, págs. 70–79.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A soja é bastante cultivada para alimentar bois e vacas. ( ___ )",
+   "pagina": "72",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Na pecuária, criam-se animais para produzir alimentos e matérias-primas. ( ___ )",
+   "pagina": "73",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O pequeno produtor geralmente cultiva apenas um tipo de produto. ( ___ )",
+   "pagina": "72",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O extrativismo vegetal retira frutos, raízes e madeira. ( ___ )",
+   "pagina": "75",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A extração de madeira predatória pode colocar espécies em risco. ( ___ )",
+   "pagina": "76",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os equinos são criados principalmente para produzir lã. ( ___ )",
+   "pagina": "73",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Caprinos"
+    },
+    {
+     "id": "2",
+     "texto": "Pecuária suína"
+    },
+    {
+     "id": "3",
+     "texto": "Equinos"
+    },
+    {
+     "id": "4",
+     "texto": "Avicultura"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "cavalos e éguas"
+    },
+    {
+     "id": "b",
+     "texto": "bodes e cabras"
+    },
+    {
+     "id": "c",
+     "texto": "galinhas"
+    },
+    {
+     "id": "d",
+     "texto": "porcos"
+    }
+   ],
+   "enunciado": "Associe cada tipo de criação ao animal correspondente.",
+   "pagina": "73",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Ferro"
+    },
+    {
+     "id": "2",
+     "texto": "Petróleo"
+    },
+    {
+     "id": "3",
+     "texto": "Açaí"
+    },
+    {
+     "id": "4",
+     "texto": "Peixe"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "animal"
+    },
+    {
+     "id": "b",
+     "texto": "mineral"
+    },
+    {
+     "id": "c",
+     "texto": "vegetal"
+    },
+    {
+     "id": "d",
+     "texto": "mineral"
+    }
+   ],
+   "enunciado": "Associe cada recurso à origem do extrativismo.",
+   "pagina": "75",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Agricultura"
+    },
+    {
+     "id": "2",
+     "texto": "Pecuária"
+    },
+    {
+     "id": "3",
+     "texto": "Extrativismo"
+    },
+    {
+     "id": "4",
+     "texto": "Agropecuária"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "criação de gado"
+    },
+    {
+     "id": "b",
+     "texto": "cultivo do solo"
+    },
+    {
+     "id": "c",
+     "texto": "agricultura + pecuária"
+    },
+    {
+     "id": "d",
+     "texto": "retirada de recursos da natureza"
+    }
+   ],
+   "enunciado": "Associe cada atividade à sua definição.",
+   "pagina": "72",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Êxodo rural"
+    },
+    {
+     "id": "2",
+     "texto": "Modernização"
+    },
+    {
+     "id": "3",
+     "texto": "Especialistas"
+    },
+    {
+     "id": "4",
+     "texto": "Confinamento"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "animais presos comendo ração"
+    },
+    {
+     "id": "b",
+     "texto": "campo para a cidade"
+    },
+    {
+     "id": "c",
+     "texto": "agrônomos e veterinários"
+    },
+    {
+     "id": "d",
+     "texto": "uso de máquinas"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "77",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Lã"
+    },
+    {
+     "id": "2",
+     "texto": "Ovos"
+    },
+    {
+     "id": "3",
+     "texto": "Leite"
+    },
+    {
+     "id": "4",
+     "texto": "Carne suína"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "ovelha"
+    },
+    {
+     "id": "b",
+     "texto": "galinha"
+    },
+    {
+     "id": "c",
+     "texto": "vaca"
+    },
+    {
+     "id": "d",
+     "texto": "porco"
+    }
+   ],
+   "enunciado": "Associe cada produto ao animal.",
+   "pagina": "73",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Pesca artesanal"
+    },
+    {
+     "id": "2",
+     "texto": "Extração de madeira sem controle"
+    },
+    {
+     "id": "3",
+     "texto": "Agricultura orgânica"
+    },
+    {
+     "id": "4",
+     "texto": "Mineração em larga escala"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "predatória"
+    },
+    {
+     "id": "b",
+     "texto": "sustentável"
+    },
+    {
+     "id": "c",
+     "texto": "pode poluir o meio ambiente"
+    },
+    {
+     "id": "d",
+     "texto": "não usa substâncias químicas"
+    }
+   ],
+   "enunciado": "Associe cada atividade à sua classificação.",
+   "pagina": "75",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A agricultura que não usa substâncias químicas é a agricultura ____________.",
+   "pagina": "72",
+   "resposta": "orgânica"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A criação de galinhas para carne e ovos é chamada de ____________.",
+   "pagina": "73",
+   "resposta": "avicultura"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O extrativismo ____________ retira frutos e madeira das plantas.",
+   "pagina": "75",
+   "resposta": "vegetal"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A pecuária em que o gado fica solto no pasto é a pecuária ____________.",
+   "pagina": "73",
+   "resposta": "extensiva"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No garimpo do ouro, usa-se ____________, que contamina o meio ambiente.",
+   "pagina": "76",
+   "resposta": "mercúrio"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na agricultura de grande produtor, a produção acontece em grandes fazendas chamadas ____________.",
+   "pagina": "72",
+   "resposta": "latifúndios"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Profissionais como agrônomos e veterinários são chamados de ____________.",
+   "pagina": "77",
+   "resposta": "especialistas"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Bois e vacas são exemplos de gado ____________.",
+   "pagina": "73",
+   "resposta": "bovino"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "produz para exportação"
+    },
+    {
+     "id": "B",
+     "texto": "cultiva vários produtos para consumo próprio e local"
+    },
+    {
+     "id": "C",
+     "texto": "usa muitas máquinas"
+    },
+    {
+     "id": "D",
+     "texto": "só cria gado"
+    }
+   ],
+   "enunciado": "A agricultura do pequeno produtor geralmente...",
+   "pagina": "72",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "açaí e castanha"
+    },
+    {
+     "id": "B",
+     "texto": "ferro e ouro"
+    },
+    {
+     "id": "C",
+     "texto": "carne e leite"
+    },
+    {
+     "id": "D",
+     "texto": "lã e couro"
+    }
+   ],
+   "enunciado": "São exemplos de recursos do extrativismo mineral:",
+   "pagina": "75",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o couro"
+    },
+    {
+     "id": "B",
+     "texto": "os ovos"
+    },
+    {
+     "id": "C",
+     "texto": "a lã"
+    },
+    {
+     "id": "D",
+     "texto": "o leite"
+    }
+   ],
+   "enunciado": "O produto principal da criação de ovinos é...",
+   "pagina": "73",
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "mais empregos braçais"
+    },
+    {
+     "id": "B",
+     "texto": "o êxodo rural"
+    },
+    {
+     "id": "C",
+     "texto": "o fim das máquinas"
+    },
+    {
+     "id": "D",
+     "texto": "menos produção"
+    }
+   ],
+   "enunciado": "A modernização do campo, a partir dos anos 1960, causou...",
+   "pagina": "77",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "usa grandes redes"
+    },
+    {
+     "id": "B",
+     "texto": "retira poucos peixes por vez"
+    },
+    {
+     "id": "C",
+     "texto": "usa máquinas"
+    },
+    {
+     "id": "D",
+     "texto": "polui os rios"
+    }
+   ],
+   "enunciado": "A pesca artesanal é considerada sustentável porque...",
+   "pagina": "75",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pequeno produtor"
+    },
+    {
+     "id": "B",
+     "texto": "grande produtor"
+    },
+    {
+     "id": "C",
+     "texto": "extrativista"
+    },
+    {
+     "id": "D",
+     "texto": "pescador"
+    }
+   ],
+   "enunciado": "O tipo de agricultura que produz apenas um produto, em grandes fazendas, é do...",
+   "pagina": "72",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "mais confinamento"
+    },
+    {
+     "id": "B",
+     "texto": "menos investimento e mais área de pasto"
+    },
+    {
+     "id": "C",
+     "texto": "mais máquinas"
+    },
+    {
+     "id": "D",
+     "texto": "mais ração"
+    }
+   ],
+   "enunciado": "A pecuária extensiva, comparada à intensiva, exige...",
+   "pagina": "73",
+   "resposta": "B"
+  }
+ ]
+}

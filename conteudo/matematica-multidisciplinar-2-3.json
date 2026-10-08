@@ -1,0 +1,619 @@
+{
+ "id": "matematica-multidisciplinar-2-3",
+ "disciplina": "Matemática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • MATEMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Matemática — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 9 — Frações • págs. 146–165",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Matemática 4º ano, Capítulo 9 (Frações), págs. 146–165.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O denominador indica em quantas partes iguais o todo foi dividido. ( ___ )",
+   "pagina": "154",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A fração 1/6 é menor que a fração 1/3. ( ___ )",
+   "pagina": "159",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Somar 1/2 + 1/2 dá um inteiro. ( ___ )",
+   "pagina": "163",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Na receita de pão de queijo usamos 1/2 copo de óleo de soja. ( ___ )",
+   "pagina": "150",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "500 mL de suco correspondem a 1 litro. ( ___ )",
+   "pagina": "157",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O numerador é o número de baixo da fração. ( ___ )",
+   "pagina": "154",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1/2"
+    },
+    {
+     "id": "2",
+     "texto": "1/3"
+    },
+    {
+     "id": "3",
+     "texto": "1/6"
+    },
+    {
+     "id": "4",
+     "texto": "1/8"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "um meio"
+    },
+    {
+     "id": "b",
+     "texto": "um terço"
+    },
+    {
+     "id": "c",
+     "texto": "um sexto"
+    },
+    {
+     "id": "d",
+     "texto": "um oitavo"
+    }
+   ],
+   "enunciado": "Associe cada fração à maneira de lê-la.",
+   "pagina": "154",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "5/8 + 1/8"
+    },
+    {
+     "id": "2",
+     "texto": "4/3 + 2/3"
+    },
+    {
+     "id": "3",
+     "texto": "21/5 + 10/5"
+    },
+    {
+     "id": "4",
+     "texto": "100/1000 - 80/1000"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "6/8"
+    },
+    {
+     "id": "b",
+     "texto": "6/3"
+    },
+    {
+     "id": "c",
+     "texto": "31/5"
+    },
+    {
+     "id": "d",
+     "texto": "20/1000"
+    }
+   ],
+   "enunciado": "Associe cada operação ao seu resultado.",
+   "pagina": "163",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1/2 e 1/6"
+    },
+    {
+     "id": "2",
+     "texto": "1/3 e 1/2"
+    },
+    {
+     "id": "3",
+     "texto": "1/4 e 1/6"
+    },
+    {
+     "id": "4",
+     "texto": "1/6 e 1/3"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1/2 > 1/6"
+    },
+    {
+     "id": "b",
+     "texto": "1/3 < 1/2"
+    },
+    {
+     "id": "c",
+     "texto": "1/4 > 1/6"
+    },
+    {
+     "id": "d",
+     "texto": "1/6 < 1/3"
+    }
+   ],
+   "enunciado": "Associe cada comparação ao símbolo correto.",
+   "pagina": "159",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "óleo de soja"
+    },
+    {
+     "id": "2",
+     "texto": "queijo minas"
+    },
+    {
+     "id": "3",
+     "texto": "polvilho doce"
+    },
+    {
+     "id": "4",
+     "texto": "sal"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1/2 copo"
+    },
+    {
+     "id": "b",
+     "texto": "1/4 (250 g)"
+    },
+    {
+     "id": "c",
+     "texto": "1/2 kg"
+    },
+    {
+     "id": "d",
+     "texto": "1 colher (sobremesa)"
+    }
+   ],
+   "enunciado": "Associe cada ingrediente da receita à sua medida.",
+   "pagina": "150",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "10 laranjas"
+    },
+    {
+     "id": "2",
+     "texto": "5 laranjas"
+    },
+    {
+     "id": "3",
+     "texto": "250 mL"
+    },
+    {
+     "id": "4",
+     "texto": "1/2 litro"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1 litro"
+    },
+    {
+     "id": "b",
+     "texto": "500 mL"
+    },
+    {
+     "id": "c",
+     "texto": "1/4 de litro"
+    },
+    {
+     "id": "d",
+     "texto": "meio litro"
+    }
+   ],
+   "enunciado": "Associe cada medida de suco à sua correspondência.",
+   "pagina": "157",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "6/8"
+    },
+    {
+     "id": "2",
+     "texto": "3/6"
+    },
+    {
+     "id": "3",
+     "texto": "2/5"
+    },
+    {
+     "id": "4",
+     "texto": "1/10"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "6"
+    },
+    {
+     "id": "b",
+     "texto": "3"
+    },
+    {
+     "id": "c",
+     "texto": "2"
+    },
+    {
+     "id": "d",
+     "texto": "1"
+    }
+   ],
+   "enunciado": "Associe cada fração ao seu numerador.",
+   "pagina": "154",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A parte de baixo de uma fração é o ______________.",
+   "pagina": "154",
+   "resposta": "denominador"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "A metade de 12 pedaços de bolo é ______ pedaços.",
+   "pagina": "161",
+   "resposta": "6"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "250 mL de suco correspondem a ______ de litro.",
+   "pagina": "157",
+   "resposta": "1/4"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "4/3 + 2/3 = ______",
+   "pagina": "163",
+   "resposta": "6/3"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "100/1000 - 80/1000 = ______",
+   "pagina": "165",
+   "resposta": "20/1000"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A fração que se lê \"um sexto\" escreve-se ______.",
+   "pagina": "154",
+   "resposta": "1/6"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Compare usando > ou <: 1/4 ______ 1/6",
+   "pagina": "159",
+   "resposta": ">"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "5/8 + 1/8 = ______",
+   "pagina": "163",
+   "resposta": "6/8"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "mais da metade do bolo"
+    },
+    {
+     "id": "B",
+     "texto": "todo o bolo"
+    },
+    {
+     "id": "C",
+     "texto": "menos da metade do bolo"
+    }
+   ],
+   "enunciado": "Uma pessoa que comeu 7/8 do bolo comeu:",
+   "pagina": "160",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1/4"
+    },
+    {
+     "id": "B",
+     "texto": "1/6"
+    },
+    {
+     "id": "C",
+     "texto": "são iguais"
+    }
+   ],
+   "enunciado": "Entre as frações 1/4 e 1/6, a maior é:",
+   "pagina": "159",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "maior"
+    },
+    {
+     "id": "B",
+     "texto": "menor"
+    },
+    {
+     "id": "C",
+     "texto": "igual"
+    }
+   ],
+   "enunciado": "A fração 2/4 comparada com 1/4 é:",
+   "pagina": "159",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "3"
+    },
+    {
+     "id": "B",
+     "texto": "10"
+    },
+    {
+     "id": "C",
+     "texto": "13"
+    }
+   ],
+   "enunciado": "Na fração 3/10, o denominador é:",
+   "pagina": "154",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "36/6"
+    },
+    {
+     "id": "B",
+     "texto": "36/12"
+    },
+    {
+     "id": "C",
+     "texto": "24/6"
+    }
+   ],
+   "enunciado": "O resultado de 30/6 + 6/6 é:",
+   "pagina": "165",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "mais da metade do salário"
+    },
+    {
+     "id": "B",
+     "texto": "todo o salário"
+    },
+    {
+     "id": "C",
+     "texto": "menos da metade do salário"
+    }
+   ],
+   "enunciado": "Uma pessoa que gastou 4/6 do salário com alimentação gastou:",
+   "pagina": "160",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "5/8"
+    },
+    {
+     "id": "B",
+     "texto": "5/16"
+    },
+    {
+     "id": "C",
+     "texto": "7/8"
+    }
+   ],
+   "enunciado": "O resultado de 6/8 - 1/8 é:",
+   "pagina": "163",
+   "resposta": "A"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "id": "historia-p1-3",
+ "disciplina": "História",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 9 — Colonização do Brasil • págs. 86–92",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — História 4º ano (Edebê), Capítulo 9, págs. 86–92.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Antes de Cabral, muitos grupos humanos já habitavam o Brasil. ( ___ )",
+   "pagina": "92",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O sincretismo foi usado pelos africanos para manter suas tradições. ( ___ )",
+   "pagina": "90",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses chegaram ao Brasil no ano de 1822. ( ___ )",
+   "pagina": "88",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O comércio de africanos separou famílias e destruiu povoados. ( ___ )",
+   "pagina": "89",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Hoje não existe mais nenhum grupo indígena no Brasil. ( ___ )",
+   "pagina": "92",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A palavra \"Abayomi\" vem do Iorubá e significa \"encontro precioso\". ( ___ )",
+   "pagina": "91",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Chegada dos portugueses"
+    },
+    {
+     "id": "2",
+     "texto": "Expansão Ultramarina"
+    },
+    {
+     "id": "3",
+     "texto": "Exploração do pau-brasil"
+    },
+    {
+     "id": "4",
+     "texto": "Povos originários"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "séculos XV e XVI"
+    },
+    {
+     "id": "b",
+     "texto": "em 1500, na Bahia"
+    },
+    {
+     "id": "c",
+     "texto": "povos que já viviam aqui"
+    },
+    {
+     "id": "d",
+     "texto": "madeira para tingir de vermelho"
+    }
+   ],
+   "enunciado": "Associe cada evento à data ou informação.",
+   "pagina": "88",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Quilombos"
+    },
+    {
+     "id": "2",
+     "texto": "Sincretismo"
+    },
+    {
+     "id": "3",
+     "texto": "Diáspora"
+    },
+    {
+     "id": "4",
+     "texto": "Palmares"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "mistura das religiões"
+    },
+    {
+     "id": "b",
+     "texto": "fugas que criaram comunidades"
+    },
+    {
+     "id": "c",
+     "texto": "migração forçada"
+    },
+    {
+     "id": "d",
+     "texto": "quilombo símbolo de resistência"
+    }
+   ],
+   "enunciado": "Associe cada forma de resistência à sua definição.",
+   "pagina": "90",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Luzia"
+    },
+    {
+     "id": "2",
+     "texto": "Serra da Capivara"
+    },
+    {
+     "id": "3",
+     "texto": "Estreito de Bering"
+    },
+    {
+     "id": "4",
+     "texto": "13 mil anos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "caminho de povos da Ásia"
+    },
+    {
+     "id": "b",
+     "texto": "fóssil humano mais antigo do Brasil"
+    },
+    {
+     "id": "c",
+     "texto": "idade aproximada de Luzia"
+    },
+    {
+     "id": "d",
+     "texto": "parque no Piauí, Patrimônio da Unesco"
+    }
+   ],
+   "enunciado": "Associe cada fóssil ou sítio à informação.",
+   "pagina": "92",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Séculos XVI a XIX"
+    },
+    {
+     "id": "2",
+     "texto": "Castelo da Mina"
+    },
+    {
+     "id": "3",
+     "texto": "Atlântico"
+    },
+    {
+     "id": "4",
+     "texto": "Maior deslocamento forçado"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o comércio de africanos foi assim chamado"
+    },
+    {
+     "id": "b",
+     "texto": "período do comércio"
+    },
+    {
+     "id": "c",
+     "texto": "local na África"
+    },
+    {
+     "id": "d",
+     "texto": "oceano atravessado"
+    }
+   ],
+   "enunciado": "Associe cada informação sobre a escravização.",
+   "pagina": "89",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "\"Índios\""
+    },
+    {
+     "id": "2",
+     "texto": "Especiarias"
+    },
+    {
+     "id": "3",
+     "texto": "Povos originários"
+    },
+    {
+     "id": "4",
+     "texto": "Pau-brasil"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "temperos valiosos"
+    },
+    {
+     "id": "b",
+     "texto": "nome dado por engano"
+    },
+    {
+     "id": "c",
+     "texto": "primeira riqueza explorada"
+    },
+    {
+     "id": "d",
+     "texto": "povos que já viviam no Brasil"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "88",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Abayomi"
+    },
+    {
+     "id": "2",
+     "texto": "Iorubá"
+    },
+    {
+     "id": "3",
+     "texto": "Lena Martins"
+    },
+    {
+     "id": "4",
+     "texto": "Anos 1980"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "década em que as Abayomis foram criadas"
+    },
+    {
+     "id": "b",
+     "texto": "boneca de retalhos"
+    },
+    {
+     "id": "c",
+     "texto": "língua africana"
+    },
+    {
+     "id": "d",
+     "texto": "artesã e militante"
+    }
+   ],
+   "enunciado": "Associe cada elemento da cultura africana.",
+   "pagina": "91",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A chegada dos portugueses ocorreu na atual cidade de ____________, na Bahia.",
+   "pagina": "88",
+   "resposta": "Porto Seguro"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O local de resistência criado pelos africanos que fugiam era o ____________.",
+   "pagina": "90",
+   "resposta": "quilombo"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Milhões de africanos atravessaram o oceano ____________ em navios.",
+   "pagina": "89",
+   "resposta": "Atlântico"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Testes de DNA mostram que Luzia tem parentesco com povos vindos da ____________.",
+   "pagina": "92",
+   "resposta": "Ásia"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os povos que já habitavam o Brasil são chamados de povos ____________.",
+   "pagina": "88",
+   "resposta": "originários"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A língua oficial do Brasil é a Língua ____________.",
+   "pagina": "91",
+   "resposta": "Portuguesa"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A mistura das religiões africana e católica é o ____________.",
+   "pagina": "90",
+   "resposta": "sincretismo"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O comércio de seres humanos gerava ____________ para os mercadores.",
+   "pagina": "89",
+   "resposta": "lucros"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "neve"
+    },
+    {
+     "id": "B",
+     "texto": "riquezas, como metais preciosos e novas terras"
+    },
+    {
+     "id": "C",
+     "texto": "dinossauros"
+    },
+    {
+     "id": "D",
+     "texto": "gelo"
+    }
+   ],
+   "enunciado": "Os portugueses chegaram ao Brasil em busca de...",
+   "pagina": "88",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Expansão Ultramarina"
+    },
+    {
+     "id": "B",
+     "texto": "diáspora africana"
+    },
+    {
+     "id": "C",
+     "texto": "sincretismo"
+    },
+    {
+     "id": "D",
+     "texto": "êxodo rural"
+    }
+   ],
+   "enunciado": "A migração forçada dos africanos é chamada de...",
+   "pagina": "90",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Abayomi"
+    },
+    {
+     "id": "B",
+     "texto": "Luzia"
+    },
+    {
+     "id": "C",
+     "texto": "Zilda"
+    },
+    {
+     "id": "D",
+     "texto": "Lena"
+    }
+   ],
+   "enunciado": "A ancestral humana mais antiga do Brasil é...",
+   "pagina": "92",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Europa"
+    },
+    {
+     "id": "B",
+     "texto": "África (Gana)"
+    },
+    {
+     "id": "C",
+     "texto": "Ásia"
+    },
+    {
+     "id": "D",
+     "texto": "América"
+    }
+   ],
+   "enunciado": "O Castelo de São Jorge da Mina ficava na...",
+   "pagina": "89",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "construir casas"
+    },
+    {
+     "id": "B",
+     "texto": "tingir roupas de vermelho"
+    },
+    {
+     "id": "C",
+     "texto": "fazer comida"
+    },
+    {
+     "id": "D",
+     "texto": "navegar"
+    }
+   ],
+   "enunciado": "O pau-brasil era importante porque servia para...",
+   "pagina": "88",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "plástico"
+    },
+    {
+     "id": "B",
+     "texto": "retalhos de pano unidos por nós"
+    },
+    {
+     "id": "C",
+     "texto": "metal"
+    },
+    {
+     "id": "D",
+     "texto": "madeira"
+    }
+   ],
+   "enunciado": "As bonecas Abayomi são feitas de...",
+   "pagina": "91",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Floresta Amazônica"
+    },
+    {
+     "id": "B",
+     "texto": "Bahia"
+    },
+    {
+     "id": "C",
+     "texto": "Europa"
+    },
+    {
+     "id": "D",
+     "texto": "África"
+    }
+   ],
+   "enunciado": "A maioria dos indígenas do Brasil vive hoje na região da...",
+   "pagina": "92",
+   "resposta": "A"
+  }
+ ]
+}

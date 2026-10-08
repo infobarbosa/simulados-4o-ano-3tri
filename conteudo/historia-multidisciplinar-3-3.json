@@ -1,0 +1,619 @@
+{
+ "id": "historia-multidisciplinar-3-3",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os imigrantes ucranianos se instalaram no município de Mallet, no Paraná. ( ___ )",
+   "pagina": "99",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os imigrantes japoneses trouxeram conhecimento em áreas como Medicina e Engenharia. ( ___ )",
+   "pagina": "101",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses foram os únicos europeus a chegar ao Brasil. ( ___ )",
+   "pagina": "96",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Chucrute e kasseler são pratos típicos da culinária alemã. ( ___ )",
+   "pagina": "97",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Nenhum imigrante trouxe influência na culinária brasileira. ( ___ )",
+   "pagina": "98",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os libaneses vieram para o Brasil, em parte, por causa de problemas econômicos e perseguições religiosas. ( ___ )",
+   "pagina": "100",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "ucranianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1824"
+    },
+    {
+     "id": "b",
+     "texto": "1875"
+    },
+    {
+     "id": "c",
+     "texto": "1908"
+    },
+    {
+     "id": "d",
+     "texto": "década de 1890"
+    }
+   ],
+   "enunciado": "Associe cada povo ao ano em que chegou ao Brasil.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "alemães"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "sushi e sashimi"
+    },
+    {
+     "id": "b",
+     "texto": "chucrute e kasseler"
+    },
+    {
+     "id": "c",
+     "texto": "quibe e esfirra"
+    },
+    {
+     "id": "d",
+     "texto": "vinho"
+    }
+   ],
+   "enunciado": "Associe cada povo ao prato ou produto típico.",
+   "pagina": "100",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "São Leopoldo (RS)"
+    },
+    {
+     "id": "b",
+     "texto": "Mallet (PR)"
+    },
+    {
+     "id": "c",
+     "texto": "bairro da Liberdade (SP)"
+    },
+    {
+     "id": "d",
+     "texto": "Bento Gonçalves (RS)"
+    }
+   ],
+   "enunciado": "Associe cada povo ao lugar onde se instalou.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "libaneses"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "alemães"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "habilidade comercial"
+    },
+    {
+     "id": "b",
+     "texto": "boneca matrioska"
+    },
+    {
+     "id": "c",
+     "texto": "técnicas agrícolas"
+    },
+    {
+     "id": "d",
+     "texto": "preservação da língua alemã"
+    }
+   ],
+   "enunciado": "Associe cada povo à sua contribuição.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "migrante"
+    },
+    {
+     "id": "2",
+     "texto": "refugiado"
+    },
+    {
+     "id": "3",
+     "texto": "matrioska"
+    },
+    {
+     "id": "4",
+     "texto": "Declaração dos Direitos Humanos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pessoa que se desloca para viver em outro lugar"
+    },
+    {
+     "id": "b",
+     "texto": "pessoa que foge do país por causa de perigos"
+    },
+    {
+     "id": "c",
+     "texto": "boneca de madeira da cultura ucraniana"
+    },
+    {
+     "id": "d",
+     "texto": "documento adotado pela ONU em 1948"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "102",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "libaneses"
+    },
+    {
+     "id": "3",
+     "texto": "italianos"
+    },
+    {
+     "id": "4",
+     "texto": "ucranianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "chegaram no navio Kasato Maru"
+    },
+    {
+     "id": "b",
+     "texto": "foram incentivados por D. Pedro II"
+    },
+    {
+     "id": "c",
+     "texto": "trabalharam nos cafezais de São Paulo"
+    },
+    {
+     "id": "d",
+     "texto": "construíram a Igreja do Arcanjo Miguel"
+    }
+   ],
+   "enunciado": "Associe cada povo a um detalhe da sua história.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes ____________ fundaram a colônia de São Leopoldo.",
+   "pagina": "97",
+   "resposta": "alemães"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes ____________ trabalharam nos cafezais de São Paulo.",
+   "pagina": "98",
+   "resposta": "italianos"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O navio que trouxe os primeiros japoneses chamava-se ____________.",
+   "pagina": "101",
+   "resposta": "Kasato Maru"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes de origem árabe eram principalmente sírios e ____________.",
+   "pagina": "100",
+   "resposta": "libaneses"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As pessoas que fogem do país por causa de perigos são os ____________.",
+   "pagina": "102",
+   "resposta": "refugiados"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O bairro da ____________, em São Paulo, tem a maior comunidade japonesa fora do Japão.",
+   "pagina": "101",
+   "resposta": "Liberdade"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A boneca matrioska é feita de ____________.",
+   "pagina": "99",
+   "resposta": "madeira"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos foi adotada pela ONU no ano de ____________.",
+   "pagina": "103",
+   "resposta": "1948"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1824"
+    },
+    {
+     "id": "B",
+     "texto": "1908"
+    },
+    {
+     "id": "C",
+     "texto": "1948"
+    }
+   ],
+   "enunciado": "Os primeiros imigrantes alemães chegaram ao Brasil por volta de:",
+   "pagina": "97",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "japonesa"
+    },
+    {
+     "id": "B",
+     "texto": "italiana"
+    },
+    {
+     "id": "C",
+     "texto": "árabe"
+    }
+   ],
+   "enunciado": "O prato sushi faz parte da culinária:",
+   "pagina": "101",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Arcanjo Miguel"
+    },
+    {
+     "id": "B",
+     "texto": "São Pedro"
+    },
+    {
+     "id": "C",
+     "texto": "Santa Maria"
+    }
+   ],
+   "enunciado": "Os ucranianos deixaram como símbolo, em Mallet, a Igreja do:",
+   "pagina": "99",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a falta de terras para plantar no Japão"
+    },
+    {
+     "id": "B",
+     "texto": "o excesso de comida"
+    },
+    {
+     "id": "C",
+     "texto": "o clima frio"
+    }
+   ],
+   "enunciado": "Um motivo da vinda dos japoneses foi:",
+   "pagina": "101",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "comerciantes"
+    },
+    {
+     "id": "B",
+     "texto": "marinheiros"
+    },
+    {
+     "id": "C",
+     "texto": "pintores"
+    }
+   ],
+   "enunciado": "Os imigrantes libaneses se destacaram como:",
+   "pagina": "100",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "respeitados como todas as pessoas"
+    },
+    {
+     "id": "B",
+     "texto": "mandados de volta"
+    },
+    {
+     "id": "C",
+     "texto": "ignorados"
+    }
+   ],
+   "enunciado": "Segundo a DUDH, os refugiados devem ser:",
+   "pagina": "103",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "plantar uvas e produzir vinho"
+    },
+    {
+     "id": "B",
+     "texto": "criar porcos"
+    },
+    {
+     "id": "C",
+     "texto": "pescar"
+    }
+   ],
+   "enunciado": "Bento Gonçalves (RS) é conhecida pelo costume italiano de:",
+   "pagina": "98",
+   "resposta": "A"
+  }
+ ]
+}

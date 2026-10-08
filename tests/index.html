@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Testes do motor</title>
+  <style>body{font:16px system-ui;padding:1rem}li.ok{color:#2a7d00}li.erro{color:#b00020;font-weight:700}</style>
+</head>
+<body>
+  <h1>Testes do motor</h1>
+  <p>Abra esta página por um servidor local (<code>python3 -m http.server</code> na raiz do projeto, depois <code>/tests/</code>). O título da aba mostra "OK n/n".</p>
+  <ul id="lista"></ul>
+  <script type="module">
+    import * as M from "../js/motor.js";
+    import { sortearCarta } from "../js/cartas.js";
+    const catalogo = await (await fetch("../conteudo/catalogo.json")).json();
+    const lista = document.getElementById("lista");
+    let falhas = 0, total = 0;
+    const igual = (a, b, msg) => { if (JSON.stringify(a) !== JSON.stringify(b)) throw new Error(`${msg || ""} esperado ${JSON.stringify(b)}, veio ${JSON.stringify(a)}`); };
+    const ok = (c, msg) => { if (!c) throw new Error(msg || "condição falsa"); };
+    function teste(nome, fn) {
+      total++;
+      const li = document.createElement("li");
+      try { fn(); li.className = "ok"; li.textContent = "✓ " + nome; }
+      catch (e) { falhas++; li.className = "erro"; li.textContent = `✗ ${nome}: ${e.message}`; }
+      lista.append(li);
+    }
+    const lac = (resp, gab) => M.corrigirLacuna(resp, gab);
+
+    // todos os simulados do catálogo são válidos
+    const todos = [];
+    for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
+    teste("catálogo tem 36 simulados de 27 questões, todos válidos", () => {
+      igual(todos.length, 36);
+      for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
+    });
+
+    teste("lacuna: maiúsculas, espaços e pontuação final não importam", () => {
+      igual(lac("  Rio Grande. ", "rio grande"), { pontos: 1, aviso: null });
+      igual(lac("", "x").pontos, 0);
+      igual(lac("errado", "certo").pontos, 0);
+    });
+    teste("lacuna: só o acento difere → vale, com aviso", () => igual(lac("caes", "cães"), { pontos: 1, aviso: "acento" }));
+    teste("lacuna: números equivalentes", () => {
+      igual(lac("1500", "1.500"), { pontos: 1, aviso: null });
+      igual(lac("0,5", "1/2"), { pontos: 1, aviso: "equivalente" });
+      igual(lac("3/6", "1/2"), { pontos: 1, aviso: "equivalente" });
+      igual(lac("2/3", "1/2").pontos, 0);
+    });
+
+    const vf = { n: 1, tipo: "vf", resposta: "V" };
+    const mc = { n: 2, tipo: "multipla", resposta: "B", alternativas: [{ id: "A", texto: "a" }, { id: "B", texto: "b" }, { id: "C", texto: "c" }] };
+    const assoc = { n: 3, tipo: "associacao", colunaA: [{ id: "1", texto: "x" }, { id: "2", texto: "y" }, { id: "3", texto: "z" }, { id: "4", texto: "w" }],
+      colunaB: [{ id: "a", texto: "T1" }, { id: "b", texto: "T2" }, { id: "c", texto: "T1" }, { id: "d", texto: "T4" }], resposta: { 1: "a", 2: "b", 3: "c", 4: "d" } };
+    teste("V/F e múltipla escolha", () => {
+      ok(M.corrigir(vf, "V").correta && !M.corrigir(vf, "F").correta);
+      ok(M.corrigir(mc, "B").correta && !M.corrigir(mc, "A").correta);
+    });
+    teste("associação: pontos parciais e itens da Coluna B com o mesmo texto são equivalentes", () => {
+      igual(M.corrigir(assoc, { 1: "a", 2: "b", 3: "c", 4: "d" }).pontos, 1);
+      igual(M.corrigir(assoc, { 1: "c", 2: "b", 3: "a", 4: "d" }).pontos, 1); // a e c têm o mesmo texto
+      igual(M.corrigir(assoc, { 1: "a", 2: "b", 3: "c", 4: "a" }).pontos, 0.75);
+      igual(M.corrigir(assoc, {}).pontos, 0);
+    });
+    teste("sortearOrdem é determinística e não perde itens", () => {
+      const a = M.sortearOrdem([mc, assoc], 42), b = M.sortearOrdem([mc, assoc], 42);
+      igual(a, b);
+      igual([...a[2]].sort(), ["A", "B", "C"]);
+      igual([...a[3]].sort(), ["a", "b", "c", "d"]);
+    });
+    teste("questaoParaAluno esconde o gabarito e aplica a ordem", () => {
+      const q = M.questaoParaAluno(mc, { 2: ["C", "A", "B"] });
+      ok(!("resposta" in q)); igual(q.alternativas.map((x) => x.id), ["C", "A", "B"]);
+    });
+    teste("gabaritoParaExibir", () => {
+      igual(M.gabaritoParaExibir(mc), { valor: "B", texto: "b" });
+      igual(M.gabaritoParaExibir(assoc).pares[3], "T1");
+    });
+    teste("estrelas e raridade por nota", () => {
+      igual([null, 5, 7, 8.9, 9, 10].map(M.estrelasPorNota), [0, 1, 2, 2, 3, 3]);
+      igual([6.9, 7, 9].map((n) => sortearCarta("Geografia", n, 1).raridade), ["comum", "rara", "lendaria"]);
+    });
+    teste("carta: tipo pela disciplina, determinística pela semente", () => {
+      igual(sortearCarta("Matemática", 10, 7), sortearCarta("Matemática", 10, 7));
+      igual(sortearCarta("Matemática", 10, 7).elemento, "raio");
+      igual(sortearCarta("Bilíngue", 8, 7).elemento, "vento");
+    });
+
+    document.title = falhas ? `FALHOU ${falhas}/${total}` : `OK ${total}/${total}`;
+    document.querySelector("h1").textContent += ` — ${document.title}`;
+  </script>
+</body>
+</html>

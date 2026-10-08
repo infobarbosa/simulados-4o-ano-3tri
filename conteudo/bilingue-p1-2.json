@@ -1,0 +1,647 @@
+{
+ "id": "bilingue-p1-2",
+ "disciplina": "Bilíngue",
+ "prova": "P1",
+ "cabecalho": "MOCK TEST • BILINGUAL (I WONDER) • 4th GRADE • T3",
+ "titulo": "Bilingual — I Wonder (Pupil's Book 4) — Mock Test 2",
+ "numero": 2,
+ "tema": "Units 4 & 5 — In the past & Gadgets and inventions • pages 52–72",
+ "data": "13-09-2026",
+ "idioma": "en",
+ "fonte": "I Wonder — Pupil's Book 4 (Express Publishing / Edebê), Units 4 & 5, pages 52–72.",
+ "partes": {
+  "1": {
+   "titulo": "True or False",
+   "instrucao": "Write T for true or F for false."
+  },
+  "2": {
+   "titulo": "Matching",
+   "instrucao": "Write the number from Column A in the brackets in Column B."
+  },
+  "3": {
+   "titulo": "Complete",
+   "instrucao": "Complete the sentences with the correct word."
+  },
+  "4": {
+   "titulo": "Multiple choice",
+   "instrucao": "Choose the correct option."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The past simple of \"stop\" is \"stopped\". ( ___ )",
+   "pagina": "53",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Vikings travelled in longboats. ( ___ )",
+   "pagina": "54",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "\"Did they watched TV?\" is correct English. ( ___ )",
+   "pagina": "55",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A remote control is a gadget for your TV. ( ___ )",
+   "pagina": "68",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"expensive\" is \"expensiver\". ( ___ )",
+   "pagina": "69",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"bad\" is \"worse\". ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "stop"
+    },
+    {
+     "id": "2",
+     "texto": "like"
+    },
+    {
+     "id": "3",
+     "texto": "study"
+    },
+    {
+     "id": "4",
+     "texto": "help"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "helped"
+    },
+    {
+     "id": "b",
+     "texto": "stopped"
+    },
+    {
+     "id": "c",
+     "texto": "studied"
+    },
+    {
+     "id": "d",
+     "texto": "liked"
+    }
+   ],
+   "enunciado": "Match each verb with its past simple.",
+   "pagina": "53",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "explorer"
+    },
+    {
+     "id": "2",
+     "texto": "athlete"
+    },
+    {
+     "id": "3",
+     "texto": "musician"
+    },
+    {
+     "id": "4",
+     "texto": "writer"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "plays sports"
+    },
+    {
+     "id": "b",
+     "texto": "writes books"
+    },
+    {
+     "id": "c",
+     "texto": "explores new places"
+    },
+    {
+     "id": "d",
+     "texto": "plays music"
+    }
+   ],
+   "enunciado": "Match each job with what the person does.",
+   "pagina": "56",
+   "resposta": {
+    "1": "c",
+    "2": "a",
+    "3": "d",
+    "4": "b"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "smartphone"
+    },
+    {
+     "id": "2",
+     "texto": "GPS"
+    },
+    {
+     "id": "3",
+     "texto": "microwave oven"
+    },
+    {
+     "id": "4",
+     "texto": "games console"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "heats food"
+    },
+    {
+     "id": "b",
+     "texto": "you play games"
+    },
+    {
+     "id": "c",
+     "texto": "finds locations"
+    },
+    {
+     "id": "d",
+     "texto": "you call people"
+    }
+   ],
+   "enunciado": "Match each gadget with its use.",
+   "pagina": "68",
+   "resposta": {
+    "1": "d",
+    "2": "c",
+    "3": "a",
+    "4": "b"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "small"
+    },
+    {
+     "id": "2",
+     "texto": "heavy"
+    },
+    {
+     "id": "3",
+     "texto": "good"
+    },
+    {
+     "id": "4",
+     "texto": "easy"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "easier"
+    },
+    {
+     "id": "b",
+     "texto": "smaller"
+    },
+    {
+     "id": "c",
+     "texto": "heavier"
+    },
+    {
+     "id": "d",
+     "texto": "better"
+    }
+   ],
+   "enunciado": "Match each adjective with its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Stone Age people"
+    },
+    {
+     "id": "2",
+     "texto": "Vikings"
+    },
+    {
+     "id": "3",
+     "texto": "Ancient Greeks"
+    },
+    {
+     "id": "4",
+     "texto": "Ancient Romans"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "studied Maths and Music"
+    },
+    {
+     "id": "b",
+     "texto": "lived in caves"
+    },
+    {
+     "id": "c",
+     "texto": "travelled in longboats"
+    },
+    {
+     "id": "d",
+     "texto": "cooked on a fire"
+    }
+   ],
+   "enunciado": "Match the people with what they did.",
+   "pagina": "54",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "blackboard"
+    },
+    {
+     "id": "2",
+     "texto": "writing slate"
+    },
+    {
+     "id": "3",
+     "texto": "calculator"
+    },
+    {
+     "id": "4",
+     "texto": "notebook"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Then (past)"
+    },
+    {
+     "id": "b",
+     "texto": "Then (past)"
+    },
+    {
+     "id": "c",
+     "texto": "Now (today)"
+    },
+    {
+     "id": "d",
+     "texto": "Now (today)"
+    }
+   ],
+   "enunciado": "Write Then or Now: match each school thing.",
+   "pagina": "52",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Yesterday she ____________ (cook) dinner.",
+   "pagina": "53",
+   "resposta": "cooked"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The Vikings ____________ (travel) in longboats.",
+   "pagina": "54",
+   "resposta": "travelled"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Stone Age people didn't ____________ (use) cookers.",
+   "pagina": "54",
+   "resposta": "use"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"____ you play football yesterday?\"",
+   "pagina": "55",
+   "resposta": "Did"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "You take photos with a ____________ ____________.",
+   "pagina": "68",
+   "resposta": "digital camera"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"A GPS is ____________ (small) than a laptop.\"",
+   "pagina": "69",
+   "resposta": "smaller"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"A games console is more ____________ (expensive) than a GPS.\"",
+   "pagina": "69",
+   "resposta": "expensive"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"bad\" is ____________.",
+   "pagina": "69",
+   "resposta": "worse"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "play"
+    },
+    {
+     "id": "B",
+     "texto": "plays"
+    },
+    {
+     "id": "C",
+     "texto": "played"
+    },
+    {
+     "id": "D",
+     "texto": "playing"
+    }
+   ],
+   "enunciado": "\"Yesterday they ______ music.\"",
+   "pagina": "53",
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Yes, they did."
+    },
+    {
+     "id": "B",
+     "texto": "No, they didn't."
+    },
+    {
+     "id": "C",
+     "texto": "Yes, they do."
+    },
+    {
+     "id": "D",
+     "texto": "No, they aren't."
+    }
+   ],
+   "enunciado": "\"Did Vikings travel in longboats?\"",
+   "pagina": "54",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "dancer"
+    },
+    {
+     "id": "B",
+     "texto": "painter"
+    },
+    {
+     "id": "C",
+     "texto": "writer"
+    },
+    {
+     "id": "D",
+     "texto": "singer"
+    }
+   ],
+   "enunciado": "A person who paints pictures is a ______.",
+   "pagina": "56",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "toaster"
+    },
+    {
+     "id": "B",
+     "texto": "laptop"
+    },
+    {
+     "id": "C",
+     "texto": "GPS"
+    },
+    {
+     "id": "D",
+     "texto": "smartwatch"
+    }
+   ],
+   "enunciado": "Which gadget makes toast?",
+   "pagina": "68",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "chalk"
+    },
+    {
+     "id": "B",
+     "texto": "abacus"
+    },
+    {
+     "id": "C",
+     "texto": "tablet"
+    },
+    {
+     "id": "D",
+     "texto": "writing slate"
+    }
+   ],
+   "enunciado": "Which is a school thing you use NOW?",
+   "pagina": "52",
+   "resposta": "C"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "big"
+    },
+    {
+     "id": "B",
+     "texto": "bigger"
+    },
+    {
+     "id": "C",
+     "texto": "more big"
+    },
+    {
+     "id": "D",
+     "texto": "biggest"
+    }
+   ],
+   "enunciado": "\"A laptop is ______ than a tablet.\" (big)",
+   "pagina": "69",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "gooder"
+    },
+    {
+     "id": "B",
+     "texto": "more good"
+    },
+    {
+     "id": "C",
+     "texto": "better"
+    },
+    {
+     "id": "D",
+     "texto": "best"
+    }
+   ],
+   "enunciado": "\"This book is ______ than that one.\" (good)",
+   "pagina": "69",
+   "resposta": "C"
+  }
+ ]
+}

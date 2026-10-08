@@ -1,0 +1,619 @@
+{
+ "id": "geografia-p1-3",
+ "disciplina": "Geografia",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • GEOGRAFIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Geografia — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 8 — Atividades econômicas do espaço urbano • págs. 80–87",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Geografia 4º ano, Capítulo 8 (Atividades econômicas do espaço urbano), págs. 80–87.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A indústria de base transforma o minério de ferro em aço, como faz a siderúrgica. ( ___ )",
+   "pagina": "82",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O comércio varejista vende grandes quantidades para revenda. ( ___ )",
+   "pagina": "84",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Na prestação de serviços não é ofertado um produto físico. ( ___ )",
+   "pagina": "85",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Eletrodomésticos são bens de consumo não duráveis. ( ___ )",
+   "pagina": "82",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Feiras e mercados públicos também fazem parte do comércio. ( ___ )",
+   "pagina": "84",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Segurança, educação e saúde são exemplos de prestação de serviços. ( ___ )",
+   "pagina": "85",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "indústria"
+    },
+    {
+     "id": "2",
+     "texto": "comércio atacadista"
+    },
+    {
+     "id": "3",
+     "texto": "prestação de serviços"
+    },
+    {
+     "id": "4",
+     "texto": "comércio varejista"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "transforma matérias-primas em produtos"
+    },
+    {
+     "id": "b",
+     "texto": "vende grandes quantidades para revenda"
+    },
+    {
+     "id": "c",
+     "texto": "oferece serviços, sem produto físico"
+    },
+    {
+     "id": "d",
+     "texto": "vende pequenas quantidades ao consumidor final"
+    }
+   ],
+   "enunciado": "Associe cada setor à sua característica.",
+   "pagina": "84",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "automóvel"
+    },
+    {
+     "id": "2",
+     "texto": "roupa"
+    },
+    {
+     "id": "3",
+     "texto": "alimento"
+    },
+    {
+     "id": "4",
+     "texto": "sapato"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "durável"
+    },
+    {
+     "id": "b",
+     "texto": "semidurável"
+    },
+    {
+     "id": "c",
+     "texto": "não durável"
+    },
+    {
+     "id": "d",
+     "texto": "semidurável"
+    }
+   ],
+   "enunciado": "Associe cada bem de consumo ao seu tipo.",
+   "pagina": "82",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "gari"
+    },
+    {
+     "id": "2",
+     "texto": "eletricista"
+    },
+    {
+     "id": "3",
+     "texto": "professor"
+    },
+    {
+     "id": "4",
+     "texto": "motorista"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "limpeza"
+    },
+    {
+     "id": "b",
+     "texto": "energia"
+    },
+    {
+     "id": "c",
+     "texto": "educação"
+    },
+    {
+     "id": "d",
+     "texto": "transporte"
+    }
+   ],
+   "enunciado": "Associe cada profissional ao serviço que presta.",
+   "pagina": "85",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "supermercado"
+    },
+    {
+     "id": "2",
+     "texto": "hospital"
+    },
+    {
+     "id": "3",
+     "texto": "siderúrgica"
+    },
+    {
+     "id": "4",
+     "texto": "ônibus"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "comércio"
+    },
+    {
+     "id": "b",
+     "texto": "serviço de saúde"
+    },
+    {
+     "id": "c",
+     "texto": "indústria"
+    },
+    {
+     "id": "d",
+     "texto": "serviço de transporte"
+    }
+   ],
+   "enunciado": "Associe cada exemplo ao seu setor.",
+   "pagina": "85",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "indústria de base"
+    },
+    {
+     "id": "2",
+     "texto": "indústria de bens intermediários"
+    },
+    {
+     "id": "3",
+     "texto": "indústria de bens de consumo"
+    },
+    {
+     "id": "4",
+     "texto": "indústria química"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "matéria-prima processada para outras indústrias"
+    },
+    {
+     "id": "b",
+     "texto": "máquinas e peças para outras indústrias"
+    },
+    {
+     "id": "c",
+     "texto": "produtos consumidos pela população"
+    },
+    {
+     "id": "d",
+     "texto": "é exemplo de indústria de base"
+    }
+   ],
+   "enunciado": "Associe cada indústria ao que ela produz.",
+   "pagina": "82",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "atacadista"
+    },
+    {
+     "id": "2",
+     "texto": "varejista"
+    },
+    {
+     "id": "3",
+     "texto": "interno"
+    },
+    {
+     "id": "4",
+     "texto": "externo"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "grandes quantidades para revenda"
+    },
+    {
+     "id": "b",
+     "texto": "pequenas quantidades ao consumidor final"
+    },
+    {
+     "id": "c",
+     "texto": "produtos do próprio país"
+    },
+    {
+     "id": "d",
+     "texto": "produtos de outros países"
+    }
+   ],
+   "enunciado": "Associe cada tipo de comércio à sua definição.",
+   "pagina": "84",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A atividade econômica que envolve a troca, a venda e a compra de produtos é o ____________.",
+   "pagina": "84",
+   "resposta": "comércio"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os bens de consumo ____________ desgastam-se após o primeiro uso ou em pouco tempo de uso.",
+   "pagina": "82",
+   "resposta": "não duráveis"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A indústria ____________ é um exemplo de indústria de base.",
+   "pagina": "82",
+   "resposta": "siderúrgica"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O comércio que dá acesso a produtos feitos no próprio país é o comércio ____________.",
+   "pagina": "84",
+   "resposta": "interno"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Médicos, professores e motoristas atuam na ____________ de serviços.",
+   "pagina": "85",
+   "resposta": "prestação"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A indústria de bens de consumo fabrica produtos consumidos diretamente pela ____________.",
+   "pagina": "82",
+   "resposta": "população"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Boa parte do setor industrial está presente no meio ____________.",
+   "pagina": "82",
+   "resposta": "urbano"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A prestação de serviços é o setor que mais gera ____________ no Brasil.",
+   "pagina": "85",
+   "resposta": "riqueza"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "base"
+    },
+    {
+     "id": "B",
+     "texto": "bens de consumo"
+    },
+    {
+     "id": "C",
+     "texto": "bens intermediários"
+    }
+   ],
+   "enunciado": "A indústria que fabrica produtos consumidos diretamente pela população é a de:",
+   "pagina": "82",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "duráveis"
+    },
+    {
+     "id": "B",
+     "texto": "semiduráveis"
+    },
+    {
+     "id": "C",
+     "texto": "não duráveis"
+    }
+   ],
+   "enunciado": "Automóveis e eletrodomésticos são bens de consumo:",
+   "pagina": "82",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a indústria"
+    },
+    {
+     "id": "B",
+     "texto": "o comércio"
+    },
+    {
+     "id": "C",
+     "texto": "a prestação de serviços"
+    }
+   ],
+   "enunciado": "O setor da economia que mais emprega e mais gera riqueza no Brasil é:",
+   "pagina": "85",
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "base"
+    },
+    {
+     "id": "B",
+     "texto": "consumo"
+    },
+    {
+     "id": "C",
+     "texto": "varejo"
+    }
+   ],
+   "enunciado": "Uma refinaria de petróleo é um exemplo de indústria de:",
+   "pagina": "82",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "atacadista"
+    },
+    {
+     "id": "B",
+     "texto": "varejista"
+    },
+    {
+     "id": "C",
+     "texto": "externo"
+    }
+   ],
+   "enunciado": "Vender produtos em pequenas quantidades ao consumidor final é próprio do comércio:",
+   "pagina": "84",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "limpeza"
+    },
+    {
+     "id": "B",
+     "texto": "transporte"
+    },
+    {
+     "id": "C",
+     "texto": "saúde"
+    }
+   ],
+   "enunciado": "Um gari presta um serviço de:",
+   "pagina": "85",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "interno"
+    },
+    {
+     "id": "B",
+     "texto": "externo"
+    },
+    {
+     "id": "C",
+     "texto": "atacadista"
+    }
+   ],
+   "enunciado": "Produtos de outros países chegam ao consumidor pelo comércio:",
+   "pagina": "84",
+   "resposta": "B"
+  }
+ ]
+}

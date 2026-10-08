@@ -1,0 +1,619 @@
+{
+ "id": "historia-multidisciplinar-3-2",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os alemães chegaram ao Brasil por volta de 1824. ( ___ )",
+   "pagina": "97",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os japoneses chegaram ao Brasil pelo Porto de Santos, no navio Kasato Maru. ( ___ )",
+   "pagina": "101",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os italianos nunca influenciaram a culinária brasileira. ( ___ )",
+   "pagina": "98",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O imperador D. Pedro II incentivou a vinda de imigrantes árabes. ( ___ )",
+   "pagina": "100",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Migrantes e refugiados migram sempre sem nenhuma dificuldade. ( ___ )",
+   "pagina": "102",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O bairro da Liberdade concentra a maior comunidade japonesa fora do Japão. ( ___ )",
+   "pagina": "101",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "japoneses"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1824"
+    },
+    {
+     "id": "b",
+     "texto": "1875"
+    },
+    {
+     "id": "c",
+     "texto": "1880"
+    },
+    {
+     "id": "d",
+     "texto": "1908"
+    }
+   ],
+   "enunciado": "Associe cada povo ao ano em que chegou ao Brasil.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "alemães"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "bairro da Liberdade (SP)"
+    },
+    {
+     "id": "b",
+     "texto": "Mallet (PR)"
+    },
+    {
+     "id": "c",
+     "texto": "São Leopoldo (RS)"
+    },
+    {
+     "id": "d",
+     "texto": "Bento Gonçalves (RS)"
+    }
+   ],
+   "enunciado": "Associe cada povo ao lugar onde se instalou.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "libaneses"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "alemães"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "quibe e esfirra"
+    },
+    {
+     "id": "b",
+     "texto": "sushi e sashimi"
+    },
+    {
+     "id": "c",
+     "texto": "chucrute e kasseler"
+    },
+    {
+     "id": "d",
+     "texto": "vinho"
+    }
+   ],
+   "enunciado": "Associe cada povo ao prato ou produto típico.",
+   "pagina": "100",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "boneca matrioska"
+    },
+    {
+     "id": "b",
+     "texto": "técnicas agrícolas e conhecimento em Medicina"
+    },
+    {
+     "id": "c",
+     "texto": "habilidade comercial"
+    },
+    {
+     "id": "d",
+     "texto": "produção de vinho"
+    }
+   ],
+   "enunciado": "Associe cada povo à sua contribuição.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "migrante"
+    },
+    {
+     "id": "2",
+     "texto": "refugiado"
+    },
+    {
+     "id": "3",
+     "texto": "Declaração dos Direitos Humanos"
+    },
+    {
+     "id": "4",
+     "texto": "matrioska"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pessoa que se desloca para viver em outro lugar"
+    },
+    {
+     "id": "b",
+     "texto": "pessoa que foge do país por causa de perigos"
+    },
+    {
+     "id": "c",
+     "texto": "documento da ONU de 1948 sobre direitos"
+    },
+    {
+     "id": "d",
+     "texto": "boneca de madeira da cultura ucraniana"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "102",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "italianos"
+    },
+    {
+     "id": "4",
+     "texto": "alemães"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "construíram a Igreja do Arcanjo Miguel em Mallet"
+    },
+    {
+     "id": "b",
+     "texto": "vieram no navio Kasato Maru"
+    },
+    {
+     "id": "c",
+     "texto": "trabalharam nos cafezais de São Paulo"
+    },
+    {
+     "id": "d",
+     "texto": "criaram porcos e produziram azeite e couro"
+    }
+   ],
+   "enunciado": "Associe cada povo a um detalhe da sua história.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes alemães chegaram ao Brasil por volta do ano ____________.",
+   "pagina": "97",
+   "resposta": "1824"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes italianos ajudaram o Brasil a ser o maior exportador de ____________ do mundo.",
+   "pagina": "98",
+   "resposta": "café"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram ao Brasil no ano de ____________.",
+   "pagina": "101",
+   "resposta": "1908"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os ucranianos se instalaram no município de ____________, no Paraná.",
+   "pagina": "99",
+   "resposta": "Mallet"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes libaneses destacaram-se como bons ____________.",
+   "pagina": "100",
+   "resposta": "comerciantes"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As pessoas que se deslocam para viver em outro lugar são chamadas de ____________.",
+   "pagina": "102",
+   "resposta": "migrantes"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos garante a todos o direito de ____________.",
+   "pagina": "103",
+   "resposta": "migrar"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os alemães mantiveram viva a sua ____________ e a sua língua no Brasil.",
+   "pagina": "97",
+   "resposta": "cultura"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1875"
+    },
+    {
+     "id": "B",
+     "texto": "1908"
+    },
+    {
+     "id": "C",
+     "texto": "1824"
+    }
+   ],
+   "enunciado": "Os primeiros imigrantes italianos chegaram ao Brasil por volta de:",
+   "pagina": "98",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "ucraniana"
+    },
+    {
+     "id": "B",
+     "texto": "japonesa"
+    },
+    {
+     "id": "C",
+     "texto": "alemã"
+    }
+   ],
+   "enunciado": "A boneca matrioska é um símbolo da cultura:",
+   "pagina": "99",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "agricultores"
+    },
+    {
+     "id": "B",
+     "texto": "marinheiros"
+    },
+    {
+     "id": "C",
+     "texto": "médicos"
+    }
+   ],
+   "enunciado": "Os imigrantes japoneses eram, em sua maioria:",
+   "pagina": "101",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "alemã"
+    },
+    {
+     "id": "B",
+     "texto": "italiana"
+    },
+    {
+     "id": "C",
+     "texto": "árabe"
+    }
+   ],
+   "enunciado": "Chucrute e kasseler são pratos típicos da culinária:",
+   "pagina": "97",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Declaração Universal dos Direitos Humanos"
+    },
+    {
+     "id": "B",
+     "texto": "Constituição da Itália"
+    },
+    {
+     "id": "C",
+     "texto": "carta dos cafeicultores"
+    }
+   ],
+   "enunciado": "O documento que garante a todas as pessoas o direito de migrar é a:",
+   "pagina": "103",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "venezuelanos"
+    },
+    {
+     "id": "B",
+     "texto": "alemães"
+    },
+    {
+     "id": "C",
+     "texto": "japoneses"
+    }
+   ],
+   "enunciado": "Entre os refugiados que mais migraram para o Brasil nos últimos anos estão os:",
+   "pagina": "102",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "quibe e esfirra"
+    },
+    {
+     "id": "B",
+     "texto": "sushi e sashimi"
+    },
+    {
+     "id": "C",
+     "texto": "chucrute"
+    }
+   ],
+   "enunciado": "Os imigrantes de origem árabe trouxeram pratos como:",
+   "pagina": "100",
+   "resposta": "A"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "id": "geografia-multidisciplinar-1-3",
+ "disciplina": "Geografia",
+ "prova": "Multidisciplinar 1",
+ "cabecalho": "SIMULADO • GEOGRAFIA • 4º ANO • MULTIDISCIPLINAR 1 (3º TRIMESTRE)",
+ "titulo": "Geografia — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 7 — Atividades econômicas do espaço rural • págs. 70–79",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — Geografia 4º ano (Edebê), Capítulo 7, págs. 70–79.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O extrativismo pode ser de origem animal, vegetal ou mineral. ( ___ )",
+   "pagina": "75",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A pecuária intensiva cria os animais soltos no pasto. ( ___ )",
+   "pagina": "73",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O açúcar e o café são muito exportados pelo Brasil. ( ___ )",
+   "pagina": "72",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Novas profissões, como veterinário e agrônomo, surgiram com a modernização do campo. ( ___ )",
+   "pagina": "77",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A agricultura orgânica contamina o solo e a água. ( ___ )",
+   "pagina": "78",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A pesca artesanal usa grandes máquinas e não é sustentável. ( ___ )",
+   "pagina": "75",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Bois e vacas"
+    },
+    {
+     "id": "2",
+     "texto": "Bodes e cabras"
+    },
+    {
+     "id": "3",
+     "texto": "Cavalos e éguas"
+    },
+    {
+     "id": "4",
+     "texto": "Carneiros e ovelhas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "equinos"
+    },
+    {
+     "id": "b",
+     "texto": "bovinos"
+    },
+    {
+     "id": "c",
+     "texto": "ovinos"
+    },
+    {
+     "id": "d",
+     "texto": "caprinos"
+    }
+   ],
+   "enunciado": "Associe cada animal ao seu grupo.",
+   "pagina": "73",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Ouro"
+    },
+    {
+     "id": "2",
+     "texto": "Castanha do Brasil"
+    },
+    {
+     "id": "3",
+     "texto": "Peixe"
+    },
+    {
+     "id": "4",
+     "texto": "Petróleo"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "vegetal"
+    },
+    {
+     "id": "b",
+     "texto": "mineral"
+    },
+    {
+     "id": "c",
+     "texto": "animal"
+    },
+    {
+     "id": "d",
+     "texto": "mineral"
+    }
+   ],
+   "enunciado": "Associe cada recurso ao tipo de extrativismo.",
+   "pagina": "75",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Minifúndio"
+    },
+    {
+     "id": "2",
+     "texto": "Latifúndio"
+    },
+    {
+     "id": "3",
+     "texto": "Monocultura"
+    },
+    {
+     "id": "4",
+     "texto": "Agricultura orgânica"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "cultivo de um único produto"
+    },
+    {
+     "id": "b",
+     "texto": "pequena propriedade"
+    },
+    {
+     "id": "c",
+     "texto": "grande fazenda"
+    },
+    {
+     "id": "d",
+     "texto": "cultivo sem produtos químicos"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "72",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Bovinos"
+    },
+    {
+     "id": "2",
+     "texto": "Ovinos"
+    },
+    {
+     "id": "3",
+     "texto": "Avicultura"
+    },
+    {
+     "id": "4",
+     "texto": "Pecuária suína"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "carne (porco)"
+    },
+    {
+     "id": "b",
+     "texto": "carne, leite e couro"
+    },
+    {
+     "id": "c",
+     "texto": "lã"
+    },
+    {
+     "id": "d",
+     "texto": "carne e ovos"
+    }
+   ],
+   "enunciado": "Associe cada criação ao seu produto.",
+   "pagina": "73",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Êxodo rural"
+    },
+    {
+     "id": "2",
+     "texto": "Especialistas"
+    },
+    {
+     "id": "3",
+     "texto": "Ordenha"
+    },
+    {
+     "id": "4",
+     "texto": "Extrativismo predatório"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "retirada da natureza que causa impactos"
+    },
+    {
+     "id": "b",
+     "texto": "campo para a cidade"
+    },
+    {
+     "id": "c",
+     "texto": "retirada do leite das vacas"
+    },
+    {
+     "id": "d",
+     "texto": "profissionais com formação científica"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "77",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Caça"
+    },
+    {
+     "id": "2",
+     "texto": "Mineração"
+    },
+    {
+     "id": "3",
+     "texto": "Coleta de açaí"
+    },
+    {
+     "id": "4",
+     "texto": "Pesca"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "mineral"
+    },
+    {
+     "id": "b",
+     "texto": "animal"
+    },
+    {
+     "id": "c",
+     "texto": "vegetal"
+    },
+    {
+     "id": "d",
+     "texto": "animal"
+    }
+   ],
+   "enunciado": "Associe cada atividade à sua origem.",
+   "pagina": "75",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A criação de bois e vacas é a pecuária ____________.",
+   "pagina": "73",
+   "resposta": "bovina"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O cultivo do solo para produzir alimentos é a ____________.",
+   "pagina": "72",
+   "resposta": "agricultura"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A retirada de recursos da natureza é chamada de ____________.",
+   "pagina": "75",
+   "resposta": "extrativismo"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A modernização do campo provocou o ____________ rural.",
+   "pagina": "77",
+   "resposta": "êxodo"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na pecuária ____________, os animais ficam em confinamento e comem ração.",
+   "pagina": "73",
+   "resposta": "intensiva"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Serra dos ____________, no Pará, tem grandes reservas de minério de ferro.",
+   "pagina": "76",
+   "resposta": "Carajás"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A castanha do Brasil e o látex são produtos do extrativismo ____________.",
+   "pagina": "75",
+   "resposta": "vegetal"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A agricultura que cultiva vários produtos e usa menos máquinas costuma ser a do ____________ produtor.",
+   "pagina": "72",
+   "resposta": "pequeno"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "agricultura"
+    },
+    {
+     "id": "B",
+     "texto": "pecuária"
+    },
+    {
+     "id": "C",
+     "texto": "extrativismo mineral"
+    },
+    {
+     "id": "D",
+     "texto": "pesca"
+    }
+   ],
+   "enunciado": "Qual atividade cria gado para produzir carne, leite e couro?",
+   "pagina": "73",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "minérios"
+    },
+    {
+     "id": "B",
+     "texto": "frutos, raízes e madeira"
+    },
+    {
+     "id": "C",
+     "texto": "peixes"
+    },
+    {
+     "id": "D",
+     "texto": "leite"
+    }
+   ],
+   "enunciado": "O extrativismo vegetal retira da natureza...",
+   "pagina": "75",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "migração urbana"
+    },
+    {
+     "id": "B",
+     "texto": "êxodo rural"
+    },
+    {
+     "id": "C",
+     "texto": "pecuária"
+    },
+    {
+     "id": "D",
+     "texto": "extrativismo"
+    }
+   ],
+   "enunciado": "O deslocamento das pessoas do campo para a cidade chama-se...",
+   "pagina": "77",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "porcos"
+    },
+    {
+     "id": "B",
+     "texto": "cavalos"
+    },
+    {
+     "id": "C",
+     "texto": "galinhas"
+    },
+    {
+     "id": "D",
+     "texto": "cabras"
+    }
+   ],
+   "enunciado": "A avicultura é a criação de...",
+   "pagina": "73",
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "usa muitos agrotóxicos"
+    },
+    {
+     "id": "B",
+     "texto": "não usa substâncias químicas"
+    },
+    {
+     "id": "C",
+     "texto": "só usa máquinas"
+    },
+    {
+     "id": "D",
+     "texto": "cria animais"
+    }
+   ],
+   "enunciado": "A agricultura orgânica é aquela que...",
+   "pagina": "72",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "produzir alimentos"
+    },
+    {
+     "id": "B",
+     "texto": "desmatar e poluir rios e solo"
+    },
+    {
+     "id": "C",
+     "texto": "plantar árvores"
+    },
+    {
+     "id": "D",
+     "texto": "criar peixes"
+    }
+   ],
+   "enunciado": "Um problema do extrativismo mineral em larga escala é...",
+   "pagina": "76",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "bovinos"
+    },
+    {
+     "id": "B",
+     "texto": "caprinos"
+    },
+    {
+     "id": "C",
+     "texto": "ovinos"
+    },
+    {
+     "id": "D",
+     "texto": "equinos"
+    }
+   ],
+   "enunciado": "Bodes e cabras fazem parte da criação de...",
+   "pagina": "73",
+   "resposta": "B"
+  }
+ ]
+}

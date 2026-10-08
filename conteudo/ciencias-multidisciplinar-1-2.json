@@ -1,0 +1,647 @@
+{
+ "id": "ciencias-multidisciplinar-1-2",
+ "disciplina": "Ciências",
+ "prova": "Multidisciplinar 1",
+ "cabecalho": "SIMULADO • CIÊNCIAS • 4º ANO • MULTIDISCIPLINAR 1 (3º TRIMESTRE)",
+ "titulo": "Ciências — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 7 — Misturas • págs. 69–77",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — Ciências 4º ano (Edebê), Capítulo 7, págs. 69–77.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "No dia a dia usamos mais misturas do que materiais puros. ( ___ )",
+   "pagina": "70",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A evaporação separa o sal da água do mar. ( ___ )",
+   "pagina": "71",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os ovos batidos para o omelete são uma mistura heterogênea. ( ___ )",
+   "pagina": "70",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O soro caseiro deve ser feito com água limpa. ( ___ )",
+   "pagina": "72",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A catação usa um filtro de papel. ( ___ )",
+   "pagina": "71",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O sangue também é uma mistura. ( ___ )",
+   "pagina": "77",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Peneiração"
+    },
+    {
+     "id": "2",
+     "texto": "Decantação"
+    },
+    {
+     "id": "3",
+     "texto": "Filtração"
+    },
+    {
+     "id": "4",
+     "texto": "Evaporação"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "passar por um filtro"
+    },
+    {
+     "id": "b",
+     "texto": "usar uma peneira"
+    },
+    {
+     "id": "c",
+     "texto": "a água vira vapor"
+    },
+    {
+     "id": "d",
+     "texto": "o material se deposita no fundo"
+    }
+   ],
+   "enunciado": "Associe cada método à sua definição.",
+   "pagina": "71",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Omelete"
+    },
+    {
+     "id": "2",
+     "texto": "Cereal com leite"
+    },
+    {
+     "id": "3",
+     "texto": "Água com corante"
+    },
+    {
+     "id": "4",
+     "texto": "Melancia com sementes"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "homogênea"
+    },
+    {
+     "id": "b",
+     "texto": "heterogênea"
+    },
+    {
+     "id": "c",
+     "texto": "homogênea"
+    },
+    {
+     "id": "d",
+     "texto": "heterogênea"
+    }
+   ],
+   "enunciado": "Associe cada mistura ao seu tipo.",
+   "pagina": "70",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Café"
+    },
+    {
+     "id": "2",
+     "texto": "Sal e água"
+    },
+    {
+     "id": "3",
+     "texto": "Óleo e água"
+    },
+    {
+     "id": "4",
+     "texto": "Areia com pedras"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "evaporação"
+    },
+    {
+     "id": "b",
+     "texto": "filtração"
+    },
+    {
+     "id": "c",
+     "texto": "peneiração"
+    },
+    {
+     "id": "d",
+     "texto": "decantação"
+    }
+   ],
+   "enunciado": "Associe cada mistura ao método de separação.",
+   "pagina": "71",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Açúcar"
+    },
+    {
+     "id": "2",
+     "texto": "Sal"
+    },
+    {
+     "id": "3",
+     "texto": "Água"
+    },
+    {
+     "id": "4",
+     "texto": "Zilda Arns"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pediatra da Pastoral da Criança"
+    },
+    {
+     "id": "b",
+     "texto": "2 medidas"
+    },
+    {
+     "id": "c",
+     "texto": "1 medida"
+    },
+    {
+     "id": "d",
+     "texto": "200 ml, limpa"
+    }
+   ],
+   "enunciado": "Associe cada elemento do soro caseiro à quantidade/info.",
+   "pagina": "72",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Centrifugação"
+    },
+    {
+     "id": "2",
+     "texto": "Material puro"
+    },
+    {
+     "id": "3",
+     "texto": "Mistura homogênea"
+    },
+    {
+     "id": "4",
+     "texto": "Mistura heterogênea"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "uma só fase visível"
+    },
+    {
+     "id": "b",
+     "texto": "sem impurezas"
+    },
+    {
+     "id": "c",
+     "texto": "separa o sangue girando"
+    },
+    {
+     "id": "d",
+     "texto": "dois ou mais materiais visíveis"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "77",
+   "resposta": {
+    "1": "c",
+    "2": "b",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Coar o café"
+    },
+    {
+     "id": "2",
+     "texto": "Peneirar a areia"
+    },
+    {
+     "id": "3",
+     "texto": "Evaporar a água do mar"
+    },
+    {
+     "id": "4",
+     "texto": "Deixar o óleo separar da água"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "peneiração"
+    },
+    {
+     "id": "b",
+     "texto": "filtração"
+    },
+    {
+     "id": "c",
+     "texto": "decantação"
+    },
+    {
+     "id": "d",
+     "texto": "evaporação"
+    }
+   ],
+   "enunciado": "Associe cada exemplo ao método.",
+   "pagina": "71",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Se um material não é puro, ele é uma ____________.",
+   "pagina": "70",
+   "resposta": "mistura"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Coar o café para reter a borra é a ____________.",
+   "pagina": "71",
+   "resposta": "filtração"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Deixar o óleo se depositar e separar da água é a ____________.",
+   "pagina": "71",
+   "resposta": "decantação"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os ovos batidos formam uma mistura ____________.",
+   "pagina": "70",
+   "resposta": "homogênea"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O soro caseiro leva duas medidas de ____________ e uma de sal.",
+   "pagina": "72",
+   "resposta": "açúcar"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Separar as sementes da melancia com o talher é a ____________.",
+   "pagina": "71",
+   "resposta": "catação"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Girar o sangue em alta velocidade para separá-lo é a ____________.",
+   "pagina": "77",
+   "resposta": "centrifugação"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A perda de água e sais minerais pelo corpo é chamada de ____________.",
+   "pagina": "72",
+   "resposta": "desidratação"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "homogênea"
+    },
+    {
+     "id": "B",
+     "texto": "pura"
+    },
+    {
+     "id": "C",
+     "texto": "heterogênea"
+    },
+    {
+     "id": "D",
+     "texto": "filtrada"
+    }
+   ],
+   "enunciado": "Uma mistura em que vemos os materiais separados é...",
+   "pagina": "70",
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "decantação"
+    },
+    {
+     "id": "B",
+     "texto": "filtração"
+    },
+    {
+     "id": "C",
+     "texto": "evaporação"
+    },
+    {
+     "id": "D",
+     "texto": "catação"
+    }
+   ],
+   "enunciado": "Para separar a borra do café, usamos a...",
+   "pagina": "71",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "uma mistura"
+    },
+    {
+     "id": "B",
+     "texto": "um material puro"
+    },
+    {
+     "id": "C",
+     "texto": "heterogêneo"
+    },
+    {
+     "id": "D",
+     "texto": "um soro"
+    }
+   ],
+   "enunciado": "O ouro 24 quilates é considerado...",
+   "pagina": "70",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "filtração"
+    },
+    {
+     "id": "B",
+     "texto": "evaporação"
+    },
+    {
+     "id": "C",
+     "texto": "catação"
+    },
+    {
+     "id": "D",
+     "texto": "decantação"
+    }
+   ],
+   "enunciado": "Nas salinas, a água do mar é transformada em vapor pela...",
+   "pagina": "71",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "fazer bolo"
+    },
+    {
+     "id": "B",
+     "texto": "prevenir a desidratação"
+    },
+    {
+     "id": "C",
+     "texto": "limpar a casa"
+    },
+    {
+     "id": "D",
+     "texto": "temperar comida"
+    }
+   ],
+   "enunciado": "O soro caseiro serve para...",
+   "pagina": "72",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "heterogênea"
+    },
+    {
+     "id": "B",
+     "texto": "homogênea"
+    },
+    {
+     "id": "C",
+     "texto": "pura"
+    },
+    {
+     "id": "D",
+     "texto": "sólida"
+    }
+   ],
+   "enunciado": "Bater ovos para fazer omelete forma uma mistura...",
+   "pagina": "70",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pura"
+    },
+    {
+     "id": "B",
+     "texto": "homogênea"
+    },
+    {
+     "id": "C",
+     "texto": "heterogênea"
+    },
+    {
+     "id": "D",
+     "texto": "gasosa"
+    }
+   ],
+   "enunciado": "O sangue, ao ser centrifugado, mostra que é uma mistura...",
+   "pagina": "77",
+   "resposta": "C"
+  }
+ ]
+}

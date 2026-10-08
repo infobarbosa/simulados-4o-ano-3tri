@@ -1,0 +1,619 @@
+{
+ "id": "portugues-p1-1",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 1",
+ "numero": 1,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!): notícia, concordância nominal e plural das palavras terminadas em -ão, págs. 136–153.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A notícia tem como objetivo informar o leitor sobre um fato. ( ___ )",
+   "pagina": "140",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Jornais, revistas, televisão, rádio e internet são meios de comunicação. ( ___ )",
+   "pagina": "138",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A maior parte dos substantivos terminados em -ão forma o plural em -ães. ( ___ )",
+   "pagina": "147",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A concordância nominal ocorre em gênero e número entre o substantivo e as palavras ligadas a ele. ( ___ )",
+   "pagina": "145",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O adjetivo fornece uma característica ao substantivo. ( ___ )",
+   "pagina": "144",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O plural de \"cão\" é \"cãos\". ( ___ )",
+   "pagina": "146",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ação"
+    },
+    {
+     "id": "2",
+     "texto": "mão"
+    },
+    {
+     "id": "3",
+     "texto": "pão"
+    },
+    {
+     "id": "4",
+     "texto": "coração"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "ações"
+    },
+    {
+     "id": "b",
+     "texto": "mãos"
+    },
+    {
+     "id": "c",
+     "texto": "pães"
+    },
+    {
+     "id": "d",
+     "texto": "corações"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o fato"
+    },
+    {
+     "id": "2",
+     "texto": "o tempo"
+    },
+    {
+     "id": "3",
+     "texto": "o lugar"
+    },
+    {
+     "id": "4",
+     "texto": "as pessoas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o que aconteceu"
+    },
+    {
+     "id": "b",
+     "texto": "quando aconteceu"
+    },
+    {
+     "id": "c",
+     "texto": "onde aconteceu"
+    },
+    {
+     "id": "d",
+     "texto": "com quem aconteceu"
+    }
+   ],
+   "enunciado": "Associe cada informação da notícia à pergunta que ela responde.",
+   "pagina": "148",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "substantivo"
+    },
+    {
+     "id": "2",
+     "texto": "adjetivo"
+    },
+    {
+     "id": "3",
+     "texto": "concordância nominal"
+    },
+    {
+     "id": "4",
+     "texto": "adjetivo uniforme"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "nomeia seres e coisas"
+    },
+    {
+     "id": "b",
+     "texto": "dá característica ao substantivo"
+    },
+    {
+     "id": "c",
+     "texto": "combinação em gênero e número"
+    },
+    {
+     "id": "d",
+     "texto": "tem a mesma forma no masculino e no feminino"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "145",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "opinião"
+    },
+    {
+     "id": "2",
+     "texto": "irmão"
+    },
+    {
+     "id": "3",
+     "texto": "capitão"
+    },
+    {
+     "id": "4",
+     "texto": "informação"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "opiniões"
+    },
+    {
+     "id": "b",
+     "texto": "irmãos"
+    },
+    {
+     "id": "c",
+     "texto": "capitães"
+    },
+    {
+     "id": "d",
+     "texto": "informações"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "menino"
+    },
+    {
+     "id": "2",
+     "texto": "menina"
+    },
+    {
+     "id": "3",
+     "texto": "meninos"
+    },
+    {
+     "id": "4",
+     "texto": "meninas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "alto"
+    },
+    {
+     "id": "b",
+     "texto": "alta"
+    },
+    {
+     "id": "c",
+     "texto": "altos"
+    },
+    {
+     "id": "d",
+     "texto": "altas"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao adjetivo que concorda com ele.",
+   "pagina": "145",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "título"
+    },
+    {
+     "id": "2",
+     "texto": "informações antes do título"
+    },
+    {
+     "id": "3",
+     "texto": "corpo da notícia"
+    },
+    {
+     "id": "4",
+     "texto": "fotografia"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "resume o fato e chama a atenção"
+    },
+    {
+     "id": "b",
+     "texto": "apresentam o assunto ao leitor"
+    },
+    {
+     "id": "c",
+     "texto": "conta os detalhes do fato"
+    },
+    {
+     "id": "d",
+     "texto": "ilustra o acontecimento"
+    }
+   ],
+   "enunciado": "Associe cada parte da notícia à sua função.",
+   "pagina": "148",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A notícia tem como objetivo ____________ o leitor sobre um fato.",
+   "pagina": "140",
+   "resposta": "informar"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A maior parte dos substantivos terminados em -ão forma o plural em ____________.",
+   "pagina": "147",
+   "resposta": "-ões"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"cão\" é ____________.",
+   "pagina": "146",
+   "resposta": "cães"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A palavra que dá uma característica ao substantivo é o ____________.",
+   "pagina": "144",
+   "resposta": "adjetivo"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A concordância em gênero e número entre o substantivo e as palavras ligadas a ele é a concordância ____________.",
+   "pagina": "145",
+   "resposta": "nominal"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"coração\" é ____________.",
+   "pagina": "147",
+   "resposta": "corações"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os adjetivos ____________ têm a mesma forma no masculino e no feminino.",
+   "pagina": "145",
+   "resposta": "uniformes"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O título da notícia deve ____________ o fato e chamar a atenção do leitor.",
+   "pagina": "148",
+   "resposta": "resumir"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a notícia"
+    },
+    {
+     "id": "B",
+     "texto": "o conto"
+    },
+    {
+     "id": "C",
+     "texto": "o poema"
+    }
+   ],
+   "enunciado": "O texto que tem como objetivo informar o leitor sobre um fato é:",
+   "pagina": "140",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pãos"
+    },
+    {
+     "id": "B",
+     "texto": "pães"
+    },
+    {
+     "id": "C",
+     "texto": "pãoes"
+    }
+   ],
+   "enunciado": "O plural de \"pão\" é:",
+   "pagina": "147",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pequenas"
+    },
+    {
+     "id": "B",
+     "texto": "iniciativas"
+    },
+    {
+     "id": "C",
+     "texto": "as"
+    }
+   ],
+   "enunciado": "Na expressão \"as pequenas iniciativas\", o adjetivo é:",
+   "pagina": "144",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "gigante"
+    },
+    {
+     "id": "B",
+     "texto": "gigantes"
+    },
+    {
+     "id": "C",
+     "texto": "gigantas"
+    }
+   ],
+   "enunciado": "Se trocarmos \"iniciativas gigantes\" por \"projeto\", o adjetivo fica:",
+   "pagina": "145",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "informaçãos"
+    },
+    {
+     "id": "B",
+     "texto": "informações"
+    },
+    {
+     "id": "C",
+     "texto": "informançães"
+    }
+   ],
+   "enunciado": "O plural de \"informação\" é:",
+   "pagina": "147",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o que, quem, quando e onde"
+    },
+    {
+     "id": "B",
+     "texto": "rimas e versos"
+    },
+    {
+     "id": "C",
+     "texto": "personagens de ficção"
+    }
+   ],
+   "enunciado": "Uma boa notícia responde a perguntas como:",
+   "pagina": "148",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "gênero e número"
+    },
+    {
+     "id": "B",
+     "texto": "apenas em tempo"
+    },
+    {
+     "id": "C",
+     "texto": "apenas em rima"
+    }
+   ],
+   "enunciado": "A concordância nominal acontece em:",
+   "pagina": "145",
+   "resposta": "A"
+  }
+ ]
+}

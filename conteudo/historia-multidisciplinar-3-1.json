@@ -1,0 +1,619 @@
+{
+ "id": "historia-multidisciplinar-3-1",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 1",
+ "numero": 1,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses foram os primeiros europeus a chegar ao Brasil. ( ___ )",
+   "pagina": "96",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os imigrantes alemães fundaram a colônia de São Leopoldo, no Rio Grande do Sul. ( ___ )",
+   "pagina": "97",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram ao Brasil de avião. ( ___ )",
+   "pagina": "101",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os italianos ajudaram o Brasil a se tornar o maior exportador de café do mundo. ( ___ )",
+   "pagina": "98",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A boneca matrioska faz parte da cultura ucraniana. ( ___ )",
+   "pagina": "99",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos foi adotada pela ONU em 1948. ( ___ )",
+   "pagina": "103",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "ucranianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "por volta de 1824"
+    },
+    {
+     "id": "b",
+     "texto": "por volta de 1875"
+    },
+    {
+     "id": "c",
+     "texto": "em 1908"
+    },
+    {
+     "id": "d",
+     "texto": "na década de 1890"
+    }
+   ],
+   "enunciado": "Associe cada povo ao ano em que chegou ao Brasil.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "chucrute e kasseler"
+    },
+    {
+     "id": "b",
+     "texto": "sushi e sashimi"
+    },
+    {
+     "id": "c",
+     "texto": "quibe e esfirra"
+    },
+    {
+     "id": "d",
+     "texto": "vinho"
+    }
+   ],
+   "enunciado": "Associe cada povo ao prato ou produto típico.",
+   "pagina": "100",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "colônia de São Leopoldo (RS)"
+    },
+    {
+     "id": "b",
+     "texto": "município de Mallet (PR)"
+    },
+    {
+     "id": "c",
+     "texto": "bairro da Liberdade (SP)"
+    },
+    {
+     "id": "d",
+     "texto": "Bento Gonçalves (RS)"
+    }
+   ],
+   "enunciado": "Associe cada povo ao lugar ou símbolo ligado a ele.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "libaneses"
+    },
+    {
+     "id": "3",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "4",
+     "texto": "alemães"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "técnicas agrícolas e conhecimento em Medicina"
+    },
+    {
+     "id": "b",
+     "texto": "habilidade comercial"
+    },
+    {
+     "id": "c",
+     "texto": "boneca matrioska"
+    },
+    {
+     "id": "d",
+     "texto": "preservação da língua e da cultura alemãs"
+    }
+   ],
+   "enunciado": "Associe cada povo à sua contribuição.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "migrante"
+    },
+    {
+     "id": "2",
+     "texto": "refugiado"
+    },
+    {
+     "id": "3",
+     "texto": "matrioska"
+    },
+    {
+     "id": "4",
+     "texto": "Declaração dos Direitos Humanos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pessoa que se desloca para viver em outro lugar"
+    },
+    {
+     "id": "b",
+     "texto": "pessoa que foge do seu país por causa dos perigos"
+    },
+    {
+     "id": "c",
+     "texto": "boneca de madeira que encaixa uma dentro da outra"
+    },
+    {
+     "id": "d",
+     "texto": "documento adotado pela ONU em 1948"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "102",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "chegaram pelo Porto de Santos, no navio Kasato Maru"
+    },
+    {
+     "id": "b",
+     "texto": "construíram a Igreja do Arcanjo Miguel"
+    },
+    {
+     "id": "c",
+     "texto": "foram motivados pelo imperador D. Pedro II"
+    },
+    {
+     "id": "d",
+     "texto": "plantaram uvas e produziram vinho em Bento Gonçalves"
+    }
+   ],
+   "enunciado": "Associe cada povo a um detalhe da sua história.",
+   "pagina": "101",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros europeus a chegar ao Brasil foram os ____________.",
+   "pagina": "96",
+   "resposta": "portugueses"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes alemães fundaram a colônia de ____________, no Rio Grande do Sul.",
+   "pagina": "97",
+   "resposta": "São Leopoldo"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram em 1908, pelo Porto de ____________.",
+   "pagina": "101",
+   "resposta": "Santos"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O navio que trouxe os primeiros japoneses ao Brasil chamava-se ____________.",
+   "pagina": "101",
+   "resposta": "Kasato Maru"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A boneca ____________ é um símbolo da cultura ucraniana.",
+   "pagina": "99",
+   "resposta": "matrioska"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os libaneses se destacaram no Brasil como bons ____________.",
+   "pagina": "100",
+   "resposta": "comerciantes"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos foi adotada pela ____________ em 1948.",
+   "pagina": "103",
+   "resposta": "ONU"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As pessoas que fogem do seu país por causa de perigos são chamadas de ____________.",
+   "pagina": "102",
+   "resposta": "refugiados"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "alemães"
+    },
+    {
+     "id": "B",
+     "texto": "japoneses"
+    },
+    {
+     "id": "C",
+     "texto": "árabes"
+    }
+   ],
+   "enunciado": "A colônia de São Leopoldo (RS) foi fundada pelos imigrantes:",
+   "pagina": "97",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "japonesa"
+    },
+    {
+     "id": "B",
+     "texto": "italiana"
+    },
+    {
+     "id": "C",
+     "texto": "alemã"
+    }
+   ],
+   "enunciado": "O bairro da Liberdade, em São Paulo, é conhecido pela cultura:",
+   "pagina": "101",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "São Paulo"
+    },
+    {
+     "id": "B",
+     "texto": "Paraná"
+    },
+    {
+     "id": "C",
+     "texto": "Bahia"
+    }
+   ],
+   "enunciado": "Os italianos foram muito importantes nos cafezais de:",
+   "pagina": "98",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "as guerras de unificação na Europa"
+    },
+    {
+     "id": "B",
+     "texto": "o excesso de terras"
+    },
+    {
+     "id": "C",
+     "texto": "o clima quente"
+    }
+   ],
+   "enunciado": "Um dos motivos da vinda dos imigrantes europeus foi:",
+   "pagina": "96",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "sírios e libaneses"
+    },
+    {
+     "id": "B",
+     "texto": "chineses e japoneses"
+    },
+    {
+     "id": "C",
+     "texto": "franceses"
+    }
+   ],
+   "enunciado": "Os imigrantes de origem árabe que vieram para o Brasil eram principalmente:",
+   "pagina": "100",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "50 dias"
+    },
+    {
+     "id": "B",
+     "texto": "5 dias"
+    },
+    {
+     "id": "C",
+     "texto": "1 ano"
+    }
+   ],
+   "enunciado": "A viagem de navio dos japoneses até o Brasil durava, em média:",
+   "pagina": "101",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "circular livremente e escolher onde morar"
+    },
+    {
+     "id": "B",
+     "texto": "nunca sair do país"
+    },
+    {
+     "id": "C",
+     "texto": "morar só na capital"
+    }
+   ],
+   "enunciado": "Segundo a Declaração dos Direitos Humanos, toda pessoa tem o direito de:",
+   "pagina": "103",
+   "resposta": "A"
+  }
+ ]
+}

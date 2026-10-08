@@ -1,0 +1,619 @@
+{
+ "id": "bilingue-multidisciplinar-3-1",
+ "disciplina": "Bilíngue",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "MOCK TEST • ENGLISH (I WONDER) • YEAR 4 • MULTIDISCIPLINARY 3 (TERM 3)",
+ "titulo": "English — Mock Test 1",
+ "numero": 1,
+ "tema": "I Wonder — Module 5 • Comparatives • pages 68–69",
+ "data": "13-09-2026",
+ "idioma": "en",
+ "fonte": "I Wonder / Edebê — Student's Book Year 4, Module 5 (Language in Action: Comparatives), pages 68–69.",
+ "partes": {
+  "1": {
+   "titulo": "True or False",
+   "instrucao": "Write T for true and F for false."
+  },
+  "2": {
+   "titulo": "Matching",
+   "instrucao": "Write, in the brackets of Column B, the number of the matching item in Column A."
+  },
+  "3": {
+   "titulo": "Complete",
+   "instrucao": "Complete each sentence with the correct word."
+  },
+  "4": {
+   "titulo": "Multiple choice",
+   "instrucao": "Tick the option that best completes the sentence."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "We add -er to short adjectives to make the comparative. ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"good\" is \"gooder\". ( ___ )",
+   "pagina": "69",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "We use \"than\" to compare two things. ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A smartphone is a piece of technology. ( ___ )",
+   "pagina": "68",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"big\" is \"bigger\". ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "With long adjectives we use \"more\" before the adjective. ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "small"
+    },
+    {
+     "id": "2",
+     "texto": "big"
+    },
+    {
+     "id": "3",
+     "texto": "heavy"
+    },
+    {
+     "id": "4",
+     "texto": "expensive"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "smaller"
+    },
+    {
+     "id": "b",
+     "texto": "bigger"
+    },
+    {
+     "id": "c",
+     "texto": "heavier"
+    },
+    {
+     "id": "d",
+     "texto": "more expensive"
+    }
+   ],
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "good"
+    },
+    {
+     "id": "2",
+     "texto": "bad"
+    },
+    {
+     "id": "3",
+     "texto": "cheap"
+    },
+    {
+     "id": "4",
+     "texto": "modern"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "better"
+    },
+    {
+     "id": "b",
+     "texto": "worse"
+    },
+    {
+     "id": "c",
+     "texto": "cheaper"
+    },
+    {
+     "id": "d",
+     "texto": "more modern"
+    }
+   ],
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "headphones"
+    },
+    {
+     "id": "2",
+     "texto": "GPS"
+    },
+    {
+     "id": "3",
+     "texto": "laptop"
+    },
+    {
+     "id": "4",
+     "texto": "remote control"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "you wear them to listen to music"
+    },
+    {
+     "id": "b",
+     "texto": "it shows you the way"
+    },
+    {
+     "id": "c",
+     "texto": "a small computer"
+    },
+    {
+     "id": "d",
+     "texto": "you use it to change TV channels"
+    }
+   ],
+   "enunciado": "Match each word to the technology.",
+   "pagina": "68",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "fast"
+    },
+    {
+     "id": "2",
+     "texto": "new"
+    },
+    {
+     "id": "3",
+     "texto": "old"
+    },
+    {
+     "id": "4",
+     "texto": "tall"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "faster"
+    },
+    {
+     "id": "b",
+     "texto": "newer"
+    },
+    {
+     "id": "c",
+     "texto": "older"
+    },
+    {
+     "id": "d",
+     "texto": "taller"
+    }
+   ],
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "A games console is more expensive"
+    },
+    {
+     "id": "2",
+     "texto": "A laptop is smaller"
+    },
+    {
+     "id": "3",
+     "texto": "Smartphones are more modern"
+    },
+    {
+     "id": "4",
+     "texto": "A microwave oven is heavier"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "than a GPS"
+    },
+    {
+     "id": "b",
+     "texto": "than a tablet"
+    },
+    {
+     "id": "c",
+     "texto": "than radios"
+    },
+    {
+     "id": "d",
+     "texto": "than a fridge"
+    }
+   ],
+   "enunciado": "Match to complete each comparison.",
+   "pagina": "69",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "easy"
+    },
+    {
+     "id": "2",
+     "texto": "thin"
+    },
+    {
+     "id": "3",
+     "texto": "exciting"
+    },
+    {
+     "id": "4",
+     "texto": "important"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "easier"
+    },
+    {
+     "id": "b",
+     "texto": "thinner"
+    },
+    {
+     "id": "c",
+     "texto": "more exciting"
+    },
+    {
+     "id": "d",
+     "texto": "more important"
+    }
+   ],
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"small\" is ____________.",
+   "pagina": "69",
+   "resposta": "smaller"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"expensive\" is ____________.",
+   "pagina": "69",
+   "resposta": "more expensive"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"good\" is ____________.",
+   "pagina": "69",
+   "resposta": "better"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "We use the word ____________ to compare two things.",
+   "pagina": "69",
+   "resposta": "than"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"big\" is ____________.",
+   "pagina": "69",
+   "resposta": "bigger"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"bad\" is ____________.",
+   "pagina": "69",
+   "resposta": "worse"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"heavy\" is ____________.",
+   "pagina": "69",
+   "resposta": "heavier"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A laptop is more ____________ than a remote control.",
+   "pagina": "69",
+   "resposta": "expensive"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "smaller"
+    },
+    {
+     "id": "B",
+     "texto": "more small"
+    },
+    {
+     "id": "C",
+     "texto": "smallest"
+    }
+   ],
+   "enunciado": "The tablet is ____________ than the laptop.",
+   "pagina": "69",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "more modern"
+    },
+    {
+     "id": "B",
+     "texto": "moderner"
+    },
+    {
+     "id": "C",
+     "texto": "modernest"
+    }
+   ],
+   "enunciado": "The comparative of \"modern\" is:",
+   "pagina": "69",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "expensive"
+    },
+    {
+     "id": "B",
+     "texto": "expensiver"
+    },
+    {
+     "id": "C",
+     "texto": "expensivest"
+    }
+   ],
+   "enunciado": "A games console is more ____________ than a GPS.",
+   "pagina": "69",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "headphones"
+    },
+    {
+     "id": "B",
+     "texto": "apple"
+    },
+    {
+     "id": "C",
+     "texto": "chair"
+    }
+   ],
+   "enunciado": "Which word is a piece of technology?",
+   "pagina": "68",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "heavier"
+    },
+    {
+     "id": "B",
+     "texto": "more heavy"
+    },
+    {
+     "id": "C",
+     "texto": "heavyer"
+    }
+   ],
+   "enunciado": "The comparative of \"heavy\" is:",
+   "pagina": "69",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "heavier"
+    },
+    {
+     "id": "B",
+     "texto": "more heavy"
+    },
+    {
+     "id": "C",
+     "texto": "heaviest"
+    }
+   ],
+   "enunciado": "A microwave oven is ____________ than a fridge.",
+   "pagina": "69",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "worse"
+    },
+    {
+     "id": "B",
+     "texto": "badder"
+    },
+    {
+     "id": "C",
+     "texto": "more bad"
+    }
+   ],
+   "enunciado": "The comparative of \"bad\" is:",
+   "pagina": "69",
+   "resposta": "A"
+  }
+ ]
+}

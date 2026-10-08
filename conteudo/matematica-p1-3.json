@@ -1,0 +1,647 @@
+{
+ "id": "matematica-p1-3",
+ "disciplina": "Matemática",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • MATEMÁTICA • 4º ANO • P1 – 3º TRIMESTRE",
+ "titulo": "Matemática — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulos 6 e 7 — Divisão e Igualdade • págs. 100–128",
+ "data": "12-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — Matemática 4º ano (Edebê), Capítulos 6 e 7, págs. 100–128.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase ou operação. Onde houver caixa, desenvolva a conta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase. Onde houver caixa, desenvolva a conta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O resultado de uma divisão é chamado de quociente. ( ___ )",
+   "pagina": "104",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "4000 ÷ 1000 = 4. ( ___ )",
+   "pagina": "111",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Repartir 250 g de carne em 2 embalagens iguais é um exemplo de divisão. ( ___ )",
+   "pagina": "105",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Ao dividir um número por 10, retiramos dois zeros. ( ___ )",
+   "pagina": "111",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A igualdade 4 + 4 = 2 × 3 é verdadeira. ( ___ )",
+   "pagina": "119",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Numa balança equilibrada, os dois pratos têm a mesma massa. ( ___ )",
+   "pagina": "124",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Dividendo"
+    },
+    {
+     "id": "2",
+     "texto": "Divisor"
+    },
+    {
+     "id": "3",
+     "texto": "Quociente"
+    },
+    {
+     "id": "4",
+     "texto": "Resto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "número que reparte (em quantas partes)"
+    },
+    {
+     "id": "b",
+     "texto": "total a ser repartido"
+    },
+    {
+     "id": "c",
+     "texto": "o que sobra"
+    },
+    {
+     "id": "d",
+     "texto": "resultado da divisão"
+    }
+   ],
+   "enunciado": "Associe cada termo da divisão à sua definição.",
+   "pagina": "104",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "6000 ÷ 10"
+    },
+    {
+     "id": "2",
+     "texto": "6000 ÷ 100"
+    },
+    {
+     "id": "3",
+     "texto": "6000 ÷ 1000"
+    },
+    {
+     "id": "4",
+     "texto": "90 ÷ 10"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "60"
+    },
+    {
+     "id": "b",
+     "texto": "600"
+    },
+    {
+     "id": "c",
+     "texto": "9"
+    },
+    {
+     "id": "d",
+     "texto": "6"
+    }
+   ],
+   "enunciado": "Associe cada divisão ao seu resultado.",
+   "pagina": "111",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "210 latas em 5 sacos"
+    },
+    {
+     "id": "2",
+     "texto": "150 L de suco em 3 hospitais"
+    },
+    {
+     "id": "3",
+     "texto": "144 peças entre 4 pessoas"
+    },
+    {
+     "id": "4",
+     "texto": "78 kg em caixas de 6 kg"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "50"
+    },
+    {
+     "id": "b",
+     "texto": "42"
+    },
+    {
+     "id": "c",
+     "texto": "13"
+    },
+    {
+     "id": "d",
+     "texto": "36"
+    }
+   ],
+   "enunciado": "Associe cada problema ao resultado da divisão.",
+   "pagina": "106",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "40 ÷ 5"
+    },
+    {
+     "id": "2",
+     "texto": "30 ÷ 6"
+    },
+    {
+     "id": "3",
+     "texto": "42 ÷ 6"
+    },
+    {
+     "id": "4",
+     "texto": "80 ÷ 8"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "5"
+    },
+    {
+     "id": "b",
+     "texto": "8"
+    },
+    {
+     "id": "c",
+     "texto": "10"
+    },
+    {
+     "id": "d",
+     "texto": "7"
+    }
+   ],
+   "enunciado": "Associe cada divisão ao seu quociente.",
+   "pagina": "112",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "500 + ___ = 800"
+    },
+    {
+     "id": "2",
+     "texto": "___ − 400 = 400"
+    },
+    {
+     "id": "3",
+     "texto": "9 × ___ = 81"
+    },
+    {
+     "id": "4",
+     "texto": "60 ÷ ___ = 6"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "9"
+    },
+    {
+     "id": "b",
+     "texto": "300"
+    },
+    {
+     "id": "c",
+     "texto": "10"
+    },
+    {
+     "id": "d",
+     "texto": "800"
+    }
+   ],
+   "enunciado": "Associe cada igualdade ao número que completa a lacuna.",
+   "pagina": "122",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Igualdade"
+    },
+    {
+     "id": "2",
+     "texto": "Operações inversas"
+    },
+    {
+     "id": "3",
+     "texto": "Valor desconhecido"
+    },
+    {
+     "id": "4",
+     "texto": "Sinal ="
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "uma desfaz a outra"
+    },
+    {
+     "id": "b",
+     "texto": "número oculto a descobrir"
+    },
+    {
+     "id": "c",
+     "texto": "os dois lados têm o mesmo valor"
+    },
+    {
+     "id": "d",
+     "texto": "mostra que dois valores são iguais"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "125",
+   "resposta": {
+    "1": "c",
+    "2": "a",
+    "3": "b",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na divisão, o número que será repartido é o ____________.",
+   "pagina": "104",
+   "resposta": "dividendo"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "8000 ÷ 100 = ____",
+   "pagina": "111",
+   "resposta": "80"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "36000 ÷ 1000 = ____",
+   "pagina": "111",
+   "resposta": "36"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "48 ÷ 6 = ____",
+   "pagina": "113",
+   "resposta": "8"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "40 ÷ 5 = ____",
+   "pagina": "112",
+   "resposta": "8"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "____ − 250 = 250",
+   "pagina": "122",
+   "resposta": "500"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A operação inversa da adição é a ____________.",
+   "pagina": "123",
+   "resposta": "subtração"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A sentença 7 = 7 é uma igualdade ____________.",
+   "pagina": "125",
+   "resposta": "verdadeira"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "dividendo"
+    },
+    {
+     "id": "B",
+     "texto": "divisor"
+    },
+    {
+     "id": "C",
+     "texto": "quociente"
+    },
+    {
+     "id": "D",
+     "texto": "resto"
+    }
+   ],
+   "enunciado": "Numa divisão, o número que indica em quantas partes iguais repartimos é o...",
+   "pagina": "104",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "5"
+    },
+    {
+     "id": "B",
+     "texto": "50"
+    },
+    {
+     "id": "C",
+     "texto": "500"
+    },
+    {
+     "id": "D",
+     "texto": "5000"
+    }
+   ],
+   "enunciado": "5000 ÷ 1000 é igual a...",
+   "pagina": "111",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "12 caixas"
+    },
+    {
+     "id": "B",
+     "texto": "13 caixas"
+    },
+    {
+     "id": "C",
+     "texto": "14 caixas"
+    },
+    {
+     "id": "D",
+     "texto": "11 caixas"
+    }
+   ],
+   "enunciado": "78 kg de papel separados em caixas de 6 kg dão...",
+   "pagina": "107",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "medida (quantas vezes cabe)"
+    },
+    {
+     "id": "B",
+     "texto": "multiplicação"
+    },
+    {
+     "id": "C",
+     "texto": "soma"
+    },
+    {
+     "id": "D",
+     "texto": "subtração"
+    }
+   ],
+   "enunciado": "Dividir 32 turistas em mesas de 4 lugares para saber quantas mesas usar é a divisão com ideia de...",
+   "pagina": "105",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "aumenta"
+    },
+    {
+     "id": "B",
+     "texto": "diminui"
+    },
+    {
+     "id": "C",
+     "texto": "fica igual"
+    },
+    {
+     "id": "D",
+     "texto": "some"
+    }
+   ],
+   "enunciado": "Mantendo o divisor e diminuindo o dividendo, o quociente...",
+   "pagina": "113",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "6 × 2 = 8 + 4"
+    },
+    {
+     "id": "B",
+     "texto": "10 − 1 = 2 × 5"
+    },
+    {
+     "id": "C",
+     "texto": "15 ÷ 3 = 2 + 4"
+    },
+    {
+     "id": "D",
+     "texto": "3 × 4 = 20 − 5"
+    }
+   ],
+   "enunciado": "A igualdade verdadeira é:",
+   "pagina": "119",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "17"
+    },
+    {
+     "id": "B",
+     "texto": "72"
+    },
+    {
+     "id": "C",
+     "texto": "81"
+    },
+    {
+     "id": "D",
+     "texto": "1"
+    }
+   ],
+   "enunciado": "O número que torna verdadeira ___ ÷ 9 = 8 é...",
+   "pagina": "122",
+   "resposta": "B"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "id": "matematica-p1-2",
+ "disciplina": "Matemática",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • MATEMÁTICA • 4º ANO • P1 – 3º TRIMESTRE",
+ "titulo": "Matemática — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulos 6 e 7 — Divisão e Igualdade • págs. 100–128",
+ "data": "12-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — Matemática 4º ano (Edebê), Capítulos 6 e 7, págs. 100–128.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase ou operação. Onde houver caixa, desenvolva a conta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase. Onde houver caixa, desenvolva a conta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Numa divisão, o divisor indica em quantas partes iguais repartimos. ( ___ )",
+   "pagina": "104",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "7000 ÷ 10 = 700. ( ___ )",
+   "pagina": "111",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Mantendo o número de amigos (divisor) e aumentando as bolinhas (dividendo), cada um recebe mais. ( ___ )",
+   "pagina": "113",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Ao dividir 8000 por 100, o resultado é 800. ( ___ )",
+   "pagina": "111",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A igualdade 3 × 5 = 20 − 5 é verdadeira. ( ___ )",
+   "pagina": "119",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O sinal ≠ significa que os dois valores são iguais. ( ___ )",
+   "pagina": "125",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Dividendo"
+    },
+    {
+     "id": "2",
+     "texto": "Divisor"
+    },
+    {
+     "id": "3",
+     "texto": "Quociente"
+    },
+    {
+     "id": "4",
+     "texto": "Resto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o que sobra na divisão não exata"
+    },
+    {
+     "id": "b",
+     "texto": "quantidade total a ser repartida"
+    },
+    {
+     "id": "c",
+     "texto": "resultado da divisão"
+    },
+    {
+     "id": "d",
+     "texto": "número que reparte"
+    }
+   ],
+   "enunciado": "Associe cada termo da divisão à sua definição.",
+   "pagina": "104",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "3000 ÷ 10"
+    },
+    {
+     "id": "2",
+     "texto": "3000 ÷ 100"
+    },
+    {
+     "id": "3",
+     "texto": "3000 ÷ 1000"
+    },
+    {
+     "id": "4",
+     "texto": "60 ÷ 10"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "3"
+    },
+    {
+     "id": "b",
+     "texto": "300"
+    },
+    {
+     "id": "c",
+     "texto": "6"
+    },
+    {
+     "id": "d",
+     "texto": "30"
+    }
+   ],
+   "enunciado": "Associe cada divisão ao seu resultado.",
+   "pagina": "111",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "78 kg em caixas de 6 kg"
+    },
+    {
+     "id": "2",
+     "texto": "144 peças entre 4 pessoas"
+    },
+    {
+     "id": "3",
+     "texto": "32 turistas em mesas de 4 lugares"
+    },
+    {
+     "id": "4",
+     "texto": "150 L em 3 hospitais"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "8"
+    },
+    {
+     "id": "b",
+     "texto": "13"
+    },
+    {
+     "id": "c",
+     "texto": "50"
+    },
+    {
+     "id": "d",
+     "texto": "36"
+    }
+   ],
+   "enunciado": "Associe cada problema ao resultado da divisão.",
+   "pagina": "107",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Manter o dividendo e aumentar o divisor"
+    },
+    {
+     "id": "2",
+     "texto": "Manter o dividendo e diminuir o divisor"
+    },
+    {
+     "id": "3",
+     "texto": "Manter o divisor e aumentar o dividendo"
+    },
+    {
+     "id": "4",
+     "texto": "Manter o divisor e diminuir o dividendo"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o quociente diminui"
+    },
+    {
+     "id": "b",
+     "texto": "o quociente aumenta"
+    },
+    {
+     "id": "c",
+     "texto": "o quociente aumenta"
+    },
+    {
+     "id": "d",
+     "texto": "o quociente diminui"
+    }
+   ],
+   "enunciado": "Associe cada mudança ao efeito no quociente.",
+   "pagina": "112",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "400 + ___ = 1000"
+    },
+    {
+     "id": "2",
+     "texto": "___ − 200 = 500"
+    },
+    {
+     "id": "3",
+     "texto": "6 × ___ = 54"
+    },
+    {
+     "id": "4",
+     "texto": "64 ÷ ___ = 8"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "9"
+    },
+    {
+     "id": "b",
+     "texto": "600"
+    },
+    {
+     "id": "c",
+     "texto": "8"
+    },
+    {
+     "id": "d",
+     "texto": "700"
+    }
+   ],
+   "enunciado": "Associe cada igualdade ao número que completa a lacuna.",
+   "pagina": "122",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Divisão"
+    },
+    {
+     "id": "2",
+     "texto": "Multiplicação"
+    },
+    {
+     "id": "3",
+     "texto": "Subtração"
+    },
+    {
+     "id": "4",
+     "texto": "Adição"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Adição"
+    },
+    {
+     "id": "b",
+     "texto": "Multiplicação"
+    },
+    {
+     "id": "c",
+     "texto": "Divisão"
+    },
+    {
+     "id": "d",
+     "texto": "Subtração"
+    }
+   ],
+   "enunciado": "Associe cada operação à sua operação inversa.",
+   "pagina": "123",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O que sobra numa divisão não exata chama-se ____________.",
+   "pagina": "104",
+   "resposta": "resto"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "5000 ÷ 10 = ____",
+   "pagina": "111",
+   "resposta": "500"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "9000 ÷ 1000 = ____",
+   "pagina": "111",
+   "resposta": "9"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "144 ÷ 4 = ____",
+   "pagina": "108",
+   "resposta": "36"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "78 ÷ 6 = ____",
+   "pagina": "107",
+   "resposta": "13"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "8 × ____ = 56",
+   "pagina": "122",
+   "resposta": "7"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A operação inversa da divisão é a ____________.",
+   "pagina": "123",
+   "resposta": "multiplicação"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Numa expressão, resolvemos primeiro o que está dentro dos ____________.",
+   "pagina": "120",
+   "resposta": "parênteses"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "quociente"
+    },
+    {
+     "id": "B",
+     "texto": "dividendo"
+    },
+    {
+     "id": "C",
+     "texto": "divisor"
+    },
+    {
+     "id": "D",
+     "texto": "resto"
+    }
+   ],
+   "enunciado": "O número que será repartido numa divisão é o...",
+   "pagina": "104",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "360"
+    },
+    {
+     "id": "B",
+     "texto": "36"
+    },
+    {
+     "id": "C",
+     "texto": "3600"
+    },
+    {
+     "id": "D",
+     "texto": "36000"
+    }
+   ],
+   "enunciado": "36000 ÷ 100 é igual a...",
+   "pagina": "111",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "30 L"
+    },
+    {
+     "id": "B",
+     "texto": "50 L"
+    },
+    {
+     "id": "C",
+     "texto": "45 L"
+    },
+    {
+     "id": "D",
+     "texto": "60 L"
+    }
+   ],
+   "enunciado": "O suco de 150 litros repartido igualmente em 3 hospitais dá, para cada um...",
+   "pagina": "106",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "diminui"
+    },
+    {
+     "id": "B",
+     "texto": "aumenta"
+    },
+    {
+     "id": "C",
+     "texto": "fica igual"
+    },
+    {
+     "id": "D",
+     "texto": "some"
+    }
+   ],
+   "enunciado": "Mantendo o dividendo e diminuindo o divisor, o quociente...",
+   "pagina": "113",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "repartir em partes iguais"
+    },
+    {
+     "id": "B",
+     "texto": "medida (quantas vezes cabe)"
+    },
+    {
+     "id": "C",
+     "texto": "soma"
+    },
+    {
+     "id": "D",
+     "texto": "multiplicação"
+    }
+   ],
+   "enunciado": "Quando verificamos quantas vezes uma quantidade cabe em outra, usamos a divisão como ideia de...",
+   "pagina": "105",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "7"
+    },
+    {
+     "id": "B",
+     "texto": "9"
+    },
+    {
+     "id": "C",
+     "texto": "8"
+    },
+    {
+     "id": "D",
+     "texto": "56"
+    }
+   ],
+   "enunciado": "O número que torna verdadeira 7 × ___ = 63 é...",
+   "pagina": "122",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "somar 4 no outro lado"
+    },
+    {
+     "id": "B",
+     "texto": "tirar 4 do outro lado também"
+    },
+    {
+     "id": "C",
+     "texto": "não fazer nada"
+    },
+    {
+     "id": "D",
+     "texto": "multiplicar por 4"
+    }
+   ],
+   "enunciado": "Se numa igualdade eu tiro 4 de um lado, para mantê-la verdadeira devo...",
+   "pagina": "126",
+   "resposta": "B"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "id": "historia-p1-2",
+ "disciplina": "História",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 9 — Colonização do Brasil • págs. 86–92",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — História 4º ano (Edebê), Capítulo 9, págs. 86–92.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Entre os séculos XVI e XIX, milhões de africanos foram trazidos à força para serem escravizados. ( ___ )",
+   "pagina": "89",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses chegaram ao Brasil pela região de Porto Seguro, na Bahia. ( ___ )",
+   "pagina": "88",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Quando os portugueses chegaram, não havia ninguém morando no Brasil. ( ___ )",
+   "pagina": "92",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O sincretismo foi uma forma de resistência religiosa dos africanos. ( ___ )",
+   "pagina": "90",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O pau-brasil era usado para fazer navios. ( ___ )",
+   "pagina": "88",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Muitas palavras que usamos no Brasil têm origem africana. ( ___ )",
+   "pagina": "91",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1500"
+    },
+    {
+     "id": "2",
+     "texto": "Porto Seguro"
+    },
+    {
+     "id": "3",
+     "texto": "Séculos XV e XVI"
+    },
+    {
+     "id": "4",
+     "texto": "Pau-brasil"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "primeira madeira explorada"
+    },
+    {
+     "id": "b",
+     "texto": "ano da chegada dos portugueses"
+    },
+    {
+     "id": "c",
+     "texto": "período da Expansão Ultramarina"
+    },
+    {
+     "id": "d",
+     "texto": "local da chegada"
+    }
+   ],
+   "enunciado": "Associe cada data ou item ao evento.",
+   "pagina": "88",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Quilombo"
+    },
+    {
+     "id": "2",
+     "texto": "Sincretismo"
+    },
+    {
+     "id": "3",
+     "texto": "Diáspora"
+    },
+    {
+     "id": "4",
+     "texto": "Palmares"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "migração forçada dos africanos"
+    },
+    {
+     "id": "b",
+     "texto": "mistura de religiões"
+    },
+    {
+     "id": "c",
+     "texto": "local de resistência"
+    },
+    {
+     "id": "d",
+     "texto": "quilombo mais famoso do Brasil"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "90",
+   "resposta": {
+    "1": "c",
+    "2": "b",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Luzia"
+    },
+    {
+     "id": "2",
+     "texto": "Serra da Capivara"
+    },
+    {
+     "id": "3",
+     "texto": "Calçoene"
+    },
+    {
+     "id": "4",
+     "texto": "Amazônia"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "círculo megalítico no Amapá"
+    },
+    {
+     "id": "b",
+     "texto": "fóssil de cerca de 13 mil anos"
+    },
+    {
+     "id": "c",
+     "texto": "onde vivem hoje a maioria dos indígenas"
+    },
+    {
+     "id": "d",
+     "texto": "sítios de cerca de 20 mil anos no Piauí"
+    }
+   ],
+   "enunciado": "Associe cada lugar ou fóssil à informação.",
+   "pagina": "92",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Castelo de São Jorge da Mina"
+    },
+    {
+     "id": "2",
+     "texto": "Oceano Atlântico"
+    },
+    {
+     "id": "3",
+     "texto": "Mercadores"
+    },
+    {
+     "id": "4",
+     "texto": "Navios"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "atravessado pelos navios"
+    },
+    {
+     "id": "b",
+     "texto": "local na África (Gana)"
+    },
+    {
+     "id": "c",
+     "texto": "levavam os africanos escravizados"
+    },
+    {
+     "id": "d",
+     "texto": "negociavam pessoas"
+    }
+   ],
+   "enunciado": "Associe cada informação sobre a escravização.",
+   "pagina": "89",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Povos originários"
+    },
+    {
+     "id": "2",
+     "texto": "\"Índios\""
+    },
+    {
+     "id": "3",
+     "texto": "Expansão Ultramarina"
+    },
+    {
+     "id": "4",
+     "texto": "Especiarias"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "temperos buscados pelos portugueses"
+    },
+    {
+     "id": "b",
+     "texto": "nome dado por engano aos povos daqui"
+    },
+    {
+     "id": "c",
+     "texto": "viagens pelos mares"
+    },
+    {
+     "id": "d",
+     "texto": "povos que já viviam no Brasil"
+    }
+   ],
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "88",
+   "resposta": {
+    "1": "d",
+    "2": "b",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Abayomi"
+    },
+    {
+     "id": "2",
+     "texto": "Lena Martins"
+    },
+    {
+     "id": "3",
+     "texto": "Iorubá"
+    },
+    {
+     "id": "4",
+     "texto": "Sincretismo"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "língua africana"
+    },
+    {
+     "id": "b",
+     "texto": "boneca de retalhos"
+    },
+    {
+     "id": "c",
+     "texto": "artesã do movimento negro"
+    },
+    {
+     "id": "d",
+     "texto": "camuflar a religião"
+    }
+   ],
+   "enunciado": "Associe cada elemento da cultura africana.",
+   "pagina": "91",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "a",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O período das viagens dos portugueses pelos mares chama-se Expansão ____________ Europeia.",
+   "pagina": "88",
+   "resposta": "Ultramarina"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Ao chegarem, os portugueses chamaram os povos daqui de ____________.",
+   "pagina": "88",
+   "resposta": "índios"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "De onde saíam os navios com africanos escravizados: o Castelo de São Jorge da ____________.",
+   "pagina": "89",
+   "resposta": "Mina"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os africanos que fugiam criaram os ____________, locais de resistência.",
+   "pagina": "90",
+   "resposta": "quilombos"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A ancestral humana mais antiga do Brasil, com cerca de 13 mil anos, é ____________.",
+   "pagina": "92",
+   "resposta": "Luzia"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A cor que se obtinha do pau-brasil para tingir roupas era o ____________.",
+   "pagina": "88",
+   "resposta": "vermelho"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A migração forçada dos africanos é a ____________ africana.",
+   "pagina": "90",
+   "resposta": "diáspora"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Hoje existem no Brasil pouco mais de ____________ etnias indígenas.",
+   "pagina": "92",
+   "resposta": "250"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "gelo"
+    },
+    {
+     "id": "B",
+     "texto": "metais preciosos e especiarias"
+    },
+    {
+     "id": "C",
+     "texto": "neve"
+    },
+    {
+     "id": "D",
+     "texto": "dinossauros"
+    }
+   ],
+   "enunciado": "Um dos objetivos das viagens dos portugueses era buscar...",
+   "pagina": "88",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porto Seguro"
+    },
+    {
+     "id": "B",
+     "texto": "Palmares"
+    },
+    {
+     "id": "C",
+     "texto": "Bering"
+    },
+    {
+     "id": "D",
+     "texto": "Mina"
+    }
+   ],
+   "enunciado": "O quilombo mais conhecido da história de resistência foi o de...",
+   "pagina": "90",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Luzia"
+    },
+    {
+     "id": "B",
+     "texto": "Lena Martins"
+    },
+    {
+     "id": "C",
+     "texto": "Zilda Arns"
+    },
+    {
+     "id": "D",
+     "texto": "Anna Pavlova"
+    }
+   ],
+   "enunciado": "As bonecas Abayomi foram criadas pela artesã...",
+   "pagina": "91",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Pacífico"
+    },
+    {
+     "id": "B",
+     "texto": "Atlântico"
+    },
+    {
+     "id": "C",
+     "texto": "Índico"
+    },
+    {
+     "id": "D",
+     "texto": "Ártico"
+    }
+   ],
+   "enunciado": "Os africanos escravizados atravessavam qual oceano até o Brasil?",
+   "pagina": "89",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Piauí"
+    },
+    {
+     "id": "B",
+     "texto": "Amazonas"
+    },
+    {
+     "id": "C",
+     "texto": "Bahia"
+    },
+    {
+     "id": "D",
+     "texto": "Paraná"
+    }
+   ],
+   "enunciado": "A Serra da Capivara, com sítios arqueológicos muito antigos, fica no estado do...",
+   "pagina": "92",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "imigrantes"
+    },
+    {
+     "id": "B",
+     "texto": "povos originários"
+    },
+    {
+     "id": "C",
+     "texto": "colonizadores"
+    },
+    {
+     "id": "D",
+     "texto": "portugueses"
+    }
+   ],
+   "enunciado": "Os povos que já habitavam o Brasil antes dos portugueses são chamados de...",
+   "pagina": "88",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "proibir todas as religiões"
+    },
+    {
+     "id": "B",
+     "texto": "camuflar a religião africana usando santos católicos"
+    },
+    {
+     "id": "C",
+     "texto": "construir igrejas"
+    },
+    {
+     "id": "D",
+     "texto": "fugir para as matas"
+    }
+   ],
+   "enunciado": "O sincretismo religioso consistia em...",
+   "pagina": "90",
+   "resposta": "B"
+  }
+ ]
+}

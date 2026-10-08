@@ -1,0 +1,619 @@
+{
+ "id": "ciencias-p1-2",
+ "disciplina": "Ciências",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • CIÊNCIAS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Ciências — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 9 — Transformações reversíveis e irreversíveis • págs. 88–97",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Ciências 4º ano, Capítulo 9 (Transformações reversíveis e irreversíveis), págs. 88–97.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A mudança de estado físico da água é um exemplo de transformação reversível. ( ___ )",
+   "pagina": "90",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O apodrecimento de uma fruta é uma transformação reversível. ( ___ )",
+   "pagina": "93",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O alumínio pode ser derretido e moldado várias vezes sem alterar sua composição química. ( ___ )",
+   "pagina": "90",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Apontar um lápis é uma transformação que pode ser revertida. ( ___ )",
+   "pagina": "93",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os estados físicos da água são sólido, líquido e gasoso. ( ___ )",
+   "pagina": "96",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O aumento da temperatura da Terra diminui o gelo e a neve em várias regiões. ( ___ )",
+   "pagina": "92",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "água virando vapor"
+    },
+    {
+     "id": "2",
+     "texto": "queima do papel"
+    },
+    {
+     "id": "3",
+     "texto": "água virando gelo"
+    },
+    {
+     "id": "4",
+     "texto": "ralar cenoura"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "reversível"
+    },
+    {
+     "id": "b",
+     "texto": "irreversível"
+    },
+    {
+     "id": "c",
+     "texto": "reversível"
+    },
+    {
+     "id": "d",
+     "texto": "irreversível"
+    }
+   ],
+   "enunciado": "Associe cada exemplo ao seu tipo de transformação.",
+   "pagina": "90",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "fusão"
+    },
+    {
+     "id": "2",
+     "texto": "solidificação"
+    },
+    {
+     "id": "3",
+     "texto": "vaporização"
+    },
+    {
+     "id": "4",
+     "texto": "condensação"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "do sólido para o líquido"
+    },
+    {
+     "id": "b",
+     "texto": "do líquido para o sólido"
+    },
+    {
+     "id": "c",
+     "texto": "do líquido para o gasoso"
+    },
+    {
+     "id": "d",
+     "texto": "do gasoso para o líquido"
+    }
+   ],
+   "enunciado": "Associe cada processo da água à sua descrição.",
+   "pagina": "90",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ovo cozido"
+    },
+    {
+     "id": "2",
+     "texto": "fruta apodrecida"
+    },
+    {
+     "id": "3",
+     "texto": "fogueira"
+    },
+    {
+     "id": "4",
+     "texto": "ferrugem"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "não volta ao que era antes do cozimento"
+    },
+    {
+     "id": "b",
+     "texto": "estraga com o tempo"
+    },
+    {
+     "id": "c",
+     "texto": "libera calor, cinzas e fumaça"
+    },
+    {
+     "id": "d",
+     "texto": "ocorre em objetos de ferro"
+    }
+   ],
+   "enunciado": "Associe cada exemplo irreversível à sua descrição.",
+   "pagina": "93",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Brasil"
+    },
+    {
+     "id": "2",
+     "texto": "latas de alumínio"
+    },
+    {
+     "id": "3",
+     "texto": "aquecimento das latinhas"
+    },
+    {
+     "id": "4",
+     "texto": "resfriamento do alumínio"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "é líder mundial em reciclagem"
+    },
+    {
+     "id": "b",
+     "texto": "podem ser recicladas muitas vezes"
+    },
+    {
+     "id": "c",
+     "texto": "derretem e viram líquido"
+    },
+    {
+     "id": "d",
+     "texto": "forma chapas ou blocos"
+    }
+   ],
+   "enunciado": "Associe cada informação sobre a reciclagem do alumínio.",
+   "pagina": "90",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "derreter o gelo"
+    },
+    {
+     "id": "2",
+     "texto": "assar um bolo"
+    },
+    {
+     "id": "3",
+     "texto": "reciclar o alumínio"
+    },
+    {
+     "id": "4",
+     "texto": "enferrujar o ferro"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "reversível"
+    },
+    {
+     "id": "b",
+     "texto": "irreversível"
+    },
+    {
+     "id": "c",
+     "texto": "reversível"
+    },
+    {
+     "id": "d",
+     "texto": "irreversível"
+    }
+   ],
+   "enunciado": "Associe cada transformação ao seu tipo.",
+   "pagina": "93",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "gelo derretendo"
+    },
+    {
+     "id": "2",
+     "texto": "água fervendo"
+    },
+    {
+     "id": "3",
+     "texto": "água congelando"
+    },
+    {
+     "id": "4",
+     "texto": "vapor virando gotas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "fusão"
+    },
+    {
+     "id": "b",
+     "texto": "vaporização"
+    },
+    {
+     "id": "c",
+     "texto": "solidificação"
+    },
+    {
+     "id": "d",
+     "texto": "condensação"
+    }
+   ],
+   "enunciado": "Associe cada exemplo ao processo de mudança de estado da água.",
+   "pagina": "90",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A transformação em que o material NÃO volta ao estado original é ____________.",
+   "pagina": "90",
+   "resposta": "irreversível"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A transformação em que o material pode voltar à forma inicial é ____________.",
+   "pagina": "90",
+   "resposta": "reversível"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Um bolo assado não volta a ser ____________.",
+   "pagina": "93",
+   "resposta": "cru"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A passagem da água do estado líquido para o sólido chama-se ____________.",
+   "pagina": "90",
+   "resposta": "solidificação"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A ____________ é uma transformação irreversível, pois um material queimado não volta ao original.",
+   "pagina": "93",
+   "resposta": "combustão"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O Brasil é ____________ mundial em reciclagem de latas de alumínio.",
+   "pagina": "90",
+   "resposta": "líder"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os quatro processos de mudança de estado da água são: fusão, ____________, solidificação e condensação.",
+   "pagina": "90",
+   "resposta": "vaporização"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O cozimento dos alimentos é uma transformação ____________.",
+   "pagina": "93",
+   "resposta": "irreversível"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o cozimento do ovo"
+    },
+    {
+     "id": "B",
+     "texto": "o derretimento do gelo"
+    },
+    {
+     "id": "C",
+     "texto": "o apodrecimento da fruta"
+    }
+   ],
+   "enunciado": "Um exemplo de transformação reversível é:",
+   "pagina": "90",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "fusão"
+    },
+    {
+     "id": "B",
+     "texto": "solidificação"
+    },
+    {
+     "id": "C",
+     "texto": "condensação"
+    }
+   ],
+   "enunciado": "A passagem da água do estado sólido para o líquido é a:",
+   "pagina": "90",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "derreter alumínio"
+    },
+    {
+     "id": "B",
+     "texto": "congelar água"
+    },
+    {
+     "id": "C",
+     "texto": "queimar papel"
+    }
+   ],
+   "enunciado": "Assinale uma transformação irreversível:",
+   "pagina": "93",
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "alumínio"
+    },
+    {
+     "id": "B",
+     "texto": "gelo"
+    },
+    {
+     "id": "C",
+     "texto": "bolo"
+    }
+   ],
+   "enunciado": "O material que pode ser reciclado muitas vezes, sendo derretido e moldado, é o:",
+   "pagina": "90",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "reversíveis"
+    },
+    {
+     "id": "B",
+     "texto": "irreversíveis"
+    },
+    {
+     "id": "C",
+     "texto": "impossíveis"
+    }
+   ],
+   "enunciado": "Ralar uma cenoura e apontar um lápis são transformações:",
+   "pagina": "93",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "aumento da temperatura da Terra"
+    },
+    {
+     "id": "B",
+     "texto": "congelamento"
+    },
+    {
+     "id": "C",
+     "texto": "apodrecimento"
+    }
+   ],
+   "enunciado": "A diminuição do gelo e da neve no planeta é causada pelo:",
+   "pagina": "92",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "água"
+    },
+    {
+     "id": "B",
+     "texto": "madeira"
+    },
+    {
+     "id": "C",
+     "texto": "pedra"
+    }
+   ],
+   "enunciado": "Os processos de mudança de estado físico ocorrem principalmente com a:",
+   "pagina": "90",
+   "resposta": "A"
+  }
+ ]
+}

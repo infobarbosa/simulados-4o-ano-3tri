@@ -1,0 +1,647 @@
+{
+ "id": "bilingue-p1-1",
+ "disciplina": "Bilíngue",
+ "prova": "P1",
+ "cabecalho": "MOCK TEST • BILINGUAL (I WONDER) • 4th GRADE • T3",
+ "titulo": "Bilingual — I Wonder (Pupil's Book 4) — Mock Test 1",
+ "numero": 1,
+ "tema": "Units 4 & 5 — In the past & Gadgets and inventions • pages 52–72",
+ "data": "13-09-2026",
+ "idioma": "en",
+ "fonte": "I Wonder — Pupil's Book 4 (Express Publishing / Edebê), Units 4 & 5, pages 52–72.",
+ "partes": {
+  "1": {
+   "titulo": "True or False",
+   "instrucao": "Write T for true or F for false."
+  },
+  "2": {
+   "titulo": "Matching",
+   "instrucao": "Write the number from Column A in the brackets in Column B."
+  },
+  "3": {
+   "titulo": "Complete",
+   "instrucao": "Complete the sentences with the correct word."
+  },
+  "4": {
+   "titulo": "Multiple choice",
+   "instrucao": "Choose the correct option."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Regular past simple verbs end in -ed. ( ___ )",
+   "pagina": "53",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Stone Age people lived in big houses with windows. ( ___ )",
+   "pagina": "54",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The past simple of \"hunt\" is \"hunted\". ( ___ )",
+   "pagina": "53",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A smartphone is a modern gadget. ( ___ )",
+   "pagina": "68",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "\"The tablet is more big than the laptop.\" is correct English. ( ___ )",
+   "pagina": "69",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"good\" is \"better\". ( ___ )",
+   "pagina": "69",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "play"
+    },
+    {
+     "id": "2",
+     "texto": "cook"
+    },
+    {
+     "id": "3",
+     "texto": "travel"
+    },
+    {
+     "id": "4",
+     "texto": "study"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "studied"
+    },
+    {
+     "id": "b",
+     "texto": "cooked"
+    },
+    {
+     "id": "c",
+     "texto": "travelled"
+    },
+    {
+     "id": "d",
+     "texto": "played"
+    }
+   ],
+   "enunciado": "Match each verb with its past simple.",
+   "pagina": "53",
+   "resposta": {
+    "1": "d",
+    "2": "b",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Yuri Gagarin"
+    },
+    {
+     "id": "2",
+     "texto": "Anna Pavlova"
+    },
+    {
+     "id": "3",
+     "texto": "Christopher Columbus"
+    },
+    {
+     "id": "4",
+     "texto": "Leonardo da Vinci"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "painter"
+    },
+    {
+     "id": "b",
+     "texto": "astronaut"
+    },
+    {
+     "id": "c",
+     "texto": "dancer"
+    },
+    {
+     "id": "d",
+     "texto": "explorer"
+    }
+   ],
+   "enunciado": "Match each person with their job.",
+   "pagina": "56",
+   "resposta": {
+    "1": "b",
+    "2": "c",
+    "3": "d",
+    "4": "a"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "chalk"
+    },
+    {
+     "id": "2",
+     "texto": "abacus"
+    },
+    {
+     "id": "3",
+     "texto": "tablet"
+    },
+    {
+     "id": "4",
+     "texto": "whiteboard"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Then (past)"
+    },
+    {
+     "id": "b",
+     "texto": "Then (past)"
+    },
+    {
+     "id": "c",
+     "texto": "Now (today)"
+    },
+    {
+     "id": "d",
+     "texto": "Now (today)"
+    }
+   ],
+   "enunciado": "Write Then or Now: match each school thing.",
+   "pagina": "52",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "headphones"
+    },
+    {
+     "id": "2",
+     "texto": "GPS"
+    },
+    {
+     "id": "3",
+     "texto": "digital camera"
+    },
+    {
+     "id": "4",
+     "texto": "toaster"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "It finds locations and shows the way."
+    },
+    {
+     "id": "b",
+     "texto": "You listen to music with them."
+    },
+    {
+     "id": "c",
+     "texto": "It takes photos."
+    },
+    {
+     "id": "d",
+     "texto": "It makes toast."
+    }
+   ],
+   "enunciado": "Match each gadget with what it does.",
+   "pagina": "68",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "big"
+    },
+    {
+     "id": "2",
+     "texto": "heavy"
+    },
+    {
+     "id": "3",
+     "texto": "good"
+    },
+    {
+     "id": "4",
+     "texto": "bad"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "worse"
+    },
+    {
+     "id": "b",
+     "texto": "bigger"
+    },
+    {
+     "id": "c",
+     "texto": "better"
+    },
+    {
+     "id": "d",
+     "texto": "heavier"
+    }
+   ],
+   "enunciado": "Match each adjective with its comparative.",
+   "pagina": "69",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "c",
+    "4": "a"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Stone Age people"
+    },
+    {
+     "id": "2",
+     "texto": "Vikings"
+    },
+    {
+     "id": "3",
+     "texto": "Ancient Greeks"
+    },
+    {
+     "id": "4",
+     "texto": "Yuri Gagarin"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "travelled in longboats"
+    },
+    {
+     "id": "b",
+     "texto": "lived in caves and hunted animals"
+    },
+    {
+     "id": "c",
+     "texto": "travelled into space"
+    },
+    {
+     "id": "d",
+     "texto": "studied Maths and Music"
+    }
+   ],
+   "enunciado": "Match the people with what they did.",
+   "pagina": "54",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Yesterday I ____________ (play) football.",
+   "pagina": "53",
+   "resposta": "played"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Stone Age people ____________ (live) in caves.",
+   "pagina": "53",
+   "resposta": "lived"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Stone Age people didn't ____________ (cook) in a kitchen.",
+   "pagina": "54",
+   "resposta": "cook"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"____ they watch TV in the past?\"",
+   "pagina": "55",
+   "resposta": "Did"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "You listen to music with your ____________.",
+   "pagina": "68",
+   "resposta": "headphones"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"A tablet is ____________ (small) than a laptop.\"",
+   "pagina": "69",
+   "resposta": "smaller"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "\"A laptop is more ____________ (expensive) than a tablet.\"",
+   "pagina": "69",
+   "resposta": "expensive"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The comparative of \"good\" is ____________.",
+   "pagina": "69",
+   "resposta": "better"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "travel"
+    },
+    {
+     "id": "B",
+     "texto": "travelled"
+    },
+    {
+     "id": "C",
+     "texto": "travelling"
+    },
+    {
+     "id": "D",
+     "texto": "travels"
+    }
+   ],
+   "enunciado": "\"Last year we ______ to Brazil.\"",
+   "pagina": "53",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Yes, they did."
+    },
+    {
+     "id": "B",
+     "texto": "Yes, they do."
+    },
+    {
+     "id": "C",
+     "texto": "No, they don't."
+    },
+    {
+     "id": "D",
+     "texto": "Yes, they are."
+    }
+   ],
+   "enunciado": "\"Did Stone Age people live in caves?\"",
+   "pagina": "54",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "actor"
+    },
+    {
+     "id": "B",
+     "texto": "astronaut"
+    },
+    {
+     "id": "C",
+     "texto": "athlete"
+    },
+    {
+     "id": "D",
+     "texto": "artist"
+    }
+   ],
+   "enunciado": "Yuri Gagarin was an ______.",
+   "pagina": "56",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "tablet"
+    },
+    {
+     "id": "B",
+     "texto": "whiteboard"
+    },
+    {
+     "id": "C",
+     "texto": "abacus"
+    },
+    {
+     "id": "D",
+     "texto": "calculator"
+    }
+   ],
+   "enunciado": "Which is a school thing from the past (\"Then\")?",
+   "pagina": "52",
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "toaster"
+    },
+    {
+     "id": "B",
+     "texto": "digital camera"
+    },
+    {
+     "id": "C",
+     "texto": "headphones"
+    },
+    {
+     "id": "D",
+     "texto": "microwave oven"
+    }
+   ],
+   "enunciado": "Which gadget takes photos?",
+   "pagina": "68",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "heavy"
+    },
+    {
+     "id": "B",
+     "texto": "heavier"
+    },
+    {
+     "id": "C",
+     "texto": "more heavy"
+    },
+    {
+     "id": "D",
+     "texto": "heaviest"
+    }
+   ],
+   "enunciado": "\"A microwave oven is ______ than a fridge.\" (heavy)",
+   "pagina": "69",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "modern"
+    },
+    {
+     "id": "B",
+     "texto": "moderner"
+    },
+    {
+     "id": "C",
+     "texto": "more modern"
+    },
+    {
+     "id": "D",
+     "texto": "most modern"
+    }
+   ],
+   "enunciado": "\"Smartphones are ______ than radios.\" (modern)",
+   "pagina": "69",
+   "resposta": "C"
+  }
+ ]
+}

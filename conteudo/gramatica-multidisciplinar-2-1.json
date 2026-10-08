@@ -1,0 +1,619 @@
+{
+ "id": "gramatica-multidisciplinar-2-1",
+ "disciplina": "Gramática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • GRAMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Gramática — Simulado 1",
+ "numero": 1,
+ "tema": "Sinônimo e antônimo • Grau do substantivo • Adjetivo • Noções de verbo",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": null,
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Sinônimos são palavras que têm significado parecido. ( ___ )",
+   "pagina": null,
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As palavras \"alto\" e \"baixo\" são sinônimos. ( ___ )",
+   "pagina": null,
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O diminutivo de \"casa\" é \"casinha\". ( ___ )",
+   "pagina": null,
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O adjetivo é a palavra que caracteriza o substantivo. ( ___ )",
+   "pagina": null,
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O verbo é a palavra que indica ação, estado ou fenômeno da natureza. ( ___ )",
+   "pagina": null,
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A palavra \"gatão\" é o diminutivo de \"gato\". ( ___ )",
+   "pagina": null,
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alegre"
+    },
+    {
+     "id": "2",
+     "texto": "bonito"
+    },
+    {
+     "id": "3",
+     "texto": "rápido"
+    },
+    {
+     "id": "4",
+     "texto": "esperto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "feliz"
+    },
+    {
+     "id": "b",
+     "texto": "belo"
+    },
+    {
+     "id": "c",
+     "texto": "veloz"
+    },
+    {
+     "id": "d",
+     "texto": "inteligente"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu sinônimo.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alto"
+    },
+    {
+     "id": "2",
+     "texto": "grande"
+    },
+    {
+     "id": "3",
+     "texto": "claro"
+    },
+    {
+     "id": "4",
+     "texto": "quente"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "baixo"
+    },
+    {
+     "id": "b",
+     "texto": "pequeno"
+    },
+    {
+     "id": "c",
+     "texto": "escuro"
+    },
+    {
+     "id": "d",
+     "texto": "frio"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu antônimo.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "casa"
+    },
+    {
+     "id": "2",
+     "texto": "gato"
+    },
+    {
+     "id": "3",
+     "texto": "livro"
+    },
+    {
+     "id": "4",
+     "texto": "bola"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "casinha"
+    },
+    {
+     "id": "b",
+     "texto": "gatinho"
+    },
+    {
+     "id": "c",
+     "texto": "livrinho"
+    },
+    {
+     "id": "d",
+     "texto": "bolinha"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao seu diminutivo.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "casa"
+    },
+    {
+     "id": "2",
+     "texto": "gato"
+    },
+    {
+     "id": "3",
+     "texto": "carro"
+    },
+    {
+     "id": "4",
+     "texto": "nariz"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "casarão"
+    },
+    {
+     "id": "b",
+     "texto": "gatão"
+    },
+    {
+     "id": "c",
+     "texto": "carrão"
+    },
+    {
+     "id": "d",
+     "texto": "narigão"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao seu aumentativo.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "correr"
+    },
+    {
+     "id": "2",
+     "texto": "estar"
+    },
+    {
+     "id": "3",
+     "texto": "chover"
+    },
+    {
+     "id": "4",
+     "texto": "pular"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "ação"
+    },
+    {
+     "id": "b",
+     "texto": "estado"
+    },
+    {
+     "id": "c",
+     "texto": "fenômeno da natureza"
+    },
+    {
+     "id": "d",
+     "texto": "ação"
+    }
+   ],
+   "enunciado": "Associe cada verbo ao que ele indica.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "menino"
+    },
+    {
+     "id": "2",
+     "texto": "menina"
+    },
+    {
+     "id": "3",
+     "texto": "meninos"
+    },
+    {
+     "id": "4",
+     "texto": "meninas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "corajoso"
+    },
+    {
+     "id": "b",
+     "texto": "corajosa"
+    },
+    {
+     "id": "c",
+     "texto": "corajosos"
+    },
+    {
+     "id": "d",
+     "texto": "corajosas"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao adjetivo que concorda com ele.",
+   "pagina": null,
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Palavras com significado parecido são chamadas de ____________.",
+   "pagina": null,
+   "resposta": "sinônimos"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Palavras com significados opostos são chamadas de ____________.",
+   "pagina": null,
+   "resposta": "antônimos"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O antônimo de \"feliz\" é ____________.",
+   "pagina": null,
+   "resposta": "triste"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O diminutivo de \"flor\" é ____________.",
+   "pagina": null,
+   "resposta": "florzinha"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O aumentativo de \"livro\" é ____________.",
+   "pagina": null,
+   "resposta": "livrão"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A palavra que dá uma qualidade ao substantivo é o ____________.",
+   "pagina": null,
+   "resposta": "adjetivo"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A palavra que indica uma ação é o ____________.",
+   "pagina": null,
+   "resposta": "verbo"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Um sinônimo de \"bonito\" é ____________.",
+   "pagina": null,
+   "resposta": "belo"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "alegre / triste"
+    },
+    {
+     "id": "B",
+     "texto": "casa / lar"
+    },
+    {
+     "id": "C",
+     "texto": "dia / noite"
+    }
+   ],
+   "enunciado": "Assinale o par de sinônimos:",
+   "pagina": null,
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "grande / enorme"
+    },
+    {
+     "id": "B",
+     "texto": "cheio / vazio"
+    },
+    {
+     "id": "C",
+     "texto": "feliz / contente"
+    }
+   ],
+   "enunciado": "Assinale o par de antônimos:",
+   "pagina": null,
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cachorrão"
+    },
+    {
+     "id": "B",
+     "texto": "cachorrinho"
+    },
+    {
+     "id": "C",
+     "texto": "cachorros"
+    }
+   ],
+   "enunciado": "O diminutivo de \"cachorro\" é:",
+   "pagina": null,
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "menino"
+    },
+    {
+     "id": "B",
+     "texto": "é"
+    },
+    {
+     "id": "C",
+     "texto": "corajoso"
+    }
+   ],
+   "enunciado": "Na frase \"O menino é corajoso\", o adjetivo é:",
+   "pagina": null,
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "correr"
+    },
+    {
+     "id": "B",
+     "texto": "bonito"
+    },
+    {
+     "id": "C",
+     "texto": "mesa"
+    }
+   ],
+   "enunciado": "Assinale a palavra que é um verbo:",
+   "pagina": null,
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "casinha"
+    },
+    {
+     "id": "B",
+     "texto": "casarão"
+    },
+    {
+     "id": "C",
+     "texto": "casas"
+    }
+   ],
+   "enunciado": "O aumentativo de \"casa\" é:",
+   "pagina": null,
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "ação"
+    },
+    {
+     "id": "B",
+     "texto": "estado"
+    },
+    {
+     "id": "C",
+     "texto": "fenômeno da natureza"
+    }
+   ],
+   "enunciado": "O verbo \"chover\" indica:",
+   "pagina": null,
+   "resposta": "C"
+  }
+ ]
+}

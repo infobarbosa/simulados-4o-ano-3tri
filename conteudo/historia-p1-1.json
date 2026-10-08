@@ -1,0 +1,647 @@
+{
+ "id": "historia-p1-1",
+ "disciplina": "História",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 1",
+ "numero": 1,
+ "tema": "Capítulo 9 — Colonização do Brasil • págs. 86–92",
+ "data": "13-09-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas — História 4º ano (Edebê), Capítulo 9, págs. 86–92.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses chegaram ao Brasil em 1500, em Porto Seguro (BA). ( ___ )",
+   "pagina": "88",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os povos originários já viviam nas terras do Brasil antes dos portugueses. ( ___ )",
+   "pagina": "88",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O pau-brasil era usado para tingir roupas de vermelho. ( ___ )",
+   "pagina": "88",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A diáspora africana foi a migração voluntária dos africanos. ( ___ )",
+   "pagina": "90",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os quilombos eram locais de resistência dos africanos que fugiam. ( ___ )",
+   "pagina": "90",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Luzia é o fóssil humano mais antigo encontrado no Brasil. ( ___ )",
+   "pagina": "92",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Povos originários"
+    },
+    {
+     "id": "2",
+     "texto": "Expansão Ultramarina"
+    },
+    {
+     "id": "3",
+     "texto": "Pau-brasil"
+    },
+    {
+     "id": "4",
+     "texto": "Porto Seguro"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "viagens dos portugueses pelos mares"
+    },
+    {
+     "id": "b",
+     "texto": "madeira usada para tingir de vermelho"
+    },
+    {
+     "id": "c",
+     "texto": "povos que já viviam no Brasil"
+    },
+    {
+     "id": "d",
+     "texto": "local da chegada em 1500"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "88",
+   "resposta": {
+    "1": "c",
+    "2": "a",
+    "3": "b",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Diáspora africana"
+    },
+    {
+     "id": "2",
+     "texto": "Sincretismo"
+    },
+    {
+     "id": "3",
+     "texto": "Quilombo"
+    },
+    {
+     "id": "4",
+     "texto": "Escravização"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "misturar a religião africana com santos católicos"
+    },
+    {
+     "id": "b",
+     "texto": "migração forçada dos africanos"
+    },
+    {
+     "id": "c",
+     "texto": "trabalho forçado sem liberdade"
+    },
+    {
+     "id": "d",
+     "texto": "local de resistência de quem fugia"
+    }
+   ],
+   "enunciado": "Associe cada termo à sua definição.",
+   "pagina": "90",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "d",
+    "4": "c"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Luzia"
+    },
+    {
+     "id": "2",
+     "texto": "Serra da Capivara"
+    },
+    {
+     "id": "3",
+     "texto": "Estreito de Bering"
+    },
+    {
+     "id": "4",
+     "texto": "Etnias hoje"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "caminho por onde povos vieram da Ásia"
+    },
+    {
+     "id": "b",
+     "texto": "fóssil de cerca de 13 mil anos"
+    },
+    {
+     "id": "c",
+     "texto": "cerca de 250 etnias, principalmente na Amazônia"
+    },
+    {
+     "id": "d",
+     "texto": "sítios de cerca de 20 mil anos no Piauí"
+    }
+   ],
+   "enunciado": "Associe cada evidência à sua informação.",
+   "pagina": "92",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Castelo de São Jorge da Mina"
+    },
+    {
+     "id": "2",
+     "texto": "Séculos XVI a XIX"
+    },
+    {
+     "id": "3",
+     "texto": "Oceano Atlântico"
+    },
+    {
+     "id": "4",
+     "texto": "Comércio de seres humanos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "período do comércio de africanos"
+    },
+    {
+     "id": "b",
+     "texto": "local na África de onde saíam navios"
+    },
+    {
+     "id": "c",
+     "texto": "oceano que os navios atravessavam"
+    },
+    {
+     "id": "d",
+     "texto": "venda de pessoas escravizadas"
+    }
+   ],
+   "enunciado": "Associe cada informação sobre a escravização.",
+   "pagina": "89",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Abayomi"
+    },
+    {
+     "id": "2",
+     "texto": "Iorubá"
+    },
+    {
+     "id": "3",
+     "texto": "Lena Martins"
+    },
+    {
+     "id": "4",
+     "texto": "Palavras africanas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "língua africana"
+    },
+    {
+     "id": "b",
+     "texto": "bonecas de retalho, símbolo de resistência"
+    },
+    {
+     "id": "c",
+     "texto": "artesã que criou as bonecas"
+    },
+    {
+     "id": "d",
+     "texto": "marcas culturais na língua do Brasil"
+    }
+   ],
+   "enunciado": "Associe cada elemento da cultura africana.",
+   "pagina": "91",
+   "resposta": {
+    "1": "b",
+    "2": "a",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "\"Índios\""
+    },
+    {
+     "id": "2",
+     "texto": "Povos originários"
+    },
+    {
+     "id": "3",
+     "texto": "Portugueses"
+    },
+    {
+     "id": "4",
+     "texto": "Especiarias"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "navegadores que chegaram em 1500"
+    },
+    {
+     "id": "b",
+     "texto": "nome dado porque iam para as Índias"
+    },
+    {
+     "id": "c",
+     "texto": "produtos buscados nas viagens"
+    },
+    {
+     "id": "d",
+     "texto": "povos que já habitavam o Brasil"
+    }
+   ],
+   "enunciado": "Associe cada povo ou termo à sua identificação.",
+   "pagina": "88",
+   "resposta": {
+    "1": "b",
+    "2": "d",
+    "3": "a",
+    "4": "c"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os portugueses chegaram ao Brasil no ano de ____________.",
+   "pagina": "88",
+   "resposta": "1500"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A madeira explorada no início da colonização, usada para tingir roupas, era o ____________.",
+   "pagina": "88",
+   "resposta": "pau-brasil"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A migração forçada dos africanos para outras regiões é chamada de ____________ africana.",
+   "pagina": "90",
+   "resposta": "diáspora"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os locais criados pelos africanos que fugiam, como Palmares, eram os ____________.",
+   "pagina": "90",
+   "resposta": "quilombos"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Misturar as práticas religiosas africanas com os santos católicos é chamado de ____________.",
+   "pagina": "90",
+   "resposta": "sincretismo"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O fóssil humano mais antigo encontrado no Brasil chama-se ____________.",
+   "pagina": "92",
+   "resposta": "Luzia"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os povos que já viviam no Brasil antes dos portugueses são chamados de povos ____________.",
+   "pagina": "88",
+   "resposta": "originários"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O maior deslocamento forçado da história foi o comércio de ____________ escravizados.",
+   "pagina": "89",
+   "resposta": "africanos"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "eram parecidos com europeus"
+    },
+    {
+     "id": "B",
+     "texto": "viajavam originalmente para as Índias"
+    },
+    {
+     "id": "C",
+     "texto": "viviam em índias"
+    },
+    {
+     "id": "D",
+     "texto": "falavam a mesma língua"
+    }
+   ],
+   "enunciado": "Os portugueses chamaram os povos daqui de \"índios\" porque...",
+   "pagina": "88",
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "fazendas dos portugueses"
+    },
+    {
+     "id": "B",
+     "texto": "locais de resistência de quem fugia da escravidão"
+    },
+    {
+     "id": "C",
+     "texto": "navios"
+    },
+    {
+     "id": "D",
+     "texto": "igrejas"
+    }
+   ],
+   "enunciado": "Os quilombos eram...",
+   "pagina": "90",
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "X e XII"
+    },
+    {
+     "id": "B",
+     "texto": "XVI e XIX"
+    },
+    {
+     "id": "C",
+     "texto": "XX e XXI"
+    },
+    {
+     "id": "D",
+     "texto": "V e VIII"
+    }
+   ],
+   "enunciado": "O comércio de africanos escravizados ocorreu principalmente entre os séculos...",
+   "pagina": "89",
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Europa"
+    },
+    {
+     "id": "B",
+     "texto": "Ásia, pelo Estreito de Bering"
+    },
+    {
+     "id": "C",
+     "texto": "África"
+    },
+    {
+     "id": "D",
+     "texto": "Oceania"
+    }
+   ],
+   "enunciado": "Luzia tem parentesco com povos vindos da...",
+   "pagina": "92",
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "riqueza"
+    },
+    {
+     "id": "B",
+     "texto": "resistência da cultura africana"
+    },
+    {
+     "id": "C",
+     "texto": "religião portuguesa"
+    },
+    {
+     "id": "D",
+     "texto": "comércio"
+    }
+   ],
+   "enunciado": "As bonecas Abayomi são um símbolo de...",
+   "pagina": "91",
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "10 etnias indígenas"
+    },
+    {
+     "id": "B",
+     "texto": "250 etnias indígenas"
+    },
+    {
+     "id": "C",
+     "texto": "1 000 etnias indígenas"
+    },
+    {
+     "id": "D",
+     "texto": "nenhuma etnia"
+    }
+   ],
+   "enunciado": "Atualmente, existem no Brasil pouco mais de...",
+   "pagina": "92",
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Idade Média"
+    },
+    {
+     "id": "B",
+     "texto": "Expansão Ultramarina Europeia"
+    },
+    {
+     "id": "C",
+     "texto": "Revolução Industrial"
+    },
+    {
+     "id": "D",
+     "texto": "Independência"
+    }
+   ],
+   "enunciado": "A chegada dos portugueses ao Brasil faz parte de um período chamado...",
+   "pagina": "88",
+   "resposta": "B"
+  }
+ ]
+}
