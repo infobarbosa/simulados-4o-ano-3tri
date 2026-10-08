@@ -35,7 +35,7 @@ Em **Ajustes e backup** (rodapé da tela inicial) dá para baixar o progresso em
 ## Para quem for mexer
 ```bash
 python3 -m http.server 8000          # http://localhost:8000
-# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 11/11")
+# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 12/12")
 python3 tests/e2e.py http://localhost:8000/ [pasta-de-screenshots]   # pip install playwright + Chrome (CHROME)
 ```
 O conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.

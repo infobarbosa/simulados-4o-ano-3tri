@@ -24,6 +24,7 @@ const numeroBR = (n) => Number(n.toFixed(2)).toLocaleString("pt-BR");
 function textoParaFalar(q, idioma) {
   const lacuna = idioma === "en" ? " blank " : " lacuna ";
   let t = limparVF(q.enunciado).replace(/_{2,}/g, lacuna);
+  if (q.contexto) t = `${q.contexto.titulo}. ${q.contexto.itens.join(". ")}. ${t}`;
   if (q.tipo === "multipla") t += ". " + q.alternativas.map((a, i) => `${LETRA(i)}: ${a.texto}`).join(". ");
   if (q.tipo === "associacao") {
     t += ". " + q.colunaA.map((a, i) => `${i + 1}: ${a.texto}`).join(". ");
@@ -231,6 +232,15 @@ function respostaAssociacao(q, aoMudar) {
 
 // ---------------------------------------------------------------- enunciado
 
+// Caixa com o dado que, no livro, vinha numa figura ou num texto (ex.: a receita); campo "contexto" da questão.
+function contextoEl(q) {
+  if (!q.contexto) return null;
+  const { icone, titulo, itens } = q.contexto;
+  return el("aside.contexto",
+    el("strong.contexto-titulo", `${icone || "📌"} ${titulo}`),
+    itens.length === 1 ? el("p", itens[0]) : el("ul", itens.map((i) => el("li", i))));
+}
+
 function enunciadoEl(q) {
   if (q.tipo === "lacuna" && RE_LACUNA.test(q.enunciado)) {
     const [antes, ...resto] = q.enunciado.split(RE_LACUNA);
@@ -317,6 +327,7 @@ export async function telaQuiz(raiz, tentativaId, modo = "normal") {
         modo === "revisao" ? el("span.chip-revisao", "Treino") : null,
         sequencia >= 3 ? el("span.chip-sequencia", `🔥 ${sequencia} seguidas`) : null,
       ),
+      contextoEl(q),
       el("div.enunciado-linha", el("span.numero-questao", q.n), corpoEnunciado, botaoFalar(q, sim.idioma)),
       el("p.instrucao", INSTRUCOES[q.tipo]),
       area.el,

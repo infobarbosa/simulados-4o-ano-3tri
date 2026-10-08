@@ -13,6 +13,7 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import ajustes  # noqa: E402
 import importador  # noqa: E402
 
 SAIDA = Path(__file__).resolve().parent.parent / "conteudo"
@@ -45,6 +46,7 @@ def main(pasta: Path) -> int:
             print(f"ERRO: {nome}: " + "; ".join(problemas))
             falhas += 1
             continue
+        ajustes.aplicar(dados, par["disciplina"], par["prova"])
         sid = f"{slug(par['disciplina'])}-{slug(par['prova'])}-{dados['numero']}"
         dados = {"id": sid, "disciplina": par["disciplina"], "prova": par["prova"], **dados}
         (SAIDA / f"{sid}.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

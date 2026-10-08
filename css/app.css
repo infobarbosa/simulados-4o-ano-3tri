@@ -182,6 +182,10 @@ button { font: inherit; color: inherit; }
 .chip-parte, .chip-revisao, .chip-sequencia { font-size: .8rem; font-weight: 700; padding: .25em .8em; border-radius: 999px; background: var(--fundo); color: var(--suave); }
 .chip-revisao { background: #EEE8FF; color: #563CA8; }
 .chip-sequencia { background: #FFF0D6; color: #A35A00; animation: pulsar 1s ease-in-out 2; }
+.contexto { background: var(--fundo); border: 2px dashed var(--tema); border-radius: 14px; padding: .7rem 1rem; margin: 0 0 1rem; }
+.contexto-titulo { display: block; color: var(--tema-escura); margin-bottom: .3rem; }
+.contexto p, .contexto ul { margin: 0; font-size: 1.05rem; line-height: 1.5; }
+.contexto ul { padding-left: 1.2rem; }
 .enunciado-linha { display: flex; gap: .7rem; align-items: flex-start; }
 .numero-questao {
   flex: none; display: grid; place-items: center; width: 2.2rem; height: 2.2rem; border-radius: 50%;

@@ -60,18 +60,37 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "Na receita de pão de queijo, usa-se 1/4 de queijo minas. ( ___ )",
+   "enunciado": "Na receita de pão de queijo, a quantidade de óleo de soja é menor que a de leite. ( ___ )",
    "pagina": "150",
-   "resposta": "V"
+   "resposta": "V",
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   {
    "n": 5,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "Com 10 laranjas é possível fazer 1 litro de suco. ( ___ )",
+   "enunciado": "Com 5 laranjas é possível fazer meio litro de suco. ( ___ )",
    "pagina": "157",
-   "resposta": "V"
+   "resposta": "V",
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   },
   {
    "n": 6,
@@ -230,6 +249,18 @@
     "2": "b",
     "3": "c",
     "4": "d"
+   },
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
    }
   },
   {
@@ -280,6 +311,13 @@
     "2": "b",
     "3": "c",
     "4": "d"
+   },
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
    }
   },
   {
@@ -407,7 +445,14 @@
    "calculo": true,
    "enunciado": "Para fazer 500 mL de suco usamos ______ laranjas.",
    "pagina": "157",
-   "resposta": "5"
+   "resposta": "5",
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   },
   {
    "n": 16,

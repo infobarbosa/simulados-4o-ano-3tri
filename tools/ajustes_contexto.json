@@ -1,0 +1,56 @@
+{
+ "Matemática / Multidisciplinar 2 / 1": {
+  "4": {
+   "confere": "queijo minas",
+   "enunciado": "Na receita de pão de queijo, a quantidade de óleo de soja é menor que a de leite. ( ___ )",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "5": {
+   "confere": "10 laranjas",
+   "enunciado": "Com 5 laranjas é possível fazer meio litro de suco. ( ___ )",
+   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+  },
+  "9": {
+   "confere": "polvilho doce",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "10": {
+   "confere": "10 laranjas",
+   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+  },
+  "15": {
+   "confere": "500 mL de suco",
+   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+  }
+ },
+ "Matemática / Multidisciplinar 2 / 2": {
+  "4": {
+   "confere": "polvilho doce",
+   "enunciado": "Na receita de pão de queijo, usamos menos queijo minas do que polvilho doce. ( ___ )",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "9": {
+   "confere": "óleo de soja",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "10": {
+   "confere": "10 laranjas",
+   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+  }
+ },
+ "Matemática / Multidisciplinar 2 / 3": {
+  "4": {
+   "confere": "óleo de soja",
+   "enunciado": "Na receita de pão de queijo, a quantidade de leite é o dobro da quantidade de óleo de soja. ( ___ )",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "10": {
+   "confere": "polvilho doce",
+   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+  },
+  "11": {
+   "confere": "10 laranjas",
+   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+  }
+ }
+}
