@@ -32,10 +32,14 @@ As criaturas são desenhadas pelo próprio app (SVG gerado a partir de uma semen
 ### Backup
 Em **Ajustes e backup** (rodapé da tela inicial) dá para baixar o progresso em arquivo, restaurar em outro aparelho e apagar tudo. Limpar os dados do navegador apaga o progresso, então vale baixar o backup de vez em quando.
 
+## Termos de uso
+
+No primeiro acesso o app mostra um resumo e pede o aceite de um adulto (a caixinha libera o botão); o texto completo está em Ajustes → "Termos de uso". Resumo: app gratuito e informal, sem garantia de funcionamento nem de continuidade, questões e gabaritos podem ter erros, o progresso fica só no aparelho e pode se perder. O texto fica em `js/termos.js`; ao mudá-lo, aumente `VERSAO_TERMOS` para pedir novo aceite.
+
 ## Para quem for mexer
 ```bash
 python3 -m http.server 8000          # http://localhost:8000
-# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 12/12")
+# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 13/13")
 python3 tests/e2e.py http://localhost:8000/ [pasta-de-screenshots]   # pip install playwright + Chrome (CHROME)
 ```
 O conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.

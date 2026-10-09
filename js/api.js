@@ -201,6 +201,22 @@ export async function api(caminho, opcoes = {}) {
 
 // ---------------------------------------------------------------- nome, backup e reinício (tela Ajustes)
 
+// ---------------------------------------------------------------- aceite dos termos de uso
+// Guardado à parte do progresso: restaurar um backup não aceita por você e apagar o progresso não desfaz o aceite.
+
+const CHAVE_TERMOS = "s4a3t_termos_v1";
+let termosMemoria = null;
+
+export function termosAceitos() {
+  try { const bruto = localStorage.getItem(CHAVE_TERMOS); if (bruto) return JSON.parse(bruto); } catch { /* sem storage */ }
+  return termosMemoria;
+}
+
+export function aceitarTermos(versao) {
+  termosMemoria = { versao, aceito_em: new Date().toISOString() };
+  try { localStorage.setItem(CHAVE_TERMOS, JSON.stringify(termosMemoria)); } catch { /* vale só nesta visita */ }
+}
+
 export async function nomeSalvo() { await iniciar(); return estado.nome; }
 
 export async function salvarNome(nome) {

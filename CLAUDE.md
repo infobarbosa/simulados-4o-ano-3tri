@@ -10,7 +10,7 @@ The repository is **public**: never add the child's name, the source PDFs or tex
 
 ```bash
 python3 -m http.server 8000                         # run locally
-# unit tests: http://localhost:8000/tests/  (tab title "OK 12/12")
+# unit tests: http://localhost:8000/tests/  (tab title "OK 13/13")
 python3 tests/e2e.py http://localhost:8000/ [dir]   # playwright + Chrome; plays full rounds on iPhone/Pixel emulation
 python3 tools/gerar_conteudo.py PASTA_DOS_PDFS      # regenerate conteudo/*.json from the PDFs (needs pdftotext)
 ```
@@ -23,6 +23,7 @@ python3 tools/gerar_conteudo.py PASTA_DOS_PDFS      # regenerate conteudo/*.json
 - **`js/api.js`**: the "server inside the browser". Keeps progress in `localStorage` (key `s4a3t_estado_v1`) and answers the `/api/...` calls the screens make (`catalogo`, `simulados/<id>/tentativas`, `tentativas/<id>[/respostas|/concluir]`, `album`). Also name, backup export/import and reset. `util.js` re-exports `api`.
 - **`js/cartas.js`**: element per subject, rarity per grade, invented names and attacks. **`js/criatura.js`**: card and SVG creature from a seed.
 - **`js/app.js`** (router: `#/`, `#/d/<disciplina>`, `#/album`, `#/ajustes`, `#/boas-vindas`, plus quiz/resultado routes), **`js/quiz.js`** (question player, result screen), **`js/util.js`** (`el()` DOM helper, voice, sounds, dialogs, confetti).
+- **`js/termos.js`**: versioned terms-of-use text (`VERSAO_TERMOS`) and the first-visit consent block (summary + collapsed full text + checkbox). Consent is stored apart from the progress (`termosAceitos`/`aceitarTermos` in `api.js`, key `s4a3t_termos_v1`), so restoring a backup never accepts for the user and resetting progress never revokes it. New users must tick the box on the welcome screen; existing users, or anyone whose saved version is older, see an "Antes de continuar" screen once (guard at the top of the router). Changed the text? Bump `VERSAO_TERMOS` (and `DATA_TERMOS`), `VERSAO` in `sw.js`. No analytics or third-party requests exist, and the text says so: keep it true. `tests/e2e_termos.py` covers the flow.
 - **`sw.js`**: stale-while-revalidate over a fixed list. **Bump `VERSAO` and keep `ARQUIVOS` in sync (including every `conteudo/*.json`) whenever files change or are added.**
 
 ## Constraints

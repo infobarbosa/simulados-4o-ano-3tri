@@ -66,7 +66,7 @@ with sync_playwright() as p:
         pg.on("console", lambda m: m.type == "error" and erros.append(m.text))
         pg.goto(URL)
         pg.wait_for_selector("input")
-        pg.fill("input", "Maria"); pg.click("text=Vamos lá")
+        pg.fill("input[type=text]", "Maria"); pg.check(".aceite-linha input"); pg.click("text=Vamos lá")
         pg.wait_for_selector(".grade-disciplinas")
         assert "Maria" in pg.inner_text("h1")
         assert pg.locator(".disciplina").count() == 7

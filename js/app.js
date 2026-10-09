@@ -1,10 +1,12 @@
 // Roteador (por #hash) e telas: boas-vindas, início, disciplina, álbum e ajustes.
 
 import { api, el, perguntar, avisar, ELEMENTOS } from "./util.js";
-import { nomeSalvo, salvarNome, exportarProgresso, importarProgresso, reiniciarProgresso, armazenamentoOk } from "./api.js";
+import { nomeSalvo, salvarNome, exportarProgresso, importarProgresso, reiniciarProgresso, armazenamentoOk, termosAceitos, aceitarTermos } from "./api.js";
+import { VERSAO_TERMOS, blocoAceite, resumoEl, termosCompletosEl } from "./termos.js";
 import { telaQuiz, telaResultado } from "./quiz.js";
 import { cartaEl } from "./criatura.js";
 const raiz = document.getElementById("app");
+const termosEmDia = () => (termosAceitos()?.versao ?? 0) >= VERSAO_TERMOS;
 
 function temaPadrao() {
   document.documentElement.style.setProperty("--tema", "#5B5BD6");
@@ -159,9 +161,13 @@ async function telaBoasVindas() {
   temaPadrao();
   if (await nomeSalvo()) { location.hash = "#/"; return; }
   const campo = el("input", { type: "text", placeholder: "Seu nome", maxLength: 30, autocomplete: "given-name", autocapitalize: "words", spellcheck: false, "aria-label": "Seu nome" });
+  const precisaAceite = !termosEmDia();
+  const botao = el("button.botao.grande", { type: "submit", disabled: precisaAceite }, "Vamos lá! 🚀");
+  const aceite = precisaAceite ? blocoAceite((ok) => { botao.disabled = !ok; }) : null;
   const entrar = async (ev) => {
     ev.preventDefault();
     if (!campo.value.trim()) { campo.focus(); return; }
+    if (aceite) { if (!aceite.marcado()) return; aceitarTermos(VERSAO_TERMOS); }
     await salvarNome(campo.value);
     location.hash = "#/";
   };
@@ -171,8 +177,30 @@ async function telaBoasVindas() {
       el("h1", "Simulados do 4º ano"),
       el("p.grande", "Treine para as provas do 3º trimestre e ganhe cartinhas de criaturas!"),
       el("p", "Como você se chama?"),
-      el("form.form-nome", { onsubmit: entrar }, campo, el("button.botao.grande", { type: "submit" }, "Vamos lá! 🚀")),
+      el("form.form-nome", { onsubmit: entrar }, campo, aceite?.el, botao),
       el("p.pequeno", "O nome e o progresso ficam só neste aparelho."))));
+}
+
+// Quem já usava o app antes dos termos (ou quando o texto muda) vê o aceite uma vez, antes de seguir.
+function telaAceite() {
+  temaPadrao();
+  const botao = el("button.botao.grande", { type: "button", disabled: true, onclick: () => { aceitarTermos(VERSAO_TERMOS); rotear(); } }, "Continuar");
+  const aceite = blocoAceite((ok) => { botao.disabled = !ok; });
+  raiz.replaceChildren(el("div.tela-centro",
+    el("div.fim-parte",
+      el("div.emoji-grande", "📜"),
+      el("h1", "Antes de continuar"),
+      el("p", "Peça a um adulto para ler com você:"),
+      aceite.el, botao)));
+}
+
+function telaTermos() {
+  temaPadrao();
+  const aceito = termosAceitos();
+  raiz.replaceChildren(el("div.tela-ajustes",
+    el("header.topo-simples", el("a.botao-icone", { href: "#/ajustes", "aria-label": "Voltar" }, "←"), el("h1", "Termos de uso")),
+    el("section", resumoEl(), termosCompletosEl(),
+      aceito ? el("p.pequeno", `Aceito neste aparelho em ${new Date(aceito.aceito_em).toLocaleDateString("pt-BR")} (versão ${aceito.versao}).`) : null)));
 }
 
 function baixarArquivo(nome, texto) {
@@ -212,6 +240,9 @@ async function telaAjustes() {
         el("button.botao.pequeno", { type: "button", onclick: async () => baixarArquivo(`backup-simulados-${new Date().toISOString().slice(0, 10)}.json`, await exportarProgresso()) }, "⬇️ Baixar backup"),
         el("button.botao.secundario.pequeno", { type: "button", onclick: () => arquivo.click() }, "⬆️ Restaurar backup"),
         arquivo)),
+    el("section", el("h2", "Termos de uso"),
+      el("p.pequeno", "Sem garantias, pode haver enganos e o app pode ser encerrado."),
+      el("a.botao.secundario.pequeno", { href: "#/termos" }, "Ler os termos de uso")),
     el("section", el("h2", "Recomeçar"),
       el("p.pequeno", "Apaga notas, respostas e cartas deste aparelho. O nome fica."),
       el("button.botao.perigo.pequeno", { type: "button", onclick: async () => {
@@ -227,6 +258,7 @@ async function rotear() {
   document.querySelectorAll(".modal-fundo, .rascunho").forEach((m) => m.remove());
   const partes = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
   try {
+    if (partes[0] !== "termos" && (await nomeSalvo()) && !termosEmDia()) { telaAceite(); return; }
     switch (partes[0]) {
       case "d": await telaDisciplina(partes[1]); break;
       case "quiz": await telaQuiz(raiz, Number(partes[1]), partes[2] === "revisao" ? "revisao" : "normal"); break;
@@ -234,6 +266,7 @@ async function rotear() {
       case "album": await telaAlbum(); break;
       case "boas-vindas": await telaBoasVindas(); break;
       case "ajustes": await telaAjustes(); break;
+      case "termos": telaTermos(); break;
       default: await telaInicio();
     }
   } catch (erro) {
