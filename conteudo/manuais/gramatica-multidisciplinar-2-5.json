@@ -1,0 +1,619 @@
+{
+ "id": "gramatica-multidisciplinar-2-5",
+ "disciplina": "Gramática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • GRAMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Gramática — Simulado 5",
+ "numero": 5,
+ "tema": "Sinônimo e antônimo • Grau do substantivo • Adjetivo • Noções de verbo",
+ "data": "14-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Gramática 4º ano, Capítulos 14 (págs. 115–123), 20 (171–177), 21 (178–183) e 27 (226–232).",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra ou o número correto."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A palavra \"golfinho\" não está no diminutivo: é o nome de um animal. ( ___ )",
+   "pagina": "172",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O diminutivo plural de \"papéis\" é \"papeizinhos\", sem acento. ( ___ )",
+   "pagina": "176",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"Amigão!\", o aumentativo expressa carinho e afeto, e não tamanho. ( ___ )",
+   "pagina": "175",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A palavra \"orelhão\", quando significa telefone público, é o aumentativo de \"orelha\". ( ___ )",
+   "pagina": "175",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Adjetivos pátrios indicam a nacionalidade ou o lugar de origem de alguém. ( ___ )",
+   "pagina": "179",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"Nós resmungamos\", o verbo está na 1ª pessoa do singular. ( ___ )",
+   "pagina": "228",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "limões"
+    },
+    {
+     "id": "2",
+     "texto": "pães"
+    },
+    {
+     "id": "3",
+     "texto": "flores"
+    },
+    {
+     "id": "4",
+     "texto": "trens"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "limõezinhos"
+    },
+    {
+     "id": "b",
+     "texto": "pãezinhos"
+    },
+    {
+     "id": "c",
+     "texto": "florezinhas"
+    },
+    {
+     "id": "d",
+     "texto": "trenzinhos"
+    }
+   ],
+   "enunciado": "Associe cada substantivo no plural ao seu diminutivo plural.",
+   "pagina": "177",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Paraíba"
+    },
+    {
+     "id": "2",
+     "texto": "França"
+    },
+    {
+     "id": "3",
+     "texto": "Goiás"
+    },
+    {
+     "id": "4",
+     "texto": "Portugal"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "paraibano"
+    },
+    {
+     "id": "b",
+     "texto": "francês"
+    },
+    {
+     "id": "c",
+     "texto": "goiano"
+    },
+    {
+     "id": "d",
+     "texto": "português"
+    }
+   ],
+   "enunciado": "Associe cada lugar ao adjetivo pátrio correspondente.",
+   "pagina": "183",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "desligar"
+    },
+    {
+     "id": "2",
+     "texto": "fazer"
+    },
+    {
+     "id": "3",
+     "texto": "dividir"
+    },
+    {
+     "id": "4",
+     "texto": "amanhecer"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1ª conjugação"
+    },
+    {
+     "id": "b",
+     "texto": "2ª conjugação"
+    },
+    {
+     "id": "c",
+     "texto": "3ª conjugação"
+    },
+    {
+     "id": "d",
+     "texto": "2ª conjugação"
+    }
+   ],
+   "enunciado": "Associe cada verbo à sua conjugação.",
+   "pagina": "229",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "eu"
+    },
+    {
+     "id": "2",
+     "texto": "tu"
+    },
+    {
+     "id": "3",
+     "texto": "nós"
+    },
+    {
+     "id": "4",
+     "texto": "eles"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "choro"
+    },
+    {
+     "id": "b",
+     "texto": "choras"
+    },
+    {
+     "id": "c",
+     "texto": "choramos"
+    },
+    {
+     "id": "d",
+     "texto": "choram"
+    }
+   ],
+   "enunciado": "Associe cada pronome à forma correta do verbo chorar.",
+   "pagina": "227",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "galante"
+    },
+    {
+     "id": "2",
+     "texto": "cidade"
+    },
+    {
+     "id": "3",
+     "texto": "esperneei"
+    },
+    {
+     "id": "4",
+     "texto": "baiana"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "adjetivo"
+    },
+    {
+     "id": "b",
+     "texto": "substantivo"
+    },
+    {
+     "id": "c",
+     "texto": "verbo"
+    },
+    {
+     "id": "d",
+     "texto": "adjetivo"
+    }
+   ],
+   "enunciado": "Associe cada palavra à sua classe gramatical.",
+   "pagina": "178",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "cão pequeno"
+    },
+    {
+     "id": "2",
+     "texto": "cão grande"
+    },
+    {
+     "id": "3",
+     "texto": "homem pequeno"
+    },
+    {
+     "id": "4",
+     "texto": "homem grande"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "cãozinho"
+    },
+    {
+     "id": "b",
+     "texto": "canzarrão"
+    },
+    {
+     "id": "c",
+     "texto": "homenzinho"
+    },
+    {
+     "id": "d",
+     "texto": "homenzarrão"
+    }
+   ],
+   "enunciado": "Associe cada expressão à palavra de mesmo sentido.",
+   "pagina": "174",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O diminutivo plural de \"pincéis\" é ______.",
+   "pagina": "177",
+   "resposta": "pinceizinhos"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Nasci em Portugal. Sou ______.",
+   "pagina": "183",
+   "resposta": "português"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O verbo \"dormir\" termina em ______, por isso é da 3ª conjugação.",
+   "pagina": "231",
+   "resposta": "-ir"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No dicionário, os verbos aparecem no infinitivo: para achar \"dormindo\", procuramos ______.",
+   "pagina": "231",
+   "resposta": "dormir"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete na 1ª pessoa do singular: \"Eu ______.\" (resmungar)",
+   "pagina": "228",
+   "resposta": "resmungo"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O antônimo de \"ânimo\", formado com o prefixo des-, é ______.",
+   "pagina": "118",
+   "resposta": "desânimo"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Reescreva no singular: \"As rosas são coloridas.\" Fica: \"A rosa é ______.\"",
+   "pagina": "180",
+   "resposta": "colorida"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O aumentativo de \"voz\" é ______.",
+   "pagina": "172",
+   "resposta": "vozeirão"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "golfinho"
+    },
+    {
+     "id": "B",
+     "texto": "patinho"
+    },
+    {
+     "id": "C",
+     "texto": "anelzinho"
+    }
+   ],
+   "enunciado": "Assinale a palavra terminada em -inho que NÃO está no grau diminutivo:",
+   "pagina": "172",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "francesa"
+    },
+    {
+     "id": "B",
+     "texto": "franciana"
+    },
+    {
+     "id": "C",
+     "texto": "francense"
+    }
+   ],
+   "enunciado": "Complete: \"Nasci na França. Sou ______.\"",
+   "pagina": "183",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "faroizinhos"
+    },
+    {
+     "id": "B",
+     "texto": "faróizinhos"
+    },
+    {
+     "id": "C",
+     "texto": "farolzinhos"
+    }
+   ],
+   "enunciado": "O diminutivo plural de \"faróis\" é:",
+   "pagina": "176",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "havaiana"
+    },
+    {
+     "id": "B",
+     "texto": "rodada"
+    },
+    {
+     "id": "C",
+     "texto": "sorriso"
+    }
+   ],
+   "enunciado": "Em \"Sorriso no rosto, saia rodada, sandália havaiana\", o adjetivo pátrio é:",
+   "pagina": "179",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "2ª pessoa do plural"
+    },
+    {
+     "id": "B",
+     "texto": "1ª pessoa do singular"
+    },
+    {
+     "id": "C",
+     "texto": "3ª pessoa do plural"
+    }
+   ],
+   "enunciado": "Em \"Vós resmungais\", o verbo está na:",
+   "pagina": "228",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "diminutivo"
+    },
+    {
+     "id": "B",
+     "texto": "aumentativo"
+    },
+    {
+     "id": "C",
+     "texto": "normal"
+    }
+   ],
+   "enunciado": "Na adivinha \"um pontinho verde no cantinho da sala\", as palavras \"pontinho\" e \"cantinho\" estão no grau:",
+   "pagina": "181",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Lindas flores."
+    },
+    {
+     "id": "B",
+     "texto": "As rosas são coloridas."
+    },
+    {
+     "id": "C",
+     "texto": "O menino corajoso chegou."
+    }
+   ],
+   "enunciado": "Assinale a frase em que o adjetivo vem ANTES do substantivo:",
+   "pagina": "182",
+   "resposta": "A"
+  }
+ ]
+}

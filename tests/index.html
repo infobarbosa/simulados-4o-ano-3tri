@@ -29,8 +29,8 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    teste("catálogo tem 36 simulados de 27 questões, todos válidos", () => {
-      igual(todos.length, 36);
+    teste("catálogo tem 40 simulados de 27 questões, todos válidos", () => {
+      igual(todos.length, 40);
       for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
     });
 
@@ -94,6 +94,66 @@
         ok(!("resposta" in aluno) && aluno.contexto.titulo === q.contexto.titulo, `questão ${q.n}`);
       }
       igual([...new Set(comCtx.map((q) => q.contexto.titulo))].sort(), ["Receita de pão de queijo", "Suco de laranja"]);
+    });
+
+    // ---- figuras e questões de pintar (só existem neste app; o correcao.py do simulados-vitor não tem) ----
+    const pint = { n: 9, tipo: "pintar", resposta: 3, figura: { tipo: "barra", partes: 8 } };
+    teste("pintar: vale a quantidade de partes pintadas, não quais", () => {
+      ok(M.corrigir(pint, [0, 1, 2]).correta, "três primeiras");
+      ok(M.corrigir(pint, [5, 6, 7]).correta, "três últimas");
+      ok(M.corrigir(pint, [1, 4, 7]).correta, "três espalhadas");
+      igual(M.corrigir(pint, [0, 1]).pontos, 0);
+      igual(M.corrigir(pint, []).pontos, 0);
+      igual(M.corrigir(pint, null).pontos, 0);
+      igual(M.gabaritoParaExibir(pint), { valor: 3, texto: "3 de 8 partes" });
+    });
+    teste("validar pega figura de pintar com a resposta desenhada ou fora do tamanho", () => {
+      igual(M.validar({ questoes: [pint] }), []);
+      ok(M.validar({ questoes: [{ ...pint, figura: { tipo: "barra", partes: 8, pintadas: 3 } }] }).length === 1);
+      ok(M.validar({ questoes: [{ ...pint, resposta: 9 }] }).length === 1);
+      ok(M.validar({ questoes: [{ ...pint, figura: { tipo: "barra" } }] }).length === 1);
+    });
+
+    import { descreverFigura, figuraEl, figuraInterativa } from "../js/figuras.js";
+    const figurasDoCatalogo = todos.flatMap((s) => s.questoes.flatMap((q) =>
+      [q.figura, ...(q.colunaA || []).map((a) => a.figura)].filter(Boolean).map((f) => ({ q, s, f }))));
+    teste("as figuras do conteúdo são coerentes, desenháveis e descritas em texto", () => {
+      ok(figurasDoCatalogo.length >= 20, `só ${figurasDoCatalogo.length} figuras`);
+      for (const { q, s, f } of figurasDoCatalogo) {
+        const onde = `${s.id} q${q.n}`;
+        for (const g of f.figuras || [f]) {
+          if (g.tipo === "barra" || g.tipo === "circulo") {
+            ok(g.partes >= 2, onde);
+            if (g.pintadas !== undefined) ok(g.pintadas >= 0 && g.pintadas <= g.partes, onde);
+          }
+          if (g.tipo === "reta") ok(g.marca >= 0 && g.marca <= g.partes, onde);
+          if (g.tipo === "colecao") ok(g.destacados >= 0 && g.destacados <= g.itens, onde);
+        }
+        ok(descreverFigura(f).length > 10, `${onde} sem descrição`);
+        ok(figuraEl(f), `${onde} não desenhou`);
+      }
+    });
+    teste("figura de pintar começa vazia e conta as partes que a criança toca", () => {
+      let avisos = 0;
+      const area = figuraInterativa({ tipo: "barra", partes: 6 }, () => avisos++);
+      igual(area.el.querySelectorAll(".parte.pintada").length, 0);
+      const partes = area.el.querySelectorAll(".parte");
+      partes[0].dispatchEvent(new MouseEvent("click"));
+      partes[4].dispatchEvent(new MouseEvent("click"));
+      igual(area.pintadas(), [0, 4]);
+      partes[0].dispatchEvent(new MouseEvent("click"));
+      igual(area.pintadas(), [4]);
+      igual(avisos, 3);
+      area.travar();
+      partes[2].dispatchEvent(new MouseEvent("click"));
+      igual(area.pintadas(), [4], "travada não pinta mais");
+    });
+    teste("todo simulado novo (4 e 5) tem as 3 questões de pintar ou nenhuma", () => {
+      for (const s of todos) {
+        const n = s.questoes.filter((q) => q.tipo === "pintar").length;
+        ok(n === 0 || n === 3, `${s.id} tem ${n}`);
+        if (n) igual(s.partes["5"] ? 1 : 0, 1, `${s.id} sem a Parte 5`);
+      }
     });
 
     import * as T from "../js/termos.js";

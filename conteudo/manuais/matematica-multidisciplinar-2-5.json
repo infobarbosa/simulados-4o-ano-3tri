@@ -1,0 +1,665 @@
+{
+ "id": "matematica-multidisciplinar-2-5",
+ "disciplina": "Matemática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • MATEMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Matemática — Simulado 5",
+ "numero": 5,
+ "tema": "Capítulo 9 — Frações • págs. 146–165",
+ "data": "14-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Matemática 4º ano, Capítulo 9 (Frações), págs. 146–165.",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra ou o número correto."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  },
+  "5": {
+   "titulo": "Pinte a figura",
+   "instrucao": "Toque nas partes da figura para pintar a fração pedida."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A fração 8/7 é maior do que um inteiro. ( ___ )",
+   "pagina": "157",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A parte pintada da barra é 3/5 dela, ou seja, mais da metade da barra. ( ___ )",
+   "pagina": "158",
+   "resposta": "V",
+   "figura": {
+    "tipo": "barra",
+    "partes": 5,
+    "pintadas": 3
+   }
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A fração 6/6 é menor do que um inteiro. ( ___ )",
+   "pagina": "162",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Se 1/4 dos 12 pães de queijo tem goiabada, então 9 pães ficam sem recheio. ( ___ )",
+   "pagina": "151",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Na comparação de 2/3 e 2/4, a maior é 2/4, porque 4 é maior que 3. ( ___ )",
+   "pagina": "160",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A soma 5/8 + 3/8 dá um inteiro. ( ___ )",
+   "pagina": "163",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "9/10"
+    },
+    {
+     "id": "2",
+     "texto": "4/100"
+    },
+    {
+     "id": "3",
+     "texto": "25/1000"
+    },
+    {
+     "id": "4",
+     "texto": "6/9"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "nove décimos"
+    },
+    {
+     "id": "b",
+     "texto": "quatro centésimos"
+    },
+    {
+     "id": "c",
+     "texto": "vinte e cinco milésimos"
+    },
+    {
+     "id": "d",
+     "texto": "seis nonos"
+    }
+   ],
+   "enunciado": "Associe cada fração à maneira de lê-la.",
+   "pagina": "148",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "8/3 + 4/3"
+    },
+    {
+     "id": "2",
+     "texto": "12/5 - 7/5"
+    },
+    {
+     "id": "3",
+     "texto": "45/100 + 30/100"
+    },
+    {
+     "id": "4",
+     "texto": "200/1000 - 50/1000"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "12/3"
+    },
+    {
+     "id": "b",
+     "texto": "5/5"
+    },
+    {
+     "id": "c",
+     "texto": "75/100"
+    },
+    {
+     "id": "d",
+     "texto": "150/1000"
+    }
+   ],
+   "enunciado": "Associe cada operação ao seu resultado.",
+   "pagina": "165",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "figura redonda dividida em 8 fatias, 3 pintadas",
+     "figura": {
+      "tipo": "circulo",
+      "partes": 8,
+      "pintadas": 3
+     }
+    },
+    {
+     "id": "2",
+     "texto": "figura redonda dividida em 6 fatias, 5 pintadas",
+     "figura": {
+      "tipo": "circulo",
+      "partes": 6,
+      "pintadas": 5
+     }
+    },
+    {
+     "id": "3",
+     "texto": "barra dividida em 10 partes, 7 pintadas",
+     "figura": {
+      "tipo": "barra",
+      "partes": 10,
+      "pintadas": 7
+     }
+    },
+    {
+     "id": "4",
+     "texto": "barra dividida em 12 partes, 5 pintadas",
+     "figura": {
+      "tipo": "barra",
+      "partes": 12,
+      "pintadas": 5
+     }
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "3/8"
+    },
+    {
+     "id": "b",
+     "texto": "5/6"
+    },
+    {
+     "id": "c",
+     "texto": "7/10"
+    },
+    {
+     "id": "d",
+     "texto": "5/12"
+    }
+   ],
+   "enunciado": "Associe cada figura à fração que está pintada nela.",
+   "pagina": "155",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "2 pedaços de um bolo de 12 pedaços"
+    },
+    {
+     "id": "2",
+     "texto": "5 fatias de uma torta de 8 fatias"
+    },
+    {
+     "id": "3",
+     "texto": "3 laranjas de um total de 10"
+    },
+    {
+     "id": "4",
+     "texto": "1 ovo de uma caixa de 30"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "2/12"
+    },
+    {
+     "id": "b",
+     "texto": "5/8"
+    },
+    {
+     "id": "c",
+     "texto": "3/10"
+    },
+    {
+     "id": "d",
+     "texto": "1/30"
+    }
+   ],
+   "enunciado": "Associe cada situação à fração que a representa.",
+   "pagina": "161",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "7/9 e 4/9"
+    },
+    {
+     "id": "2",
+     "texto": "3/10 e 3/5"
+    },
+    {
+     "id": "3",
+     "texto": "5/6 e 5/12"
+    },
+    {
+     "id": "4",
+     "texto": "2/7 e 6/7"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "7/9 > 4/9"
+    },
+    {
+     "id": "b",
+     "texto": "3/10 < 3/5"
+    },
+    {
+     "id": "c",
+     "texto": "5/6 > 5/12"
+    },
+    {
+     "id": "d",
+     "texto": "2/7 < 6/7"
+    }
+   ],
+   "enunciado": "Associe cada comparação ao símbolo correto.",
+   "pagina": "160",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1/4 da caixa"
+    },
+    {
+     "id": "2",
+     "texto": "3/4 da caixa"
+    },
+    {
+     "id": "3",
+     "texto": "2/5 da caixa"
+    },
+    {
+     "id": "4",
+     "texto": "metade da caixa"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "5 ovos"
+    },
+    {
+     "id": "b",
+     "texto": "15 ovos"
+    },
+    {
+     "id": "c",
+     "texto": "8 ovos"
+    },
+    {
+     "id": "d",
+     "texto": "10 ovos"
+    }
+   ],
+   "enunciado": "Associe cada parte de uma caixa com 20 ovos à quantidade de ovos.",
+   "pagina": "165",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "8/3 + 4/3 = ______",
+   "pagina": "165",
+   "resposta": "12/3"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "45/100 + 30/100 = ______",
+   "pagina": "165",
+   "resposta": "75/100"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "12/5 - 7/5 = ______",
+   "pagina": "165",
+   "resposta": "5/5"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": true,
+   "enunciado": "2/5 de uma caixa com 20 ovos são ______ ovos.",
+   "pagina": "165",
+   "resposta": "8"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Uma torta foi dividida em 8 fatias e 5 foram comidas. Escreva por extenso a fração que sobrou: ______.",
+   "pagina": "165",
+   "resposta": "três oitavos"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Compare usando > ou <:  3/10 ______ 3/5",
+   "pagina": "160",
+   "resposta": "<"
+  },
+  {
+   "n": 19,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "No sábado"
+    },
+    {
+     "id": "B",
+     "texto": "No domingo"
+    },
+    {
+     "id": "C",
+     "texto": "Comeram a mesma quantidade"
+    }
+   ],
+   "enunciado": "Madalena dividiu um bolo entre seus 5 netos no sábado. No domingo, dividiu outro bolo igual em 8 partes. Cada neto comeu 1 pedaço. Em que dia cada neto comeu mais bolo?",
+   "pagina": "158",
+   "resposta": "A"
+  },
+  {
+   "n": 20,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "A barra A"
+    },
+    {
+     "id": "B",
+     "texto": "A barra B"
+    },
+    {
+     "id": "C",
+     "texto": "As duas têm a mesma parte pintada"
+    }
+   ],
+   "enunciado": "As barras A e B têm o mesmo tamanho. Qual delas tem a maior parte pintada?",
+   "pagina": "160",
+   "resposta": "A",
+   "figura": {
+    "tipo": "comparar",
+    "rotulos": [
+     "A",
+     "B"
+    ],
+    "figuras": [
+     {
+      "tipo": "barra",
+      "partes": 6,
+      "pintadas": 4
+     },
+     {
+      "tipo": "barra",
+      "partes": 8,
+      "pintadas": 4
+     }
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "11/12"
+    },
+    {
+     "id": "B",
+     "texto": "1/12"
+    },
+    {
+     "id": "C",
+     "texto": "12/11"
+    }
+   ],
+   "enunciado": "Dos 12 filhotes de uma porca, apenas 1 é fêmea. A fração dos filhotes machos é:",
+   "pagina": "161",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "5/12 do bolo"
+    },
+    {
+     "id": "B",
+     "texto": "5/24 do bolo"
+    },
+    {
+     "id": "C",
+     "texto": "6/12 do bolo"
+    }
+   ],
+   "enunciado": "Sofia dividiu um bolo em 12 pedaços iguais. Ana comeu 2 pedaços e Marcelo comeu 3 pedaços. Juntos, eles comeram:",
+   "pagina": "161",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "um inteiro"
+    },
+    {
+     "id": "B",
+     "texto": "meio inteiro"
+    },
+    {
+     "id": "C",
+     "texto": "cinco inteiros"
+    }
+   ],
+   "enunciado": "O resultado de 5/5 é:",
+   "pagina": "162",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": true,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "8 lápis"
+    },
+    {
+     "id": "B",
+     "texto": "4 lápis"
+    },
+    {
+     "id": "C",
+     "texto": "6 lápis"
+    }
+   ],
+   "enunciado": "André tem uma caixa com 12 lápis de cor e tirou um terço deles. Na caixa sobraram:",
+   "pagina": "164",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 5,
+   "tipo": "pintar",
+   "calculo": false,
+   "enunciado": "Pinte 7/10 da barra.",
+   "figura": {
+    "tipo": "barra",
+    "partes": 10
+   },
+   "pagina": "159",
+   "resposta": 7
+  },
+  {
+   "n": 26,
+   "parte": 5,
+   "tipo": "pintar",
+   "calculo": false,
+   "enunciado": "Pinte 5/6 da figura.",
+   "figura": {
+    "tipo": "circulo",
+    "partes": 6
+   },
+   "pagina": "155",
+   "resposta": 5
+  },
+  {
+   "n": 27,
+   "parte": 5,
+   "tipo": "pintar",
+   "calculo": false,
+   "enunciado": "Pinte 9/12 da barra.",
+   "figura": {
+    "tipo": "barra",
+    "partes": 12
+   },
+   "pagina": "159",
+   "resposta": 9
+  }
+ ]
+}

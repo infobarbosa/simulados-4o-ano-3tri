@@ -5,6 +5,9 @@
 // - Associação: vale 1 ponto dividido entre os pares. Itens da Coluna B com o mesmo texto são equivalentes.
 // - Lacunas: ignora maiúsculas, espaços extras e pontuação final. Diferença só de acento conta como certo
 //   (a tela mostra a grafia correta). Números e frações equivalentes contam como certo.
+// - Pintar: a criança pinta partes de uma figura; acerta quando a QUANTIDADE de partes pintadas é a do
+//   gabarito (o numerador). Quais partes ela pintou não importa: 2/6 é 2/6 em qualquer lugar da barra.
+//   Tipo que só existe neste app (o `correcao.py` do simulados-vitor não tem questões de pintar).
 
 export function criarRng(semente) { // mulberry32
   let a = semente >>> 0;
@@ -64,6 +67,9 @@ export function corrigir(questao, resposta) {
     pontos = String(resposta).toUpperCase() === gabarito ? 1 : 0;
   } else if (questao.tipo === "lacuna") {
     ({ pontos, aviso } = corrigirLacuna(String(resposta ?? ""), gabarito));
+  } else if (questao.tipo === "pintar") {
+    const quantas = Array.isArray(resposta) ? resposta.length : Number(resposta ?? -1);
+    pontos = quantas === Number(gabarito) ? 1 : 0;
   } else if (questao.tipo === "associacao") {
     const textosB = Object.fromEntries(questao.colunaB.map((i) => [i.id, normalizar(i.texto)]));
     const resp = resposta && typeof resposta === "object" ? resposta : {};
@@ -84,6 +90,7 @@ export function corrigir(questao, resposta) {
 export function gabaritoParaExibir(q) {
   const r = q.resposta;
   if (q.tipo === "vf" || q.tipo === "lacuna") return { valor: r };
+  if (q.tipo === "pintar") return { valor: r, texto: `${r} de ${q.figura ? q.figura.partes : "?"} partes` };
   if (q.tipo === "multipla") {
     const alt = q.alternativas.find((a) => a.id === r);
     return { valor: r, texto: alt ? alt.texto : "" };
@@ -136,6 +143,12 @@ export function validar(s) {
     if (vistos.has(q.n)) problemas.push(`questão ${q.n} repetida`);
     vistos.add(q.n);
     if (q.resposta === undefined || q.resposta === null || q.resposta === "") problemas.push(`questão ${q.n} sem gabarito`);
+    if (q.tipo === "pintar") {
+      const partes = q.figura && Number(q.figura.partes);
+      if (!partes) problemas.push(`questão ${q.n} (pintar) sem figura com partes`);
+      else if (!(Number(q.resposta) >= 0 && Number(q.resposta) <= partes)) problemas.push(`questão ${q.n} (pintar) com gabarito fora da figura`);
+      if (q.figura && q.figura.pintadas !== undefined) problemas.push(`questão ${q.n} (pintar) traz a resposta desenhada`);
+    }
   }
   return problemas;
 }

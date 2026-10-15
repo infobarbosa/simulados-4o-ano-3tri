@@ -3,6 +3,7 @@
 
 import { api, el, svg, sorteia, voz, som, perguntar, confete, formatarNota, prefs, ELEMENTOS } from "./util.js";
 import { cartaEl } from "./criatura.js";
+import { figuraEl, figuraInterativa, descreverFigura } from "./figuras.js";
 import { cartaRevelada } from "./api.js";
 
 const ELOGIOS = ["Isso aí!", "Mandou bem!", "Certinho!", "Show de bola!", "Arrasou!", "Muito bem!", "Acertou em cheio!"];
@@ -13,6 +14,7 @@ const INSTRUCOES = {
   multipla: "Escolha a resposta certa.",
   lacuna: "Escreva o que falta no espaço.",
   associacao: "Toque em um item da esquerda e depois no par dele da direita.",
+  pintar: "Toque nas partes da figura para pintar.",
 };
 const RE_LACUNA = /_{2,}/;
 
@@ -25,6 +27,7 @@ function textoParaFalar(q, idioma) {
   const lacuna = idioma === "en" ? " blank " : " lacuna ";
   let t = limparVF(q.enunciado).replace(/_{2,}/g, lacuna);
   if (q.contexto) t = `${q.contexto.titulo}. ${q.contexto.itens.join(". ")}. ${t}`;
+  if (q.figura) t = `${descreverFigura(q.figura)} ${t}`;
   if (q.tipo === "multipla") t += ". " + q.alternativas.map((a, i) => `${LETRA(i)}: ${a.texto}`).join(". ");
   if (q.tipo === "associacao") {
     t += ". " + q.colunaA.map((a, i) => `${i + 1}: ${a.texto}`).join(". ");
@@ -129,6 +132,33 @@ function respostaMultipla(q, aoMudar) {
   };
 }
 
+function respostaPintar(q, aoMudar) {
+  const contador = el("p.pintar-contagem", { role: "status" }, "Nenhuma parte pintada.");
+  // o contador em texto acompanha cada toque: a figura nunca é só cor
+  const atualizar = (pronto) => {
+    const n = area.pintadas().length;
+    contador.textContent = n === 0 ? "Nenhuma parte pintada." : n === 1 ? "1 parte pintada." : `${n} partes pintadas.`;
+    aoMudar(pronto);
+  };
+  const area = figuraInterativa(q.figura, atualizar);
+  const caixa = el("div.area-pintar", area.el, contador);
+  return {
+    el: caixa,
+    valor: () => area.pintadas(),
+    mostrar(res) {
+      area.travar();
+      area.el.classList.add(res.correta ? "certa" : "errada");
+      if (!res.correta) {
+        const certa = figuraEl({ ...q.figura, pintadas: Number(res.gabarito.valor) });
+        if (certa) {
+          certa.classList.add("figura-gabarito");
+          caixa.append(el("div.pintar-gabarito", el("strong", "Assim ficaria certo:"), certa));
+        }
+      }
+    },
+  };
+}
+
 function respostaLacuna(q, aoMudar, aoEnter, enunciadoEl) {
   const lacuna = enunciadoEl.querySelector(".lacuna");
   const temFracao = /\d+\/\d+/.test(q.enunciado);
@@ -169,8 +199,9 @@ function respostaAssociacao(q, aoMudar) {
   const corDe = (aId) => CORES_PARES[q.colunaA.findIndex((a) => a.id === aId) % CORES_PARES.length];
   const posA = (aId) => q.colunaA.findIndex((a) => a.id === aId) + 1;
 
-  const botoesA = q.colunaA.map((a, i) => el("button.item-assoc", { type: "button", onclick: () => tocar("A", a.id) },
-    el("span.item-marca", String(i + 1)), el("span.item-texto", a.texto), el("span.item-par")));
+  // um item da Coluna A pode ser uma figura (o `texto` vira a descrição lida em voz alta)
+  const botoesA = q.colunaA.map((a, i) => el("button.item-assoc" + (a.figura ? ".item-figura" : ""), { type: "button", onclick: () => tocar("A", a.id) },
+    el("span.item-marca", String(i + 1)), el("span.item-texto", a.figura ? figuraEl(a.figura) : a.texto), el("span.item-par")));
   const botoesB = q.colunaB.map((b, i) => el("button.item-assoc", { type: "button", onclick: () => tocar("B", b.id) },
     el("span.item-marca", letra(i)), el("span.item-texto", b.texto), el("span.item-par")));
   botoesA.forEach((b, i) => { b.dataset.id = q.colunaA[i].id; });
@@ -317,17 +348,19 @@ export async function telaQuiz(raiz, tentativaId, modo = "normal") {
     if (q.tipo === "vf") area = respostaVF(q, sim.idioma, aoMudar);
     else if (q.tipo === "multipla") area = respostaMultipla(q, aoMudar);
     else if (q.tipo === "lacuna") area = respostaLacuna(q, aoMudar, () => { if (!conferir.disabled) conferir.click(); }, corpoEnunciado);
+    else if (q.tipo === "pintar") area = respostaPintar(q, aoMudar);
     else area = respostaAssociacao(q, aoMudar);
 
     const precisaRascunho = q.calculo || sim.disciplina === "Matemática";
     const rodape = el("footer.quiz-rodape", conferir);
-    const cartao = el("article.questao" + (q.tipo === "associacao" ? ".larga" : ""),
+    const cartao = el("article.questao" + (q.tipo === "associacao" ? ".larga" : "") + (q.figura ? ".com-figura" : ""),
       el("div.questao-topo",
         el("span.chip-parte", `Parte ${q.parte} • ${parte.titulo || ""}`),
         modo === "revisao" ? el("span.chip-revisao", "Treino") : null,
         sequencia >= 3 ? el("span.chip-sequencia", `🔥 ${sequencia} seguidas`) : null,
       ),
       contextoEl(q),
+      q.tipo !== "pintar" ? figuraEl(q.figura) : null,
       el("div.enunciado-linha", el("span.numero-questao", q.n), corpoEnunciado, botaoFalar(q, sim.idioma)),
       el("p.instrucao", INSTRUCOES[q.tipo]),
       area.el,
@@ -377,7 +410,7 @@ export async function telaQuiz(raiz, tentativaId, modo = "normal") {
     if (!res.correta && q.tipo !== "associacao") {
       let certa = res.gabarito.valor;
       if (q.tipo === "vf") certa = (t.simulado.idioma === "en" ? { V: "True", F: "False" } : { V: "Verdadeiro", F: "Falso" })[certa];
-      if (q.tipo === "multipla") certa = res.gabarito.texto;
+      if (q.tipo === "multipla" || q.tipo === "pintar") certa = res.gabarito.texto;
       detalhes.push(el("p", "Resposta certa: ", el("strong", certa)));
     }
     if (!res.correta && res.pagina) detalhes.push(el("p.pagina-livro", `📖 Para revisar: livro, página ${res.pagina}`));

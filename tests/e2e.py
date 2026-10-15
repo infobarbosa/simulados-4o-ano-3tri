@@ -24,6 +24,10 @@ def responder(pg, q, acertar):
         pg.click(f".opcao[data-id='{r if acertar else next(a['id'] for a in q['alternativas'] if a['id'] != r)}']")
     elif t == "lacuna":
         pg.fill(".campo-lacuna", r if acertar else "zzz")
+    elif t == "pintar":
+        quantas = r if acertar else (r + 1 if r < q["figura"]["partes"] else r - 1)
+        for i in range(quantas):
+            pg.click(f".figura-pintar .parte[data-i='{i}']")
     else:
         ids = list(r)
         for i, a in enumerate(ids):

@@ -400,3 +400,41 @@ button { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* ---------------------------------------------- figuras das questões de fração */
+
+.figura { display: block; width: 100%; max-width: 420px; margin: 0 auto 1rem; height: auto; overflow: visible; }
+.figura-circulo { max-width: 240px; }
+.figura-colecao { max-width: 380px; }
+.figura .parte { fill: var(--cartao); stroke: var(--tema-escura); stroke-width: 3; }
+.figura .parte.pintada { fill: var(--tema); }
+.figura-colecao .parte { stroke-width: 2.5; }
+.figura .icone { font-size: 18px; pointer-events: none; }
+.figura .eixo, .figura .risco { stroke: var(--tema-escura); stroke-width: 3; stroke-linecap: round; }
+.figura .risco.destacada { stroke-width: 5; }
+.figura .marca { fill: var(--tema); stroke: var(--tema-escura); stroke-width: 3; }
+.figura .rotulo { fill: var(--texto); font-size: 20px; font-weight: 700; }
+
+.figura-comparar { margin: 0 0 1rem; display: grid; gap: .6rem; }
+.figura-linha { display: flex; align-items: center; gap: .6rem; }
+.figura-linha .figura { margin: 0; }
+.figura-rotulo { color: var(--tema-escura); font-size: 1.1rem; min-width: 1.4em; }
+
+/* pintar: a criança toca nas partes */
+.area-pintar { margin: .4rem 0 0; }
+.figura-pintar .parte { cursor: pointer; transition: fill .12s ease; }
+.figura-pintar:not(.travada) .parte:hover { fill: var(--fundo); }
+.figura-pintar:not(.travada) .parte.pintada:hover { fill: var(--tema-escura); }
+.figura-pintar .parte:focus-visible { outline: 3px solid var(--texto); outline-offset: 2px; }
+.figura-pintar.travada .parte { cursor: default; }
+.figura-pintar.certa .parte.pintada { fill: var(--certa); stroke: var(--certa); }
+.figura-pintar.errada .parte.pintada { fill: var(--errada); stroke: var(--errada); }
+.pintar-contagem { text-align: center; font-weight: 700; color: var(--suave); margin: .5rem 0 0; }
+.pintar-gabarito { margin: .8rem 0 0; text-align: center; }
+.pintar-gabarito strong { display: block; color: var(--suave); font-size: .9rem; margin-bottom: .3rem; }
+.pintar-gabarito .figura { max-width: 300px; }
+
+@media (prefers-reduced-motion: reduce) { .figura-pintar .parte { transition: none; } }
+.item-assoc.item-figura .item-texto { display: block; padding: .2rem 0; }
+.item-assoc.item-figura .figura { margin: 0; max-width: 170px; }
+.item-assoc.item-figura .figura-circulo { max-width: 76px; }

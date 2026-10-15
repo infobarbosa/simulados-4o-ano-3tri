@@ -3,6 +3,10 @@
 Uso: python3 tools/gerar_conteudo.py PASTA_DOS_PDFS
 Precisa do pdftotext (poppler-utils). Os PDFs não ficam neste repositório; só o JSON gerado.
 Cada simulado ganha um id estável: <disciplina>-<prova>-<numero>, sem acentos.
+
+Simulados escritos à mão (sem PDF) ficam em `conteudo/manuais/` e são copiados para `conteudo/`
+no fim desta rotina: como ela apaga `conteudo/*.json` antes de regerar, é `manuais/` que garante
+que eles não se percam numa regeração futura. Mexa neles lá, nunca na cópia.
 """
 from __future__ import annotations
 
@@ -17,6 +21,19 @@ import ajustes  # noqa: E402
 import importador  # noqa: E402
 
 SAIDA = Path(__file__).resolve().parent.parent / "conteudo"
+MANUAIS = SAIDA / "manuais"
+
+
+def incluir_manuais() -> list[dict]:
+    """Copia os simulados escritos à mão para conteudo/ e devolve as entradas do catálogo."""
+    entradas = []
+    for arq in sorted(MANUAIS.glob("*.json")):
+        dados = json.loads(arq.read_text(encoding="utf-8"))
+        (SAIDA / arq.name).write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        entradas.append({k: dados[k] for k in ("id", "disciplina", "prova", "numero", "titulo", "tema", "idioma")}
+                        | {"questoes": len(dados["questoes"])})
+        print(f"ok (manual): {dados['id']} ({len(dados['questoes'])} questões)")
+    return entradas
 
 
 def slug(texto: str) -> str:
@@ -53,6 +70,7 @@ def main(pasta: Path) -> int:
         catalogo.append({k: dados[k] for k in ("id", "disciplina", "prova", "numero", "titulo", "tema", "idioma")}
                         | {"questoes": len(dados["questoes"])})
         print(f"ok: {sid} ({len(dados['questoes'])} questões)")
+    catalogo += incluir_manuais()
     catalogo.sort(key=lambda s: (importador.DISCIPLINAS.index(s["disciplina"]), s["prova"] != "P1", s["prova"], s["numero"]))
     (SAIDA / "catalogo.json").write_text(json.dumps(catalogo, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(catalogo)} simulados, {falhas} falhas")

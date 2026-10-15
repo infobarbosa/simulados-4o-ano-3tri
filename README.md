@@ -7,7 +7,7 @@ App web para treinar com simulados de **Matemática, Português, Gramática, Ci�
 ## Como usar
 1. Abra o endereço do GitHub Pages deste repositório no celular ou tablet (no iPhone: Compartilhar → Adicionar à Tela de Início; no Android/Chrome: ⋮ → Adicionar à tela inicial).
 2. Na primeira vez o app pergunta o nome. Ele fica só no aparelho.
-3. Escolha a matéria, a prova e o simulado (27 questões: V/F, ligar colunas, completar e múltipla escolha).
+3. Escolha a matéria, a prova e o simulado (27 questões: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
 
 Depois de cada resposta aparece se acertou e, quando erra, a resposta certa e a página do livro para revisar. Não há cronômetro. A leitura em voz alta (🔊) usa a voz do aparelho. Ao terminar: nota de 0 a 10, de 1 a 3 estrelas, uma carta e o botão "Treinar as que errei" (não muda a nota).
 

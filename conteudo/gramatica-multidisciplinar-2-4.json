@@ -1,0 +1,619 @@
+{
+ "id": "gramatica-multidisciplinar-2-4",
+ "disciplina": "Gramática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • GRAMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Gramática — Simulado 4",
+ "numero": 4,
+ "tema": "Sinônimo e antônimo • Grau do substantivo • Adjetivo • Noções de verbo",
+ "data": "14-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Gramática 4º ano, Capítulos 14 (págs. 115–123), 20 (171–177), 21 (178–183) e 27 (226–232).",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra ou o número correto."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O antônimo de \"satisfeito\" é \"insatisfeito\". ( ___ )",
+   "pagina": "118",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As palavras \"lenta\" e \"vagarosa\" são antônimas. ( ___ )",
+   "pagina": "119",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O diminutivo de \"pato\" é \"patinho\". ( ___ )",
+   "pagina": "172",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Na frase \"A sopa está quente\", a palavra \"quente\" é um adjetivo. ( ___ )",
+   "pagina": "178",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O verbo \"chorar\" é da 1ª conjugação, porque termina em -ar. ( ___ )",
+   "pagina": "229",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A palavra \"tubarão\" é o aumentativo de \"tuba\". ( ___ )",
+   "pagina": "172",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "inteligente"
+    },
+    {
+     "id": "2",
+     "texto": "corajoso"
+    },
+    {
+     "id": "3",
+     "texto": "maravilhoso"
+    },
+    {
+     "id": "4",
+     "texto": "lenta"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "sabido"
+    },
+    {
+     "id": "b",
+     "texto": "destemido"
+    },
+    {
+     "id": "c",
+     "texto": "lindo"
+    },
+    {
+     "id": "d",
+     "texto": "vagarosa"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu sinônimo.",
+   "pagina": "116",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "inteligente"
+    },
+    {
+     "id": "2",
+     "texto": "corajoso"
+    },
+    {
+     "id": "3",
+     "texto": "maravilhoso"
+    },
+    {
+     "id": "4",
+     "texto": "lenta"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "tolo"
+    },
+    {
+     "id": "b",
+     "texto": "covarde"
+    },
+    {
+     "id": "c",
+     "texto": "horrível"
+    },
+    {
+     "id": "d",
+     "texto": "apressada"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao seu antônimo.",
+   "pagina": "116",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "capaz"
+    },
+    {
+     "id": "2",
+     "texto": "possível"
+    },
+    {
+     "id": "3",
+     "texto": "igual"
+    },
+    {
+     "id": "4",
+     "texto": "respeito"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "incapaz"
+    },
+    {
+     "id": "b",
+     "texto": "impossível"
+    },
+    {
+     "id": "c",
+     "texto": "desigual"
+    },
+    {
+     "id": "d",
+     "texto": "desrespeito"
+    }
+   ],
+   "enunciado": "Associe cada palavra ao antônimo formado com um prefixo.",
+   "pagina": "118",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "rio"
+    },
+    {
+     "id": "2",
+     "texto": "ilha"
+    },
+    {
+     "id": "3",
+     "texto": "sala"
+    },
+    {
+     "id": "4",
+     "texto": "árvore"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "riacho"
+    },
+    {
+     "id": "b",
+     "texto": "ilhota"
+    },
+    {
+     "id": "c",
+     "texto": "saleta"
+    },
+    {
+     "id": "d",
+     "texto": "arvorezinha"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao seu diminutivo.",
+   "pagina": "172",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "casa"
+    },
+    {
+     "id": "2",
+     "texto": "nariz"
+    },
+    {
+     "id": "3",
+     "texto": "mesa"
+    },
+    {
+     "id": "4",
+     "texto": "voz"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "casarão"
+    },
+    {
+     "id": "b",
+     "texto": "narigão"
+    },
+    {
+     "id": "c",
+     "texto": "mesona"
+    },
+    {
+     "id": "d",
+     "texto": "vozeirão"
+    }
+   ],
+   "enunciado": "Associe cada substantivo ao seu aumentativo.",
+   "pagina": "172",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "amanheceu"
+    },
+    {
+     "id": "2",
+     "texto": "chorei"
+    },
+    {
+     "id": "3",
+     "texto": "estava"
+    },
+    {
+     "id": "4",
+     "texto": "pintar"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "fenômeno da natureza"
+    },
+    {
+     "id": "b",
+     "texto": "ação"
+    },
+    {
+     "id": "c",
+     "texto": "estado"
+    },
+    {
+     "id": "d",
+     "texto": "ação"
+    }
+   ],
+   "enunciado": "Associe cada verbo ao que ele indica.",
+   "pagina": "226",
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O antônimo de \"amor\", formado com o prefixo des-, é ______.",
+   "pagina": "118",
+   "resposta": "desamor"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O antônimo de \"pessoal\", formado com o prefixo im-, é ______.",
+   "pagina": "118",
+   "resposta": "impessoal"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O diminutivo de \"anel\" é ______.",
+   "pagina": "174",
+   "resposta": "anelzinho"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O aumentativo de \"anel\" é ______.",
+   "pagina": "174",
+   "resposta": "anelão"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na frase \"A estrela brilha no céu escuro\", o adjetivo é ______.",
+   "pagina": "178",
+   "resposta": "escuro"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete concordando com o substantivo: \"As rosas são ______.\" (cheiroso)",
+   "pagina": "180",
+   "resposta": "cheirosas"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os verbos \"fazer\" e \"saber\" terminam em ______ e são da 2ª conjugação.",
+   "pagina": "229",
+   "resposta": "-er"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete: a palavra \"veloz\" é ______ de \"lenta\".",
+   "pagina": "119",
+   "resposta": "antônimo"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "esperto / sabido"
+    },
+    {
+     "id": "B",
+     "texto": "lenta / apressada"
+    },
+    {
+     "id": "C",
+     "texto": "capaz / incapaz"
+    }
+   ],
+   "enunciado": "Em qual alternativa as duas palavras são sinônimas?",
+   "pagina": "116",
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "satisfeito / insatisfeito"
+    },
+    {
+     "id": "B",
+     "texto": "corajoso / valente"
+    },
+    {
+     "id": "C",
+     "texto": "maravilhoso / lindo"
+    }
+   ],
+   "enunciado": "Em qual alternativa as duas palavras são antônimas?",
+   "pagina": "118",
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cãozinho"
+    },
+    {
+     "id": "B",
+     "texto": "canzarrão"
+    },
+    {
+     "id": "C",
+     "texto": "cães"
+    }
+   ],
+   "enunciado": "O diminutivo de \"cão\" é:",
+   "pagina": "174",
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "canzarrão"
+    },
+    {
+     "id": "B",
+     "texto": "cãozinho"
+    },
+    {
+     "id": "C",
+     "texto": "cãezinhos"
+    }
+   ],
+   "enunciado": "O aumentativo de \"cão\" é:",
+   "pagina": "174",
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "adjetivos"
+    },
+    {
+     "id": "B",
+     "texto": "substantivos"
+    },
+    {
+     "id": "C",
+     "texto": "verbos"
+    }
+   ],
+   "enunciado": "Em \"Na cidade havia um jovem leal, fiel e galante\", as palavras leal, fiel e galante são:",
+   "pagina": "178",
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cãozinho"
+    },
+    {
+     "id": "B",
+     "texto": "canzarrão"
+    },
+    {
+     "id": "C",
+     "texto": "cão grande"
+    }
+   ],
+   "enunciado": "\"Cão pequeno\" quer dizer o mesmo que:",
+   "pagina": "174",
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1ª conjugação"
+    },
+    {
+     "id": "B",
+     "texto": "2ª conjugação"
+    },
+    {
+     "id": "C",
+     "texto": "3ª conjugação"
+    }
+   ],
+   "enunciado": "O verbo \"resmungar\" é da:",
+   "pagina": "229",
+   "resposta": "A"
+  }
+ ]
+}
