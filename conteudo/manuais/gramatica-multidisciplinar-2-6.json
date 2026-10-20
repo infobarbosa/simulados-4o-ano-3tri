@@ -1,0 +1,647 @@
+{
+ "id": "gramatica-multidisciplinar-2-6",
+ "disciplina": "Gramática",
+ "prova": "Multidisciplinar 2",
+ "cabecalho": "SIMULADO • GRAMÁTICA • 4º ANO • MULTIDISCIPLINAR 2 (3º TRIMESTRE)",
+ "titulo": "Gramática — Simulado 6",
+ "numero": 6,
+ "tema": "Noções de verbo • ação, estado e fenômeno da natureza • pessoa e número • as três conjugações • o verbo no dicionário",
+ "data": "20-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Gramática 4º ano, Capítulo 27 (págs. 226–232). Reforço só de verbo.",
+ "materia": "gramatica-verbo",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"O cachorro late no quintal\", o verbo é \"late\". ( ___ )",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"Choveu muito na cidade\", o verbo \"choveu\" indica um fenômeno da natureza. ( ___ )",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"A Lara está doente\", o verbo \"está\" indica uma ação. ( ___ )",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"Eles brincam no pátio\", o verbo está na 3ª pessoa do plural. ( ___ )",
+   "pagina": "228",
+   "ajuda": "pessoa-numero",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O verbo \"vender\" é da 3ª conjugação, porque termina em -er. ( ___ )",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "No dicionário, o verbo \"corremos\" é procurado pela forma \"correr\". ( ___ )",
+   "pagina": "231",
+   "ajuda": "dicionario",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada verbo ao que ele indica.",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "trovejar"
+    },
+    {
+     "id": "2",
+     "texto": "escrever"
+    },
+    {
+     "id": "3",
+     "texto": "ficar"
+    },
+    {
+     "id": "4",
+     "texto": "anoitecer"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "fenômeno da natureza"
+    },
+    {
+     "id": "b",
+     "texto": "ação"
+    },
+    {
+     "id": "c",
+     "texto": "estado"
+    },
+    {
+     "id": "d",
+     "texto": "fenômeno da natureza"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada verbo à sua conjugação.",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "cantar"
+    },
+    {
+     "id": "2",
+     "texto": "vender"
+    },
+    {
+     "id": "3",
+     "texto": "partir"
+    },
+    {
+     "id": "4",
+     "texto": "sorrir"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1ª conjugação"
+    },
+    {
+     "id": "b",
+     "texto": "2ª conjugação"
+    },
+    {
+     "id": "c",
+     "texto": "3ª conjugação"
+    },
+    {
+     "id": "d",
+     "texto": "3ª conjugação"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada pronome à forma correta do verbo comer.",
+   "pagina": "227",
+   "ajuda": "pessoa-numero",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "eu"
+    },
+    {
+     "id": "2",
+     "texto": "tu"
+    },
+    {
+     "id": "3",
+     "texto": "nós"
+    },
+    {
+     "id": "4",
+     "texto": "vós"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "como"
+    },
+    {
+     "id": "b",
+     "texto": "comes"
+    },
+    {
+     "id": "c",
+     "texto": "comemos"
+    },
+    {
+     "id": "d",
+     "texto": "comeis"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada verbo à forma com que ele aparece no dicionário.",
+   "pagina": "231",
+   "ajuda": "dicionario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "brincando"
+    },
+    {
+     "id": "2",
+     "texto": "vendeu"
+    },
+    {
+     "id": "3",
+     "texto": "dormiram"
+    },
+    {
+     "id": "4",
+     "texto": "fizemos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "brincar"
+    },
+    {
+     "id": "b",
+     "texto": "vender"
+    },
+    {
+     "id": "c",
+     "texto": "dormir"
+    },
+    {
+     "id": "d",
+     "texto": "fazer"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada frase à pessoa e ao número em que está o verbo.",
+   "pagina": "228",
+   "ajuda": "pessoa-numero",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Eu falo."
+    },
+    {
+     "id": "2",
+     "texto": "Tu falas."
+    },
+    {
+     "id": "3",
+     "texto": "Nós falamos."
+    },
+    {
+     "id": "4",
+     "texto": "Eles falam."
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "1ª pessoa do singular"
+    },
+    {
+     "id": "b",
+     "texto": "2ª pessoa do singular"
+    },
+    {
+     "id": "c",
+     "texto": "1ª pessoa do plural"
+    },
+    {
+     "id": "d",
+     "texto": "3ª pessoa do plural"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada frase ao que o verbo dela indica.",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "A professora explicou a lição."
+    },
+    {
+     "id": "2",
+     "texto": "O céu está nublado."
+    },
+    {
+     "id": "3",
+     "texto": "Ventou muito na praia."
+    },
+    {
+     "id": "4",
+     "texto": "Os meninos correram no pátio."
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "ação"
+    },
+    {
+     "id": "b",
+     "texto": "estado"
+    },
+    {
+     "id": "c",
+     "texto": "fenômeno da natureza"
+    },
+    {
+     "id": "d",
+     "texto": "ação"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A palavra que indica ação, estado ou fenômeno da natureza é o ______.",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "resposta": "verbo"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O verbo \"vender\" termina em ______, por isso é da 2ª conjugação.",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "resposta": "-er"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete na 1ª pessoa do singular: \"Eu ______ no parque.\" (correr)",
+   "pagina": "227",
+   "ajuda": "pessoa-numero",
+   "resposta": "corro"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete na 1ª pessoa do plural: \"Nós ______ o bolo em quatro pedaços.\" (partir)",
+   "pagina": "227",
+   "ajuda": "pessoa-numero",
+   "resposta": "partimos"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No dicionário, o verbo \"bebeu\" aparece como ______.",
+   "pagina": "231",
+   "ajuda": "dicionario",
+   "resposta": "beber"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Em \"Nevou na serra\", o verbo \"nevou\" indica um ______ da natureza.",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "resposta": "fenômeno"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Em \"Tu estudas muito\", o verbo está na 2ª pessoa do ______.",
+   "pagina": "228",
+   "ajuda": "pessoa-numero",
+   "resposta": "singular"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Para descobrir a conjugação de um verbo, olhamos a ______ do infinitivo: -ar, -er ou -ir.",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "resposta": "terminação"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Em \"A menina dorme tranquila\", o verbo é:",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "dorme"
+    },
+    {
+     "id": "B",
+     "texto": "menina"
+    },
+    {
+     "id": "C",
+     "texto": "tranquila"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O verbo \"escrever\" é da:",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1ª conjugação"
+    },
+    {
+     "id": "B",
+     "texto": "2ª conjugação"
+    },
+    {
+     "id": "C",
+     "texto": "3ª conjugação"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Assinale a frase em que o verbo indica ESTADO:",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O gato subiu no muro."
+    },
+    {
+     "id": "B",
+     "texto": "O menino parece triste."
+    },
+    {
+     "id": "C",
+     "texto": "Trovejou de tarde."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Em \"Nós cantamos juntos\", o verbo está na:",
+   "pagina": "228",
+   "ajuda": "pessoa-numero",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1ª pessoa do plural"
+    },
+    {
+     "id": "B",
+     "texto": "3ª pessoa do plural"
+    },
+    {
+     "id": "C",
+     "texto": "1ª pessoa do singular"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Para procurar a palavra \"sentindo\" no dicionário, procuramos por:",
+   "pagina": "231",
+   "ajuda": "dicionario",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "sentindo"
+    },
+    {
+     "id": "B",
+     "texto": "sentir"
+    },
+    {
+     "id": "C",
+     "texto": "senti"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Assinale a palavra que NÃO é um verbo:",
+   "pagina": "226",
+   "ajuda": "o-que-e",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "sorrir"
+    },
+    {
+     "id": "B",
+     "texto": "sorriso"
+    },
+    {
+     "id": "C",
+     "texto": "sorrio"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Assinale o verbo da 3ª conjugação:",
+   "pagina": "229",
+   "ajuda": "conjugacoes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "subir"
+    },
+    {
+     "id": "B",
+     "texto": "saber"
+    },
+    {
+     "id": "C",
+     "texto": "salvar"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

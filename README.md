@@ -9,7 +9,7 @@ App web para treinar com simulados de **Matemática, Português, Gramática, Ci�
 2. Na primeira vez o app pergunta o nome. Ele fica só no aparelho.
 3. Escolha a matéria, a prova e o simulado (27 questões: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
 
-Depois de cada resposta aparece se acertou e, quando erra, a resposta certa e a página do livro para revisar. Não há cronômetro. A leitura em voz alta (🔊) usa a voz do aparelho. Ao terminar: nota de 0 a 10, de 1 a 3 estrelas, uma carta e o botão "Treinar as que errei" (não muda a nota).
+Se bater dúvida antes de responder, o botão **"📖 Não sei — ler o conteúdo"** abre uma mini-aula curta do assunto da questão (com exemplos, tabela e uma dica), que dá para ouvir em voz alta; ler não muda a nota. Depois de cada resposta aparece se acertou e, quando erra, a resposta certa, a página do livro para revisar e de novo o botão do conteúdo. Por enquanto as mini-aulas existem só no Simulado 6 de Gramática (verbos); nas outras questões o botão não aparece. Não há cronômetro. A leitura em voz alta (🔊) usa a voz do aparelho. Ao terminar: nota de 0 a 10, de 1 a 3 estrelas, uma carta e o botão "Treinar as que errei" (não muda a nota).
 
 ### Cartas
 | Matéria | Tipo | | Nota | Raridade |
@@ -39,9 +39,9 @@ No primeiro acesso o app mostra um resumo e pede o aceite de um adulto (a caixin
 ## Para quem for mexer
 ```bash
 python3 -m http.server 8000          # http://localhost:8000
-# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 13/13")
+# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 20/20")
 python3 tests/e2e.py http://localhost:8000/ [pasta-de-screenshots]   # pip install playwright + Chrome (CHROME)
 ```
-O conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.
+As mini-aulas do botão de conteúdo ficam em `conteudo/materia/*.json`. O resto do conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.
 
 Este projeto é a versão estática do app com servidor `simulados-vitor` (privado). O conteúdo das questões foi elaborado a partir da coleção didática da escola, para estudo pessoal.

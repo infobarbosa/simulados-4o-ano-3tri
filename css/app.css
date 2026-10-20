@@ -287,6 +287,42 @@ button { font: inherit; color: inherit; }
 @media (max-width: 480px) { .retorno .botao { width: 100%; } }
 .pagina-livro { color: var(--suave); font-size: .9rem; }
 
+/* ---------------------------------------------------------------- conteúdo ("não sei responder") */
+
+.botao-materia { width: 100%; margin: 0 0 1rem; font-size: .95rem; border-style: dashed; border-color: var(--tema); color: var(--tema-escura); }
+.materia-fundo {
+  position: fixed; inset: 0; z-index: 60; display: grid; place-items: end center; padding: 0;
+  background: rgba(31, 36, 48, .45); animation: aparecer .15s ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .materia-fundo { animation: none; } }
+.materia {
+  width: 100%; max-width: 720px; max-height: 92vh; display: flex; flex-direction: column;
+  background: var(--cartao); border-radius: 22px 22px 0 0; box-shadow: 0 -10px 40px rgba(0,0,0,.25);
+}
+@media (min-width: 700px) { .materia-fundo { place-items: center; padding: 1rem; } .materia { border-radius: 22px; } }
+.materia-barra {
+  display: flex; align-items: center; gap: .6rem; padding: .9rem 1rem; border-bottom: 2px solid var(--borda);
+  background: var(--fundo); border-radius: 22px 22px 0 0;
+}
+.materia-titulo { flex: 1; font-size: 1.05rem; color: var(--tema-escura); }
+.materia-corpo { flex: 1; overflow: auto; padding: 1rem 1.1rem; line-height: 1.55; }
+.materia-corpo p { margin: 0 0 .9rem; }
+.materia-lista { margin: 0 0 .9rem; padding-left: 1.3rem; }
+.materia-lista li { margin-bottom: .45rem; }
+.materia-exemplos { list-style: none; margin: 0 0 .9rem; padding: 0; display: grid; gap: .5rem; }
+.materia-exemplos li { background: var(--fundo); border-radius: 12px; padding: .6rem .8rem; }
+.materia-frase { display: block; font-weight: 700; }
+.materia-nota { display: block; font-size: .88rem; color: var(--suave); }
+.materia-tabela-rolagem { overflow-x: auto; margin: 0 0 .9rem; }
+.materia-tabela { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.materia-tabela th, .materia-tabela td { border: 1px solid var(--borda); padding: .45rem .6rem; text-align: left; }
+.materia-tabela thead th { background: var(--fundo); color: var(--tema-escura); }
+.materia-tabela tbody th { font-weight: 700; background: var(--fundo); white-space: nowrap; }
+.materia-dica { background: var(--meio-fundo); border-radius: 12px; padding: .7rem .9rem; }
+.materia-pagina { font-size: .88rem; font-weight: 700; color: var(--suave); margin: 0; }
+.materia-rodape { padding: .8rem 1.1rem max(.8rem, env(safe-area-inset-bottom)); border-top: 2px solid var(--borda); }
+.materia-rodape .botao { width: 100%; }
+
 /* ---------------------------------------------------------------- rascunho */
 
 .rascunho { position: fixed; inset: 0; z-index: 70; display: flex; flex-direction: column; background: #FFFDF7; }

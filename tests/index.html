@@ -29,8 +29,8 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    teste("catálogo tem 40 simulados de 27 questões, todos válidos", () => {
-      igual(todos.length, 40);
+    teste("catálogo tem 41 simulados de 27 questões, todos válidos", () => {
+      igual(todos.length, 41);
       for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
     });
 
@@ -153,6 +153,39 @@
         const n = s.questoes.filter((q) => q.tipo === "pintar").length;
         ok(n === 0 || n === 3, `${s.id} tem ${n}`);
         if (n) igual(s.partes["5"] ? 1 : 0, 1, `${s.id} sem a Parte 5`);
+      }
+    });
+
+    // mini-aulas do botão "Ler o conteúdo": todo campo "ajuda" tem tópico, e todo tópico serve a alguma questão
+    const materias = new Map();
+    for (const s of todos) {
+      if (s.materia && !materias.has(s.materia)) {
+        materias.set(s.materia, await (await fetch(`../conteudo/materia/${s.materia}.json`)).json());
+      }
+    }
+    teste("conteúdo de apoio: todo campo \"ajuda\" aponta um tópico que existe", () => {
+      ok(materias.size >= 1, "nenhum simulado com matéria");
+      for (const s of todos) {
+        for (const q of s.questoes) {
+          if (!q.ajuda) continue;
+          ok(s.materia, `${s.id} q${q.n} tem ajuda mas o simulado não tem materia`);
+          ok(materias.get(s.materia).topicos[q.ajuda], `${s.id} q${q.n}: tópico ${q.ajuda} não existe`);
+        }
+      }
+    });
+    teste("conteúdo de apoio: tópicos bem formados e todos usados", () => {
+      const usados = new Set(todos.flatMap((s) => s.questoes.map((q) => s.materia && q.ajuda ? `${s.materia}/${q.ajuda}` : null)));
+      for (const [arquivo, m] of materias) {
+        for (const [chave, t] of Object.entries(m.topicos)) {
+          ok(t.titulo && Array.isArray(t.blocos) && t.blocos.length, `${arquivo}/${chave} sem título ou blocos`);
+          for (const b of t.blocos) {
+            if (b.tipo === "lista") ok(b.itens?.length, `${arquivo}/${chave}: lista vazia`);
+            else if (b.tipo === "exemplos") ok(b.itens?.every((i) => i.frase), `${arquivo}/${chave}: exemplo sem frase`);
+            else if (b.tipo === "tabela") ok(b.colunas?.length && b.linhas?.every((l) => l.length === b.colunas.length), `${arquivo}/${chave}: tabela torta`);
+            else ok(b.texto, `${arquivo}/${chave}: bloco ${b.tipo} sem texto`);
+          }
+          ok(usados.has(`${arquivo}/${chave}`), `${arquivo}/${chave} não é usado por nenhuma questão`);
+        }
       }
     });
 
