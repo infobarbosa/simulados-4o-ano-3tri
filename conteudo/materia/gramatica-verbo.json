@@ -1,0 +1,87 @@
+{
+ "arquivo": "gramatica-verbo",
+ "titulo": "Verbo",
+ "fonte": "Gramática 4º ano — Capítulo 27 (págs. 226–232)",
+ "topicos": {
+  "o-que-e": {
+   "titulo": "O que o verbo indica",
+   "icone": "🏃",
+   "pagina": "226",
+   "blocos": [
+    { "tipo": "texto", "texto": "Verbo é a palavra que diz o que acontece na frase. Ele pode indicar três coisas:" },
+    {
+     "tipo": "lista",
+     "itens": [
+      "uma AÇÃO — alguém faz alguma coisa: \"A Bia pintou o muro.\"",
+      "um ESTADO — como alguém ou algo está ou é: \"O gelo continua duro.\"",
+      "um FENÔMENO DA NATUREZA — algo que acontece no tempo, sem ninguém fazer: \"Garoou de manhã.\""
+     ]
+    },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "O menino nadou na piscina.", "nota": "nadou = ação" },
+      { "frase": "Eu sou corajoso.", "nota": "sou = estado" },
+      { "frase": "Relampejou a noite toda.", "nota": "relampejou = fenômeno da natureza" }
+    ] },
+    { "tipo": "dica", "texto": "Para achar o verbo, pergunte: o que acontece aqui? Se a palavra responde a isso, é o verbo. Cuidado: \"pintura\" é o nome da coisa (substantivo); \"pintar\" é o verbo." }
+   ]
+  },
+  "pessoa-numero": {
+   "titulo": "Pessoa e número do verbo",
+   "icone": "🙋",
+   "pagina": "227",
+   "blocos": [
+    { "tipo": "texto", "texto": "O verbo muda de forma para combinar com quem faz a ação. Quem faz pode estar no singular (um) ou no plural (mais de um)." },
+    {
+     "tipo": "tabela",
+     "colunas": ["Pessoa", "Pronome", "Verbo pintar"],
+     "linhas": [
+      ["1ª do singular", "eu", "pinto"],
+      ["2ª do singular", "tu", "pintas"],
+      ["3ª do singular", "ele / ela", "pinta"],
+      ["1ª do plural", "nós", "pintamos"],
+      ["2ª do plural", "vós", "pintais"],
+      ["3ª do plural", "eles / elas", "pintam"]
+     ]
+    },
+    { "tipo": "lista", "itens": [
+      "1ª pessoa é quem fala: eu, nós.",
+      "2ª pessoa é com quem se fala: tu, vós.",
+      "3ª pessoa é de quem se fala: ele, ela, eles, elas."
+    ] },
+    { "tipo": "dica", "texto": "O jeito mais fácil: coloque o pronome na frente e veja se encaixa. \"______ pintamos\" só funciona com nós — então é a 1ª pessoa do plural." }
+   ]
+  },
+  "conjugacoes": {
+   "titulo": "As três conjugações",
+   "icone": "1️⃣",
+   "pagina": "229",
+   "blocos": [
+    { "tipo": "texto", "texto": "Todo verbo pertence a uma das três conjugações. Para descobrir qual, olhe a terminação do verbo no infinitivo (a forma do dicionário):" },
+    {
+     "tipo": "tabela",
+     "colunas": ["Termina em", "Conjugação", "Exemplos"],
+     "linhas": [
+      ["-ar", "1ª conjugação", "pintar, nadar, jogar"],
+      ["-er", "2ª conjugação", "varrer, aprender, receber"],
+      ["-ir", "3ª conjugação", "fugir, cair, decidir"]
+     ]
+    },
+    { "tipo": "dica", "texto": "Olhe só as duas últimas letras do infinitivo: -ar é 1ª, -er é 2ª, -ir é 3ª. Se o verbo estiver mudado (\"varri\", \"fugiram\"), volte primeiro para o infinitivo." }
+   ]
+  },
+  "dicionario": {
+   "titulo": "O verbo no dicionário",
+   "icone": "📚",
+   "pagina": "231",
+   "blocos": [
+    { "tipo": "texto", "texto": "No dicionário, os verbos aparecem sempre no INFINITIVO — a forma que termina em -ar, -er ou -ir. As formas mudadas não têm entrada própria." },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "pintando", "nota": "procure por pintar" },
+      { "frase": "varreu", "nota": "procure por varrer" },
+      { "frase": "fugiram", "nota": "procure por fugir" }
+     ] },
+    { "tipo": "dica", "texto": "Pergunte: o que a pessoa está fazendo? Responda com \"...ar\", \"...er\" ou \"...ir\". De \"pintando\" vem pintar — e é por pintar que você procura." }
+   ]
+  }
+ }
+}

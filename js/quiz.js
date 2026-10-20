@@ -1,7 +1,7 @@
 // Tela do simulado: uma questão por vez, correção na hora, partes com mini-comemoração,
 // revisão das erradas e tela de resultado com a carta.
 
-import { api, el, svg, sorteia, voz, som, perguntar, confete, formatarNota, prefs, ELEMENTOS } from "./util.js";
+import { api, el, svg, sorteia, voz, som, perguntar, avisar, confete, formatarNota, prefs, ELEMENTOS } from "./util.js";
 import { cartaEl } from "./criatura.js";
 import { figuraEl, figuraInterativa, descreverFigura } from "./figuras.js";
 import { cartaRevelada } from "./api.js";
@@ -81,6 +81,96 @@ function abrirRascunho(chave) {
   canvas.addEventListener("pointerup", () => { desenhando = false; });
   canvas.addEventListener("pointercancel", () => { desenhando = false; });
   function fechar() { rascunhos.set(chave, canvas.toDataURL()); fundo.remove(); }
+}
+
+// ---------------------------------------------------------------- conteúdo ("não sei responder")
+
+// Mini-aula do assunto da questão, para ele ler, fechar e responder. Não conta nada na nota:
+// ler quando bate a dúvida é o objetivo. O texto vem de conteudo/materia/<materia>.json (campo
+// "materia" do simulado + campo "ajuda" da questão) e é lido em voz alta como o resto do app.
+function blocoEl(b) {
+  if (b.tipo === "lista") return el("ul.materia-lista", b.itens.map((i) => el("li", i)));
+  if (b.tipo === "dica") return el("p.materia-dica", el("strong", "💡 Dica: "), b.texto);
+  if (b.tipo === "exemplos") {
+    return el("ul.materia-exemplos", b.itens.map((i) =>
+      el("li", el("span.materia-frase", i.frase), i.nota ? el("span.materia-nota", i.nota) : null)));
+  }
+  if (b.tipo === "tabela") {
+    return el("div.materia-tabela-rolagem",
+      el("table.materia-tabela",
+        el("thead", el("tr", b.colunas.map((c) => el("th", c)))),
+        el("tbody", b.linhas.map((l) => el("tr", l.map((c, i) => el(i === 0 ? "th" : "td", c)))))));
+  }
+  return el("p", b.texto);
+}
+
+function materiaParaFalar(d) {
+  const partes = [d.titulo];
+  for (const b of d.blocos || []) {
+    if (b.tipo === "lista") partes.push(b.itens.join(". "));
+    else if (b.tipo === "exemplos") partes.push(b.itens.map((i) => `${i.frase} ${i.nota || ""}`).join(". "));
+    else if (b.tipo === "tabela") partes.push(b.linhas.map((l) => l.join(", ")).join(". "));
+    else if (b.tipo === "dica") partes.push(`Dica: ${b.texto}`);
+    else partes.push(b.texto);
+  }
+  return partes.join(". ").replace(/\s+/g, " ");
+}
+
+function abrirMateria(d, idioma) {
+  const anterior = document.activeElement;
+  const fechar = () => {
+    voz.parar();
+    document.removeEventListener("keydown", aoTeclar);
+    fundo.remove();
+    if (anterior && anterior.isConnected) anterior.focus({ preventScroll: true });
+  };
+  const aoTeclar = (e) => { if (e.key === "Escape") fechar(); };
+  const bFalar = voz.disponivel
+    ? el("button.botao-voz", { type: "button", "aria-label": "Ouvir o conteúdo", title: "Ouvir o conteúdo" }, "🔊")
+    : null;
+  if (bFalar) {
+    bFalar.addEventListener("click", () => {
+      if (bFalar.classList.contains("falando")) { voz.parar(); bFalar.classList.remove("falando"); return; }
+      bFalar.classList.add("falando");
+      voz.falar(materiaParaFalar(d), idioma, () => bFalar.classList.remove("falando"));
+    });
+  }
+  const bFechar = el("button.botao.pequeno", { type: "button", onclick: fechar }, "Entendi!");
+  const fundo = el("div.materia-fundo", { onclick: (e) => { if (e.target === fundo) fechar(); } },
+    el("section.materia", { role: "dialog", "aria-modal": "true", "aria-label": `Conteúdo: ${d.titulo}` },
+      el("div.materia-barra",
+        el("strong.materia-titulo", `${d.icone || "📖"} ${d.titulo}`),
+        bFalar,
+        el("button.botao-icone", { type: "button", onclick: fechar, "aria-label": "Fechar o conteúdo", title: "Fechar" }, "✕"),
+      ),
+      el("div.materia-corpo",
+        ...(d.blocos || []).map(blocoEl),
+        d.pagina ? el("p.materia-pagina", `📗 No livro: página ${d.pagina}`) : null,
+      ),
+      el("div.materia-rodape", bFechar),
+    ),
+  );
+  document.body.append(fundo);
+  bFechar.focus({ preventScroll: true });
+  document.addEventListener("keydown", aoTeclar);
+}
+
+// O botão só existe quando há mini-aula para o assunto da questão.
+function botaoMateria(q, sim, rotulo = "📖 Não sei — ler o conteúdo") {
+  if (!sim.materia || !q.ajuda) return null;
+  const b = el("button.botao.secundario.botao-materia", { type: "button" }, rotulo);
+  b.addEventListener("click", async () => {
+    b.disabled = true;
+    voz.parar();
+    try {
+      abrirMateria(await api(`/api/materia/${sim.materia}/${q.ajuda}`), sim.idioma);
+    } catch {
+      avisar("Não consegui abrir o conteúdo agora.", "erro");
+    } finally {
+      b.disabled = false;
+    }
+  });
+  return b;
 }
 
 // ---------------------------------------------------------------- áreas de resposta
@@ -363,6 +453,7 @@ export async function telaQuiz(raiz, tentativaId, modo = "normal") {
       q.tipo !== "pintar" ? figuraEl(q.figura) : null,
       el("div.enunciado-linha", el("span.numero-questao", q.n), corpoEnunciado, botaoFalar(q, sim.idioma)),
       el("p.instrucao", INSTRUCOES[q.tipo]),
+      botaoMateria(q, sim),
       area.el,
       precisaRascunho ? el("button.botao.secundario.pequeno.botao-rascunho", { type: "button", onclick: () => abrirRascunho(`${tentativaId}-${q.n}`) }, "✏️ Rascunho") : null,
     );
@@ -414,6 +505,7 @@ export async function telaQuiz(raiz, tentativaId, modo = "normal") {
       detalhes.push(el("p", "Resposta certa: ", el("strong", certa)));
     }
     if (!res.correta && res.pagina) detalhes.push(el("p.pagina-livro", `📖 Para revisar: livro, página ${res.pagina}`));
+    if (!res.correta) detalhes.push(botaoMateria(q, t.simulado, "📖 Ler o conteúdo"));
 
     const ultima = proximaPendente() === -1;
     const proximaQ = fila[proximaPendente()];

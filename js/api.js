@@ -11,6 +11,7 @@ let catalogo = null;          // lista de simulados (sem questões)
 let estado = null;            // progresso (ver estadoVazio)
 let persistente = true;       // false quando o navegador bloqueia o armazenamento
 const simulados = new Map();  // id -> conteúdo completo, carregado sob demanda
+const materias = new Map();   // arquivo -> mini-aulas de conteudo/materia/, carregadas sob demanda
 
 const estadoVazio = () => ({ versao: 1, nome: "", proximo_id: 1, tentativas: [], cartas: [], reveladas: [] });
 
@@ -59,6 +60,25 @@ async function simulado(id) {
     simulados.set(id, dados);
   }
   return simulados.get(id);
+}
+
+// Mini-aulas que o botão "Ler o conteúdo" abre na tela da questão. O simulado aponta o arquivo
+// no campo "materia" e cada questão aponta o tópico no campo "ajuda".
+async function materia(arquivo) {
+  if (!materias.has(arquivo)) {
+    if (!/^[\w-]+$/.test(arquivo)) throw new ErroApi(400, "Matéria inválida.");
+    const dados = await buscarJson(`conteudo/materia/${arquivo}.json`);
+    if (!dados.topicos) throw new ErroApi(500, "Matéria sem tópicos.");
+    materias.set(arquivo, dados);
+  }
+  return materias.get(arquivo);
+}
+
+async function rotaMateria(arquivo, topico) {
+  const dados = await materia(arquivo);
+  const t = dados.topicos[topico];
+  if (!t) throw new ErroApi(404, "Conteúdo não encontrado.");
+  return { ...t, materia: dados.titulo, fonte: dados.fonte || null };
 }
 
 const agora = () => new Date().toISOString();
@@ -132,6 +152,7 @@ async function rotaVerTentativa(id) {
     simulado: {
       id: meta.id, disciplina: meta.disciplina, prova: meta.prova, numero: meta.numero, titulo: meta.titulo,
       tema: meta.tema, idioma: meta.idioma, elemento: ELEMENTO_POR_DISCIPLINA[meta.disciplina] || "vento",
+      materia: conteudo.materia || null,
     },
     partes: conteudo.partes || {},
     questoes: conteudo.questoes.map((q) => M.questaoParaAluno(q, t.ordem)),
@@ -189,6 +210,7 @@ export async function api(caminho, opcoes = {}) {
   let m;
   if (metodo === "GET" && caminho === "/api/catalogo") return rotaCatalogo();
   if (metodo === "GET" && caminho === "/api/album") return rotaAlbum();
+  if (metodo === "GET" && (m = /^\/api\/materia\/([\w-]+)\/([\w-]+)$/.exec(caminho))) return rotaMateria(m[1], m[2]);
   if (metodo === "POST" && (m = /^\/api\/simulados\/([\w-]+)\/tentativas$/.exec(caminho))) return rotaNovaTentativa(m[1]);
   if ((m = /^\/api\/tentativas\/(\d+)(\/respostas|\/concluir)?$/.exec(caminho))) {
     const id = Number(m[1]);
