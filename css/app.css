@@ -374,6 +374,8 @@ button { font: inherit; color: inherit; }
 .carta-ataque { display: flex; justify-content: space-between; align-items: center; gap: 4px; background: rgba(255,255,255,.85); border-radius: 8px; padding: 6px 8px; font-weight: 800; font-size: .85rem; }
 .carta-ataque strong { font-size: 1.1rem; }
 .carta-rodape { display: flex; justify-content: space-between; font-size: .65rem; font-weight: 700; color: #fff; }
+.carta-nota { background: rgba(255,255,255,.9); color: #2B2B2B; border-radius: 6px; padding: 0 6px; font-weight: 900; white-space: nowrap; }
+.carta-nota small { font-weight: 700; opacity: .75; }
 .carta.rara { border-color: #C0C8D8; box-shadow: 0 0 0 2px #8FA0BF, 0 10px 25px rgba(0,0,0,.25); }
 .carta.lendaria { border-color: #FFD95A; }
 .carta.lendaria::after {

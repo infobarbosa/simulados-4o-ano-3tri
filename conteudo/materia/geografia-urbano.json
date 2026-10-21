@@ -1,0 +1,173 @@
+{
+ "arquivo": "geografia-urbano",
+ "titulo": "Atividades econômicas do espaço urbano",
+ "fonte": "Geografia 4º ano — Capítulo 8 (págs. 80–87)",
+ "topicos": {
+  "setores": {
+   "titulo": "Os setores do espaço urbano",
+   "icone": "🏙️",
+   "pagina": "82",
+   "blocos": [
+    { "tipo": "texto", "texto": "No espaço urbano acontecem três grandes atividades econômicas. Elas aparecem o capítulo inteiro, e quase toda questão pede para você dizer de qual delas se trata." },
+    {
+     "tipo": "tabela",
+     "colunas": ["Setor", "O que faz", "Onde você vê"],
+     "linhas": [
+      ["Indústria", "transforma matérias-primas em produtos", "fábricas"],
+      ["Comércio", "faz a troca, a venda e a compra de mercadorias", "lojas, feiras, mercados"],
+      ["Prestação de serviços", "oferece um trabalho, sem produto físico", "escola, hospital, ônibus"]
+     ]
+    },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "Uma fábrica de aço.", "nota": "indústria" },
+      { "frase": "Uma farmácia.", "nota": "comércio" },
+      { "frase": "Um posto de saúde.", "nota": "prestação de serviços" }
+    ] },
+    { "tipo": "dica", "texto": "Faça duas perguntas, nessa ordem. O lugar FABRICA alguma coisa? Então é indústria. Não fabrica, mas você sai de lá com um produto na mão? É comércio. Não sai com nada, mas foi atendido? É prestação de serviços." }
+   ]
+  },
+  "industria": {
+   "titulo": "A indústria e os seus três tipos",
+   "icone": "🏭",
+   "pagina": "82",
+   "blocos": [
+    { "tipo": "texto", "texto": "Indústria é o lugar onde a matéria-prima vira produto. Boa parte do setor industrial fica no meio urbano, mas também existem indústrias em áreas rurais. As indústrias são de três tipos, e a diferença está em QUEM vai usar o que elas produzem." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "INDÚSTRIA DE BASE (ou de bens de produção): tira recursos da natureza e os transforma em matéria-prima processada, que outras indústrias vão usar.",
+      "INDÚSTRIA DE BENS INTERMEDIÁRIOS: produz equipamentos, máquinas e peças para outras indústrias. Não vende para o consumidor final.",
+      "INDÚSTRIA DE BENS DE CONSUMO: fabrica os produtos que a população compra e usa direto."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "colunas": ["Tipo de indústria", "Exemplos do livro", "Quem usa o produto"],
+     "linhas": [
+      ["De base", "siderúrgica, química, farmacêutica, refinaria de petróleo", "outras indústrias"],
+      ["De bens intermediários", "mecânica", "outras indústrias"],
+      ["De bens de consumo", "fábrica de geladeira, de camiseta, de biscoito", "a população"]
+     ]
+    },
+    { "tipo": "texto", "texto": "A siderúrgica é o exemplo que o livro conta por inteiro: ela extrai o minério de ferro da natureza, aquece até derreter, junta outros metais e transforma em aço. Depois, esse aço vai ser usado por outras indústrias." },
+    { "tipo": "dica", "texto": "Para descobrir o tipo, pergunte: quem compra isso? Se quem compra é outra fábrica, é de base ou de bens intermediários. Se quem compra é a sua família no mercado ou na loja, é de bens de consumo." }
+   ]
+  },
+  "bens-consumo": {
+   "titulo": "Bens duráveis, semiduráveis e não duráveis",
+   "icone": "🧦",
+   "pagina": "82",
+   "blocos": [
+    { "tipo": "texto", "texto": "Os produtos que a indústria de bens de consumo fabrica são separados pelo TEMPO que duram até serem descartados." },
+    {
+     "tipo": "tabela",
+     "colunas": ["Tipo de bem", "Quanto dura", "Exemplos do livro"],
+     "linhas": [
+      ["Durável", "muitos anos, sem precisar descartar depois de usar", "automóveis e eletrodomésticos"],
+      ["Semidurável", "desgasta-se com o tempo de uso", "sapatos e roupas"],
+      ["Não durável", "acaba no primeiro uso ou em pouco tempo", "alimentos e produtos de higiene"]
+     ]
+    },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "Uma bicicleta.", "nota": "dura anos = durável" },
+      { "frase": "Uma mochila de escola.", "nota": "vai desgastando = semidurável" },
+      { "frase": "Um tubo de pasta de dente.", "nota": "acaba logo = não durável" }
+    ] },
+    { "tipo": "dica", "texto": "Semi quer dizer \"metade\". O bem semidurável fica no meio do caminho: não acaba de uma vez como a comida, nem dura anos como a geladeira." }
+   ]
+  },
+  "industrias-brasil": {
+   "titulo": "As indústrias no Brasil",
+   "icone": "🗺️",
+   "pagina": "83",
+   "blocos": [
+    { "tipo": "texto", "texto": "O setor industrial é muito importante para o desenvolvimento do país: ele investe em tecnologia, oferece postos de trabalho e permite que a população tenha acesso a diversos produtos." },
+    { "tipo": "texto", "texto": "As indústrias não estão espalhadas por igual pelo Brasil: há estados com centenas delas e estados com poucas dezenas. O mapa do livro mostra isso por meio de cores — quanto mais escura a cor do estado, mais indústrias ele tem." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "Para ler um mapa assim, olhe primeiro a LEGENDA: ela diz o que cada cor significa.",
+      "Depois ache o estado no mapa e veja a cor dele.",
+      "Por fim, lembre em que região aquele estado fica."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "colunas": ["Região", "Estados"],
+     "linhas": [
+      ["Norte", "Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins"],
+      ["Nordeste", "Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe"],
+      ["Centro-Oeste", "Goiás, Mato Grosso, Mato Grosso do Sul e o Distrito Federal"],
+      ["Sudeste", "Espírito Santo, Minas Gerais, Rio de Janeiro e São Paulo"],
+      ["Sul", "Paraná, Rio Grande do Sul e Santa Catarina"]
+     ]
+    },
+    { "tipo": "dica", "texto": "Quando a questão trouxer a caixa com os dados do mapa, não tente decorar: leia a faixa que interessa e procure em qual região estão aqueles estados." }
+   ]
+  },
+  "comercio": {
+   "titulo": "O comércio",
+   "icone": "🛒",
+   "pagina": "84",
+   "blocos": [
+    { "tipo": "texto", "texto": "Comércio é a atividade econômica que envolve a troca, a venda e a compra de produtos e mercadorias. Farmácias, padarias, supermercados, açougues, lojas de roupas e de calçados, lojas de informática e celulares, feiras e mercados públicos são todos comércio — em loja física, em loja virtual ou em feira que muda de lugar." },
+    { "tipo": "texto", "texto": "O comércio é o setor que conecta o campo com a cidade: os produtores rurais mandam seus produtos para os mercados da cidade, e as indústrias da cidade fornecem as máquinas e os equipamentos usados no campo." },
+    { "tipo": "texto", "texto": "O comércio pode ser classificado de duas maneiras diferentes. Pela QUANTIDADE vendida:" },
+    {
+     "tipo": "lista",
+     "itens": [
+      "ATACADISTA: vende em grandes quantidades, para pessoas ou empresas que vão REVENDER.",
+      "VAREJISTA: vende em pequenas quantidades, para o consumidor final — você."
+     ]
+    },
+    { "tipo": "texto", "texto": "E pela ORIGEM do produto:" },
+    {
+     "tipo": "lista",
+     "itens": [
+      "COMÉRCIO INTERNO: o consumidor tem acesso a produtos feitos no próprio país.",
+      "COMÉRCIO EXTERNO: o consumidor tem acesso a produtos de outros países."
+     ]
+    },
+    { "tipo": "dica", "texto": "Varejista tem \"varejo\", que é vender de pouquinho. Interno é dentro do país; externo é fora. Repare que são duas perguntas diferentes: um mesmo mercadinho pode ser varejista E vender produtos do comércio externo." }
+   ]
+  },
+  "servicos": {
+   "titulo": "A prestação de serviços",
+   "icone": "🚌",
+   "pagina": "85",
+   "blocos": [
+    { "tipo": "texto", "texto": "Na prestação de serviços NÃO é ofertado um produto físico. O trabalhador oferece o seu trabalho em troca de remuneração, e o cliente paga por aquilo que foi feito — mas não leva nada para casa." },
+    { "tipo": "texto", "texto": "O livro dá o exemplo do transporte: quem anda de ônibus ou de metrô paga pela viagem, e não leva um produto para casa, como aconteceria no comércio." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "Serviços comuns no espaço urbano: construção civil, comunicações, segurança, educação, saúde, limpeza e energia.",
+      "Profissionais que prestam serviços: engenheiros, motoristas, instaladores de internet, vigilantes, professores, médicos, garis e eletricistas.",
+      "Também são serviços os ligados ao lazer e à cultura: parques, teatros, restaurantes, estádios de futebol, clubes, museus, casas de shows, cinemas, turismo e shopping centers."
+     ]
+    },
+    { "tipo": "texto", "texto": "A prestação de serviços é o setor da economia brasileira que MAIS EMPREGA e MAIS GERA RIQUEZA. E quanto maior a cidade e maior o número de habitantes, maior é a disponibilidade de serviços: por isso as grandes metrópoles têm mais opções de serviços do que as cidades pequenas." },
+    { "tipo": "dica", "texto": "O teste é simples: terminou o atendimento, você sai com uma sacola na mão? Se sai, foi comércio. Se não sai com nada, mas o problema foi resolvido, foi serviço." }
+   ]
+  },
+  "setores-trabalho": {
+   "titulo": "Em que setores as pessoas trabalham",
+   "icone": "📊",
+   "pagina": "87",
+   "blocos": [
+    { "tipo": "texto", "texto": "Para saber quantas pessoas trabalham em cada setor, usamos um gráfico de barras. Nele, cada barra é um setor e a altura da barra mostra o número de trabalhadores: barra mais alta, mais gente trabalhando." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "O TÍTULO diz do que o gráfico trata e de que ano são os dados.",
+      "A LEGENDA diz o que cada cor de barra significa — aqui, cada cor é um ano.",
+      "Quando há duas barras por setor, dá para comparar os dois anos: se a segunda é mais alta, o número de trabalhadores aumentou; se é mais baixa, diminuiu."
+     ]
+    },
+    { "tipo": "texto", "texto": "Os números do gráfico do livro estão em MIL PESSOAS. Então 12.327 quer dizer doze milhões trezentas e vinte e sete mil pessoas: é muita gente." },
+    { "tipo": "texto", "texto": "Atenção a uma diferença importante: serviços, comércio, indústria e construção são atividades do ESPAÇO URBANO, que você estudou neste capítulo. A agropecuária (agricultura e criação de animais) é a atividade do ESPAÇO RURAL, que foi o assunto do capítulo anterior." },
+    { "tipo": "dica", "texto": "Antes de responder, leia o título do gráfico e a legenda. Metade das perguntas sobre gráfico se responde só olhando com calma para a barra mais alta e para a mais baixa." }
+   ]
+  }
+ }
+}

@@ -160,7 +160,7 @@ async function rotaVerTentativa(id) {
     concluida: !!t.concluida_em,
     nota: t.nota, pontos: t.pontos, total: t.total,
     estrelas: M.estrelasPorNota(t.nota),
-    carta: estado.cartas.find((c) => c.tentativa_id === id) || null,
+    carta: comNota(estado.cartas.find((c) => c.tentativa_id === id)),
   };
 }
 
@@ -200,7 +200,17 @@ async function rotaConcluir(id) {
   return rotaVerTentativa(id);
 }
 
-const rotaAlbum = () => [...estado.cartas].sort((a, b) => b.obtida_em.localeCompare(a.obtida_em) || b.id - a.id);
+// A nota não é guardada na carta: vem da tentativa que a deu. Assim as cartas ganhas antes
+// desta versão também mostram a nota, e um dia só há um lugar onde a nota é corrigida.
+function comNota(carta) {
+  if (!carta) return null;
+  const t = estado.tentativas.find((x) => x.id === carta.tentativa_id);
+  return { ...carta, nota: t ? t.nota : null };
+}
+
+const rotaAlbum = () => [...estado.cartas]
+  .sort((a, b) => b.obtida_em.localeCompare(a.obtida_em) || b.id - a.id)
+  .map(comNota);
 
 // ---------------------------------------------------------------- ponto de entrada (mesma forma do fetch)
 

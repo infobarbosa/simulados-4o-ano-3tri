@@ -1,0 +1,724 @@
+{
+ "id": "geografia-p1-4",
+ "disciplina": "Geografia",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • GEOGRAFIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Geografia — Simulado 4",
+ "numero": 4,
+ "tema": "Capítulo 8 — Indústria e as indústrias no Brasil • págs. 80–87",
+ "data": "21-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Geografia 4º ano, Capítulo 8 (Atividades econômicas do espaço urbano), págs. 80–87. Reforço da indústria e do mapa das indústrias no Brasil (pág. 83).",
+ "materia": "geografia-urbano",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, São Paulo e Minas Gerais são os estados com mais de 500 indústrias. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "enunciado": "O setor industrial investe em tecnologia e oferece postos de trabalho para a população. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "A indústria de bens intermediários vende seus produtos diretamente ao consumidor final. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "A indústria de base também é chamada de indústria de bens de produção. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, o Acre tem mais indústrias do que São Paulo. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Em uma cidade pequena há mais opções de serviços do que em uma grande metrópole. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "Associe cada indústria ao seu tipo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "refinaria de petróleo"
+    },
+    {
+     "id": "2",
+     "texto": "indústria mecânica"
+    },
+    {
+     "id": "3",
+     "texto": "fábrica de biscoitos"
+    },
+    {
+     "id": "4",
+     "texto": "indústria farmacêutica"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "indústria de base"
+    },
+    {
+     "id": "b",
+     "texto": "indústria de bens intermediários"
+    },
+    {
+     "id": "c",
+     "texto": "indústria de bens de consumo"
+    },
+    {
+     "id": "d",
+     "texto": "indústria de base"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "bens-consumo",
+   "enunciado": "Associe cada produto ao tipo de bem de consumo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "geladeira"
+    },
+    {
+     "id": "2",
+     "texto": "camiseta"
+    },
+    {
+     "id": "3",
+     "texto": "sabonete"
+    },
+    {
+     "id": "4",
+     "texto": "televisão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "durável"
+    },
+    {
+     "id": "b",
+     "texto": "semidurável"
+    },
+    {
+     "id": "c",
+     "texto": "não durável"
+    },
+    {
+     "id": "d",
+     "texto": "durável"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, associe cada estado ao seu número de indústrias.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "São Paulo"
+    },
+    {
+     "id": "2",
+     "texto": "Paraná"
+    },
+    {
+     "id": "3",
+     "texto": "Mato Grosso"
+    },
+    {
+     "id": "4",
+     "texto": "Acre"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "mais de 500"
+    },
+    {
+     "id": "b",
+     "texto": "de 101 a 500"
+    },
+    {
+     "id": "c",
+     "texto": "de 51 a 100"
+    },
+    {
+     "id": "d",
+     "texto": "até 25"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "Associe cada produto à indústria que o fabrica.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "aço"
+    },
+    {
+     "id": "2",
+     "texto": "máquina usada por outra fábrica"
+    },
+    {
+     "id": "3",
+     "texto": "biscoito"
+    },
+    {
+     "id": "4",
+     "texto": "camiseta"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "indústria de base"
+    },
+    {
+     "id": "b",
+     "texto": "indústria de bens intermediários"
+    },
+    {
+     "id": "c",
+     "texto": "indústria de bens de consumo"
+    },
+    {
+     "id": "d",
+     "texto": "indústria de bens de consumo"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Associe cada profissional ao serviço que ele presta.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "engenheiro"
+    },
+    {
+     "id": "2",
+     "texto": "instalador de internet"
+    },
+    {
+     "id": "3",
+     "texto": "eletricista"
+    },
+    {
+     "id": "4",
+     "texto": "vigilante"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "construção civil"
+    },
+    {
+     "id": "b",
+     "texto": "comunicações"
+    },
+    {
+     "id": "c",
+     "texto": "energia"
+    },
+    {
+     "id": "d",
+     "texto": "segurança"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "enunciado": "Associe cada estado à região do Brasil em que ele fica.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "São Paulo"
+    },
+    {
+     "id": "2",
+     "texto": "Santa Catarina"
+    },
+    {
+     "id": "3",
+     "texto": "Amazonas"
+    },
+    {
+     "id": "4",
+     "texto": "Goiás"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "região Sudeste"
+    },
+    {
+     "id": "b",
+     "texto": "região Sul"
+    },
+    {
+     "id": "c",
+     "texto": "região Norte"
+    },
+    {
+     "id": "d",
+     "texto": "região Centro-Oeste"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "A indústria de base extrai recursos da ____________ e os transforma em matéria-prima processada.",
+   "resposta": "natureza"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "A indústria ____________ produz equipamentos e peças e é um exemplo de indústria de bens intermediários.",
+   "resposta": "mecânica"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "enunciado": "O setor industrial investe em ____________, o que ajuda no desenvolvimento do país.",
+   "resposta": "tecnologia"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, a região que concentra o maior número de indústrias é a região ____________.",
+   "resposta": "Sudeste"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, a região que tem os menores números de indústrias é a região ____________.",
+   "resposta": "Norte"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "O aço produzido pela siderúrgica será utilizado por outras ____________.",
+   "resposta": "indústrias"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "As grandes ____________ têm mais opções de serviços do que as cidades pequenas.",
+   "resposta": "metrópoles"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "Boa parte do setor industrial está no meio urbano, mas também há indústrias em áreas ____________.",
+   "resposta": "rurais"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "Para transformar o minério de ferro em aço, a indústria siderúrgica precisa:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "aquecer o ferro até derreter e juntar outros metais"
+    },
+    {
+     "id": "B",
+     "texto": "congelar o ferro até endurecer"
+    },
+    {
+     "id": "C",
+     "texto": "moer o ferro e peneirá-lo"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Pelo mapa, quantas indústrias tem o estado do Pará?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "de 51 a 100"
+    },
+    {
+     "id": "B",
+     "texto": "mais de 500"
+    },
+    {
+     "id": "C",
+     "texto": "até 25"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "enunciado": "O setor industrial é importante para o desenvolvimento do país porque:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "investe em tecnologia e oferece postos de trabalho"
+    },
+    {
+     "id": "B",
+     "texto": "diminui o número de produtos nas lojas"
+    },
+    {
+     "id": "C",
+     "texto": "existe apenas nas áreas rurais"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "industria",
+   "enunciado": "Quem compra os produtos da indústria de bens intermediários é:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "outra indústria"
+    },
+    {
+     "id": "B",
+     "texto": "o consumidor final"
+    },
+    {
+     "id": "C",
+     "texto": "o produtor rural"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Uma pessoa foi ao cinema e, depois, ao supermercado. Ela usou:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "um serviço e depois o comércio"
+    },
+    {
+     "id": "B",
+     "texto": "o comércio duas vezes"
+    },
+    {
+     "id": "C",
+     "texto": "dois serviços"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "82",
+   "ajuda": "bens-consumo",
+   "enunciado": "Uma caixa de leite é um bem de consumo:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "não durável"
+    },
+    {
+     "id": "B",
+     "texto": "durável"
+    },
+    {
+     "id": "C",
+     "texto": "semidurável"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "contexto": {
+    "icone": "🗺️",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "itens": [
+     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
+     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
+     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
+     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
+     "Até 25 indústrias: Acre."
+    ]
+   },
+   "enunciado": "Observando o mapa, podemos dizer que as indústrias no Brasil estão:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "distribuídas de forma desigual pelo país"
+    },
+    {
+     "id": "B",
+     "texto": "espalhadas por igual em todos os estados"
+    },
+    {
+     "id": "C",
+     "texto": "concentradas apenas na região Norte"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

@@ -9,7 +9,9 @@ App web para treinar com simulados de **Matemática, Português, Gramática, Ci�
 2. Na primeira vez o app pergunta o nome. Ele fica só no aparelho.
 3. Escolha a matéria, a prova e o simulado (27 questões: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
 
-Se bater dúvida antes de responder, o botão **"📖 Não sei — ler o conteúdo"** abre uma mini-aula curta do assunto da questão (com exemplos, tabela e uma dica), que dá para ouvir em voz alta; ler não muda a nota. Depois de cada resposta aparece se acertou e, quando erra, a resposta certa, a página do livro para revisar e de novo o botão do conteúdo. Por enquanto as mini-aulas existem só no Simulado 6 de Gramática (verbos); nas outras questões o botão não aparece. Não há cronômetro. A leitura em voz alta (🔊) usa a voz do aparelho. Ao terminar: nota de 0 a 10, de 1 a 3 estrelas, uma carta e o botão "Treinar as que errei" (não muda a nota).
+Algumas questões trazem uma **caixa de contexto** acima do enunciado, com os dados que no livro estão em figura ou tabela (a receita e o suco, em Frações; o mapa das indústrias e o gráfico dos trabalhadores, em Geografia). Assim dá para responder sem o livro aberto.
+
+Se bater dúvida antes de responder, o botão **"📖 Não sei — ler o conteúdo"** abre uma mini-aula curta do assunto da questão (com exemplos, tabela e uma dica), que dá para ouvir em voz alta; ler não muda a nota. Depois de cada resposta aparece se acertou e, quando erra, a resposta certa, a página do livro para revisar e de novo o botão do conteúdo. Por enquanto as mini-aulas existem no Simulado 6 de Gramática (verbos) e em todos os simulados de Geografia do Capítulo 8 (os 5 da P1); nas outras questões o botão não aparece. Não há cronômetro. A leitura em voz alta (🔊) usa a voz do aparelho. Ao terminar: nota de 0 a 10, de 1 a 3 estrelas, uma carta e o botão "Treinar as que errei" (não muda a nota). **A carta mostra a nota daquela rodada**, no rodapé, ao lado da raridade — no resultado e no álbum, inclusive nas cartas ganhas antes.
 
 ### Cartas
 | Matéria | Tipo | | Nota | Raridade |
@@ -39,7 +41,7 @@ No primeiro acesso o app mostra um resumo e pede o aceite de um adulto (a caixin
 ## Para quem for mexer
 ```bash
 python3 -m http.server 8000          # http://localhost:8000
-# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 20/20")
+# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 21/21")
 python3 tests/e2e.py http://localhost:8000/ [pasta-de-screenshots]   # pip install playwright + Chrome (CHROME)
 ```
 As mini-aulas do botão de conteúdo ficam em `conteudo/materia/*.json`. O resto do conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.

@@ -3,54 +3,489 @@
   "4": {
    "confere": "queijo minas",
    "enunciado": "Na receita de pão de queijo, a quantidade de óleo de soja é menor que a de leite. ( ___ )",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "5": {
    "confere": "10 laranjas",
    "enunciado": "Com 5 laranjas é possível fazer meio litro de suco. ( ___ )",
-   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   },
   "9": {
    "confere": "polvilho doce",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "10": {
    "confere": "10 laranjas",
-   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   },
   "15": {
    "confere": "500 mL de suco",
-   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   }
  },
  "Matemática / Multidisciplinar 2 / 2": {
   "4": {
    "confere": "polvilho doce",
    "enunciado": "Na receita de pão de queijo, usamos menos queijo minas do que polvilho doce. ( ___ )",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "9": {
    "confere": "óleo de soja",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "10": {
    "confere": "10 laranjas",
-   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
   }
  },
  "Matemática / Multidisciplinar 2 / 3": {
   "4": {
    "confere": "óleo de soja",
    "enunciado": "Na receita de pão de queijo, a quantidade de leite é o dobro da quantidade de óleo de soja. ( ___ )",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "10": {
    "confere": "polvilho doce",
-   "contexto": {"icone": "📋", "titulo": "Receita de pão de queijo", "itens": ["1/2 copo de óleo de soja", "1 copo de leite", "4 ovos", "1/4 de queijo minas (250 g)", "1/2 kg de polvilho doce", "1 colher (sobremesa) de sal"]}
+   "contexto": {
+    "icone": "📋",
+    "titulo": "Receita de pão de queijo",
+    "itens": [
+     "1/2 copo de óleo de soja",
+     "1 copo de leite",
+     "4 ovos",
+     "1/4 de queijo minas (250 g)",
+     "1/2 kg de polvilho doce",
+     "1 colher (sobremesa) de sal"
+    ]
+   }
   },
   "11": {
    "confere": "10 laranjas",
-   "contexto": {"icone": "🍊", "titulo": "Suco de laranja", "itens": ["Com 10 laranjas faz-se 1 litro de suco puro."]}
+   "contexto": {
+    "icone": "🍊",
+    "titulo": "Suco de laranja",
+    "itens": [
+     "Com 10 laranjas faz-se 1 litro de suco puro."
+    ]
+   }
+  }
+ },
+ "Geografia / P1 / 1": {
+  "_simulado": {
+   "materia": "geografia-urbano"
+  },
+  "1": {
+   "confere": "Boa parte do",
+   "ajuda": "industria"
+  },
+  "2": {
+   "confere": "A indústria de",
+   "ajuda": "industria"
+  },
+  "3": {
+   "confere": "Na prestação de",
+   "ajuda": "servicos"
+  },
+  "4": {
+   "confere": "O comércio atacadista",
+   "ajuda": "comercio"
+  },
+  "5": {
+   "confere": "Automóveis e eletrodomésticos",
+   "ajuda": "bens-consumo"
+  },
+  "6": {
+   "confere": "A prestação de",
+   "ajuda": "servicos"
+  },
+  "7": {
+   "confere": "Associe cada setor",
+   "ajuda": "setores"
+  },
+  "8": {
+   "confere": "Associe cada bem",
+   "ajuda": "bens-consumo"
+  },
+  "9": {
+   "confere": "Associe cada profissional",
+   "ajuda": "servicos"
+  },
+  "10": {
+   "confere": "Associe cada tipo",
+   "ajuda": "comercio"
+  },
+  "11": {
+   "confere": "Associe cada indústria",
+   "ajuda": "industria"
+  },
+  "12": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "setores"
+  },
+  "13": {
+   "confere": "A indústria especializada",
+   "ajuda": "industria"
+  },
+  "14": {
+   "confere": "A indústria ____________",
+   "ajuda": "industria"
+  },
+  "15": {
+   "confere": "O comércio ____________",
+   "ajuda": "comercio"
+  },
+  "16": {
+   "confere": "comércio ____________ vende",
+   "ajuda": "comercio"
+  },
+  "17": {
+   "confere": "prestação de serviços",
+   "ajuda": "servicos"
+  },
+  "18": {
+   "confere": "Sapatos e roupas",
+   "ajuda": "bens-consumo"
+  },
+  "19": {
+   "confere": "A indústria siderúrgica",
+   "ajuda": "industria"
+  },
+  "20": {
+   "confere": "Os profissionais oferecem",
+   "ajuda": "servicos"
+  },
+  "21": {
+   "confere": "padarias e supermercados",
+   "ajuda": "comercio"
+  },
+  "22": {
+   "confere": "Alimentos e produtos",
+   "ajuda": "bens-consumo"
+  },
+  "23": {
+   "confere": "Um usuário de",
+   "ajuda": "servicos"
+  },
+  "24": {
+   "confere": "A indústria que",
+   "ajuda": "industria"
+  },
+  "25": {
+   "confere": "setor que conecta",
+   "ajuda": "comercio"
+  },
+  "26": {
+   "confere": "No comércio externo",
+   "ajuda": "comercio"
+  },
+  "27": {
+   "confere": "vigilantes e garis",
+   "ajuda": "servicos"
+  }
+ },
+ "Geografia / P1 / 2": {
+  "_simulado": {
+   "materia": "geografia-urbano"
+  },
+  "1": {
+   "confere": "Há indústrias também",
+   "ajuda": "industria"
+  },
+  "2": {
+   "confere": "O comércio envolve",
+   "ajuda": "comercio"
+  },
+  "3": {
+   "confere": "Bens de consumo",
+   "ajuda": "bens-consumo"
+  },
+  "4": {
+   "confere": "No comércio interno",
+   "ajuda": "comercio"
+  },
+  "5": {
+   "confere": "Garis e eletricistas",
+   "ajuda": "servicos"
+  },
+  "6": {
+   "confere": "A indústria de",
+   "ajuda": "industria"
+  },
+  "7": {
+   "confere": "Associe cada setor",
+   "ajuda": "setores"
+  },
+  "8": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "bens-consumo"
+  },
+  "9": {
+   "confere": "Associe cada profissional",
+   "ajuda": "servicos"
+  },
+  "10": {
+   "confere": "Associe cada tipo",
+   "ajuda": "comercio"
+  },
+  "11": {
+   "confere": "Associe cada indústria",
+   "ajuda": "industria"
+  },
+  "12": {
+   "confere": "cada exemplo ao",
+   "ajuda": "setores"
+  },
+  "13": {
+   "confere": "Boa parte do",
+   "ajuda": "industria"
+  },
+  "14": {
+   "confere": "bens de consumo",
+   "ajuda": "bens-consumo"
+  },
+  "15": {
+   "confere": "indústria de bens",
+   "ajuda": "industria"
+  },
+  "16": {
+   "confere": "O comércio que",
+   "ajuda": "comercio"
+  },
+  "17": {
+   "confere": "A prestação de",
+   "ajuda": "servicos"
+  },
+  "18": {
+   "confere": "As indústrias siderúrgicas",
+   "ajuda": "industria"
+  },
+  "19": {
+   "confere": "Uma pessoa que",
+   "ajuda": "servicos"
+  },
+  "20": {
+   "confere": "O comércio conecta",
+   "ajuda": "comercio"
+  },
+  "21": {
+   "confere": "As indústrias químicas",
+   "ajuda": "industria"
+  },
+  "22": {
+   "confere": "Roupas e sapatos",
+   "ajuda": "bens-consumo"
+  },
+  "23": {
+   "confere": "saúde e educação",
+   "ajuda": "servicos"
+  },
+  "24": {
+   "confere": "comércio que vende",
+   "ajuda": "comercio"
+  },
+  "25": {
+   "confere": "indústria de base",
+   "ajuda": "industria"
+  },
+  "26": {
+   "confere": "Um exemplo de",
+   "ajuda": "servicos"
+  },
+  "27": {
+   "confere": "O consumidor final",
+   "ajuda": "comercio"
+  }
+ },
+ "Geografia / P1 / 3": {
+  "_simulado": {
+   "materia": "geografia-urbano"
+  },
+  "1": {
+   "confere": "A indústria de",
+   "ajuda": "industria"
+  },
+  "2": {
+   "confere": "O comércio varejista",
+   "ajuda": "comercio"
+  },
+  "3": {
+   "confere": "Na prestação de",
+   "ajuda": "servicos"
+  },
+  "4": {
+   "confere": "Eletrodomésticos são bens",
+   "ajuda": "bens-consumo"
+  },
+  "5": {
+   "confere": "Feiras e mercados",
+   "ajuda": "comercio"
+  },
+  "6": {
+   "confere": "educação e saúde",
+   "ajuda": "servicos"
+  },
+  "7": {
+   "confere": "Associe cada setor",
+   "ajuda": "setores"
+  },
+  "8": {
+   "confere": "Associe cada bem",
+   "ajuda": "bens-consumo"
+  },
+  "9": {
+   "confere": "Associe cada profissional",
+   "ajuda": "servicos"
+  },
+  "10": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "setores"
+  },
+  "11": {
+   "confere": "Associe cada indústria",
+   "ajuda": "industria"
+  },
+  "12": {
+   "confere": "Associe cada tipo",
+   "ajuda": "comercio"
+  },
+  "13": {
+   "confere": "A atividade econômica",
+   "ajuda": "comercio"
+  },
+  "14": {
+   "confere": "bens de consumo",
+   "ajuda": "bens-consumo"
+  },
+  "15": {
+   "confere": "A indústria ____________",
+   "ajuda": "industria"
+  },
+  "16": {
+   "confere": "O comércio que",
+   "ajuda": "comercio"
+  },
+  "17": {
+   "confere": "professores e motoristas",
+   "ajuda": "servicos"
+  },
+  "18": {
+   "confere": "indústria de bens",
+   "ajuda": "industria"
+  },
+  "19": {
+   "confere": "Boa parte do",
+   "ajuda": "industria"
+  },
+  "20": {
+   "confere": "A prestação de",
+   "ajuda": "servicos"
+  },
+  "21": {
+   "confere": "A indústria que",
+   "ajuda": "industria"
+  },
+  "22": {
+   "confere": "Automóveis e eletrodomésticos",
+   "ajuda": "bens-consumo"
+  },
+  "23": {
+   "confere": "setor da economia",
+   "ajuda": "servicos"
+  },
+  "24": {
+   "confere": "Uma refinaria de",
+   "ajuda": "industria"
+  },
+  "25": {
+   "confere": "Vender produtos em",
+   "ajuda": "comercio"
+  },
+  "26": {
+   "confere": "Um gari presta",
+   "ajuda": "servicos"
+  },
+  "27": {
+   "confere": "Produtos de outros",
+   "ajuda": "comercio"
   }
  }
 }

@@ -9,6 +9,7 @@
  "data": "13-09-2026",
  "idioma": "pt-BR",
  "fonte": "Coleção Nautas/Edebê — Geografia 4º ano, Capítulo 8 (Atividades econômicas do espaço urbano), págs. 80–87.",
+ "materia": "geografia-urbano",
  "partes": {
   "1": {
    "titulo": "Verdadeiro ou Falso",
@@ -35,7 +36,8 @@
    "calculo": false,
    "enunciado": "A indústria de base transforma o minério de ferro em aço, como faz a siderúrgica. ( ___ )",
    "pagina": "82",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "industria"
   },
   {
    "n": 2,
@@ -44,7 +46,8 @@
    "calculo": false,
    "enunciado": "O comércio varejista vende grandes quantidades para revenda. ( ___ )",
    "pagina": "84",
-   "resposta": "F"
+   "resposta": "F",
+   "ajuda": "comercio"
   },
   {
    "n": 3,
@@ -53,7 +56,8 @@
    "calculo": false,
    "enunciado": "Na prestação de serviços não é ofertado um produto físico. ( ___ )",
    "pagina": "85",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "servicos"
   },
   {
    "n": 4,
@@ -62,7 +66,8 @@
    "calculo": false,
    "enunciado": "Eletrodomésticos são bens de consumo não duráveis. ( ___ )",
    "pagina": "82",
-   "resposta": "F"
+   "resposta": "F",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 5,
@@ -71,7 +76,8 @@
    "calculo": false,
    "enunciado": "Feiras e mercados públicos também fazem parte do comércio. ( ___ )",
    "pagina": "84",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "comercio"
   },
   {
    "n": 6,
@@ -80,7 +86,8 @@
    "calculo": false,
    "enunciado": "Segurança, educação e saúde são exemplos de prestação de serviços. ( ___ )",
    "pagina": "85",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "servicos"
   },
   {
    "n": 7,
@@ -130,7 +137,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "setores"
   },
   {
    "n": 8,
@@ -180,7 +188,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "bens-consumo"
   },
   {
    "n": 9,
@@ -230,7 +239,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "servicos"
   },
   {
    "n": 10,
@@ -280,7 +290,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "setores"
   },
   {
    "n": 11,
@@ -330,7 +341,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "industria"
   },
   {
    "n": 12,
@@ -380,7 +392,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "comercio"
   },
   {
    "n": 13,
@@ -389,7 +402,8 @@
    "calculo": false,
    "enunciado": "A atividade econômica que envolve a troca, a venda e a compra de produtos é o ____________.",
    "pagina": "84",
-   "resposta": "comércio"
+   "resposta": "comércio",
+   "ajuda": "comercio"
   },
   {
    "n": 14,
@@ -398,7 +412,8 @@
    "calculo": false,
    "enunciado": "Os bens de consumo ____________ desgastam-se após o primeiro uso ou em pouco tempo de uso.",
    "pagina": "82",
-   "resposta": "não duráveis"
+   "resposta": "não duráveis",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 15,
@@ -407,7 +422,8 @@
    "calculo": false,
    "enunciado": "A indústria ____________ é um exemplo de indústria de base.",
    "pagina": "82",
-   "resposta": "siderúrgica"
+   "resposta": "siderúrgica",
+   "ajuda": "industria"
   },
   {
    "n": 16,
@@ -416,7 +432,8 @@
    "calculo": false,
    "enunciado": "O comércio que dá acesso a produtos feitos no próprio país é o comércio ____________.",
    "pagina": "84",
-   "resposta": "interno"
+   "resposta": "interno",
+   "ajuda": "comercio"
   },
   {
    "n": 17,
@@ -425,7 +442,8 @@
    "calculo": false,
    "enunciado": "Médicos, professores e motoristas atuam na ____________ de serviços.",
    "pagina": "85",
-   "resposta": "prestação"
+   "resposta": "prestação",
+   "ajuda": "servicos"
   },
   {
    "n": 18,
@@ -434,7 +452,8 @@
    "calculo": false,
    "enunciado": "A indústria de bens de consumo fabrica produtos consumidos diretamente pela ____________.",
    "pagina": "82",
-   "resposta": "população"
+   "resposta": "população",
+   "ajuda": "industria"
   },
   {
    "n": 19,
@@ -443,7 +462,8 @@
    "calculo": false,
    "enunciado": "Boa parte do setor industrial está presente no meio ____________.",
    "pagina": "82",
-   "resposta": "urbano"
+   "resposta": "urbano",
+   "ajuda": "industria"
   },
   {
    "n": 20,
@@ -452,7 +472,8 @@
    "calculo": false,
    "enunciado": "A prestação de serviços é o setor que mais gera ____________ no Brasil.",
    "pagina": "85",
-   "resposta": "riqueza"
+   "resposta": "riqueza",
+   "ajuda": "servicos"
   },
   {
    "n": 21,
@@ -475,7 +496,8 @@
    ],
    "enunciado": "A indústria que fabrica produtos consumidos diretamente pela população é a de:",
    "pagina": "82",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "industria"
   },
   {
    "n": 22,
@@ -498,7 +520,8 @@
    ],
    "enunciado": "Automóveis e eletrodomésticos são bens de consumo:",
    "pagina": "82",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 23,
@@ -521,7 +544,8 @@
    ],
    "enunciado": "O setor da economia que mais emprega e mais gera riqueza no Brasil é:",
    "pagina": "85",
-   "resposta": "C"
+   "resposta": "C",
+   "ajuda": "servicos"
   },
   {
    "n": 24,
@@ -544,7 +568,8 @@
    ],
    "enunciado": "Uma refinaria de petróleo é um exemplo de indústria de:",
    "pagina": "82",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "industria"
   },
   {
    "n": 25,
@@ -567,7 +592,8 @@
    ],
    "enunciado": "Vender produtos em pequenas quantidades ao consumidor final é próprio do comércio:",
    "pagina": "84",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "comercio"
   },
   {
    "n": 26,
@@ -590,7 +616,8 @@
    ],
    "enunciado": "Um gari presta um serviço de:",
    "pagina": "85",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "servicos"
   },
   {
    "n": 27,
@@ -613,7 +640,8 @@
    ],
    "enunciado": "Produtos de outros países chegam ao consumidor pelo comércio:",
    "pagina": "84",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "comercio"
   }
  ]
 }

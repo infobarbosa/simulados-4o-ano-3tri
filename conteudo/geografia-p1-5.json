@@ -1,0 +1,724 @@
+{
+ "id": "geografia-p1-5",
+ "disciplina": "Geografia",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • GEOGRAFIA • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Geografia — Simulado 5",
+ "numero": 5,
+ "tema": "Capítulo 8 — Comércio, prestação de serviços e os setores do trabalho • págs. 80–87",
+ "data": "21-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Geografia 4º ano, Capítulo 8 (Atividades econômicas do espaço urbano), págs. 80–87. Reforço do comércio, da prestação de serviços e do gráfico dos trabalhadores por setor (pág. 87).",
+ "materia": "geografia-urbano",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "Uma loja virtual também faz parte do comércio. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, o setor de serviços teve mais trabalhadores do que a indústria nos dois anos. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, o número de trabalhadores da agropecuária aumentou de 2021 para 2022. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Museus, cinemas e estádios de futebol são serviços ligados ao lazer e à cultura. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "O comércio também pode ser praticado em feiras itinerantes e em mercados públicos. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "enunciado": "A agropecuária é uma atividade do espaço rural, e não do espaço urbano. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, associe cada setor ao seu número de trabalhadores em 2022.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "serviços"
+    },
+    {
+     "id": "2",
+     "texto": "comércio e reparação"
+    },
+    {
+     "id": "3",
+     "texto": "indústria"
+    },
+    {
+     "id": "4",
+     "texto": "construção"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "50.201 mil pessoas"
+    },
+    {
+     "id": "b",
+     "texto": "18.661 mil pessoas"
+    },
+    {
+     "id": "c",
+     "texto": "12.327 mil pessoas"
+    },
+    {
+     "id": "d",
+     "texto": "7.253 mil pessoas"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Associe cada exemplo ao serviço que ele representa.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "cinema"
+    },
+    {
+     "id": "2",
+     "texto": "instalador de internet"
+    },
+    {
+     "id": "3",
+     "texto": "engenheiro de uma obra"
+    },
+    {
+     "id": "4",
+     "texto": "gari"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "lazer e cultura"
+    },
+    {
+     "id": "b",
+     "texto": "comunicações"
+    },
+    {
+     "id": "c",
+     "texto": "construção civil"
+    },
+    {
+     "id": "d",
+     "texto": "limpeza"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "Associe cada situação ao tipo de comércio.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "um supermercado compra 2 toneladas de arroz direto da fábrica"
+    },
+    {
+     "id": "2",
+     "texto": "você compra um pacote de arroz no mercadinho"
+    },
+    {
+     "id": "3",
+     "texto": "comprar um tênis fabricado no Brasil"
+    },
+    {
+     "id": "4",
+     "texto": "comprar um celular fabricado em outro país"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "comércio atacadista"
+    },
+    {
+     "id": "b",
+     "texto": "comércio varejista"
+    },
+    {
+     "id": "c",
+     "texto": "comércio interno"
+    },
+    {
+     "id": "d",
+     "texto": "comércio externo"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "enunciado": "Associe cada setor à sua característica.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "serviços"
+    },
+    {
+     "id": "2",
+     "texto": "agropecuária"
+    },
+    {
+     "id": "3",
+     "texto": "indústria"
+    },
+    {
+     "id": "4",
+     "texto": "comércio"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "é o setor que mais emprega no Brasil"
+    },
+    {
+     "id": "b",
+     "texto": "é a atividade do espaço rural"
+    },
+    {
+     "id": "c",
+     "texto": "transforma matérias-primas em produtos"
+    },
+    {
+     "id": "d",
+     "texto": "envolve a troca, a venda e a compra de mercadorias"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "setores",
+   "enunciado": "Associe cada situação ao setor da economia.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "pagar e levar o produto para casa"
+    },
+    {
+     "id": "2",
+     "texto": "pagar e não levar nenhum produto"
+    },
+    {
+     "id": "3",
+     "texto": "transformar matéria-prima em produto"
+    },
+    {
+     "id": "4",
+     "texto": "andar de metrô"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "comércio"
+    },
+    {
+     "id": "b",
+     "texto": "prestação de serviços"
+    },
+    {
+     "id": "c",
+     "texto": "indústria"
+    },
+    {
+     "id": "d",
+     "texto": "prestação de serviços"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Associe cada item ao que o livro diz sobre ele.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "grande metrópole"
+    },
+    {
+     "id": "2",
+     "texto": "cidade pequena"
+    },
+    {
+     "id": "3",
+     "texto": "prestação de serviços"
+    },
+    {
+     "id": "4",
+     "texto": "comércio"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "tem mais opções de serviços"
+    },
+    {
+     "id": "b",
+     "texto": "tem menos opções de serviços"
+    },
+    {
+     "id": "c",
+     "texto": "é o setor que mais gera riqueza no Brasil"
+    },
+    {
+     "id": "d",
+     "texto": "conecta o campo com a cidade"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, o setor da economia brasileira que mais ofereceu emprego entre 2021 e 2022 foi o de ____________.",
+   "resposta": "serviços"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, o único setor em que o número de trabalhadores diminuiu de 2021 para 2022 foi a ____________.",
+   "resposta": "agropecuária"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "enunciado": "Os números do gráfico dos trabalhadores estão escritos em ____________ pessoas.",
+   "resposta": "mil"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "Os produtores rurais fornecem seus produtos aos ____________ da cidade.",
+   "resposta": "mercados"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Parques, teatros e museus são serviços ligados ao lazer e à ____________.",
+   "resposta": "cultura"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "As indústrias da cidade fornecem as ____________ e os equipamentos usados pelos produtores do campo.",
+   "resposta": "máquinas"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "A oferta de serviços é uma prática cada vez mais comum nos espaços ____________.",
+   "resposta": "urbanos"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "O comércio pode ser realizado em lojas físicas e em lojas ____________.",
+   "resposta": "virtuais"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, qual setor teve o menor número de trabalhadores em 2022?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "construção"
+    },
+    {
+     "id": "B",
+     "texto": "agropecuária"
+    },
+    {
+     "id": "C",
+     "texto": "indústria"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "enunciado": "Pelo gráfico, quantos trabalhadores a indústria tinha em 2021?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "11.635 mil pessoas"
+    },
+    {
+     "id": "B",
+     "texto": "12.327 mil pessoas"
+    },
+    {
+     "id": "C",
+     "texto": "17.005 mil pessoas"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "enunciado": "Em um gráfico de barras com dois anos, a legenda serve para:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "dizer o que cada cor de barra significa"
+    },
+    {
+     "id": "B",
+     "texto": "dizer quem desenhou o gráfico"
+    },
+    {
+     "id": "C",
+     "texto": "deixar o gráfico mais bonito"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "84",
+   "ajuda": "comercio",
+   "enunciado": "Uma empresa que compra 1.000 caixas de sabão em pó para revender está comprando no comércio:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "atacadista"
+    },
+    {
+     "id": "B",
+     "texto": "varejista"
+    },
+    {
+     "id": "C",
+     "texto": "externo"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Qual destas situações é uma prestação de serviço?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cortar o cabelo no salão"
+    },
+    {
+     "id": "B",
+     "texto": "comprar um pão na padaria"
+    },
+    {
+     "id": "C",
+     "texto": "comprar uma camiseta na loja"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "85",
+   "ajuda": "servicos",
+   "enunciado": "Segundo o livro, as grandes metrópoles têm mais opções de serviços porque:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "têm um número maior de habitantes"
+    },
+    {
+     "id": "B",
+     "texto": "têm menos indústrias"
+    },
+    {
+     "id": "C",
+     "texto": "ficam no espaço rural"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "enunciado": "Dos setores que aparecem no gráfico, o único que NÃO pertence ao espaço urbano é:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a agropecuária"
+    },
+    {
+     "id": "B",
+     "texto": "a construção"
+    },
+    {
+     "id": "C",
+     "texto": "o comércio"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

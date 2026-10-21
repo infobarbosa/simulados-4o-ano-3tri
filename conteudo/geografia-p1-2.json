@@ -9,6 +9,7 @@
  "data": "13-09-2026",
  "idioma": "pt-BR",
  "fonte": "Coleção Nautas/Edebê — Geografia 4º ano, Capítulo 8 (Atividades econômicas do espaço urbano), págs. 80–87.",
+ "materia": "geografia-urbano",
  "partes": {
   "1": {
    "titulo": "Verdadeiro ou Falso",
@@ -35,7 +36,8 @@
    "calculo": false,
    "enunciado": "Há indústrias também nas áreas rurais, e não só nas áreas urbanas. ( ___ )",
    "pagina": "82",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "industria"
   },
   {
    "n": 2,
@@ -44,7 +46,8 @@
    "calculo": false,
    "enunciado": "O comércio envolve a troca, a venda e a compra de produtos. ( ___ )",
    "pagina": "84",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "comercio"
   },
   {
    "n": 3,
@@ -53,7 +56,8 @@
    "calculo": false,
    "enunciado": "Bens de consumo duráveis desgastam-se logo após o primeiro uso. ( ___ )",
    "pagina": "82",
-   "resposta": "F"
+   "resposta": "F",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 4,
@@ -62,7 +66,8 @@
    "calculo": false,
    "enunciado": "No comércio interno, o consumidor tem acesso a produtos feitos no próprio país. ( ___ )",
    "pagina": "84",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "comercio"
   },
   {
    "n": 5,
@@ -71,7 +76,8 @@
    "calculo": false,
    "enunciado": "Garis e eletricistas são profissionais da prestação de serviços. ( ___ )",
    "pagina": "85",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "servicos"
   },
   {
    "n": 6,
@@ -80,7 +86,8 @@
    "calculo": false,
    "enunciado": "A indústria de bens de consumo fabrica produtos consumidos diretamente pela população. ( ___ )",
    "pagina": "82",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "industria"
   },
   {
    "n": 7,
@@ -130,7 +137,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "setores"
   },
   {
    "n": 8,
@@ -180,7 +188,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "bens-consumo"
   },
   {
    "n": 9,
@@ -230,7 +239,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "servicos"
   },
   {
    "n": 10,
@@ -280,7 +290,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "comercio"
   },
   {
    "n": 11,
@@ -330,7 +341,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "industria"
   },
   {
    "n": 12,
@@ -380,7 +392,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "setores"
   },
   {
    "n": 13,
@@ -389,7 +402,8 @@
    "calculo": false,
    "enunciado": "Boa parte do setor ____________ está presente no meio urbano.",
    "pagina": "82",
-   "resposta": "industrial"
+   "resposta": "industrial",
+   "ajuda": "industria"
   },
   {
    "n": 14,
@@ -398,7 +412,8 @@
    "calculo": false,
    "enunciado": "Os bens de consumo ____________ podem ser utilizados por muitos anos, sem precisar ser descartados após o uso.",
    "pagina": "82",
-   "resposta": "duráveis"
+   "resposta": "duráveis",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 15,
@@ -407,7 +422,8 @@
    "calculo": false,
    "enunciado": "A indústria de bens ____________ produz equipamentos, máquinas e peças para outras indústrias.",
    "pagina": "82",
-   "resposta": "intermediários"
+   "resposta": "intermediários",
+   "ajuda": "industria"
   },
   {
    "n": 16,
@@ -416,7 +432,8 @@
    "calculo": false,
    "enunciado": "O comércio que dá acesso a produtos de outros países é o comércio ____________.",
    "pagina": "84",
-   "resposta": "externo"
+   "resposta": "externo",
+   "ajuda": "comercio"
   },
   {
    "n": 17,
@@ -425,7 +442,8 @@
    "calculo": false,
    "enunciado": "A prestação de serviços é o setor da economia brasileira que mais ____________.",
    "pagina": "85",
-   "resposta": "emprega"
+   "resposta": "emprega",
+   "ajuda": "servicos"
   },
   {
    "n": 18,
@@ -434,7 +452,8 @@
    "calculo": false,
    "enunciado": "As indústrias siderúrgicas extraem o ____________ de ferro da natureza.",
    "pagina": "82",
-   "resposta": "minério"
+   "resposta": "minério",
+   "ajuda": "industria"
   },
   {
    "n": 19,
@@ -443,7 +462,8 @@
    "calculo": false,
    "enunciado": "Uma pessoa que anda de ônibus paga por um ____________, mas não leva um produto para casa.",
    "pagina": "85",
-   "resposta": "serviço"
+   "resposta": "serviço",
+   "ajuda": "servicos"
   },
   {
    "n": 20,
@@ -452,7 +472,8 @@
    "calculo": false,
    "enunciado": "O comércio conecta o ____________ com a cidade.",
    "pagina": "84",
-   "resposta": "campo"
+   "resposta": "campo",
+   "ajuda": "comercio"
   },
   {
    "n": 21,
@@ -475,7 +496,8 @@
    ],
    "enunciado": "As indústrias químicas, farmacêuticas e as refinarias de petróleo são exemplos de indústria de:",
    "pagina": "82",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "industria"
   },
   {
    "n": 22,
@@ -498,7 +520,8 @@
    ],
    "enunciado": "Roupas e sapatos são bens de consumo:",
    "pagina": "82",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "bens-consumo"
   },
   {
    "n": 23,
@@ -521,7 +544,8 @@
    ],
    "enunciado": "Construção civil, saúde e educação são exemplos de:",
    "pagina": "85",
-   "resposta": "C"
+   "resposta": "C",
+   "ajuda": "servicos"
   },
   {
    "n": 24,
@@ -544,7 +568,8 @@
    ],
    "enunciado": "O comércio que vende em grandes quantidades para quem vai revender é o:",
    "pagina": "84",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "comercio"
   },
   {
    "n": 25,
@@ -567,7 +592,8 @@
    ],
    "enunciado": "A indústria de base transforma recursos da natureza em:",
    "pagina": "82",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "industria"
   },
   {
    "n": 26,
@@ -590,7 +616,8 @@
    ],
    "enunciado": "Um exemplo de prestação de serviço de transporte é:",
    "pagina": "85",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "servicos"
   },
   {
    "n": 27,
@@ -613,7 +640,8 @@
    ],
    "enunciado": "O consumidor final compra em pequenas quantidades no comércio:",
    "pagina": "84",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "comercio"
   }
  ]
 }

@@ -29,8 +29,8 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    teste("catálogo tem 41 simulados de 27 questões, todos válidos", () => {
-      igual(todos.length, 41);
+    teste("catálogo tem 43 simulados de 27 questões, todos válidos", () => {
+      igual(todos.length, 43);
       for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
     });
 
@@ -85,15 +85,22 @@
       igual(sortearCarta("Bilíngue", 8, 7).elemento, "vento");
     });
 
-    teste("contexto: 11 questões de Frações trazem a receita ou o suco, com itens, e o gabarito segue escondido", () => {
+    // Caixa de contexto: o que o livro mostra em figura/tabela e o PDF não trazia (Frações) ou o que
+    // não pode virar imagem no repositório público (o mapa e o gráfico do Capítulo 8 de Geografia).
+    teste("contexto: as questões que dependem do livro trazem a caixa, com itens, e o gabarito segue escondido", () => {
       const comCtx = todos.flatMap((s) => s.questoes.filter((q) => q.contexto));
-      igual(comCtx.length, 11);
+      igual(comCtx.length, 25);
       for (const q of comCtx) {
         ok(q.contexto.titulo && q.contexto.itens.length >= 1, `questão ${q.n}`);
         const aluno = M.questaoParaAluno(q, {});
         ok(!("resposta" in aluno) && aluno.contexto.titulo === q.contexto.titulo, `questão ${q.n}`);
       }
-      igual([...new Set(comCtx.map((q) => q.contexto.titulo))].sort(), ["Receita de pão de queijo", "Suco de laranja"]);
+      igual([...new Set(comCtx.map((q) => q.contexto.titulo))].sort(), [
+        "Brasil: distribuição das indústrias – 2019",
+        "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+        "Receita de pão de queijo",
+        "Suco de laranja",
+      ]);
     });
 
     // ---- figuras e questões de pintar (só existem neste app; o correcao.py do simulados-vitor não tem) ----
@@ -187,6 +194,18 @@
           ok(usados.has(`${arquivo}/${chave}`), `${arquivo}/${chave} não é usado por nenhuma questão`);
         }
       }
+    });
+
+    // A nota da rodada aparece na carta; cartas ganhas antes desta versão (sem nota) não quebram.
+    import { cartaEl } from "../js/criatura.js";
+    teste("carta mostra a nota da rodada, e sem nota continua montando", () => {
+      const base = { ...sortearCarta("Geografia", 9.3, 42), obtida_em: "2026-10-21T10:00:00" };
+      const com = cartaEl({ ...base, nota: 9.3 });
+      igual(com.querySelector(".carta-nota").textContent, "Nota 9,3");
+      const sem = cartaEl({ ...base, nota: null });
+      ok(!sem.querySelector(".carta-nota"), "carta sem nota não deve ter o selo");
+      ok(sem.querySelector(".carta-rodape"), "a carta continua montando sem a nota");
+      igual(cartaEl({ ...base, nota: 10 }).querySelector(".carta-nota").textContent, "Nota 10,0");
     });
 
     import * as T from "../js/termos.js";

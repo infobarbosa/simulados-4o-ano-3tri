@@ -1,7 +1,7 @@
 // Monta a carta colecionável. A arte é uma criatura original desenhada em SVG a partir da semente
 // (mesma semente = mesma criatura), sem imagens externas: funciona offline.
 
-import { el, svg, ELEMENTOS } from "./util.js";
+import { el, svg, ELEMENTOS, formatarNota } from "./util.js";
 import { criarRng as gerador } from "./motor.js";
 
 function hsl(h, s, l) { return `hsl(${Math.round(h)} ${Math.round(s)}% ${Math.round(l)}%)`; }
@@ -142,6 +142,10 @@ export function cartaEl(carta, { pequena = false } = {}) {
     ),
     el("div.carta-rodape",
       el("span", r.simbolo, " ", r.nome),
+      // a nota da rodada que deu esta carta: é o que ele quer ver ao rever o álbum
+      carta.nota === null || carta.nota === undefined
+        ? null
+        : el("span.carta-nota", el("small", "Nota "), formatarNota(carta.nota)),
       el("span", carta.obtida_em ? new Date(carta.obtida_em).toLocaleDateString("pt-BR") : ""),
     ),
   );
