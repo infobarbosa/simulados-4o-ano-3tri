@@ -86,17 +86,17 @@
     });
 
     // Caixa de contexto: o que o livro mostra em figura/tabela e o PDF não trazia (Frações) ou o que
-    // não pode virar imagem no repositório público (o mapa e o gráfico do Capítulo 8 de Geografia).
+    // não pode virar imagem no repositório público (o gráfico dos trabalhadores, Geografia Cap. 8;
+    // o mapa das indústrias virou figura desenhada, ver o teste do mapa abaixo).
     teste("contexto: as questões que dependem do livro trazem a caixa, com itens, e o gabarito segue escondido", () => {
       const comCtx = todos.flatMap((s) => s.questoes.filter((q) => q.contexto));
-      igual(comCtx.length, 25);
+      igual(comCtx.length, 18);
       for (const q of comCtx) {
         ok(q.contexto.titulo && q.contexto.itens.length >= 1, `questão ${q.n}`);
         const aluno = M.questaoParaAluno(q, {});
         ok(!("resposta" in aluno) && aluno.contexto.titulo === q.contexto.titulo, `questão ${q.n}`);
       }
       igual([...new Set(comCtx.map((q) => q.contexto.titulo))].sort(), [
-        "Brasil: distribuição das indústrias – 2019",
         "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
         "Receita de pão de queijo",
         "Suco de laranja",
@@ -197,6 +197,36 @@
     });
 
     // A nota da rodada aparece na carta; cartas ganhas antes desta versão (sem nota) não quebram.
+    // Mapa do Brasil: a figura é a mesma nas 7 questões, cobre os 27 estados que brasil.js desenha,
+    // e a descrição falada (única coisa que o 🔊 e o leitor de tela recebem) bate com as faixas.
+    import { UFS } from "../js/brasil.js";
+    const comMapa = todos.flatMap((s) => s.questoes.filter((q) => q.figura && q.figura.tipo === "mapa"));
+    teste("mapa: 27 estados, uma figura só, e a descrição falada bate com as faixas", () => {
+      igual(comMapa.length, 7);
+      igual(Object.keys(UFS).length, 27);
+      const unicas = new Set(comMapa.map((q) => JSON.stringify(q.figura)));
+      igual(unicas.size, 1, "as 7 questões precisam usar exatamente a mesma figura");
+      const fig = comMapa[0].figura;
+      igual(Object.keys(fig.valores).sort(), Object.keys(UFS).sort());
+      igual(fig.faixas.length, 5);
+      for (const [sigla, faixa] of Object.entries(fig.valores)) {
+        ok(Number.isInteger(faixa) && faixa >= 0 && faixa < 5, `${sigla}: faixa ${faixa} fora da legenda`);
+        const nome = UFS[sigla].n;
+        const trecho = fig.descricao.split(fig.faixas[faixa] + " indústrias:")[1] || "";
+        ok(trecho.split(".")[0].includes(nome), `${sigla} (${nome}) não aparece na faixa falada "${fig.faixas[faixa]}"`);
+      }
+      igual(descreverFigura(fig), fig.descricao);
+      ok(!("resposta" in M.questaoParaAluno(comMapa[0], {})), "o mapa não pode vazar o gabarito");
+    });
+    teste("mapa: todo estado desenhado tem contorno, sigla e região", () => {
+      for (const [sigla, uf] of Object.entries(UFS)) {
+        ok(uf.d && uf.d.startsWith("M") && uf.d.endsWith("Z"), `${sigla}: caminho SVG inválido`);
+        ok(uf.n && uf.r, `${sigla}: sem nome ou região`);
+        ok(Array.isArray(uf.c) && uf.c.length === 2, `${sigla}: sem posição da sigla`);
+        if (uf.f) ok(uf.f.length === 2 && uf.f[0] > 1000, `${sigla}: sigla de fora dentro do mapa`);
+      }
+    });
+
     import { cartaEl } from "../js/criatura.js";
     teste("carta mostra a nota da rodada, e sem nota continua montando", () => {
       const base = { ...sortearCarta("Geografia", 9.3, 42), obtida_em: "2026-10-21T10:00:00" };

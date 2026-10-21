@@ -9,6 +9,7 @@
 //   { tipo: "reta",     partes: 5, marca: 3 }
 //   { tipo: "colecao",  itens: 10, destacados: 5, nome: "laranjas", icone: "🍊" }
 //   { tipo: "comparar", figuras: [{...}, {...}], rotulos: ["A", "B"] }
+//   { tipo: "mapa",     titulo, faixas: [5 nomes], valores: { SP: 4, ... }, descricao: "texto do 🔊" }
 // Nas questões de pintar, a figura vem SEM `pintadas` (senão a resposta apareceria desenhada).
 
 const N = (v, padrao = 0) => (Number.isFinite(Number(v)) ? Number(v) : padrao);
@@ -52,6 +53,9 @@ export function descreverFigura(fig) {
     const nome = fig.nome || "itens";
     return `${N(fig.itens)} ${nome}, com ${N(fig.destacados)} em destaque.`;
   }
+  // O mapa traz a descrição pronta no conteúdo: é ela que o 🔊 lê e que vira o aria-label, e ela
+  // não pode depender de brasil.js, que só carrega depois. `tests/` confere que bate com `valores`.
+  if (fig.tipo === "mapa") return fig.descricao || "";
   return "";
 }
 
@@ -149,6 +153,66 @@ function conjunto(pintadas, partes) {
   return new Set(Array.from({ length: Math.min(n, N(partes, n)) }, (_, i) => i));
 }
 
+// Mapa do Brasil pintado por faixa (`valores`: sigla -> índice em `faixas`). A geometria mora em
+// brasil.js e é pesada, então entra por import tardio: a caixa já volta com o aria-label e a legenda,
+// e os contornos aparecem quando chegam. Estados pequenos demais levam a sigla para fora, com linha
+// de chamada. A cor nunca é a única pista: há sigla, legenda e a descrição falada.
+const CORES_MAPA = ["#FFFBE3", "#FBC23C", "#EE7A1A", "#CC2C1E", "#78183F"];
+const TINTA_MAPA = ["#1F2430", "#1F2430", "#1F2430", "#FFFFFF", "#FFFFFF"];
+const SEM_DADO = "#E7E1D7";
+
+function mapaEl(fig) {
+  const caixa = divCom("figura-mapa");
+  const desenho = divCom("figura-mapa-desenho");
+  const faixas = fig.faixas || [];
+  const legenda = divCom("figura-mapa-legenda");
+  faixas.forEach((nome, i) => {
+    const linha = divCom("figura-mapa-item");
+    const amostra = divCom("figura-mapa-cor");
+    amostra.style.background = CORES_MAPA[i] || SEM_DADO;
+    linha.append(amostra, document.createTextNode(nome));
+    legenda.prepend(linha); // da maior faixa para a menor, como no livro
+  });
+  caixa.append(desenho, legenda);
+  import("./brasil.js").then(({ UFS }) => {
+    const svg = elSvg("svg", { viewBox: "0 0 1180 1000", class: "mapa-svg" });
+    const chamadas = [], textos = [];
+    for (const [sigla, uf] of Object.entries(UFS)) {
+      const faixa = fig.valores ? fig.valores[sigla] : undefined;
+      svg.append(elSvg("path", {
+        d: uf.d, fill: faixa === undefined ? SEM_DADO : CORES_MAPA[faixa],
+        stroke: "#fff", "stroke-width": 3.5, "stroke-linejoin": "round",
+      }));
+      if (uf.f) {
+        chamadas.push(elSvg("line", { x1: uf.c[0], y1: uf.c[1], x2: uf.f[0] - 14, y2: uf.f[1], stroke: "#9A93A8", "stroke-width": 2.5 }));
+        chamadas.push(elSvg("circle", { cx: uf.c[0], cy: uf.c[1], r: 6, fill: "#4A4455" }));
+        const t = elSvg("text", { x: uf.f[0], y: uf.f[1], fill: "#1F2430", "font-size": 34, "font-weight": 800, "dominant-baseline": "central" });
+        t.textContent = sigla;
+        textos.push(t);
+      } else {
+        const t = elSvg("text", {
+          x: uf.c[0], y: uf.c[1], fill: faixa === undefined ? "#5E6472" : TINTA_MAPA[faixa],
+          "font-size": 34, "font-weight": 800, "text-anchor": "middle", "dominant-baseline": "central",
+        });
+        t.textContent = sigla;
+        textos.push(t);
+      }
+    }
+    svg.append(...chamadas, ...textos); // linhas e siglas por cima de todos os estados
+    desenho.replaceChildren(svg);
+  }).catch(() => {
+    // sem a geometria, a legenda e a descrição ainda respondem a questão
+    desenho.remove();
+  });
+  return caixa;
+}
+
+function divCom(classe) {
+  const d = document.createElement("div");
+  d.className = classe;
+  return d;
+}
+
 function umaFigura(fig) {
   if (fig.tipo === "barra") return barraEl(fig, conjunto(fig.pintadas, fig.partes));
   if (fig.tipo === "circulo") return circuloEl(fig, conjunto(fig.pintadas, fig.partes));
@@ -161,6 +225,12 @@ function umaFigura(fig) {
 export function figuraEl(fig) {
   if (!fig || !fig.tipo) return null;
   const descricao = descreverFigura(fig);
+  if (fig.tipo === "mapa") {
+    const caixa = mapaEl(fig);
+    caixa.setAttribute("role", "img");
+    caixa.setAttribute("aria-label", descricao);
+    return caixa;
+  }
   if (fig.tipo === "comparar") {
     const rotulos = fig.rotulos || [];
     const caixa = document.createElement("div");

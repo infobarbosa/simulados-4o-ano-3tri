@@ -36,19 +36,49 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, São Paulo e Minas Gerais são os estados com mais de 500 indústrias. ( ___ )",
-   "resposta": "V"
+   "resposta": "V",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   },
   {
    "n": 2,
@@ -87,19 +117,49 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, o Acre tem mais indústrias do que São Paulo. ( ___ )",
-   "resposta": "F"
+   "resposta": "F",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   },
   {
    "n": 6,
@@ -220,17 +280,6 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, associe cada estado ao seu número de indústrias.",
    "colunaA": [
     {
@@ -273,6 +322,47 @@
     "2": "b",
     "3": "c",
     "4": "d"
+   },
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
    }
   },
   {
@@ -465,19 +555,49 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, a região que concentra o maior número de indústrias é a região ____________.",
-   "resposta": "Sudeste"
+   "resposta": "Sudeste",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   },
   {
    "n": 17,
@@ -486,19 +606,49 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, a região que tem os menores números de indústrias é a região ____________.",
-   "resposta": "Norte"
+   "resposta": "Norte",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   },
   {
    "n": 18,
@@ -561,17 +711,6 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Pelo mapa, quantas indústrias tem o estado do Pará?",
    "alternativas": [
     {
@@ -587,7 +726,48 @@
      "texto": "até 25"
     }
    ],
-   "resposta": "A"
+   "resposta": "A",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   },
   {
    "n": 23,
@@ -692,17 +872,6 @@
    "calculo": false,
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "contexto": {
-    "icone": "🗺️",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "itens": [
-     "Mais de 500 indústrias: São Paulo e Minas Gerais.",
-     "De 101 a 500: Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul, Goiás, Bahia, Ceará e Pernambuco.",
-     "De 51 a 100: Pará, Maranhão, Mato Grosso, Mato Grosso do Sul e Paraíba.",
-     "De 26 a 50: Amazonas, Rondônia, Roraima, Piauí e Tocantins.",
-     "Até 25 indústrias: Acre."
-    ]
-   },
    "enunciado": "Observando o mapa, podemos dizer que as indústrias no Brasil estão:",
    "alternativas": [
     {
@@ -718,7 +887,48 @@
      "texto": "concentradas apenas na região Norte"
     }
    ],
-   "resposta": "A"
+   "resposta": "A",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   }
   }
  ]
 }

@@ -458,6 +458,15 @@ button { font: inherit; color: inherit; }
 .figura-linha .figura { margin: 0; }
 .figura-rotulo { color: var(--tema-escura); font-size: 1.1rem; min-width: 1.4em; }
 
+/* Mapa do Brasil (Geografia, Cap. 8). A legenda fica sempre visível: a cor não é a única pista. */
+.figura-mapa { margin: 0 0 1rem; }
+.figura-mapa-desenho { min-height: 120px; }
+.figura-mapa-desenho .mapa-svg { width: 100%; height: auto; display: block; }
+.figura-mapa-legenda { display: grid; grid-template-columns: 1fr 1fr; gap: .3rem .7rem; margin-top: .6rem; font-size: .8rem; font-weight: 700; }
+.figura-mapa-item { display: flex; align-items: center; gap: .4rem; }
+.figura-mapa-cor { width: 22px; height: 15px; border-radius: 4px; border: 1px solid var(--borda); flex: none; }
+@media (max-width: 380px) { .figura-mapa-legenda { grid-template-columns: 1fr; } }
+
 /* pintar: a criança toca nas partes */
 .area-pintar { margin: .4rem 0 0; }
 .figura-pintar .parte { cursor: pointer; transition: fill .12s ease; }

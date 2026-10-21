@@ -1,7 +1,7 @@
 // Service worker: guarda o app no aparelho para abrir sem internet.
 // Estratégia "usa o que está guardado e atualiza em segundo plano": a versão nova aparece na abertura seguinte.
 // Mudou algum arquivo? Aumente VERSAO para limpar o que ficou guardado.
-const VERSAO = "v6";
+const VERSAO = "v7";
 const CACHE = `simulados-4a-3t-${VERSAO}`;
 const ARQUIVOS = [
   "./",
@@ -12,6 +12,7 @@ const ARQUIVOS = [
   "js/api.js",
   "js/motor.js",
   "js/figuras.js",
+  "js/brasil.js",
   "js/cartas.js",
   "js/criatura.js",
   "js/quiz.js",
