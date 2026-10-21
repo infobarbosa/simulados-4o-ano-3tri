@@ -9,6 +9,7 @@
  "data": "13-09-2026",
  "idioma": "pt-BR",
  "fonte": "Coleção Nautas/Edebê — Ciências 4º ano, Capítulo 9 (Transformações reversíveis e irreversíveis), págs. 88–97.",
+ "materia": "ciencias-transformacoes",
  "partes": {
   "1": {
    "titulo": "Verdadeiro ou Falso",
@@ -35,7 +36,8 @@
    "calculo": false,
    "enunciado": "A mudança de estado físico da água é um exemplo de transformação reversível. ( ___ )",
    "pagina": "90",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "estados-agua"
   },
   {
    "n": 2,
@@ -44,7 +46,8 @@
    "calculo": false,
    "enunciado": "O apodrecimento de uma fruta é uma transformação reversível. ( ___ )",
    "pagina": "93",
-   "resposta": "F"
+   "resposta": "F",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 3,
@@ -53,7 +56,8 @@
    "calculo": false,
    "enunciado": "O alumínio pode ser derretido e moldado várias vezes sem alterar sua composição química. ( ___ )",
    "pagina": "90",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "aluminio"
   },
   {
    "n": 4,
@@ -62,7 +66,8 @@
    "calculo": false,
    "enunciado": "Apontar um lápis é uma transformação que pode ser revertida. ( ___ )",
    "pagina": "93",
-   "resposta": "F"
+   "resposta": "F",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 5,
@@ -71,7 +76,8 @@
    "calculo": false,
    "enunciado": "Os estados físicos da água são sólido, líquido e gasoso. ( ___ )",
    "pagina": "96",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "estados-agua"
   },
   {
    "n": 6,
@@ -80,7 +86,8 @@
    "calculo": false,
    "enunciado": "O aumento da temperatura da Terra diminui o gelo e a neve em várias regiões. ( ___ )",
    "pagina": "92",
-   "resposta": "V"
+   "resposta": "V",
+   "ajuda": "calotas"
   },
   {
    "n": 7,
@@ -130,7 +137,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 8,
@@ -180,7 +188,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "estados-agua"
   },
   {
    "n": 9,
@@ -230,7 +239,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "irreversiveis"
   },
   {
    "n": 10,
@@ -280,7 +290,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "aluminio"
   },
   {
    "n": 11,
@@ -330,7 +341,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 12,
@@ -380,7 +392,8 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   }
+   },
+   "ajuda": "estados-agua"
   },
   {
    "n": 13,
@@ -389,7 +402,8 @@
    "calculo": false,
    "enunciado": "A transformação em que o material NÃO volta ao estado original é ____________.",
    "pagina": "90",
-   "resposta": "irreversível"
+   "resposta": "irreversível",
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 14,
@@ -398,7 +412,8 @@
    "calculo": false,
    "enunciado": "A transformação em que o material pode voltar à forma inicial é ____________.",
    "pagina": "90",
-   "resposta": "reversível"
+   "resposta": "reversível",
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 15,
@@ -407,7 +422,8 @@
    "calculo": false,
    "enunciado": "Um bolo assado não volta a ser ____________.",
    "pagina": "93",
-   "resposta": "cru"
+   "resposta": "cru",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 16,
@@ -416,7 +432,8 @@
    "calculo": false,
    "enunciado": "A passagem da água do estado líquido para o sólido chama-se ____________.",
    "pagina": "90",
-   "resposta": "solidificação"
+   "resposta": "solidificação",
+   "ajuda": "estados-agua"
   },
   {
    "n": 17,
@@ -425,7 +442,8 @@
    "calculo": false,
    "enunciado": "A ____________ é uma transformação irreversível, pois um material queimado não volta ao original.",
    "pagina": "93",
-   "resposta": "combustão"
+   "resposta": "combustão",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 18,
@@ -434,7 +452,8 @@
    "calculo": false,
    "enunciado": "O Brasil é ____________ mundial em reciclagem de latas de alumínio.",
    "pagina": "90",
-   "resposta": "líder"
+   "resposta": "líder",
+   "ajuda": "aluminio"
   },
   {
    "n": 19,
@@ -443,7 +462,8 @@
    "calculo": false,
    "enunciado": "Os quatro processos de mudança de estado da água são: fusão, ____________, solidificação e condensação.",
    "pagina": "90",
-   "resposta": "vaporização"
+   "resposta": "vaporização",
+   "ajuda": "estados-agua"
   },
   {
    "n": 20,
@@ -452,7 +472,8 @@
    "calculo": false,
    "enunciado": "O cozimento dos alimentos é uma transformação ____________.",
    "pagina": "93",
-   "resposta": "irreversível"
+   "resposta": "irreversível",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 21,
@@ -475,7 +496,8 @@
    ],
    "enunciado": "Um exemplo de transformação reversível é:",
    "pagina": "90",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 22,
@@ -498,7 +520,8 @@
    ],
    "enunciado": "A passagem da água do estado sólido para o líquido é a:",
    "pagina": "90",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "estados-agua"
   },
   {
    "n": 23,
@@ -521,7 +544,8 @@
    ],
    "enunciado": "Assinale uma transformação irreversível:",
    "pagina": "93",
-   "resposta": "C"
+   "resposta": "C",
+   "ajuda": "reversivel-irreversivel"
   },
   {
    "n": 24,
@@ -544,7 +568,8 @@
    ],
    "enunciado": "O material que pode ser reciclado muitas vezes, sendo derretido e moldado, é o:",
    "pagina": "90",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "aluminio"
   },
   {
    "n": 25,
@@ -567,7 +592,8 @@
    ],
    "enunciado": "Ralar uma cenoura e apontar um lápis são transformações:",
    "pagina": "93",
-   "resposta": "B"
+   "resposta": "B",
+   "ajuda": "irreversiveis"
   },
   {
    "n": 26,
@@ -590,7 +616,8 @@
    ],
    "enunciado": "A diminuição do gelo e da neve no planeta é causada pelo:",
    "pagina": "92",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "calotas"
   },
   {
    "n": 27,
@@ -613,7 +640,8 @@
    ],
    "enunciado": "Os processos de mudança de estado físico ocorrem principalmente com a:",
    "pagina": "90",
-   "resposta": "A"
+   "resposta": "A",
+   "ajuda": "estados-agua"
   }
  ]
 }

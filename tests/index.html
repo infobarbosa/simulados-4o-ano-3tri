@@ -29,8 +29,8 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    teste("catálogo tem 43 simulados de 27 questões, todos válidos", () => {
-      igual(todos.length, 43);
+    teste("catálogo tem 45 simulados de 27 questões, todos válidos", () => {
+      igual(todos.length, 45);
       for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
     });
 
@@ -225,6 +225,21 @@
         ok(Array.isArray(uf.c) && uf.c.length === 2, `${sigla}: sem posição da sigla`);
         if (uf.f) ok(uf.f.length === 2 && uf.f[0] > 1000, `${sigla}: sigla de fora dentro do mapa`);
       }
+    });
+
+    // Diagrama dos estados físicos da água (Ciências): é fixo, então a descrição falada vem do
+    // próprio figuras.js e precisa nomear os quatro processos.
+    teste("diagrama dos estados da água: desenha e se descreve sozinho", () => {
+      const comDiagrama = todos.flatMap((s) => s.questoes.filter((q) => q.figura && q.figura.tipo === "estados-agua"));
+      ok(comDiagrama.length >= 1, "nenhuma questão usa o diagrama");
+      const d = descreverFigura({ tipo: "estados-agua" });
+      for (const p of ["fusão", "vaporização", "condensação", "solidificação", "sólido", "líquido", "gasoso"]) {
+        ok(d.toLowerCase().includes(p), `a descrição falada não cita ${p}`);
+      }
+      const svg = figuraEl({ tipo: "estados-agua" });
+      ok(svg && svg.getAttribute("aria-label") === d, "o aria-label precisa ser a descrição");
+      ok(svg.querySelectorAll("path, rect, circle").length > 10, "o diagrama saiu vazio");
+      for (const q of comDiagrama) ok(!("resposta" in M.questaoParaAluno(q, {})), `q${q.n} vaza o gabarito`);
     });
 
     import { cartaEl } from "../js/criatura.js";

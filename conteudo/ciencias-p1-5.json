@@ -1,0 +1,659 @@
+{
+ "id": "ciencias-p1-5",
+ "disciplina": "Ciências",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • CIÊNCIAS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Ciências — Simulado 5",
+ "numero": 5,
+ "tema": "Capítulo 9 — Derretimento das calotas polares e transformações • págs. 88–97",
+ "data": "21-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Ciências 4º ano, Capítulo 9 (Transformações reversíveis e irreversíveis), págs. 88–97. Reforço do derretimento das calotas polares, tema da ementa que os simulados 1 a 3 quase não cobriam.",
+ "materia": "ciencias-transformacoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "As calotas polares são camadas de gelo nas regiões mais frias do planeta. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "O aumento da temperatura da Terra faz o gelo das calotas derreter. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "A crise climática global está aumentando a quantidade de gelo no planeta. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "O vapor de água é a água no estado gasoso. ( ___ )",
+   "resposta": "V",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "A ferrugem é uma transformação desejada, que deixa o ferro mais forte. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "aluminio",
+   "enunciado": "Na reciclagem, o alumínio derretido perde a sua composição química. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "Associe cada etapa do derretimento das calotas à seguinte.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "a temperatura da Terra sobe"
+    },
+    {
+     "id": "2",
+     "texto": "o gelo das calotas recebe calor"
+    },
+    {
+     "id": "3",
+     "texto": "sobra menos gelo e menos neve"
+    },
+    {
+     "id": "4",
+     "texto": "o urso-polar perde onde vive"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o planeta fica mais quente"
+    },
+    {
+     "id": "b",
+     "texto": "ele passa do estado sólido para o líquido"
+    },
+    {
+     "id": "c",
+     "texto": "é o que acontece nas regiões polares"
+    },
+    {
+     "id": "d",
+     "texto": "fica em risco de extinção"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Pelo diagrama, associe cada estado da água ao exemplo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "sólido"
+    },
+    {
+     "id": "2",
+     "texto": "líquido"
+    },
+    {
+     "id": "3",
+     "texto": "gasoso"
+    },
+    {
+     "id": "4",
+     "texto": "mudança de estado"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o gelo do polo"
+    },
+    {
+     "id": "b",
+     "texto": "a água do mar"
+    },
+    {
+     "id": "c",
+     "texto": "o vapor de água"
+    },
+    {
+     "id": "d",
+     "texto": "uma transformação reversível"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   },
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Associe cada transformação ao seu tipo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "enferrujar um portão"
+    },
+    {
+     "id": "2",
+     "texto": "derreter um picolé"
+    },
+    {
+     "id": "3",
+     "texto": "queimar uma folha"
+    },
+    {
+     "id": "4",
+     "texto": "congelar um suco"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "irreversível"
+    },
+    {
+     "id": "b",
+     "texto": "reversível"
+    },
+    {
+     "id": "c",
+     "texto": "irreversível"
+    },
+    {
+     "id": "d",
+     "texto": "reversível"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Associe cada mudança ao nome do processo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o gelo do polo virando água do mar"
+    },
+    {
+     "id": "2",
+     "texto": "a água do mar virando vapor"
+    },
+    {
+     "id": "3",
+     "texto": "o vapor virando gotinhas na nuvem"
+    },
+    {
+     "id": "4",
+     "texto": "a água virando gelo no inverno"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "fusão"
+    },
+    {
+     "id": "b",
+     "texto": "vaporização"
+    },
+    {
+     "id": "c",
+     "texto": "condensação"
+    },
+    {
+     "id": "d",
+     "texto": "solidificação"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "Associe cada coisa ao que aconteceu com ela.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "um bolo assado"
+    },
+    {
+     "id": "2",
+     "texto": "uma banana escura"
+    },
+    {
+     "id": "3",
+     "texto": "a cinza da fogueira"
+    },
+    {
+     "id": "4",
+     "texto": "um portão alaranjado"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "foi cozido"
+    },
+    {
+     "id": "b",
+     "texto": "amadureceu"
+    },
+    {
+     "id": "c",
+     "texto": "sofreu combustão"
+    },
+    {
+     "id": "d",
+     "texto": "enferrujou"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Associe cada situação do dia a dia ao seu tipo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o picolé derretendo no sol"
+    },
+    {
+     "id": "2",
+     "texto": "o ovo cozinhando na panela"
+    },
+    {
+     "id": "3",
+     "texto": "a latinha derretida na usina"
+    },
+    {
+     "id": "4",
+     "texto": "o papel rasgado na mão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "reversível"
+    },
+    {
+     "id": "b",
+     "texto": "irreversível"
+    },
+    {
+     "id": "c",
+     "texto": "reversível"
+    },
+    {
+     "id": "d",
+     "texto": "irreversível"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "As enormes camadas de gelo dos polos são chamadas de calotas ____________.",
+   "resposta": "polares"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "A diminuição do gelo e da neve é um dos impactos da crise ____________ global.",
+   "resposta": "climática"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "O aumento da temperatura faz o gelo passar do estado sólido para o estado ____________.",
+   "resposta": "líquido"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "No diagrama, a passagem do vapor de água para a água líquida chama-se ____________.",
+   "resposta": "condensação",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "A transformação indesejada que ocorre em objetos feitos de ferro é a ____________.",
+   "resposta": "ferrugem"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "aluminio",
+   "enunciado": "Na usina, as latinhas são aquecidas em altas temperaturas até ____________.",
+   "resposta": "derreter"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "O amadurecimento das frutas é um processo gradual e ____________.",
+   "resposta": "irreversível"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "A mudança de estado físico da água é uma transformação ____________.",
+   "resposta": "reversível"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "O derretimento das calotas polares entra no estudo das transformações porque:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o gelo virando água é uma mudança de estado físico"
+    },
+    {
+     "id": "B",
+     "texto": "o gelo é feito de plástico"
+    },
+    {
+     "id": "C",
+     "texto": "o gelo nunca muda de estado"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "Qual é a causa da diminuição do gelo e da neve em várias regiões do planeta?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o aumento da temperatura da Terra"
+    },
+    {
+     "id": "B",
+     "texto": "o excesso de chuva nos polos"
+    },
+    {
+     "id": "C",
+     "texto": "o apodrecimento do gelo"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "Por que os ursos-polares ficam em risco com o derretimento do gelo?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "porque as regiões de gelo e neve onde eles vivem estão diminuindo"
+    },
+    {
+     "id": "B",
+     "texto": "porque eles não sabem nadar"
+    },
+    {
+     "id": "C",
+     "texto": "porque eles se alimentam de gelo"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Pelo diagrama, o que acontece com a água quando ela é bastante aquecida?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "vira vapor de água"
+    },
+    {
+     "id": "B",
+     "texto": "vira gelo"
+    },
+    {
+     "id": "C",
+     "texto": "deixa de existir"
+    }
+   ],
+   "resposta": "A",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "Assinale a transformação que NÃO pode ser revertida:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o apodrecimento da fruta"
+    },
+    {
+     "id": "B",
+     "texto": "o derretimento do gelo"
+    },
+    {
+     "id": "C",
+     "texto": "a fusão do alumínio"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "aluminio",
+   "enunciado": "O alumínio pode ser reciclado muitas vezes porque:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "derrete e é moldado de novo sem mudar de material"
+    },
+    {
+     "id": "B",
+     "texto": "apodrece rápido"
+    },
+    {
+     "id": "C",
+     "texto": "queima com facilidade"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Uma transformação reversível é aquela em que o material:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pode voltar à sua forma ou condição inicial"
+    },
+    {
+     "id": "B",
+     "texto": "nunca muda de forma"
+    },
+    {
+     "id": "C",
+     "texto": "sempre acaba queimado"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

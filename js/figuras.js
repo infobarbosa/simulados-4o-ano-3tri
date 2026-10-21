@@ -10,6 +10,7 @@
 //   { tipo: "colecao",  itens: 10, destacados: 5, nome: "laranjas", icone: "🍊" }
 //   { tipo: "comparar", figuras: [{...}, {...}], rotulos: ["A", "B"] }
 //   { tipo: "mapa",     titulo, faixas: [5 nomes], valores: { SP: 4, ... }, descricao: "texto do 🔊" }
+//   { tipo: "estados-agua" }  — diagrama fixo da pág. 90 de Ciências, sem parâmetros
 // Nas questões de pintar, a figura vem SEM `pintadas` (senão a resposta apareceria desenhada).
 
 const N = (v, padrao = 0) => (Number.isFinite(Number(v)) ? Number(v) : padrao);
@@ -56,6 +57,12 @@ export function descreverFigura(fig) {
   // O mapa traz a descrição pronta no conteúdo: é ela que o 🔊 lê e que vira o aria-label, e ela
   // não pode depender de brasil.js, que só carrega depois. `tests/` confere que bate com `valores`.
   if (fig.tipo === "mapa") return fig.descricao || "";
+  if (fig.tipo === "estados-agua") {
+    return "Diagrama dos estados físicos da água. O gelo é o estado sólido, a água é o líquido e o vapor "
+      + "de água é o gasoso. Do sólido para o líquido é a fusão; do líquido para o gasoso, a vaporização. "
+      + "Voltando: do gasoso para o líquido é a condensação; do líquido para o sólido, a solidificação. "
+      + "As setas vermelhas são as que precisam de calor e as azuis, as que precisam de esfriar.";
+  }
   return "";
 }
 
@@ -213,11 +220,52 @@ function divCom(classe) {
   return d;
 }
 
+// Diagrama dos estados físicos da água (Ciências, Cap. 9, pág. 90), redesenhado — nunca a imagem do
+// livro. Não tem parâmetro: é sempre o mesmo. Vermelho = precisa de calor, azul = precisa esfriar,
+// mas a cor nunca decide sozinha: cada seta leva o nome do processo escrito.
+const AGUA_T = "#17304A", AGUA_VIDRO = "#CBD9E4", AGUA_LIQ = "#6FA8D4",
+      AGUA_GELO = "#BFE0F2", AGUA_GELOB = "#8FC4E0", AGUA_VAPOR = "#D9E6F0",
+      AGUA_QUENTE = "#CC2C1E", AGUA_FRIO = "#3B5BC4";
+
+function estadosAguaEl() {
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = elSvg("svg", { viewBox: "0 0 640 310", class: "figura-estados" });
+  const bruto = [];
+  const marcador = (cor, id) => `<marker id="${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${cor}"/></marker>`;
+  bruto.push(`<defs>${marcador(AGUA_QUENTE, "setaQ")}${marcador(AGUA_FRIO, "setaF")}`
+    + `<linearGradient id="termo"><stop offset="0" stop-color="${AGUA_FRIO}"/><stop offset="1" stop-color="${AGUA_QUENTE}"/></linearGradient></defs>`);
+  const copo = (x) => `<path d="M${x},96 L${x + 12},208 L${x + 82},208 L${x + 94},96" fill="none" stroke="${AGUA_VIDRO}" stroke-width="7" stroke-linejoin="round"/>`;
+  const seta = (d, cor, id) => `<path d="${d}" fill="none" stroke="${cor}" stroke-width="7" stroke-linecap="round" marker-end="url(#${id})"/>`;
+  const rotulo = (x, y, t, cor, tam = 18) => `<text x="${x}" y="${y}" font-size="${tam}" font-weight="800" fill="${cor}" text-anchor="middle">${t}</text>`;
+  bruto.push(rotulo(69, 80, "gelo", AGUA_T, 19), rotulo(320, 80, "água", AGUA_T, 19), rotulo(571, 80, "vapor de água", AGUA_T, 19));
+  bruto.push(copo(22));
+  for (const [dx, dy] of [[18, 150], [52, 146], [36, 176], [70, 172], [20, 186], [60, 196]]) {
+    bruto.push(`<rect x="${28 + dx}" y="${dy}" width="26" height="22" rx="5" fill="${AGUA_GELO}" stroke="${AGUA_GELOB}" stroke-width="3"/>`);
+  }
+  bruto.push(copo(273), `<path d="M278,142 L286,208 L356,208 L364,142 Z" fill="${AGUA_LIQ}"/>`);
+  bruto.push(copo(524));
+  for (const [dx, dy] of [[28, 120], [62, 104], [90, 132], [46, 150], [80, 168], [36, 186]]) {
+    bruto.push(`<circle cx="${524 + dx}" cy="${dy}" r="9" fill="${AGUA_VAPOR}" stroke="${AGUA_VIDRO}" stroke-width="3"/>`);
+  }
+  bruto.push(seta("M124,134 C166,122 206,122 258,134", AGUA_QUENTE, "setaQ"), rotulo(191, 108, "Fusão", AGUA_QUENTE));
+  bruto.push(seta("M258,172 C206,184 166,184 124,172", AGUA_FRIO, "setaF"), rotulo(191, 212, "Solidificação", AGUA_FRIO));
+  bruto.push(seta("M376,134 C418,122 458,122 510,134", AGUA_QUENTE, "setaQ"), rotulo(443, 108, "Vaporização", AGUA_QUENTE));
+  bruto.push(seta("M510,172 C458,184 418,184 376,172", AGUA_FRIO, "setaF"), rotulo(443, 212, "Condensação", AGUA_FRIO));
+  bruto.push(rotulo(69, 238, "sólido", AGUA_T, 17), rotulo(320, 238, "líquido", AGUA_T, 17), rotulo(571, 238, "gasoso", AGUA_T, 17));
+  bruto.push(`<rect x="22" y="262" width="596" height="24" rx="12" fill="url(#termo)"/>`);
+  bruto.push(`<text x="40" y="280" font-size="15" font-weight="800" fill="#fff">fria</text>`);
+  bruto.push(rotulo(320, 280, "temperatura", "#fff", 15));
+  bruto.push(`<text x="600" y="280" font-size="15" font-weight="800" fill="#fff" text-anchor="end">quente</text>`);
+  svg.innerHTML = bruto.join("");
+  return svg;
+}
+
 function umaFigura(fig) {
   if (fig.tipo === "barra") return barraEl(fig, conjunto(fig.pintadas, fig.partes));
   if (fig.tipo === "circulo") return circuloEl(fig, conjunto(fig.pintadas, fig.partes));
   if (fig.tipo === "reta") return retaEl(fig);
   if (fig.tipo === "colecao") return colecaoEl(fig);
+  if (fig.tipo === "estados-agua") return estadosAguaEl();
   return null;
 }
 

@@ -487,5 +487,344 @@
    "confere": "Produtos de outros",
    "ajuda": "comercio"
   }
+ },
+ "Ciências / P1 / 1": {
+  "_simulado": {
+   "materia": "ciencias-transformacoes"
+  },
+  "1": {
+   "confere": "Numa transformação reversível",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "2": {
+   "confere": "Numa transformação irreversível",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "3": {
+   "confere": "O cozimento de",
+   "ajuda": "irreversiveis"
+  },
+  "4": {
+   "confere": "Brasil é líder",
+   "ajuda": "aluminio"
+  },
+  "5": {
+   "confere": "A mudança de",
+   "ajuda": "estados-agua"
+  },
+  "6": {
+   "confere": "é uma transformação",
+   "ajuda": "irreversiveis"
+  },
+  "7": {
+   "confere": "Associe cada transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "8": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "estados-agua"
+  },
+  "9": {
+   "confere": "Associe cada processo",
+   "ajuda": "estados-agua"
+  },
+  "10": {
+   "confere": "Associe cada etapa",
+   "ajuda": "aluminio"
+  },
+  "11": {
+   "confere": "cada exemplo irreversível",
+   "ajuda": "irreversiveis"
+  },
+  "12": {
+   "confere": "cada transformação ao",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "13": {
+   "confere": "Quando um material",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "14": {
+   "confere": "um material não",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "15": {
+   "confere": "As mudanças de",
+   "ajuda": "estados-agua"
+  },
+  "16": {
+   "confere": "é líder mundial",
+   "ajuda": "aluminio"
+  },
+  "17": {
+   "confere": "O cozimento dos",
+   "ajuda": "irreversiveis"
+  },
+  "18": {
+   "confere": "Um bolo assado",
+   "ajuda": "irreversiveis"
+  },
+  "19": {
+   "confere": "queima de um",
+   "ajuda": "irreversiveis"
+  },
+  "20": {
+   "confere": "A passagem da",
+   "ajuda": "estados-agua"
+  },
+  "21": {
+   "confere": "Assinale uma transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "22": {
+   "confere": "A reciclagem do",
+   "ajuda": "aluminio"
+  },
+  "23": {
+   "confere": "A mudança da",
+   "ajuda": "estados-agua"
+  },
+  "24": {
+   "confere": "Um exemplo de",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "25": {
+   "confere": "A combustão libera",
+   "ajuda": "irreversiveis"
+  },
+  "26": {
+   "confere": "Os estados físicos",
+   "ajuda": "estados-agua"
+  },
+  "27": {
+   "confere": "O aumento da",
+   "ajuda": "calotas"
+  }
+ },
+ "Ciências / P1 / 2": {
+  "_simulado": {
+   "materia": "ciencias-transformacoes"
+  },
+  "1": {
+   "confere": "A mudança de",
+   "ajuda": "estados-agua"
+  },
+  "2": {
+   "confere": "O apodrecimento de",
+   "ajuda": "irreversiveis"
+  },
+  "3": {
+   "confere": "O alumínio pode",
+   "ajuda": "aluminio"
+  },
+  "4": {
+   "confere": "Apontar um lápis",
+   "ajuda": "irreversiveis"
+  },
+  "5": {
+   "confere": "Os estados físicos",
+   "ajuda": "estados-agua"
+  },
+  "6": {
+   "confere": "O aumento da",
+   "ajuda": "calotas"
+  },
+  "7": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "8": {
+   "confere": "Associe cada processo",
+   "ajuda": "estados-agua"
+  },
+  "9": {
+   "confere": "cada exemplo irreversível",
+   "ajuda": "irreversiveis"
+  },
+  "10": {
+   "confere": "Associe cada informação",
+   "ajuda": "aluminio"
+  },
+  "11": {
+   "confere": "Associe cada transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "12": {
+   "confere": "cada exemplo ao",
+   "ajuda": "estados-agua"
+  },
+  "13": {
+   "confere": "A transformação em",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "14": {
+   "confere": "transformação em que",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "15": {
+   "confere": "Um bolo assado",
+   "ajuda": "irreversiveis"
+  },
+  "16": {
+   "confere": "A passagem da",
+   "ajuda": "estados-agua"
+  },
+  "17": {
+   "confere": "A ____________ é",
+   "ajuda": "irreversiveis"
+  },
+  "18": {
+   "confere": "Brasil é ____________",
+   "ajuda": "aluminio"
+  },
+  "19": {
+   "confere": "Os quatro processos",
+   "ajuda": "estados-agua"
+  },
+  "20": {
+   "confere": "O cozimento dos",
+   "ajuda": "irreversiveis"
+  },
+  "21": {
+   "confere": "Um exemplo de",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "22": {
+   "confere": "passagem da água",
+   "ajuda": "estados-agua"
+  },
+  "23": {
+   "confere": "Assinale uma transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "24": {
+   "confere": "O material que",
+   "ajuda": "aluminio"
+  },
+  "25": {
+   "confere": "Ralar uma cenoura",
+   "ajuda": "irreversiveis"
+  },
+  "26": {
+   "confere": "A diminuição do",
+   "ajuda": "calotas"
+  },
+  "27": {
+   "confere": "Os processos de",
+   "ajuda": "estados-agua"
+  }
+ },
+ "Ciências / P1 / 3": {
+  "_simulado": {
+   "materia": "ciencias-transformacoes"
+  },
+  "1": {
+   "confere": "Numa transformação reversível",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "2": {
+   "confere": "A combustão é",
+   "ajuda": "irreversiveis"
+  },
+  "3": {
+   "confere": "O derretimento do",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "4": {
+   "confere": "O Brasil recicla",
+   "ajuda": "aluminio"
+  },
+  "5": {
+   "confere": "maçã que apodrece",
+   "ajuda": "irreversiveis"
+  },
+  "6": {
+   "confere": "a solidificação e",
+   "ajuda": "estados-agua"
+  },
+  "7": {
+   "confere": "Associe cada transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "8": {
+   "confere": "Associe cada processo",
+   "ajuda": "estados-agua"
+  },
+  "9": {
+   "confere": "Associe cada exemplo",
+   "ajuda": "irreversiveis"
+  },
+  "10": {
+   "confere": "Associe cada informação",
+   "ajuda": "aluminio"
+  },
+  "11": {
+   "confere": "cada exemplo ao",
+   "ajuda": "estados-agua"
+  },
+  "12": {
+   "confere": "cada transformação ao",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "13": {
+   "confere": "A transformação em",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "14": {
+   "confere": "O apodrecimento de",
+   "ajuda": "irreversiveis"
+  },
+  "15": {
+   "confere": "O material que",
+   "ajuda": "aluminio"
+  },
+  "16": {
+   "confere": "A passagem da",
+   "ajuda": "estados-agua"
+  },
+  "17": {
+   "confere": "A ferrugem ocorre",
+   "ajuda": "irreversiveis"
+  },
+  "18": {
+   "confere": "Um ____________ assado",
+   "ajuda": "irreversiveis"
+  },
+  "19": {
+   "confere": "Os estados físicos",
+   "ajuda": "estados-agua"
+  },
+  "20": {
+   "confere": "passagem da água",
+   "ajuda": "estados-agua"
+  },
+  "21": {
+   "confere": "Assinale uma transformação",
+   "ajuda": "reversivel-irreversivel"
+  },
+  "22": {
+   "confere": "água do líquido",
+   "ajuda": "estados-agua"
+  },
+  "23": {
+   "confere": "apodrecimento de frutas",
+   "ajuda": "irreversiveis"
+  },
+  "24": {
+   "confere": "A reciclagem do",
+   "ajuda": "aluminio"
+  },
+  "25": {
+   "confere": "queima da madeira",
+   "ajuda": "irreversiveis"
+  },
+  "26": {
+   "confere": "derretimento do gelo",
+   "ajuda": "estados-agua"
+  },
+  "27": {
+   "confere": "Um exemplo de",
+   "ajuda": "reversivel-irreversivel"
+  }
  }
 }

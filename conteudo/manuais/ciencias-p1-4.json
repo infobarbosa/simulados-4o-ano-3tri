@@ -1,0 +1,662 @@
+{
+ "id": "ciencias-p1-4",
+ "disciplina": "Ciências",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • CIÊNCIAS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Ciências — Simulado 4",
+ "numero": 4,
+ "tema": "Capítulo 9 — Transformações reversíveis e irreversíveis • págs. 88–97",
+ "data": "21-10-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Ciências 4º ano, Capítulo 9 (Transformações reversíveis e irreversíveis), págs. 88–97. Reforço do diagrama dos estados físicos da água, do experimento do ovo e do gelo e do derretimento das calotas polares.",
+ "materia": "ciencias-transformacoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Marque a alternativa que melhor completa a frase."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "No diagrama, a passagem do gelo para a água é a fusão. ( ___ )",
+   "resposta": "V",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "No diagrama, a condensação acontece quando o vapor de água esfria e vira líquido. ( ___ )",
+   "resposta": "V",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "91",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "No preparo do picolé, a mistura líquida vira sólida porque foi colocada no freezer. ( ___ )",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "94",
+   "ajuda": "irreversiveis",
+   "enunciado": "Um ovo cozido volta a ser cru se for colocado na geladeira. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Toda transformação pode ser desfeita. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "Rasgar uma folha de papel é uma transformação reversível. ( ___ )",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Pelo diagrama, associe cada processo ao que ele precisa para acontecer.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "fusão"
+    },
+    {
+     "id": "2",
+     "texto": "vaporização"
+    },
+    {
+     "id": "3",
+     "texto": "condensação"
+    },
+    {
+     "id": "4",
+     "texto": "solidificação"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "de calor"
+    },
+    {
+     "id": "b",
+     "texto": "de calor"
+    },
+    {
+     "id": "c",
+     "texto": "de esfriar"
+    },
+    {
+     "id": "d",
+     "texto": "de esfriar"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   },
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "94",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Associe cada situação do experimento ao que aconteceu.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o ovo cozido"
+    },
+    {
+     "id": "2",
+     "texto": "o cubo de gelo em temperatura ambiente"
+    },
+    {
+     "id": "3",
+     "texto": "o cubo de gelo que voltou ao congelador"
+    },
+    {
+     "id": "4",
+     "texto": "a água do gelo derretido, de volta ao congelador"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "não volta a ser cru"
+    },
+    {
+     "id": "b",
+     "texto": "derreteu e virou água"
+    },
+    {
+     "id": "c",
+     "texto": "continuou sólido"
+    },
+    {
+     "id": "d",
+     "texto": "virou gelo de novo"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "Associe cada item ao que ele é.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "calotas polares"
+    },
+    {
+     "id": "2",
+     "texto": "aumento da temperatura da Terra"
+    },
+    {
+     "id": "3",
+     "texto": "urso-polar"
+    },
+    {
+     "id": "4",
+     "texto": "fusão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o gelo que cobre as regiões polares"
+    },
+    {
+     "id": "b",
+     "texto": "a causa da diminuição do gelo e da neve"
+    },
+    {
+     "id": "c",
+     "texto": "animal que fica em risco de extinção"
+    },
+    {
+     "id": "d",
+     "texto": "a passagem do gelo para a água"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "Associe cada ação ao nome da transformação que ela provoca.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "colocar o ovo na água fervente"
+    },
+    {
+     "id": "2",
+     "texto": "deixar a banana na fruteira por dias"
+    },
+    {
+     "id": "3",
+     "texto": "acender uma fogueira"
+    },
+    {
+     "id": "4",
+     "texto": "deixar o portão de ferro na chuva"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "cozimento"
+    },
+    {
+     "id": "b",
+     "texto": "amadurecimento"
+    },
+    {
+     "id": "c",
+     "texto": "combustão"
+    },
+    {
+     "id": "d",
+     "texto": "ferrugem"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "aluminio",
+   "enunciado": "Associe cada etapa da reciclagem do alumínio ao que acontece nela.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "a latinha usada"
+    },
+    {
+     "id": "2",
+     "texto": "as altas temperaturas da usina"
+    },
+    {
+     "id": "3",
+     "texto": "o resfriamento do alumínio"
+    },
+    {
+     "id": "4",
+     "texto": "a composição química do alumínio"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "vai para a usina de reciclagem"
+    },
+    {
+     "id": "b",
+     "texto": "derretem a latinha e a deixam líquida"
+    },
+    {
+     "id": "c",
+     "texto": "forma chapas ou blocos"
+    },
+    {
+     "id": "d",
+     "texto": "não muda, mesmo derretendo várias vezes"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Pelo diagrama, associe cada estado físico ao seu exemplo.",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "sólido"
+    },
+    {
+     "id": "2",
+     "texto": "líquido"
+    },
+    {
+     "id": "3",
+     "texto": "gasoso"
+    },
+    {
+     "id": "4",
+     "texto": "temperatura"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "o gelo"
+    },
+    {
+     "id": "b",
+     "texto": "a água"
+    },
+    {
+     "id": "c",
+     "texto": "o vapor de água"
+    },
+    {
+     "id": "d",
+     "texto": "o que faz a água mudar de estado"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   },
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "91",
+   "ajuda": "estados-agua",
+   "enunciado": "No freezer, a mistura líquida do picolé passa para o estado ____________.",
+   "resposta": "sólido"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "91",
+   "ajuda": "estados-agua",
+   "enunciado": "A passagem da mistura líquida para o picolé sólido chama-se ____________.",
+   "resposta": "solidificação"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "94",
+   "ajuda": "irreversiveis",
+   "enunciado": "O cozimento do ovo é uma transformação ____________.",
+   "resposta": "irreversível"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "As calotas polares são formadas por água no estado ____________.",
+   "resposta": "sólido"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "A diminuição do gelo e da neve no planeta é consequência do aumento da ____________ da Terra.",
+   "resposta": "temperatura"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "A queima de um material libera calor, cinzas e ____________.",
+   "resposta": "fumaça"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "aluminio",
+   "enunciado": "O alumínio pode ser derretido e moldado várias vezes sem alterar a sua ____________ química.",
+   "resposta": "composição"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "Com a diminuição das regiões de gelo e neve, os ursos-polares ficam em risco de ____________.",
+   "resposta": "extinção"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "90",
+   "ajuda": "estados-agua",
+   "enunciado": "Pelo diagrama, qual processo acontece quando a água ESFRIA?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "solidificação"
+    },
+    {
+     "id": "B",
+     "texto": "fusão"
+    },
+    {
+     "id": "C",
+     "texto": "vaporização"
+    }
+   ],
+   "resposta": "A",
+   "figura": {
+    "tipo": "estados-agua"
+   }
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "91",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "O que fez a mistura do picolé virar sólida?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o frio do freezer"
+    },
+    {
+     "id": "B",
+     "texto": "a batedeira"
+    },
+    {
+     "id": "C",
+     "texto": "o morango"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "94",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "No experimento, o cubo de gelo deixado em temperatura ambiente:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "derreteu e virou água"
+    },
+    {
+     "id": "B",
+     "texto": "continuou do mesmo jeito"
+    },
+    {
+     "id": "C",
+     "texto": "virou vapor na hora"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "94",
+   "ajuda": "reversivel-irreversivel",
+   "enunciado": "Pôr de volta no congelador a água do gelo derretido mostra que essa transformação é:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "reversível"
+    },
+    {
+     "id": "B",
+     "texto": "irreversível"
+    },
+    {
+     "id": "C",
+     "texto": "impossível"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "O derretimento das calotas polares acontece porque:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a temperatura da Terra está aumentando"
+    },
+    {
+     "id": "B",
+     "texto": "o gelo está ficando mais frio"
+    },
+    {
+     "id": "C",
+     "texto": "está nevando mais nos polos"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "93",
+   "ajuda": "irreversiveis",
+   "enunciado": "Qual destas NÃO é uma transformação irreversível?",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "derreter o gelo"
+    },
+    {
+     "id": "B",
+     "texto": "queimar o papel"
+    },
+    {
+     "id": "C",
+     "texto": "cozinhar o ovo"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "pagina": "92",
+   "ajuda": "calotas",
+   "enunciado": "O gelo do iceberg e a água do mar mostram a água em dois estados:",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "sólido e líquido"
+    },
+    {
+     "id": "B",
+     "texto": "líquido e gasoso"
+    },
+    {
+     "id": "C",
+     "texto": "sólido e gasoso"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

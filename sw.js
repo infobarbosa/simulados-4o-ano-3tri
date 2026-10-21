@@ -1,7 +1,7 @@
 // Service worker: guarda o app no aparelho para abrir sem internet.
 // Estratégia "usa o que está guardado e atualiza em segundo plano": a versão nova aparece na abertura seguinte.
 // Mudou algum arquivo? Aumente VERSAO para limpar o que ficou guardado.
-const VERSAO = "v7";
+const VERSAO = "v8";
 const CACHE = `simulados-4a-3t-${VERSAO}`;
 const ARQUIVOS = [
   "./",
@@ -38,9 +38,12 @@ const ARQUIVOS = [
   "conteudo/gramatica-multidisciplinar-2-6.json",
   "conteudo/materia/gramatica-verbo.json",
   "conteudo/materia/geografia-urbano.json",
+  "conteudo/materia/ciencias-transformacoes.json",
   "conteudo/ciencias-p1-1.json",
   "conteudo/ciencias-p1-2.json",
   "conteudo/ciencias-p1-3.json",
+  "conteudo/ciencias-p1-4.json",
+  "conteudo/ciencias-p1-5.json",
   "conteudo/ciencias-multidisciplinar-1-1.json",
   "conteudo/ciencias-multidisciplinar-1-2.json",
   "conteudo/ciencias-multidisciplinar-1-3.json",

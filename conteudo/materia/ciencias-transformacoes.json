@@ -1,0 +1,111 @@
+{
+ "arquivo": "ciencias-transformacoes",
+ "titulo": "Transformações reversíveis e irreversíveis",
+ "fonte": "Ciências 4º ano — Capítulo 9 (págs. 88–97)",
+ "topicos": {
+  "reversivel-irreversivel": {
+   "titulo": "O que é reversível e o que é irreversível",
+   "icone": "🔁",
+   "pagina": "90",
+   "blocos": [
+    { "tipo": "texto", "texto": "Uma forma de classificar as transformações é perguntar se elas podem ou não ser revertidas — ou seja, se dá para desfazer o que aconteceu." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "TRANSFORMAÇÃO REVERSÍVEL: o material pode voltar à sua forma ou condição inicial.",
+      "TRANSFORMAÇÃO IRREVERSÍVEL: o material não pode voltar à sua forma ou condição original."
+     ]
+    },
+    { "tipo": "texto", "texto": "A transformação reversível mais comum no dia a dia e na natureza é a mudança de estado físico da água: o gelo derrete, a água congela de novo, e assim por diante." },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "Congelar suco para fazer um picolé.", "nota": "reversível: é só deixar derreter" },
+      { "frase": "Derreter uma latinha de alumínio na usina de reciclagem.", "nota": "reversível: esfria e vira bloco de novo" },
+      { "frase": "Assar um bolo.", "nota": "irreversível: não volta a ser massa crua" }
+    ] },
+    { "tipo": "dica", "texto": "O teste é sempre o mesmo: dá para voltar ao que era antes? Se dá, é reversível. Cuidado com a pegadinha: voltar NÃO é fazer outro igual. Um papel rasgado não volta a ser inteiro, mesmo que você pegue uma folha nova." }
+   ]
+  },
+  "estados-agua": {
+   "titulo": "Os estados físicos da água",
+   "icone": "💧",
+   "pagina": "90",
+   "blocos": [
+    { "tipo": "texto", "texto": "A água aparece em três estados físicos: SÓLIDO (o gelo), LÍQUIDO (a água) e GASOSO (o vapor de água). O que faz ela passar de um estado para o outro é a temperatura." },
+    {
+     "tipo": "tabela",
+     "colunas": ["Processo", "De onde para onde", "O que acontece"],
+     "linhas": [
+      ["Fusão", "do sólido para o líquido", "esquenta: o gelo derrete"],
+      ["Vaporização", "do líquido para o gasoso", "esquenta: a água vira vapor"],
+      ["Condensação", "do gasoso para o líquido", "esfria: o vapor vira gotas"],
+      ["Solidificação", "do líquido para o sólido", "esfria: a água vira gelo"]
+    ]
+    },
+    { "tipo": "texto", "texto": "Repare que os quatro processos andam em dupla, um desfazendo o outro: fusão e solidificação são o caminho de ida e de volta entre gelo e água; vaporização e condensação, entre água e vapor. É por isso que a mudança de estado é reversível." },
+    { "tipo": "dica", "texto": "Para não trocar fusão com solidificação, olhe o começo da palavra. FUSão é o gelo se FUndindo, derretendo. SOLIDificação é virar SÓLIDO, virar gelo." }
+   ]
+  },
+  "irreversiveis": {
+   "titulo": "Transformações que não dá para desfazer",
+   "icone": "🔥",
+   "pagina": "93",
+   "blocos": [
+    { "tipo": "texto", "texto": "Muitos fenômenos comuns do dia a dia não podem ser revertidos. O livro mostra estes:" },
+    {
+     "tipo": "lista",
+     "itens": [
+      "COZIMENTO dos alimentos: um bolo assado não volta a ser cru, e um ovo cozido não volta a ser cru.",
+      "AMADURECIMENTO e APODRECIMENTO das frutas: é um processo gradual e irreversível.",
+      "RASGAR papel, RALAR cenoura e APONTAR o lápis: não dá para desfazer.",
+      "COMBUSTÃO (a queima): o material que sofreu combustão não volta ao estado original. A queima libera calor, cinzas e fumaça.",
+      "FERRUGEM: uma transformação indesejada que ocorre em objetos feitos de ferro."
+     ]
+    },
+    { "tipo": "exemplos", "itens": [
+      { "frase": "A banana que escurece em cima da fruteira.", "nota": "amadurecimento: irreversível" },
+      { "frase": "A fogueira que vira cinza.", "nota": "combustão: irreversível" },
+      { "frase": "O portão velho que fica alaranjado e descascando.", "nota": "ferrugem: irreversível" }
+    ] },
+    { "tipo": "dica", "texto": "Quase toda transformação que envolve FOGO, COZINHAR ou PASSAR DO PONTO é irreversível. Quase toda que envolve só ESQUENTAR ou ESFRIAR é reversível." }
+   ]
+  },
+  "aluminio": {
+   "titulo": "A reciclagem do alumínio",
+   "icone": "♻️",
+   "pagina": "90",
+   "blocos": [
+    { "tipo": "texto", "texto": "O Brasil é líder mundial em reciclagem de latas de alumínio — um material que pode ser reciclado muitas vezes." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "As latinhas usadas chegam à usina de reciclagem.",
+      "Lá elas são aquecidas em altas temperaturas, derretem e se transformam em líquido.",
+      "No resfriamento, formam-se chapas ou blocos de alumínio.",
+      "Esses blocos são usados para fabricar novos produtos."
+     ]
+    },
+    { "tipo": "texto", "texto": "O alumínio pode ser derretido e moldado novamente várias vezes SEM alterar a sua composição química. É exatamente por isso que a reciclagem dele é eficiente — e reversível." },
+    { "tipo": "dica", "texto": "Derreter o alumínio é a mesma fusão que acontece com o gelo: muda a forma, não muda o material. Por isso dá para repetir quantas vezes quiser." }
+   ]
+  },
+  "calotas": {
+   "titulo": "O derretimento das calotas polares",
+   "icone": "🐻‍❄️",
+   "pagina": "92",
+   "blocos": [
+    { "tipo": "texto", "texto": "As calotas polares são as enormes camadas de gelo que cobrem as regiões mais frias do planeta, perto dos polos. Esse gelo é água no estado sólido." },
+    { "tipo": "texto", "texto": "Atualmente a crise climática global vem provocando, entre outros impactos, a DIMINUIÇÃO DO GELO E DA NEVE em várias regiões do planeta. A causa é o AUMENTO DA TEMPERATURA DA TERRA." },
+    {
+     "tipo": "lista",
+     "itens": [
+      "A temperatura do planeta sobe.",
+      "Com mais calor, o gelo das calotas passa do estado sólido para o líquido — é a fusão, o mesmo processo do gelo do copo.",
+      "Sobra menos gelo e menos neve nessas regiões a cada ano."
+     ]
+    },
+    { "tipo": "texto", "texto": "Isso afeta os animais que vivem ali: os ursos-polares dependem do gelo para caçar e descansar, e com a diminuição das regiões de gelo e neve eles ficam em risco de extinção." },
+    { "tipo": "dica", "texto": "O derretimento do gelo, sozinho, é uma transformação reversível — água congela de novo. O problema das calotas não é o gelo não poder voltar: é que o planeta segue esquentando, então ele não volta." }
+   ]
+  }
+ }
+}
