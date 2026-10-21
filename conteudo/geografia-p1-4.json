@@ -34,10 +34,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Pelo mapa, São Paulo e Minas Gerais são os estados com mais de 500 indústrias. ( ___ )",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, São Paulo e Minas Gerais são os estados com mais de 500 indústrias. ( ___ )",
-   "resposta": "V",
    "figura": {
     "tipo": "mapa",
     "titulo": "Brasil: distribuição das indústrias – 2019",
@@ -78,16 +77,17 @@
      "AC": 0
     },
     "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
+   },
+   "resposta": "V"
   },
   {
    "n": 2,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "O setor industrial investe em tecnologia e oferece postos de trabalho para a população. ( ___ )",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "O setor industrial investe em tecnologia e oferece postos de trabalho para a população. ( ___ )",
    "resposta": "V"
   },
   {
@@ -95,9 +95,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "A indústria de bens intermediários vende seus produtos diretamente ao consumidor final. ( ___ )",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "A indústria de bens intermediários vende seus produtos diretamente ao consumidor final. ( ___ )",
    "resposta": "F"
   },
   {
@@ -105,9 +105,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "A indústria de base também é chamada de indústria de bens de produção. ( ___ )",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "A indústria de base também é chamada de indústria de bens de produção. ( ___ )",
    "resposta": "V"
   },
   {
@@ -115,10 +115,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Pelo mapa, o Acre tem mais indústrias do que São Paulo. ( ___ )",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, o Acre tem mais indústrias do que São Paulo. ( ___ )",
-   "resposta": "F",
    "figura": {
     "tipo": "mapa",
     "titulo": "Brasil: distribuição das indústrias – 2019",
@@ -159,26 +158,78 @@
      "AC": 0
     },
     "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
+   },
+   "resposta": "F"
   },
   {
    "n": 6,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Em uma cidade pequena há mais opções de serviços do que em uma grande metrópole. ( ___ )",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Em uma cidade pequena há mais opções de serviços do que em uma grande metrópole. ( ___ )",
    "resposta": "F"
   },
   {
    "n": 7,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Pelo mapa, todos os estados do Brasil têm o mesmo número de indústrias. ( ___ )",
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   },
+   "resposta": "F"
+  },
+  {
+   "n": 8,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada indústria ao seu tipo.",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "Associe cada indústria ao seu tipo.",
    "colunaA": [
     {
      "id": "1",
@@ -223,13 +274,13 @@
    }
   },
   {
-   "n": 8,
+   "n": 9,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada produto ao tipo de bem de consumo.",
    "pagina": "82",
    "ajuda": "bens-consumo",
-   "enunciado": "Associe cada produto ao tipo de bem de consumo.",
    "colunaA": [
     {
      "id": "1",
@@ -274,13 +325,54 @@
    }
   },
   {
-   "n": 9,
+   "n": 10,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Pelo mapa, associe cada estado ao seu número de indústrias.",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, associe cada estado ao seu número de indústrias.",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   },
    "colunaA": [
     {
      "id": "1",
@@ -322,57 +414,16 @@
     "2": "b",
     "3": "c",
     "4": "d"
-   },
-   "figura": {
-    "tipo": "mapa",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "faixas": [
-     "Até 25",
-     "De 26 a 50",
-     "De 51 a 100",
-     "De 101 a 500",
-     "Mais de 500"
-    ],
-    "valores": {
-     "SP": 4,
-     "MG": 4,
-     "CE": 3,
-     "PE": 3,
-     "BA": 3,
-     "DF": 3,
-     "GO": 3,
-     "ES": 3,
-     "RJ": 3,
-     "PR": 3,
-     "SC": 3,
-     "RS": 3,
-     "PA": 2,
-     "MT": 2,
-     "MA": 2,
-     "RN": 2,
-     "PB": 2,
-     "MS": 2,
-     "AM": 1,
-     "RO": 1,
-     "TO": 1,
-     "PI": 1,
-     "AL": 1,
-     "SE": 1,
-     "RR": 0,
-     "AP": 0,
-     "AC": 0
-    },
-    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
    }
   },
   {
-   "n": 10,
+   "n": 11,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada produto à indústria que o fabrica.",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "Associe cada produto à indústria que o fabrica.",
    "colunaA": [
     {
      "id": "1",
@@ -417,13 +468,13 @@
    }
   },
   {
-   "n": 11,
+   "n": 12,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada profissional ao serviço que ele presta.",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Associe cada profissional ao serviço que ele presta.",
    "colunaA": [
     {
      "id": "1",
@@ -468,13 +519,13 @@
    }
   },
   {
-   "n": 12,
+   "n": 13,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada estado à região do Brasil em que ele fica.",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Associe cada estado à região do Brasil em que ele fica.",
    "colunaA": [
     {
      "id": "1",
@@ -519,95 +570,94 @@
    }
   },
   {
-   "n": 13,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "82",
-   "ajuda": "industria",
-   "enunciado": "A indústria de base extrai recursos da ____________ e os transforma em matéria-prima processada.",
-   "resposta": "natureza"
-  },
-  {
    "n": 14,
-   "parte": 3,
-   "tipo": "lacuna",
+   "parte": 2,
+   "tipo": "associacao",
    "calculo": false,
-   "pagina": "82",
-   "ajuda": "industria",
-   "enunciado": "A indústria ____________ produz equipamentos e peças e é um exemplo de indústria de bens intermediários.",
-   "resposta": "mecânica"
+   "enunciado": "Associe cada estabelecimento ao que ele vende.",
+   "pagina": "84",
+   "ajuda": "comercio",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "farmácia"
+    },
+    {
+     "id": "2",
+     "texto": "padaria"
+    },
+    {
+     "id": "3",
+     "texto": "açougue"
+    },
+    {
+     "id": "4",
+     "texto": "loja de calçados"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "remédios"
+    },
+    {
+     "id": "b",
+     "texto": "pães"
+    },
+    {
+     "id": "c",
+     "texto": "carnes"
+    },
+    {
+     "id": "d",
+     "texto": "sapatos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
   },
   {
    "n": 15,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "pagina": "83",
-   "ajuda": "industrias-brasil",
-   "enunciado": "O setor industrial investe em ____________, o que ajuda no desenvolvimento do país.",
-   "resposta": "tecnologia"
+   "enunciado": "A indústria de base extrai recursos da ____________ e os transforma em matéria-prima processada.",
+   "pagina": "82",
+   "ajuda": "industria",
+   "resposta": "natureza"
   },
   {
    "n": 16,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "pagina": "83",
-   "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, a região que concentra o maior número de indústrias é a região ____________.",
-   "resposta": "Sudeste",
-   "figura": {
-    "tipo": "mapa",
-    "titulo": "Brasil: distribuição das indústrias – 2019",
-    "faixas": [
-     "Até 25",
-     "De 26 a 50",
-     "De 51 a 100",
-     "De 101 a 500",
-     "Mais de 500"
-    ],
-    "valores": {
-     "SP": 4,
-     "MG": 4,
-     "CE": 3,
-     "PE": 3,
-     "BA": 3,
-     "DF": 3,
-     "GO": 3,
-     "ES": 3,
-     "RJ": 3,
-     "PR": 3,
-     "SC": 3,
-     "RS": 3,
-     "PA": 2,
-     "MT": 2,
-     "MA": 2,
-     "RN": 2,
-     "PB": 2,
-     "MS": 2,
-     "AM": 1,
-     "RO": 1,
-     "TO": 1,
-     "PI": 1,
-     "AL": 1,
-     "SE": 1,
-     "RR": 0,
-     "AP": 0,
-     "AC": 0
-    },
-    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
+   "enunciado": "A indústria ____________ produz equipamentos e peças e é um exemplo de indústria de bens intermediários.",
+   "pagina": "82",
+   "ajuda": "industria",
+   "resposta": "mecânica"
   },
   {
    "n": 17,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
+   "enunciado": "O setor industrial investe em ____________, o que ajuda no desenvolvimento do país.",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, a região que tem os menores números de indústrias é a região ____________.",
-   "resposta": "Norte",
+   "resposta": "tecnologia"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Pelo mapa, a região que concentra o maior número de indústrias é a região ____________.",
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
    "figura": {
     "tipo": "mapa",
     "titulo": "Brasil: distribuição das indústrias – 2019",
@@ -648,46 +698,98 @@
      "AC": 0
     },
     "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
-  },
-  {
-   "n": 18,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "82",
-   "ajuda": "industria",
-   "enunciado": "O aço produzido pela siderúrgica será utilizado por outras ____________.",
-   "resposta": "indústrias"
+   },
+   "resposta": "Sudeste"
   },
   {
    "n": 19,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "pagina": "85",
-   "ajuda": "servicos",
-   "enunciado": "As grandes ____________ têm mais opções de serviços do que as cidades pequenas.",
-   "resposta": "metrópoles"
+   "enunciado": "Pelo mapa, a região que tem os menores números de indústrias é a região ____________.",
+   "pagina": "83",
+   "ajuda": "industrias-brasil",
+   "figura": {
+    "tipo": "mapa",
+    "titulo": "Brasil: distribuição das indústrias – 2019",
+    "faixas": [
+     "Até 25",
+     "De 26 a 50",
+     "De 51 a 100",
+     "De 101 a 500",
+     "Mais de 500"
+    ],
+    "valores": {
+     "SP": 4,
+     "MG": 4,
+     "CE": 3,
+     "PE": 3,
+     "BA": 3,
+     "DF": 3,
+     "GO": 3,
+     "ES": 3,
+     "RJ": 3,
+     "PR": 3,
+     "SC": 3,
+     "RS": 3,
+     "PA": 2,
+     "MT": 2,
+     "MA": 2,
+     "RN": 2,
+     "PB": 2,
+     "MS": 2,
+     "AM": 1,
+     "RO": 1,
+     "TO": 1,
+     "PI": 1,
+     "AL": 1,
+     "SE": 1,
+     "RR": 0,
+     "AP": 0,
+     "AC": 0
+    },
+    "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
+   },
+   "resposta": "Norte"
   },
   {
    "n": 20,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
+   "enunciado": "O aço produzido pela siderúrgica será utilizado por outras ____________.",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "Boa parte do setor industrial está no meio urbano, mas também há indústrias em áreas ____________.",
-   "resposta": "rurais"
+   "resposta": "indústrias"
   },
   {
    "n": 21,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As grandes ____________ têm mais opções de serviços do que as cidades pequenas.",
+   "pagina": "85",
+   "ajuda": "servicos",
+   "resposta": "metrópoles"
+  },
+  {
+   "n": 22,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Boa parte do setor industrial está no meio urbano, mas também há indústrias em áreas ____________.",
+   "pagina": "82",
+   "ajuda": "industria",
+   "resposta": "rurais"
+  },
+  {
+   "n": 23,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Para transformar o minério de ferro em aço, a indústria siderúrgica precisa:",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "Para transformar o minério de ferro em aço, a indústria siderúrgica precisa:",
    "alternativas": [
     {
      "id": "A",
@@ -705,28 +807,13 @@
    "resposta": "A"
   },
   {
-   "n": 22,
+   "n": 24,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Pelo mapa, quantas indústrias tem o estado do Pará?",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Pelo mapa, quantas indústrias tem o estado do Pará?",
-   "alternativas": [
-    {
-     "id": "A",
-     "texto": "de 51 a 100"
-    },
-    {
-     "id": "B",
-     "texto": "mais de 500"
-    },
-    {
-     "id": "C",
-     "texto": "até 25"
-    }
-   ],
-   "resposta": "A",
    "figura": {
     "tipo": "mapa",
     "titulo": "Brasil: distribuição das indústrias – 2019",
@@ -767,16 +854,31 @@
      "AC": 0
     },
     "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "de 51 a 100"
+    },
+    {
+     "id": "B",
+     "texto": "mais de 500"
+    },
+    {
+     "id": "C",
+     "texto": "até 25"
+    }
+   ],
+   "resposta": "A"
   },
   {
-   "n": 23,
+   "n": 25,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "O setor industrial é importante para o desenvolvimento do país porque:",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "O setor industrial é importante para o desenvolvimento do país porque:",
    "alternativas": [
     {
      "id": "A",
@@ -794,13 +896,13 @@
    "resposta": "A"
   },
   {
-   "n": 24,
+   "n": 26,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Quem compra os produtos da indústria de bens intermediários é:",
    "pagina": "82",
    "ajuda": "industria",
-   "enunciado": "Quem compra os produtos da indústria de bens intermediários é:",
    "alternativas": [
     {
      "id": "A",
@@ -818,13 +920,13 @@
    "resposta": "A"
   },
   {
-   "n": 25,
+   "n": 27,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Uma pessoa foi ao cinema e, depois, ao supermercado. Ela usou:",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Uma pessoa foi ao cinema e, depois, ao supermercado. Ela usou:",
    "alternativas": [
     {
      "id": "A",
@@ -842,13 +944,13 @@
    "resposta": "A"
   },
   {
-   "n": 26,
+   "n": 28,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Uma caixa de leite é um bem de consumo:",
    "pagina": "82",
    "ajuda": "bens-consumo",
-   "enunciado": "Uma caixa de leite é um bem de consumo:",
    "alternativas": [
     {
      "id": "A",
@@ -866,28 +968,13 @@
    "resposta": "A"
   },
   {
-   "n": 27,
+   "n": 29,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Observando o mapa, podemos dizer que as indústrias no Brasil estão:",
    "pagina": "83",
    "ajuda": "industrias-brasil",
-   "enunciado": "Observando o mapa, podemos dizer que as indústrias no Brasil estão:",
-   "alternativas": [
-    {
-     "id": "A",
-     "texto": "distribuídas de forma desigual pelo país"
-    },
-    {
-     "id": "B",
-     "texto": "espalhadas por igual em todos os estados"
-    },
-    {
-     "id": "C",
-     "texto": "concentradas apenas na região Norte"
-    }
-   ],
-   "resposta": "A",
    "figura": {
     "tipo": "mapa",
     "titulo": "Brasil: distribuição das indústrias – 2019",
@@ -928,7 +1015,46 @@
      "AC": 0
     },
     "descricao": "Mapa do Brasil com o número de indústrias em cada estado, em 2019. Mais de 500 indústrias: Minas Gerais e São Paulo. De 101 a 500 indústrias: Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Paraná, Pernambuco, Rio Grande do Sul, Rio de Janeiro e Santa Catarina. De 51 a 100 indústrias: Maranhão, Mato Grosso, Mato Grosso do Sul, Paraíba, Pará e Rio Grande do Norte. De 26 a 50 indústrias: Alagoas, Amazonas, Piauí, Rondônia, Sergipe e Tocantins. Até 25 indústrias: Acre, Amapá e Roraima."
-   }
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "distribuídas de forma desigual pelo país"
+    },
+    {
+     "id": "B",
+     "texto": "espalhadas por igual em todos os estados"
+    },
+    {
+     "id": "C",
+     "texto": "concentradas apenas na região Norte"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A indústria de base também é chamada de indústria de:",
+   "pagina": "82",
+   "ajuda": "industria",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "bens de produção"
+    },
+    {
+     "id": "B",
+     "texto": "bens de consumo"
+    },
+    {
+     "id": "C",
+     "texto": "serviços"
+    }
+   ],
+   "resposta": "A"
   }
  ]
 }

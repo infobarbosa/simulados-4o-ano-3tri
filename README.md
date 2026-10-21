@@ -7,7 +7,7 @@ App web para treinar com simulados de **Matemática, Português, Gramática, Ci�
 ## Como usar
 1. Abra o endereço do GitHub Pages deste repositório no celular ou tablet (no iPhone: Compartilhar → Adicionar à Tela de Início; no Android/Chrome: ⋮ → Adicionar à tela inicial).
 2. Na primeira vez o app pergunta o nome. Ele fica só no aparelho.
-3. Escolha a matéria, a prova e o simulado (27 questões: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
+3. Escolha a matéria, a prova e o simulado (27 questões, ou 30 nos simulados 4 e 5 de Geografia e de Ciências: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
 
 Algumas questões trazem uma **caixa de contexto** acima do enunciado, com os dados que no livro estão em figura ou tabela (a receita e o suco, em Frações; o gráfico dos trabalhadores, em Geografia). Em Geografia, o mapa das indústrias do Brasil é **desenhado pelo app**, com legenda e a sigla de cada estado; em Ciências, o diagrama dos estados físicos da água também. Assim dá para responder sem o livro aberto.
 

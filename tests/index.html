@@ -29,9 +29,17 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    teste("catálogo tem 45 simulados de 27 questões, todos válidos", () => {
+    // Os simulados vindos de PDF têm as 27 questões do PDF. Os quatro escritos para as provas de
+    // Geografia (28/10) e Ciências (04/11) têm 30, a pedido do pai; o catálogo tem que concordar.
+    const DE_TRINTA = ["geografia-p1-4", "geografia-p1-5", "ciencias-p1-4", "ciencias-p1-5"];
+    teste("catálogo tem 45 simulados válidos: 30 questões nos quatro das provas, 27 no resto", () => {
       igual(todos.length, 45);
-      for (const s of todos) { igual(s.questoes.length, 27, s.id); igual(M.validar(s), [], s.id); }
+      for (const s of todos) {
+        igual(s.questoes.length, DE_TRINTA.includes(s.id) ? 30 : 27, s.id);
+        igual(M.validar(s), [], s.id);
+        igual(s.questoes.map((q) => q.n), s.questoes.map((_, i) => i + 1), `${s.id}: numeração`);
+        igual(catalogo.find((c) => c.id === s.id).questoes, s.questoes.length, `${s.id}: catálogo`);
+      }
     });
 
     teste("lacuna: maiúsculas, espaços e pontuação final não importam", () => {
@@ -90,7 +98,7 @@
     // o mapa das indústrias virou figura desenhada, ver o teste do mapa abaixo).
     teste("contexto: as questões que dependem do livro trazem a caixa, com itens, e o gabarito segue escondido", () => {
       const comCtx = todos.flatMap((s) => s.questoes.filter((q) => q.contexto));
-      igual(comCtx.length, 18);
+      igual(comCtx.length, 19);
       for (const q of comCtx) {
         ok(q.contexto.titulo && q.contexto.itens.length >= 1, `questão ${q.n}`);
         const aluno = M.questaoParaAluno(q, {});
@@ -201,11 +209,11 @@
     // e a descrição falada (única coisa que o 🔊 e o leitor de tela recebem) bate com as faixas.
     import { UFS } from "../js/brasil.js";
     const comMapa = todos.flatMap((s) => s.questoes.filter((q) => q.figura && q.figura.tipo === "mapa"));
-    teste("mapa: 27 estados, uma figura só, e a descrição falada bate com as faixas", () => {
-      igual(comMapa.length, 7);
+    teste("mapa: 27 estados, a mesma figura em todas, e a descrição falada bate com as faixas", () => {
+      igual(comMapa.length, 8);
       igual(Object.keys(UFS).length, 27);
       const unicas = new Set(comMapa.map((q) => JSON.stringify(q.figura)));
-      igual(unicas.size, 1, "as 7 questões precisam usar exatamente a mesma figura");
+      igual(unicas.size, 1, "todas as questões de mapa precisam usar exatamente a mesma figura");
       const fig = comMapa[0].figura;
       igual(Object.keys(fig.valores).sort(), Object.keys(UFS).sort());
       igual(fig.faixas.length, 5);

@@ -8,7 +8,10 @@
    "icone": "🔁",
    "pagina": "90",
    "blocos": [
-    { "tipo": "texto", "texto": "Uma forma de classificar as transformações é perguntar se elas podem ou não ser revertidas — ou seja, se dá para desfazer o que aconteceu." },
+    {
+     "tipo": "texto",
+     "texto": "Uma forma de classificar as transformações é perguntar se elas podem ou não ser revertidas — ou seja, se dá para desfazer o que aconteceu."
+    },
     {
      "tipo": "lista",
      "itens": [
@@ -16,13 +19,31 @@
       "TRANSFORMAÇÃO IRREVERSÍVEL: o material não pode voltar à sua forma ou condição original."
      ]
     },
-    { "tipo": "texto", "texto": "A transformação reversível mais comum no dia a dia e na natureza é a mudança de estado físico da água: o gelo derrete, a água congela de novo, e assim por diante." },
-    { "tipo": "exemplos", "itens": [
-      { "frase": "Congelar suco para fazer um picolé.", "nota": "reversível: é só deixar derreter" },
-      { "frase": "Derreter uma latinha de alumínio na usina de reciclagem.", "nota": "reversível: esfria e vira bloco de novo" },
-      { "frase": "Assar um bolo.", "nota": "irreversível: não volta a ser massa crua" }
-    ] },
-    { "tipo": "dica", "texto": "O teste é sempre o mesmo: dá para voltar ao que era antes? Se dá, é reversível. Cuidado com a pegadinha: voltar NÃO é fazer outro igual. Um papel rasgado não volta a ser inteiro, mesmo que você pegue uma folha nova." }
+    {
+     "tipo": "texto",
+     "texto": "A transformação reversível mais comum no dia a dia e na natureza é a mudança de estado físico da água: o gelo derrete, a água congela de novo, e assim por diante."
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "Congelar suco para fazer um picolé.",
+       "nota": "reversível: é só deixar derreter"
+      },
+      {
+       "frase": "Derreter uma latinha de alumínio na usina de reciclagem.",
+       "nota": "reversível: esfria e vira bloco de novo"
+      },
+      {
+       "frase": "Assar um bolo.",
+       "nota": "irreversível: não volta a ser massa crua"
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "O teste é sempre o mesmo: dá para voltar ao que era antes? Se dá, é reversível. Cuidado com a pegadinha: voltar NÃO é fazer outro igual. Um papel rasgado não volta a ser inteiro, mesmo que você pegue uma folha nova."
+    }
    ]
   },
   "estados-agua": {
@@ -30,19 +51,48 @@
    "icone": "💧",
    "pagina": "90",
    "blocos": [
-    { "tipo": "texto", "texto": "A água aparece em três estados físicos: SÓLIDO (o gelo), LÍQUIDO (a água) e GASOSO (o vapor de água). O que faz ela passar de um estado para o outro é a temperatura." },
+    {
+     "tipo": "texto",
+     "texto": "A água aparece em três estados físicos: SÓLIDO (o gelo), LÍQUIDO (a água) e GASOSO (o vapor de água). O que faz ela passar de um estado para o outro é a temperatura."
+    },
     {
      "tipo": "tabela",
-     "colunas": ["Processo", "De onde para onde", "O que acontece"],
+     "colunas": [
+      "Processo",
+      "De onde para onde",
+      "O que acontece"
+     ],
      "linhas": [
-      ["Fusão", "do sólido para o líquido", "esquenta: o gelo derrete"],
-      ["Vaporização", "do líquido para o gasoso", "esquenta: a água vira vapor"],
-      ["Condensação", "do gasoso para o líquido", "esfria: o vapor vira gotas"],
-      ["Solidificação", "do líquido para o sólido", "esfria: a água vira gelo"]
-    ]
+      [
+       "Fusão",
+       "do sólido para o líquido",
+       "esquenta: o gelo derrete"
+      ],
+      [
+       "Vaporização",
+       "do líquido para o gasoso",
+       "esquenta: a água vira vapor"
+      ],
+      [
+       "Condensação",
+       "do gasoso para o líquido",
+       "esfria: o vapor vira gotas"
+      ],
+      [
+       "Solidificação",
+       "do líquido para o sólido",
+       "esfria: a água vira gelo"
+      ]
+     ]
     },
-    { "tipo": "texto", "texto": "Repare que os quatro processos andam em dupla, um desfazendo o outro: fusão e solidificação são o caminho de ida e de volta entre gelo e água; vaporização e condensação, entre água e vapor. É por isso que a mudança de estado é reversível." },
-    { "tipo": "dica", "texto": "Para não trocar fusão com solidificação, olhe o começo da palavra. FUSão é o gelo se FUndindo, derretendo. SOLIDificação é virar SÓLIDO, virar gelo." }
+    {
+     "tipo": "texto",
+     "texto": "Repare que os quatro processos andam em dupla, um desfazendo o outro: fusão e solidificação são o caminho de ida e de volta entre gelo e água; vaporização e condensação, entre água e vapor. É por isso que a mudança de estado é reversível."
+    },
+    {
+     "tipo": "dica",
+     "texto": "Para não trocar fusão com solidificação, olhe o começo da palavra. FUSão é o gelo se FUndindo, derretendo. SOLIDificação é virar SÓLIDO, virar gelo."
+    }
    ]
   },
   "irreversiveis": {
@@ -50,7 +100,10 @@
    "icone": "🔥",
    "pagina": "93",
    "blocos": [
-    { "tipo": "texto", "texto": "Muitos fenômenos comuns do dia a dia não podem ser revertidos. O livro mostra estes:" },
+    {
+     "tipo": "texto",
+     "texto": "Muitos fenômenos comuns do dia a dia não podem ser revertidos. O livro mostra estes:"
+    },
     {
      "tipo": "lista",
      "itens": [
@@ -61,12 +114,27 @@
       "FERRUGEM: uma transformação indesejada que ocorre em objetos feitos de ferro."
      ]
     },
-    { "tipo": "exemplos", "itens": [
-      { "frase": "A banana que escurece em cima da fruteira.", "nota": "amadurecimento: irreversível" },
-      { "frase": "A fogueira que vira cinza.", "nota": "combustão: irreversível" },
-      { "frase": "O portão velho que fica alaranjado e descascando.", "nota": "ferrugem: irreversível" }
-    ] },
-    { "tipo": "dica", "texto": "Quase toda transformação que envolve FOGO, COZINHAR ou PASSAR DO PONTO é irreversível. Quase toda que envolve só ESQUENTAR ou ESFRIAR é reversível." }
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "A banana que escurece em cima da fruteira.",
+       "nota": "amadurecimento: irreversível"
+      },
+      {
+       "frase": "A fogueira que vira cinza.",
+       "nota": "combustão: irreversível"
+      },
+      {
+       "frase": "O portão velho que fica alaranjado e descascando.",
+       "nota": "ferrugem: irreversível"
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Quase toda transformação que envolve FOGO, COZINHAR ou PASSAR DO PONTO é irreversível. Quase toda que envolve só ESQUENTAR ou ESFRIAR é reversível."
+    }
    ]
   },
   "aluminio": {
@@ -74,7 +142,10 @@
    "icone": "♻️",
    "pagina": "90",
    "blocos": [
-    { "tipo": "texto", "texto": "O Brasil é líder mundial em reciclagem de latas de alumínio — um material que pode ser reciclado muitas vezes." },
+    {
+     "tipo": "texto",
+     "texto": "O Brasil é líder mundial em reciclagem de latas de alumínio — um material que pode ser reciclado muitas vezes."
+    },
     {
      "tipo": "lista",
      "itens": [
@@ -84,8 +155,14 @@
       "Esses blocos são usados para fabricar novos produtos."
      ]
     },
-    { "tipo": "texto", "texto": "O alumínio pode ser derretido e moldado novamente várias vezes SEM alterar a sua composição química. É exatamente por isso que a reciclagem dele é eficiente — e reversível." },
-    { "tipo": "dica", "texto": "Derreter o alumínio é a mesma fusão que acontece com o gelo: muda a forma, não muda o material. Por isso dá para repetir quantas vezes quiser." }
+    {
+     "tipo": "texto",
+     "texto": "O alumínio pode ser derretido e moldado novamente várias vezes SEM alterar a sua composição química. É exatamente por isso que a reciclagem dele é eficiente — e reversível."
+    },
+    {
+     "tipo": "dica",
+     "texto": "Derreter o alumínio é a mesma fusão que acontece com o gelo: muda a forma, não muda o material. Por isso dá para repetir quantas vezes quiser."
+    }
    ]
   },
   "calotas": {
@@ -93,8 +170,14 @@
    "icone": "🐻‍❄️",
    "pagina": "92",
    "blocos": [
-    { "tipo": "texto", "texto": "As calotas polares são as enormes camadas de gelo que cobrem as regiões mais frias do planeta, perto dos polos. Esse gelo é água no estado sólido." },
-    { "tipo": "texto", "texto": "Atualmente a crise climática global vem provocando, entre outros impactos, a DIMINUIÇÃO DO GELO E DA NEVE em várias regiões do planeta. A causa é o AUMENTO DA TEMPERATURA DA TERRA." },
+    {
+     "tipo": "texto",
+     "texto": "As calotas polares são as enormes camadas de gelo que cobrem as regiões mais frias do planeta, perto dos polos. Esse gelo é água no estado sólido."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Atualmente a crise climática global vem provocando, entre outros impactos, a DIMINUIÇÃO DO GELO E DA NEVE em várias regiões do planeta. A causa é o AUMENTO DA TEMPERATURA DA TERRA."
+    },
     {
      "tipo": "lista",
      "itens": [
@@ -103,8 +186,63 @@
       "Sobra menos gelo e menos neve nessas regiões a cada ano."
      ]
     },
-    { "tipo": "texto", "texto": "Isso afeta os animais que vivem ali: os ursos-polares dependem do gelo para caçar e descansar, e com a diminuição das regiões de gelo e neve eles ficam em risco de extinção." },
-    { "tipo": "dica", "texto": "O derretimento do gelo, sozinho, é uma transformação reversível — água congela de novo. O problema das calotas não é o gelo não poder voltar: é que o planeta segue esquentando, então ele não volta." }
+    {
+     "tipo": "texto",
+     "texto": "Isso afeta os animais que vivem ali: os ursos-polares dependem do gelo para caçar e descansar, e com a diminuição das regiões de gelo e neve eles ficam em risco de extinção."
+    },
+    {
+     "tipo": "dica",
+     "texto": "O derretimento do gelo, sozinho, é uma transformação reversível — água congela de novo. O problema das calotas não é o gelo não poder voltar: é que o planeta segue esquentando, então ele não volta."
+    }
+   ]
+  },
+  "ciclo-agua": {
+   "titulo": "O ciclo da água",
+   "icone": "🌧️",
+   "pagina": "97",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A água do planeta não fica parada: ela anda num círculo que nunca termina, mudando de estado físico o tempo todo. Esse caminho se chama ciclo da água."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Etapa",
+      "O que acontece",
+      "Mudança de estado"
+     ],
+     "linhas": [
+      [
+       "Evaporação",
+       "o calor do Sol esquenta a água do mar e dos rios, e ela sobe como vapor",
+       "do líquido para o gasoso"
+      ],
+      [
+       "Condensação",
+       "lá em cima o vapor esfria e vira gotinhas, formando as nuvens",
+       "do gasoso para o líquido"
+      ],
+      [
+       "Precipitação",
+       "as gotinhas ficam pesadas e caem: é a chuva",
+       "continua líquida"
+      ],
+      [
+       "Escoamento",
+       "a água que caiu corre pelo solo e pelos rios de volta para o mar",
+       "continua líquida"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Repare que o ciclo da água é feito das mesmas mudanças de estado que você já estudou — e que todas elas são transformações REVERSÍVEIS. É por isso que a água pode repetir esse caminho para sempre."
+    },
+    {
+     "tipo": "dica",
+     "texto": "A ordem é fácil de lembrar pensando em subir e descer: a água SOBE evaporando, vira nuvem condensando, DESCE na chuva (precipitação) e volta para o mar escoando."
+    }
    ]
   }
  }

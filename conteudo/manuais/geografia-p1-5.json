@@ -34,9 +34,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Uma loja virtual também faz parte do comércio. ( ___ )",
    "pagina": "84",
    "ajuda": "comercio",
-   "enunciado": "Uma loja virtual também faz parte do comércio. ( ___ )",
    "resposta": "V"
   },
   {
@@ -44,6 +44,7 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Pelo gráfico, o setor de serviços teve mais trabalhadores do que a indústria nos dois anos. ( ___ )",
    "pagina": "87",
    "ajuda": "setores-trabalho",
    "contexto": {
@@ -57,7 +58,6 @@
      "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
     ]
    },
-   "enunciado": "Pelo gráfico, o setor de serviços teve mais trabalhadores do que a indústria nos dois anos. ( ___ )",
    "resposta": "V"
   },
   {
@@ -65,6 +65,7 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Pelo gráfico, o número de trabalhadores da agropecuária aumentou de 2021 para 2022. ( ___ )",
    "pagina": "87",
    "ajuda": "setores-trabalho",
    "contexto": {
@@ -78,7 +79,6 @@
      "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
     ]
    },
-   "enunciado": "Pelo gráfico, o número de trabalhadores da agropecuária aumentou de 2021 para 2022. ( ___ )",
    "resposta": "F"
   },
   {
@@ -86,9 +86,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "Museus, cinemas e estádios de futebol são serviços ligados ao lazer e à cultura. ( ___ )",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Museus, cinemas e estádios de futebol são serviços ligados ao lazer e à cultura. ( ___ )",
    "resposta": "V"
   },
   {
@@ -96,9 +96,9 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "O comércio também pode ser praticado em feiras itinerantes e em mercados públicos. ( ___ )",
    "pagina": "84",
    "ajuda": "comercio",
-   "enunciado": "O comércio também pode ser praticado em feiras itinerantes e em mercados públicos. ( ___ )",
    "resposta": "V"
   },
   {
@@ -106,16 +106,27 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
+   "enunciado": "A agropecuária é uma atividade do espaço rural, e não do espaço urbano. ( ___ )",
    "pagina": "87",
    "ajuda": "setores-trabalho",
-   "enunciado": "A agropecuária é uma atividade do espaço rural, e não do espaço urbano. ( ___ )",
    "resposta": "V"
   },
   {
    "n": 7,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Quem presta um serviço recebe uma remuneração pelo seu trabalho. ( ___ )",
+   "pagina": "85",
+   "ajuda": "servicos",
+   "resposta": "V"
+  },
+  {
+   "n": 8,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Pelo gráfico, associe cada setor ao seu número de trabalhadores em 2022.",
    "pagina": "87",
    "ajuda": "setores-trabalho",
    "contexto": {
@@ -129,7 +140,6 @@
      "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
     ]
    },
-   "enunciado": "Pelo gráfico, associe cada setor ao seu número de trabalhadores em 2022.",
    "colunaA": [
     {
      "id": "1",
@@ -174,13 +184,13 @@
    }
   },
   {
-   "n": 8,
+   "n": 9,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada exemplo ao serviço que ele representa.",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Associe cada exemplo ao serviço que ele representa.",
    "colunaA": [
     {
      "id": "1",
@@ -225,13 +235,13 @@
    }
   },
   {
-   "n": 9,
+   "n": 10,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada situação ao tipo de comércio.",
    "pagina": "84",
    "ajuda": "comercio",
-   "enunciado": "Associe cada situação ao tipo de comércio.",
    "colunaA": [
     {
      "id": "1",
@@ -276,13 +286,13 @@
    }
   },
   {
-   "n": 10,
+   "n": 11,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada setor à sua característica.",
    "pagina": "87",
    "ajuda": "setores-trabalho",
-   "enunciado": "Associe cada setor à sua característica.",
    "colunaA": [
     {
      "id": "1",
@@ -327,13 +337,13 @@
    }
   },
   {
-   "n": 11,
+   "n": 12,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada situação ao setor da economia.",
    "pagina": "85",
    "ajuda": "setores",
-   "enunciado": "Associe cada situação ao setor da economia.",
    "colunaA": [
     {
      "id": "1",
@@ -378,13 +388,13 @@
    }
   },
   {
-   "n": 12,
+   "n": 13,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada item ao que o livro diz sobre ele.",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Associe cada item ao que o livro diz sobre ele.",
    "colunaA": [
     {
      "id": "1",
@@ -429,112 +439,62 @@
    }
   },
   {
-   "n": 13,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "87",
-   "ajuda": "setores-trabalho",
-   "contexto": {
-    "icone": "📊",
-    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
-    "itens": [
-     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
-     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
-     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
-     "Construção: 6.858 em 2021 e 7.253 em 2022.",
-     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
-    ]
-   },
-   "enunciado": "Pelo gráfico, o setor da economia brasileira que mais ofereceu emprego entre 2021 e 2022 foi o de ____________.",
-   "resposta": "serviços"
-  },
-  {
    "n": 14,
-   "parte": 3,
-   "tipo": "lacuna",
+   "parte": 2,
+   "tipo": "associacao",
    "calculo": false,
-   "pagina": "87",
-   "ajuda": "setores-trabalho",
-   "contexto": {
-    "icone": "📊",
-    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
-    "itens": [
-     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
-     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
-     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
-     "Construção: 6.858 em 2021 e 7.253 em 2022.",
-     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
-    ]
-   },
-   "enunciado": "Pelo gráfico, o único setor em que o número de trabalhadores diminuiu de 2021 para 2022 foi a ____________.",
-   "resposta": "agropecuária"
+   "enunciado": "Associe cada necessidade ao serviço que a atende.",
+   "pagina": "85",
+   "ajuda": "servicos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ficar doente"
+    },
+    {
+     "id": "2",
+     "texto": "aprender a ler e escrever"
+    },
+    {
+     "id": "3",
+     "texto": "ir para a escola de ônibus"
+    },
+    {
+     "id": "4",
+     "texto": "manter a rua limpa"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "saúde"
+    },
+    {
+     "id": "b",
+     "texto": "educação"
+    },
+    {
+     "id": "c",
+     "texto": "transporte"
+    },
+    {
+     "id": "d",
+     "texto": "limpeza"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
   },
   {
    "n": 15,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "pagina": "87",
-   "ajuda": "setores-trabalho",
-   "enunciado": "Os números do gráfico dos trabalhadores estão escritos em ____________ pessoas.",
-   "resposta": "mil"
-  },
-  {
-   "n": 16,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "84",
-   "ajuda": "comercio",
-   "enunciado": "Os produtores rurais fornecem seus produtos aos ____________ da cidade.",
-   "resposta": "mercados"
-  },
-  {
-   "n": 17,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "85",
-   "ajuda": "servicos",
-   "enunciado": "Parques, teatros e museus são serviços ligados ao lazer e à ____________.",
-   "resposta": "cultura"
-  },
-  {
-   "n": 18,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "84",
-   "ajuda": "comercio",
-   "enunciado": "As indústrias da cidade fornecem as ____________ e os equipamentos usados pelos produtores do campo.",
-   "resposta": "máquinas"
-  },
-  {
-   "n": 19,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "85",
-   "ajuda": "servicos",
-   "enunciado": "A oferta de serviços é uma prática cada vez mais comum nos espaços ____________.",
-   "resposta": "urbanos"
-  },
-  {
-   "n": 20,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "pagina": "84",
-   "ajuda": "comercio",
-   "enunciado": "O comércio pode ser realizado em lojas físicas e em lojas ____________.",
-   "resposta": "virtuais"
-  },
-  {
-   "n": 21,
-   "parte": 4,
-   "tipo": "multipla",
-   "calculo": false,
+   "enunciado": "Pelo gráfico, o setor da economia brasileira que mais ofereceu emprego entre 2021 e 2022 foi o de ____________.",
    "pagina": "87",
    "ajuda": "setores-trabalho",
    "contexto": {
@@ -548,7 +508,108 @@
      "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
     ]
    },
+   "resposta": "serviços"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Pelo gráfico, o único setor em que o número de trabalhadores diminuiu de 2021 para 2022 foi a ____________.",
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "resposta": "agropecuária"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os números do gráfico dos trabalhadores estão escritos em ____________ pessoas.",
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "resposta": "mil"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os produtores rurais fornecem seus produtos aos ____________ da cidade.",
+   "pagina": "84",
+   "ajuda": "comercio",
+   "resposta": "mercados"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Parques, teatros e museus são serviços ligados ao lazer e à ____________.",
+   "pagina": "85",
+   "ajuda": "servicos",
+   "resposta": "cultura"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As indústrias da cidade fornecem as ____________ e os equipamentos usados pelos produtores do campo.",
+   "pagina": "84",
+   "ajuda": "comercio",
+   "resposta": "máquinas"
+  },
+  {
+   "n": 21,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A oferta de serviços é uma prática cada vez mais comum nos espaços ____________.",
+   "pagina": "85",
+   "ajuda": "servicos",
+   "resposta": "urbanos"
+  },
+  {
+   "n": 22,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O comércio pode ser realizado em lojas físicas e em lojas ____________.",
+   "pagina": "84",
+   "ajuda": "comercio",
+   "resposta": "virtuais"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
    "enunciado": "Pelo gráfico, qual setor teve o menor número de trabalhadores em 2022?",
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
@@ -566,10 +627,11 @@
    "resposta": "A"
   },
   {
-   "n": 22,
+   "n": 24,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Pelo gráfico, quantos trabalhadores a indústria tinha em 2021?",
    "pagina": "87",
    "ajuda": "setores-trabalho",
    "contexto": {
@@ -583,7 +645,6 @@
      "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
     ]
    },
-   "enunciado": "Pelo gráfico, quantos trabalhadores a indústria tinha em 2021?",
    "alternativas": [
     {
      "id": "A",
@@ -601,13 +662,13 @@
    "resposta": "A"
   },
   {
-   "n": 23,
+   "n": 25,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Em um gráfico de barras com dois anos, a legenda serve para:",
    "pagina": "87",
    "ajuda": "setores-trabalho",
-   "enunciado": "Em um gráfico de barras com dois anos, a legenda serve para:",
    "alternativas": [
     {
      "id": "A",
@@ -625,13 +686,13 @@
    "resposta": "A"
   },
   {
-   "n": 24,
+   "n": 26,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Uma empresa que compra 1.000 caixas de sabão em pó para revender está comprando no comércio:",
    "pagina": "84",
    "ajuda": "comercio",
-   "enunciado": "Uma empresa que compra 1.000 caixas de sabão em pó para revender está comprando no comércio:",
    "alternativas": [
     {
      "id": "A",
@@ -649,13 +710,13 @@
    "resposta": "A"
   },
   {
-   "n": 25,
+   "n": 27,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Qual destas situações é uma prestação de serviço?",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Qual destas situações é uma prestação de serviço?",
    "alternativas": [
     {
      "id": "A",
@@ -673,13 +734,13 @@
    "resposta": "A"
   },
   {
-   "n": 26,
+   "n": 28,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Segundo o livro, as grandes metrópoles têm mais opções de serviços porque:",
    "pagina": "85",
    "ajuda": "servicos",
-   "enunciado": "Segundo o livro, as grandes metrópoles têm mais opções de serviços porque:",
    "alternativas": [
     {
      "id": "A",
@@ -697,13 +758,13 @@
    "resposta": "A"
   },
   {
-   "n": 27,
+   "n": 29,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Dos setores que aparecem no gráfico, o único que NÃO pertence ao espaço urbano é:",
    "pagina": "87",
    "ajuda": "setores-trabalho",
-   "enunciado": "Dos setores que aparecem no gráfico, o único que NÃO pertence ao espaço urbano é:",
    "alternativas": [
     {
      "id": "A",
@@ -716,6 +777,41 @@
     {
      "id": "C",
      "texto": "o comércio"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "No gráfico, as duas barras de cada setor servem para:",
+   "pagina": "87",
+   "ajuda": "setores-trabalho",
+   "contexto": {
+    "icone": "📊",
+    "titulo": "Brasil: trabalhadores por grupos de atividades (em mil pessoas)",
+    "itens": [
+     "Serviços: 45.183 em 2021 e 50.201 em 2022.",
+     "Comércio e reparação: 17.005 em 2021 e 18.661 em 2022.",
+     "Indústria: 11.635 em 2021 e 12.327 em 2022.",
+     "Construção: 6.858 em 2021 e 7.253 em 2022.",
+     "Agropecuária: 8.782 em 2021 e 8.507 em 2022."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "comparar dois anos diferentes"
+    },
+    {
+     "id": "B",
+     "texto": "mostrar dois países"
+    },
+    {
+     "id": "C",
+     "texto": "separar homens e mulheres"
     }
    ],
    "resposta": "A"
