@@ -66,7 +66,7 @@ def jogar_tudo(pg, banco, errar_ns=()):
                 assert pg.locator(".pintar-gabarito .figura").count() == 1, f"q{n} sem a figura certa no erro"
                 assert f"{q['resposta']} de {q['figura']['partes']} partes" in pg.inner_text(".retorno")
             if SHOTS: pg.screenshot(path=str(SHOTS / f"pintar-q{n}-{'erro' if n in errar_ns else 'acerto'}.png"))
-        pg.click(".retorno .botao")
+        pg.click(".retorno > .botao.grande")   # e não o "📖 Ler o conteúdo", que também é .botao
         pg.wait_for_selector(".fim-parte, .tela-resultado, .numero-questao")
         if pg.locator(".fim-parte .botao").count():
             pg.click(".fim-parte .botao")

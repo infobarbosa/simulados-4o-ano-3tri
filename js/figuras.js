@@ -183,13 +183,16 @@ function mapaEl(fig) {
   caixa.append(desenho, legenda);
   import("./brasil.js").then(({ UFS }) => {
     const svg = elSvg("svg", { viewBox: "0 0 1180 1000", class: "mapa-svg" });
-    const chamadas = [], textos = [];
+    // Contorno cinza fino por cima da separação branca: sem ele os estados das faixas mais claras
+    // (contraste de 1,04:1 contra o cartão) somem no fundo. 3,37:1 na faixa clara, 2,99:1 na escura.
+    const contornos = [], chamadas = [], textos = [];
     for (const [sigla, uf] of Object.entries(UFS)) {
       const faixa = fig.valores ? fig.valores[sigla] : undefined;
       svg.append(elSvg("path", {
         d: uf.d, fill: faixa === undefined ? SEM_DADO : CORES_MAPA[faixa],
         stroke: "#fff", "stroke-width": 3.5, "stroke-linejoin": "round",
       }));
+      contornos.push(elSvg("path", { d: uf.d, fill: "none", stroke: "#8C8698", "stroke-width": 1.4, "stroke-linejoin": "round" }));
       if (uf.f) {
         chamadas.push(elSvg("line", { x1: uf.c[0], y1: uf.c[1], x2: uf.f[0] - 14, y2: uf.f[1], stroke: "#9A93A8", "stroke-width": 2.5 }));
         chamadas.push(elSvg("circle", { cx: uf.c[0], cy: uf.c[1], r: 6, fill: "#4A4455" }));
@@ -205,7 +208,7 @@ function mapaEl(fig) {
         textos.push(t);
       }
     }
-    svg.append(...chamadas, ...textos); // linhas e siglas por cima de todos os estados
+    svg.append(...contornos, ...chamadas, ...textos); // contornos, linhas e siglas por cima de todos os estados
     desenho.replaceChildren(svg);
   }).catch(() => {
     // sem a geometria, a legenda e a descrição ainda respondem a questão

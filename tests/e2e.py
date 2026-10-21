@@ -48,7 +48,7 @@ def jogar(pg, banco, errar):
         q = banco[int(pg.inner_text(".numero-questao"))]
         responder(pg, q, feitas >= errar)
         feitas += 1
-        pg.click(".retorno .botao")
+        pg.click(".retorno > .botao.grande")   # e não o "📖 Ler o conteúdo", que também é .botao
         pg.wait_for_selector(".fim-parte, .tela-resultado, .numero-questao, .tela-centro")
         if pg.locator("text=Treino concluído").count():
             return feitas

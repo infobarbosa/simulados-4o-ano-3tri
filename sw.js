@@ -1,7 +1,7 @@
 // Service worker: guarda o app no aparelho para abrir sem internet.
 // Estratégia "usa o que está guardado e atualiza em segundo plano": a versão nova aparece na abertura seguinte.
 // Mudou algum arquivo? Aumente VERSAO para limpar o que ficou guardado.
-const VERSAO = "v9";
+const VERSAO = "v10";
 const CACHE = `simulados-4a-3t-${VERSAO}`;
 const ARQUIVOS = [
   "./",
