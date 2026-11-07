@@ -1,0 +1,773 @@
+{
+ "id": "bilingue-multidisciplinar-3-2",
+ "disciplina": "Bilíngue",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "MOCK TEST • ENGLISH (I WONDER) • YEAR 4 • MULTIDISCIPLINARY 3 (TERM 3)",
+ "titulo": "English — Mock Test 2",
+ "numero": 2,
+ "tema": "I Wonder — Module 5 • Comparatives • pages 68–69",
+ "data": "06-11-2026",
+ "idioma": "en",
+ "fonte": "I Wonder / Edebê — Module 5 (Language in Action and Wonder Grammar: Comparatives), pages 68–69.",
+ "materia": "bilingue-comparativos",
+ "partes": {
+  "1": {
+   "titulo": "True or False",
+   "instrucao": "Write T for true and F for false."
+  },
+  "2": {
+   "titulo": "Matching",
+   "instrucao": "Write, in the brackets of Column B, the number of the matching item in Column A."
+  },
+  "3": {
+   "titulo": "Complete",
+   "instrucao": "Complete each sentence with the correct word."
+  },
+  "4": {
+   "titulo": "Multiple choice",
+   "instrucao": "Read what the question asks, then tick the correct option."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A smartwatch is bigger than a clock. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "F"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A microwave oven is heavier than a fridge. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Smartphones are more modern than radios. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A laptop is smaller than a tablet. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A games console is more expensive than a GPS. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "We use \"more\" with long adjectives like \"expensive\". ( ___ )",
+   "pagina": "69",
+   "ajuda": "more",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "easy"
+    },
+    {
+     "id": "2",
+     "texto": "big"
+    },
+    {
+     "id": "3",
+     "texto": "expensive"
+    },
+    {
+     "id": "4",
+     "texto": "bad"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "easier"
+    },
+    {
+     "id": "b",
+     "texto": "bigger"
+    },
+    {
+     "id": "c",
+     "texto": "more expensive"
+    },
+    {
+     "id": "d",
+     "texto": "worse"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each gadget to the place where you often find it.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "toaster"
+    },
+    {
+     "id": "2",
+     "texto": "GPS"
+    },
+    {
+     "id": "3",
+     "texto": "remote control"
+    },
+    {
+     "id": "4",
+     "texto": "smartwatch"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "in the kitchen"
+    },
+    {
+     "id": "b",
+     "texto": "in the car"
+    },
+    {
+     "id": "c",
+     "texto": "next to the TV"
+    },
+    {
+     "id": "d",
+     "texto": "on your arm"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each comparative to its adjective.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "smaller"
+    },
+    {
+     "id": "2",
+     "texto": "worse"
+    },
+    {
+     "id": "3",
+     "texto": "heavier"
+    },
+    {
+     "id": "4",
+     "texto": "better"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "small"
+    },
+    {
+     "id": "b",
+     "texto": "bad"
+    },
+    {
+     "id": "c",
+     "texto": "heavy"
+    },
+    {
+     "id": "d",
+     "texto": "good"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Look at the prices and match.",
+   "pagina": "69",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🏷️",
+    "titulo": "Tech shop",
+    "itens": [
+     "GPS: €100.",
+     "Games console: €300.",
+     "Remote control: €20.",
+     "Headphones: €50."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "GPS"
+    },
+    {
+     "id": "2",
+     "texto": "games console"
+    },
+    {
+     "id": "3",
+     "texto": "remote control"
+    },
+    {
+     "id": "4",
+     "texto": "headphones"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "€100"
+    },
+    {
+     "id": "b",
+     "texto": "€300"
+    },
+    {
+     "id": "c",
+     "texto": "€20"
+    },
+    {
+     "id": "d",
+     "texto": "€50"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each adjective to how it makes the comparative.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "small"
+    },
+    {
+     "id": "2",
+     "texto": "big"
+    },
+    {
+     "id": "3",
+     "texto": "heavy"
+    },
+    {
+     "id": "4",
+     "texto": "expensive"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "add -er"
+    },
+    {
+     "id": "b",
+     "texto": "double the g and add -er"
+    },
+    {
+     "id": "c",
+     "texto": "change y to i and add -er"
+    },
+    {
+     "id": "d",
+     "texto": "use more"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each sentence to what it means in Portuguese.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "I use it every day."
+    },
+    {
+     "id": "2",
+     "texto": "I sometimes use it."
+    },
+    {
+     "id": "3",
+     "texto": "I never use it."
+    },
+    {
+     "id": "4",
+     "texto": "It is smaller than a laptop."
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Uso todos os dias."
+    },
+    {
+     "id": "b",
+     "texto": "Às vezes eu uso."
+    },
+    {
+     "id": "c",
+     "texto": "Nunca uso."
+    },
+    {
+     "id": "d",
+     "texto": "É menor do que um notebook."
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The tablet is smaller ____________ the laptop.",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "resposta": "than"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A remote control is ____________ (small) than a TV.",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "resposta": "smaller"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A fridge is ____________ (heavy) than a toaster.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "heavier"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A laptop is ____________ (expensive) than a remote control. Write two words.",
+   "pagina": "69",
+   "ajuda": "more",
+   "resposta": "more expensive"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A smartphone is ____________ modern than a radio.",
+   "pagina": "69",
+   "ajuda": "more",
+   "resposta": "more"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "You listen to music with ____________.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "resposta": "headphones"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "You make toast with a ____________.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "resposta": "toaster"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "The microwave ____________ heats food.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "resposta": "oven"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which gadgets are STILL MISSING from the box?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📦",
+    "titulo": "The gadget box",
+    "itens": [
+     "List: smartphone, GPS, laptop, headphones.",
+     "In the box: smartphone, GPS."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "laptop and headphones"
+    },
+    {
+     "id": "B",
+     "texto": "GPS and laptop"
+    },
+    {
+     "id": "C",
+     "texto": "smartphone and GPS"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A shop had 10 laptops. It sold 6. How many laptops are LEFT?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "4"
+    },
+    {
+     "id": "B",
+     "texto": "10"
+    },
+    {
+     "id": "C",
+     "texto": "6"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which item is NOT on the list?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🏷️",
+    "titulo": "Tech shop",
+    "itens": [
+     "GPS: €100.",
+     "Games console: €300.",
+     "Remote control: €20.",
+     "Headphones: €50."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a GPS"
+    },
+    {
+     "id": "B",
+     "texto": "a games console"
+    },
+    {
+     "id": "C",
+     "texto": "a digital camera"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which sentence is NOT correct?",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "A GPS is more small than a laptop."
+    },
+    {
+     "id": "B",
+     "texto": "A laptop is bigger than a GPS."
+    },
+    {
+     "id": "C",
+     "texto": "A GPS is smaller than a laptop."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "HOW MUCH is the laptop?",
+   "pagina": "69",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🏷️",
+    "titulo": "Prices",
+    "itens": [
+     "Tablet: €150.",
+     "Laptop: €450."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "€150"
+    },
+    {
+     "id": "B",
+     "texto": "€450"
+    },
+    {
+     "id": "C",
+     "texto": "more expensive"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "WHAT does Anna use SOMETIMES?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🎧",
+    "titulo": "Anna and technology",
+    "itens": [
+     "Anna uses headphones every day.",
+     "She sometimes uses a digital camera.",
+     "She never uses a GPS."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a digital camera"
+    },
+    {
+     "id": "B",
+     "texto": "headphones"
+    },
+    {
+     "id": "C",
+     "texto": "a GPS"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "\"The laptop is more expensive than the tablet.\" This means that:",
+   "pagina": "69",
+   "ajuda": "more",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "the tablet costs more."
+    },
+    {
+     "id": "B",
+     "texto": "they cost the same."
+    },
+    {
+     "id": "C",
+     "texto": "the tablet costs less."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which sentence is correct?",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "contexto": {
+    "icone": "⚖️",
+    "titulo": "Weights",
+    "itens": [
+     "Toaster: 2 kg.",
+     "Microwave oven: 15 kg.",
+     "Fridge: 60 kg."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "A microwave oven is heavier than a fridge."
+    },
+    {
+     "id": "B",
+     "texto": "A toaster is heavier than a fridge."
+    },
+    {
+     "id": "C",
+     "texto": "A fridge is heavier than a microwave oven."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "The comparative of \"heavy\" is:",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "heavier"
+    },
+    {
+     "id": "B",
+     "texto": "heavyer"
+    },
+    {
+     "id": "C",
+     "texto": "heaver"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Most short adjectives add -er. Which comparative does NOT end in -er?",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "bigger"
+    },
+    {
+     "id": "B",
+     "texto": "worse"
+    },
+    {
+     "id": "C",
+     "texto": "smaller"
+    }
+   ],
+   "resposta": "B"
+  }
+ ]
+}

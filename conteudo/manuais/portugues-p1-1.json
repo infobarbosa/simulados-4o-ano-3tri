@@ -1,0 +1,798 @@
+{
+ "id": "portugues-p1-1",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 1",
+ "numero": 1,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia das págs. 138–141, resumida.",
+ "materia": "portugues-noticia",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A notícia apresenta informações sobre um fato recente e relevante para a sociedade. ( ___ )",
+   "pagina": "141",
+   "ajuda": "noticia",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A linha-fina amplia as informações da manchete. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Toda notícia precisa ter uma imagem. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Segundo a notícia, Cheikh chegou ao Brasil falando português. ( ___ )",
+   "pagina": "138",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A concordância nominal acontece em gênero e número. ( ___ )",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A maior parte dos substantivos terminados em -ão forma o plural em -ões. ( ___ )",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada parte da notícia à sua função.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "manchete"
+    },
+    {
+     "id": "2",
+     "texto": "linha-fina"
+    },
+    {
+     "id": "3",
+     "texto": "lide"
+    },
+    {
+     "id": "4",
+     "texto": "corpo do texto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "revela informações atrativas sobre o fato"
+    },
+    {
+     "id": "b",
+     "texto": "amplia as informações da manchete"
+    },
+    {
+     "id": "c",
+     "texto": "apresenta as informações essenciais"
+    },
+    {
+     "id": "d",
+     "texto": "detalha o que foi dito no lide"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Pela notícia, associe cada pergunta à sua resposta.",
+   "pagina": "138",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Quem?"
+    },
+    {
+     "id": "2",
+     "texto": "Onde?"
+    },
+    {
+     "id": "3",
+     "texto": "Quando Cheikh chegou?"
+    },
+    {
+     "id": "4",
+     "texto": "De onde Cheikh veio?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Cheikh e Vinícius"
+    },
+    {
+     "id": "b",
+     "texto": "em uma escola de Caxias do Sul"
+    },
+    {
+     "id": "c",
+     "texto": "no começo de 2023"
+    },
+    {
+     "id": "d",
+     "texto": "do Senegal"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra ao seu significado.",
+   "pagina": "138",
+   "ajuda": "noticia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "migrante"
+    },
+    {
+     "id": "2",
+     "texto": "mobilizar"
+    },
+    {
+     "id": "3",
+     "texto": "entrosamento"
+    },
+    {
+     "id": "4",
+     "texto": "senegalês"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pessoa que se desloca de uma região ou país para outro"
+    },
+    {
+     "id": "b",
+     "texto": "gerar movimentação"
+    },
+    {
+     "id": "c",
+     "texto": "interação"
+    },
+    {
+     "id": "d",
+     "texto": "quem nasceu no Senegal"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "coração"
+    },
+    {
+     "id": "2",
+     "texto": "irmão"
+    },
+    {
+     "id": "3",
+     "texto": "cão"
+    },
+    {
+     "id": "4",
+     "texto": "balão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "corações"
+    },
+    {
+     "id": "b",
+     "texto": "irmãos"
+    },
+    {
+     "id": "c",
+     "texto": "cães"
+    },
+    {
+     "id": "d",
+     "texto": "balões"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada substantivo ao adjetivo que concorda com ele.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o amigo"
+    },
+    {
+     "id": "2",
+     "texto": "a amiga"
+    },
+    {
+     "id": "3",
+     "texto": "os amigos"
+    },
+    {
+     "id": "4",
+     "texto": "as amigas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "atencioso"
+    },
+    {
+     "id": "b",
+     "texto": "atenciosa"
+    },
+    {
+     "id": "c",
+     "texto": "atenciosos"
+    },
+    {
+     "id": "d",
+     "texto": "atenciosas"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada espaço ao pronome que concorda com a palavra.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "___ pai"
+    },
+    {
+     "id": "2",
+     "texto": "___ mãe"
+    },
+    {
+     "id": "3",
+     "texto": "___ óculos"
+    },
+    {
+     "id": "4",
+     "texto": "___ meias"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "meu"
+    },
+    {
+     "id": "b",
+     "texto": "minha"
+    },
+    {
+     "id": "c",
+     "texto": "meus"
+    },
+    {
+     "id": "d",
+     "texto": "minhas"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A parte da notícia que revela informações atrativas sobre o fato, como um título principal, é a ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "manchete"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O subtítulo da notícia também é chamado de ____________-fina.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "linha"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os parágrafos iniciais, com as informações essenciais sobre o fato, formam o ____________.",
+   "pagina": "141",
+   "ajuda": "lide",
+   "resposta": "lide"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A linguagem da notícia é impessoal, formal e ____________.",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "objetiva"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na notícia, a palavra senegalês se refere a ____________.",
+   "pagina": "140",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "resposta": "Cheikh"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"leão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "leões"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Masculino e feminino indicam o ____________ da palavra.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "gênero"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Trocando \"ações\" por \"atos\", a expressão \"pequenas ações\" fica \"____________ atos\".",
+   "pagina": "144",
+   "ajuda": "concordancia",
+   "resposta": "pequenos"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A notícia já contou o que aconteceu, com quem e onde. Qual pergunta AINDA FALTA responder?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Lide em construção",
+    "itens": [
+     "O que aconteceu? Um colega ajudou um aluno migrante.",
+     "Com quem? Com Cheikh e Vinícius.",
+     "Onde? Em uma escola de Caxias do Sul."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Com quem aconteceu?"
+    },
+    {
+     "id": "B",
+     "texto": "Quando aconteceu?"
+    },
+    {
+     "id": "C",
+     "texto": "Onde aconteceu?"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O que Vinícius NÃO fez para ajudar Cheikh?",
+   "pagina": "139",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Usou um aplicativo de tradução."
+    },
+    {
+     "id": "B",
+     "texto": "Dividiu seus cadernos com ele."
+    },
+    {
+     "id": "C",
+     "texto": "Levou Cheikh para outra escola."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Bia já escreveu a manchete, a linha-fina e o lide da notícia dela. Qual parte ainda falta escrever?",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "A manchete."
+    },
+    {
+     "id": "B",
+     "texto": "O lide."
+    },
+    {
+     "id": "C",
+     "texto": "O corpo do texto."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Um lide responde a 6 perguntas. Um texto já respondeu 4 delas. Quantas perguntas ainda faltam?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "2"
+    },
+    {
+     "id": "B",
+     "texto": "4"
+    },
+    {
+     "id": "C",
+     "texto": "6"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "ONDE o fato aconteceu?",
+   "pagina": "140",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em uma escola de Caxias do Sul."
+    },
+    {
+     "id": "B",
+     "texto": "Com Cheikh e Vinícius."
+    },
+    {
+     "id": "C",
+     "texto": "No começo de 2023."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE Cheikh não interagia com os colegas?",
+   "pagina": "138",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porque chegou ao Brasil no começo de 2023."
+    },
+    {
+     "id": "B",
+     "texto": "Porque tinha dificuldade com a língua e era tímido."
+    },
+    {
+     "id": "C",
+     "texto": "Porque Vinícius dividiu os cadernos com ele."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual trecho é a linha-fina desta notícia?",
+   "pagina": "138",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: pequenas ações na escola",
+    "itens": [
+     "Manchete: Como pequenas ações mudam a vida de migrantes ou alunos com deficiências nas escolas de Caxias e região",
+     "Linha-fina: Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos e fortalecidos para superar barreiras",
+     "Resumo: Cheikh, de 17 anos, veio do Senegal para o Brasil no começo de 2023. Ele só falava francês e era tímido, por isso ficou isolado na escola, em Caxias do Sul. O colega Vinícius não aceitou essa situação.",
+     "Vinícius usou gestos e um aplicativo de tradução, passou o conteúdo para o francês e dividiu seus cadernos com Cheikh."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Como pequenas ações mudam a vida de migrantes."
+    },
+    {
+     "id": "B",
+     "texto": "Com empatia e solidariedade dos amigos, estudantes se sentem acolhidos."
+    },
+    {
+     "id": "C",
+     "texto": "Cheikh veio do Senegal para o Brasil."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Um parágrafo conta o que houve, com quem, quando e onde, logo no começo da notícia. Isso significa que esse parágrafo é:",
+   "pagina": "141",
+   "ajuda": "lide",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a manchete."
+    },
+    {
+     "id": "B",
+     "texto": "a linha-fina."
+    },
+    {
+     "id": "C",
+     "texto": "o lide."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"mão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "mões"
+    },
+    {
+     "id": "B",
+     "texto": "mãos"
+    },
+    {
+     "id": "C",
+     "texto": "mães"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A maioria das palavras em -ão faz o plural em -ões. Qual palavra NÃO segue essa regra?",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "coração"
+    },
+    {
+     "id": "B",
+     "texto": "botão"
+    },
+    {
+     "id": "C",
+     "texto": "capitão"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "arquivo": "historia-migracoes",
+ "titulo": "Migrações para o Brasil",
+ "fonte": "História 4º ano — Capítulo 10 (págs. 94–105)",
+ "topicos": {
+  "comando": {
+   "titulo": "Antes de marcar: o que a pergunta pede?",
+   "icone": "🔎",
+   "pagina": "95",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Muitas vezes, todas as alternativas trazem coisas verdadeiras, mas só uma responde ao que a pergunta pede. Por isso, leia a pergunta duas vezes antes de olhar as alternativas."
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "FALTA, RESTOU, SOBROU: a pergunta quer a outra parte, a que ainda não foi usada.",
+      "NÃO: a pergunta quer a única coisa que não aparece ou não aconteceu.",
+      "ONDE, QUANDO, QUEM, POR QUE: cada palavra pede uma informação diferente."
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Antes de marcar, diga em voz baixa: \"a pergunta quer saber...\". Depois, confira se a alternativa responde a isso."
+    }
+   ]
+  },
+  "motivos": {
+   "titulo": "Por que os europeus vieram",
+   "icone": "🚢",
+   "pagina": "96",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Os portugueses foram os primeiros europeus a chegar ao Brasil, mas não os únicos. No século XIX, o Brasil recebeu um dos maiores fluxos de imigrantes europeus da história."
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "Guerras de unificação na Europa, principalmente em países como Alemanha e Itália.",
+      "Péssimas condições de vida: a falta de terras para plantar gerava fome e miséria.",
+      "Necessidade de mão de obra nos cafezais de São Paulo.",
+      "Propagandas do governo e dos cafeicultores, que anunciavam as qualidades do Brasil."
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Dois motivos vêm da Europa (guerras e fome) e dois vêm do Brasil (trabalho e propaganda)."
+    }
+   ]
+  },
+  "alemaes": {
+   "titulo": "Os alemães",
+   "icone": "🇩🇪",
+   "pagina": "97",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Os primeiros imigrantes alemães chegaram por volta de 1824. Nesse ano, um grupo de 39 imigrantes fundou a primeira colônia alemã do Brasil: São Leopoldo, no Rio Grande do Sul."
+    },
+    {
+     "tipo": "texto",
+     "texto": "A colônia se destacou por preservar a cultura e a língua alemãs. Eles construíram escolas religiosas, cultivaram frutas, legumes e verduras, criaram porcos e produziram azeite e couro. Na culinária, ficaram conhecidos pratos como o chucrute (repolho em conserva) e o kasseler (corte de porco)."
+    }
+   ]
+  },
+  "italianos": {
+   "titulo": "Os italianos",
+   "icone": "🇮🇹",
+   "pagina": "98",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Os primeiros imigrantes italianos chegaram por volta de 1875. Fundaram colônias no Rio Grande do Sul: Caxias (atual Caxias do Sul), Conde d'Eu (atual Garibaldi) e Dona Isabel (atual Bento Gonçalves)."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Em Bento Gonçalves, ainda hoje há plantio de uvas e produção de vinho. Os italianos também foram para o Sudeste, para trabalhar nos cafezais de São Paulo, o que ajudou o Brasil a se tornar o maior exportador de café do mundo."
+    },
+    {
+     "tipo": "texto",
+     "texto": "A influência italiana está em todo o Brasil, principalmente na culinária: polenta, brusqueta e macarrão com almôndegas."
+    }
+   ]
+  },
+  "ucranianos": {
+   "titulo": "Os ucranianos e a matrioska",
+   "icone": "🪆",
+   "pagina": "99",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A imigração ucraniana começou na década de 1890: oito famílias partiram da cidade de Zolotiv para o atual município de Mallet, no Paraná. Um símbolo dessa passagem é a Igreja do Arcanjo Miguel, na Serra do Tigre, com obra de 1897 a cerca de 1901, por iniciativa do padre Nikon Rodolzkie."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Hoje, o Brasil é um dos países que mais abrigam ucranianos, muitos deles no Paraná. Entre os refugiados recentes citados no livro também há ucranianos."
+    },
+    {
+     "tipo": "texto",
+     "texto": "A matrioska é um conjunto de bonecas de madeira de diferentes tamanhos, que se encaixam uma dentro da outra, da maior para a menor. Também chamadas de babuskas, são tradicionais em países do Leste Europeu, como Rússia, Polônia e Ucrânia."
+    }
+   ]
+  },
+  "arabes": {
+   "titulo": "Os imigrantes de origem árabe",
+   "icone": "🥙",
+   "pagina": "100",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Nem todos os imigrantes eram europeus. Vieram também povos árabes, como sírios e libaneses. Os primeiros grandes grupos de libaneses chegaram em 1880, por causa de problemas econômicos e perseguições religiosas. D. Pedro II visitou o Oriente Médio em 1876 e admirou a habilidade comercial desses povos."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Eles se destacaram como comerciantes e trouxeram pratos como esfirra, kafta, quibe, falafel, tabule e coalhada seca. O shawarma foi adaptado pelos brasileiros e virou o churrasco grego."
+    }
+   ]
+  },
+  "japoneses": {
+   "titulo": "Os imigrantes japoneses",
+   "icone": "🗾",
+   "pagina": "101",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Os primeiros imigrantes japoneses chegaram em 1908, pelo Porto de Santos, no navio Kasato Maru. Vieram por causa dos conflitos pela falta de terras e das dívidas dos trabalhadores rurais no Japão. A viagem durava cerca de 50 dias."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Eram, em sua maioria, agricultores, e se estabeleceram em estados como São Paulo, Paraná, Mato Grosso e Pará. Trouxeram conhecimentos de Medicina, Engenharia e técnicas agrícolas."
+    },
+    {
+     "tipo": "texto",
+     "texto": "O bairro da Liberdade, em São Paulo, foi antes um reduto negro da cidade. A partir de 1912, recebeu muitos japoneses. Hoje concentra a maior comunidade japonesa fora do Japão."
+    }
+   ]
+  },
+  "migrar-hoje": {
+   "titulo": "Por que as pessoas migram hoje",
+   "icone": "🧳",
+   "pagina": "102",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "As pessoas continuam migrando por causa das situações que enfrentam em seus países. Elas podem ser migrantes ou refugiadas."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "",
+      "Quem é",
+      "Exemplos citados"
+     ],
+     "linhas": [
+      [
+       "Migrante",
+       "Pessoa que se desloca para outro lugar",
+       "bolivianos, haitianos, argentinos, chineses"
+      ],
+      [
+       "Refugiado",
+       "Pessoa fora de seu país por temor de perseguição, violação de direitos ou conflitos armados",
+       "venezuelanos, cubanos, ucranianos, sírios, afegãos, palestinos"
+      ]
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Ser refugiado depende do motivo da saída: a pessoa foi obrigada a sair por perigo."
+    }
+   ]
+  },
+  "direito-migrar": {
+   "titulo": "O direito de migrar",
+   "icone": "📜",
+   "pagina": "103",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A Declaração Universal dos Direitos Humanos foi adotada pela ONU em 10 de dezembro de 1948. Ela diz que todas as pessoas devem ser tratadas igualmente."
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "Toda pessoa pode circular livremente e escolher onde morar dentro de um Estado.",
+      "Toda pessoa pode sair do país em que está, inclusive o seu, e voltar para ele."
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Mesmo assim, nem sempre essa é a realidade. Os refugiados devem ser respeitados e ter direito à vida, à liberdade e a um tratamento digno em qualquer lugar."
+    }
+   ]
+  },
+  "povos": {
+   "titulo": "Os povos do capítulo, lado a lado",
+   "icone": "🌍",
+   "pagina": "96",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Alemães, italianos e ucranianos vieram da Europa. Árabes e japoneses vieram de fora da Europa."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Povo",
+      "Quando começou a chegar",
+      "Marca no Brasil"
+     ],
+     "linhas": [
+      [
+       "Alemães",
+       "por volta de 1824",
+       "colônia de São Leopoldo (RS); escolas religiosas, couro; Museu Casa do Imigrante"
+      ],
+      [
+       "Italianos",
+       "por volta de 1875",
+       "Bento Gonçalves (RS), com uvas e vinho; cafezais de São Paulo"
+      ],
+      [
+       "Libaneses (árabes)",
+       "em 1880",
+       "destaque como comerciantes"
+      ],
+      [
+       "Ucranianos",
+       "década de 1890",
+       "Mallet (PR), com a igreja do Arcanjo Miguel"
+      ],
+      [
+       "Japoneses",
+       "em 1908, pelo Porto de Santos (SP)",
+       "bairro da Liberdade (SP); Medicina, Engenharia e técnicas agrícolas"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Povo",
+      "Pratos"
+     ],
+     "linhas": [
+      [
+       "Alemães",
+       "chucrute (repolho em conserva), kasseler (corte de porco)"
+      ],
+      [
+       "Italianos",
+       "polenta, brusqueta, macarrão com almôndegas"
+      ],
+      [
+       "Árabes",
+       "esfirra, kafta, quibe, falafel, tabule, shawarma"
+      ],
+      [
+       "Japoneses",
+       "sushi, sashimi, lámen"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Quem",
+      "Por que saiu do seu país"
+     ],
+     "linhas": [
+      [
+       "Italianos e alemães",
+       "guerras de unificação e falta de terras"
+      ],
+      [
+       "Japoneses",
+       "conflitos pela falta de terras e dívidas dos trabalhadores"
+      ],
+      [
+       "Libaneses",
+       "problemas econômicos e perseguições religiosas"
+      ],
+      [
+       "Refugiados de hoje",
+       "temor de perseguição e conflitos armados; venezuelanos entraram por Pacaraima (RR)"
+      ]
+     ]
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "1876: D. Pedro II visita o Oriente Médio.",
+      "1897 a cerca de 1901: obra da igreja em Mallet.",
+      "1948: Declaração Universal dos Direitos Humanos.",
+      "Kasato Maru: navio dos primeiros japoneses.",
+      "Matrioska: bonecas de madeira que se encaixam."
+     ]
+    }
+   ]
+  }
+ }
+}

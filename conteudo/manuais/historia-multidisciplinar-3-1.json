@@ -1,0 +1,727 @@
+{
+ "id": "historia-multidisciplinar-3-1",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 1",
+ "numero": 1,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "materia": "historia-migracoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os portugueses foram os primeiros europeus a chegar ao Brasil. ( ___ )",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As guerras de unificação aconteciam principalmente em países como a Alemanha e a Itália. ( ___ )",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A primeira colônia alemã do Brasil foi São Leopoldo. ( ___ )",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os alemães não se preocupavam em preservar sua cultura e sua língua. ( ___ )",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram antes dos primeiros alemães. ( ___ )",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Refugiados são pessoas que estão fora de seu país por temor de perseguição ou por conflitos. ( ___ )",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada povo à época em que começou a chegar ao Brasil.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "japoneses"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "por volta de 1824"
+    },
+    {
+     "id": "b",
+     "texto": "por volta de 1875"
+    },
+    {
+     "id": "c",
+     "texto": "em 1880"
+    },
+    {
+     "id": "d",
+     "texto": "em 1908"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada motivo da imigração europeia à sua explicação.",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "guerras de unificação"
+    },
+    {
+     "id": "2",
+     "texto": "falta de terras"
+    },
+    {
+     "id": "3",
+     "texto": "cafezais de São Paulo"
+    },
+    {
+     "id": "4",
+     "texto": "propagandas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "conflitos em países como Alemanha e Itália"
+    },
+    {
+     "id": "b",
+     "texto": "gerava fome e miséria"
+    },
+    {
+     "id": "c",
+     "texto": "necessidade de mão de obra no Brasil"
+    },
+    {
+     "id": "d",
+     "texto": "anunciavam as qualidades do Brasil"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada povo a um lugar ligado à sua história no Brasil.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "italianos"
+    },
+    {
+     "id": "4",
+     "texto": "japoneses"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "São Leopoldo (RS)"
+    },
+    {
+     "id": "b",
+     "texto": "Mallet (PR)"
+    },
+    {
+     "id": "c",
+     "texto": "Bento Gonçalves (RS)"
+    },
+    {
+     "id": "d",
+     "texto": "bairro da Liberdade (SP)"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada prato ao povo ligado a ele.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "chucrute"
+    },
+    {
+     "id": "2",
+     "texto": "polenta"
+    },
+    {
+     "id": "3",
+     "texto": "quibe"
+    },
+    {
+     "id": "4",
+     "texto": "sushi"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "alemães"
+    },
+    {
+     "id": "b",
+     "texto": "italianos"
+    },
+    {
+     "id": "c",
+     "texto": "árabes"
+    },
+    {
+     "id": "d",
+     "texto": "japoneses"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "migrante"
+    },
+    {
+     "id": "2",
+     "texto": "refugiado"
+    },
+    {
+     "id": "3",
+     "texto": "Declaração Universal dos Direitos Humanos"
+    },
+    {
+     "id": "4",
+     "texto": "mão de obra"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pessoa que se desloca para viver em outro lugar"
+    },
+    {
+     "id": "b",
+     "texto": "pessoa fora de seu país por temor ou conflitos"
+    },
+    {
+     "id": "c",
+     "texto": "documento que diz que todos devem ser tratados igualmente"
+    },
+    {
+     "id": "d",
+     "texto": "trabalhadores"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra à sua explicação.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Kasato Maru"
+    },
+    {
+     "id": "2",
+     "texto": "matrioska"
+    },
+    {
+     "id": "3",
+     "texto": "chucrute"
+    },
+    {
+     "id": "4",
+     "texto": "kasseler"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "navio dos primeiros japoneses"
+    },
+    {
+     "id": "b",
+     "texto": "bonecas de madeira que se encaixam"
+    },
+    {
+     "id": "c",
+     "texto": "repolho em conserva"
+    },
+    {
+     "id": "d",
+     "texto": "corte de porco"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Durante o século ____________, o Brasil recebeu um dos maiores fluxos de imigrantes europeus (escreva em algarismos romanos).",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "XIX"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A colônia de São Leopoldo fica no Rio Grande do ____________.",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "resposta": "Sul"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na Europa, a falta de terras para plantar gerava fome e ____________.",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "miséria"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O governo brasileiro e os cafeicultores anunciavam o Brasil por meio de ____________.",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "propagandas"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A colônia de São Leopoldo foi fundada por um grupo de ____________ imigrantes alemães (escreva em número).",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "resposta": "39"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros japoneses chegaram a bordo do navio Kasato ____________.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "Maru"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A boneca matrioska é feita de ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "madeira"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos foi adotada pela ____________.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "ONU"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Quais povos AINDA FALTAM ser estudados?",
+   "pagina": "95",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Plano de estudo",
+    "itens": [
+     "Povos do capítulo: alemães, italianos, ucranianos, árabes e japoneses.",
+     "Já estudados: alemães, italianos e árabes."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "ucranianos e japoneses"
+    },
+    {
+     "id": "B",
+     "texto": "alemães e italianos"
+    },
+    {
+     "id": "C",
+     "texto": "italianos e árabes"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Um navio trazia 39 imigrantes. Já desembarcaram 25. Quantos ainda faltam desembarcar?",
+   "pagina": "97",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "39"
+    },
+    {
+     "id": "B",
+     "texto": "14"
+    },
+    {
+     "id": "C",
+     "texto": "25"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual destes NÃO foi um motivo da vinda dos imigrantes europeus?",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "As propagandas feitas pelo governo brasileiro."
+    },
+    {
+     "id": "B",
+     "texto": "As guerras de unificação na Europa."
+    },
+    {
+     "id": "C",
+     "texto": "O excesso de terras para plantar na Europa."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O que os alemães NÃO fizeram na colônia de São Leopoldo, segundo o texto do livro?",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Cultivaram frutas, legumes e verduras."
+    },
+    {
+     "id": "B",
+     "texto": "Construíram escolas religiosas."
+    },
+    {
+     "id": "C",
+     "texto": "Colheram café para exportar."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "ONDE os alemães fundaram sua primeira colônia?",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Por volta de 1824."
+    },
+    {
+     "id": "B",
+     "texto": "Em São Leopoldo, no Rio Grande do Sul."
+    },
+    {
+     "id": "C",
+     "texto": "Com um grupo de 39 imigrantes."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE o Brasil queria receber trabalhadores imigrantes?",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porque precisava de mão de obra nos cafezais de São Paulo."
+    },
+    {
+     "id": "B",
+     "texto": "Porque havia guerras de unificação na Europa."
+    },
+    {
+     "id": "C",
+     "texto": "Porque faltavam terras para plantar na Europa."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma família deixou a Europa para fugir da fome e viver no Brasil. Isso significa que, aqui, ela era:",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "turista."
+    },
+    {
+     "id": "B",
+     "texto": "nascida no Brasil."
+    },
+    {
+     "id": "C",
+     "texto": "imigrante."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Um folheto de 1886 dizia: \"Imigrante, leia estas notas antes de partir\". Isso significa que ele era para:",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "quem nunca sairia da Itália."
+    },
+    {
+     "id": "B",
+     "texto": "quem já tinha voltado para a Itália."
+    },
+    {
+     "id": "C",
+     "texto": "quem ia viajar para o Brasil."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes alemães chegaram ao Brasil por volta de:",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1482"
+    },
+    {
+     "id": "B",
+     "texto": "1842"
+    },
+    {
+     "id": "C",
+     "texto": "1824"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Muitos imigrantes vieram da Europa, mas não todos. Qual povo NÃO veio da Europa?",
+   "pagina": "100",
+   "ajuda": "povos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "italianos"
+    },
+    {
+     "id": "B",
+     "texto": "alemães"
+    },
+    {
+     "id": "C",
+     "texto": "japoneses"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

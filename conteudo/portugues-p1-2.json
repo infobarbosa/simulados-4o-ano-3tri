@@ -5,10 +5,11 @@
  "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
  "titulo": "Português — Simulado 2",
  "numero": 2,
- "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153",
- "data": "13-09-2026",
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
  "idioma": "pt-BR",
- "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!): notícia, concordância nominal e plural das palavras terminadas em -ão, págs. 136–153.",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia das págs. 142–143, resumida.",
+ "materia": "portugues-noticia",
  "partes": {
   "1": {
    "titulo": "Verdadeiro ou Falso",
@@ -24,7 +25,7 @@
   },
   "4": {
    "titulo": "Múltipla escolha",
-   "instrucao": "Marque a alternativa que melhor completa a frase."
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
   }
  },
  "questoes": [
@@ -33,35 +34,49 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "A notícia serve principalmente para entreter o leitor com histórias inventadas. ( ___ )",
-   "pagina": "140",
-   "resposta": "F"
+   "enunciado": "A manchete revela informações atrativas sobre o fato. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "V"
   },
   {
    "n": 2,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "Jornais impressos e portais de internet trazem notícias. ( ___ )",
-   "pagina": "138",
-   "resposta": "V"
+   "enunciado": "O corpo do texto vem antes da manchete. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "F"
   },
   {
    "n": 3,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "Há plurais de palavras em -ão terminados em -ões, -ãos e -ães. ( ___ )",
-   "pagina": "147",
-   "resposta": "V"
+   "enunciado": "Uma notícia deve trazer a opinião pessoal de quem escreve. ( ___ )",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "F"
   },
   {
    "n": 4,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "O adjetivo caracteriza o substantivo. ( ___ )",
-   "pagina": "144",
+   "enunciado": "Segundo a notícia, a campanha recolhe material para uma escola atingida pela enchente. ( ___ )",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "resposta": "V"
   },
   {
@@ -69,62 +84,75 @@
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "O plural de \"mão\" é \"mães\". ( ___ )",
-   "pagina": "147",
-   "resposta": "F"
+   "enunciado": "Os adjetivos que têm a mesma forma no masculino e no feminino são chamados de uniformes. ( ___ )",
+   "pagina": "145",
+   "ajuda": "adjetivos-uniformes",
+   "resposta": "V"
   },
   {
    "n": 6,
    "parte": 1,
    "tipo": "vf",
    "calculo": false,
-   "enunciado": "Na concordância nominal, os artigos e adjetivos combinam em gênero e número com o substantivo. ( ___ )",
-   "pagina": "145",
-   "resposta": "V"
+   "enunciado": "Todas as palavras terminadas em -ão formam o plural em -ões. ( ___ )",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "F"
   },
   {
    "n": 7,
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Pela notícia, associe cada pergunta à sua resposta.",
+   "pagina": "142",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "colunaA": [
     {
      "id": "1",
-     "texto": "opinião"
+     "texto": "O que acontece?"
     },
     {
      "id": "2",
-     "texto": "irmão"
+     "texto": "Onde?"
     },
     {
      "id": "3",
-     "texto": "cão"
+     "texto": "Até quando?"
     },
     {
      "id": "4",
-     "texto": "botão"
+     "texto": "Por quê?"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "opiniões"
+     "texto": "uma campanha de material escolar"
     },
     {
      "id": "b",
-     "texto": "irmãos"
+     "texto": "em Hulha Negra"
     },
     {
      "id": "c",
-     "texto": "cães"
+     "texto": "até este sábado (15)"
     },
     {
      "id": "d",
-     "texto": "botões"
+     "texto": "uma escola foi atingida pela enchente"
     }
    ],
-   "enunciado": "Associe cada palavra ao seu plural.",
-   "pagina": "147",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -137,44 +165,55 @@
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada parte da notícia ao trecho correspondente.",
+   "pagina": "142",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "colunaA": [
     {
      "id": "1",
-     "texto": "quando"
+     "texto": "manchete"
     },
     {
      "id": "2",
-     "texto": "onde"
+     "texto": "linha-fina"
     },
     {
      "id": "3",
-     "texto": "quem"
+     "texto": "corpo do texto"
     },
     {
      "id": "4",
-     "texto": "por que"
+     "texto": "imagem"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "o tempo do fato"
+     "texto": "Escola Monteiro Lobato promove campanha"
     },
     {
      "id": "b",
-     "texto": "o lugar do fato"
+     "texto": "Doações serão entregues para escola de Eldorado do Sul"
     },
     {
      "id": "c",
-     "texto": "as pessoas envolvidas"
+     "texto": "A equipe diretiva teve a ideia da campanha"
     },
     {
      "id": "d",
-     "texto": "o motivo do fato"
+     "texto": "foto de uma mochila com material escolar"
     }
    ],
-   "enunciado": "Associe cada pergunta da notícia à informação que ela busca.",
-   "pagina": "148",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -187,44 +226,45 @@
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada característica da notícia ao seu significado.",
+   "pagina": "141",
+   "ajuda": "linguagem",
    "colunaA": [
     {
      "id": "1",
-     "texto": "concordância"
+     "texto": "impessoal"
     },
     {
      "id": "2",
-     "texto": "concordância nominal"
+     "texto": "objetiva"
     },
     {
      "id": "3",
-     "texto": "adjetivo"
+     "texto": "recente"
     },
     {
      "id": "4",
-     "texto": "substantivo"
+     "texto": "relevante"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "palavras alteram as terminações para combinar"
+     "texto": "não mostra julgamento pessoal do autor"
     },
     {
      "id": "b",
-     "texto": "combinação em gênero e número do substantivo com outras palavras"
+     "texto": "evita informações que não importam para o fato"
     },
     {
      "id": "c",
-     "texto": "dá característica ao substantivo"
+     "texto": "aconteceu há pouco tempo"
     },
     {
      "id": "d",
-     "texto": "nomeia seres e coisas"
+     "texto": "é importante para a sociedade"
     }
    ],
-   "enunciado": "Associe cada termo à sua definição.",
-   "pagina": "145",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -237,44 +277,45 @@
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
    "colunaA": [
     {
      "id": "1",
-     "texto": "o livro"
+     "texto": "coração"
     },
     {
      "id": "2",
-     "texto": "a casa"
+     "texto": "mão"
     },
     {
      "id": "3",
-     "texto": "os livros"
+     "texto": "capitão"
     },
     {
      "id": "4",
-     "texto": "as casas"
+     "texto": "balão"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "bonito"
+     "texto": "corações"
     },
     {
      "id": "b",
-     "texto": "bonita"
+     "texto": "mãos"
     },
     {
      "id": "c",
-     "texto": "bonitos"
+     "texto": "capitães"
     },
     {
      "id": "d",
-     "texto": "bonitas"
+     "texto": "balões"
     }
    ],
-   "enunciado": "Associe cada substantivo ao adjetivo que concorda com ele.",
-   "pagina": "145",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -287,44 +328,45 @@
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada palavra à terminação do seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
    "colunaA": [
     {
      "id": "1",
-     "texto": "pão"
+     "texto": "cidadão"
     },
     {
      "id": "2",
-     "texto": "coração"
+     "texto": "leão"
     },
     {
      "id": "3",
-     "texto": "mão"
+     "texto": "cão"
     },
     {
      "id": "4",
-     "texto": "ação"
+     "texto": "cristão"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "plural em -ães"
+     "texto": "-ãos"
     },
     {
      "id": "b",
-     "texto": "plural em -ões"
+     "texto": "-ões"
     },
     {
      "id": "c",
-     "texto": "plural em -ãos"
+     "texto": "-ães"
     },
     {
      "id": "d",
-     "texto": "plural em -ões"
+     "texto": "-ãos"
     }
    ],
-   "enunciado": "Associe cada palavra ao tipo de plural que ela forma.",
-   "pagina": "147",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -337,44 +379,45 @@
    "parte": 2,
    "tipo": "associacao",
    "calculo": false,
+   "enunciado": "Associe cada substantivo à palavra que concorda com ele.",
+   "pagina": "145",
+   "ajuda": "concordancia",
    "colunaA": [
     {
      "id": "1",
-     "texto": "título"
+     "texto": "a escola"
     },
     {
      "id": "2",
-     "texto": "corpo da notícia"
+     "texto": "o aluno"
     },
     {
      "id": "3",
-     "texto": "fotografia"
+     "texto": "as escolas"
     },
     {
      "id": "4",
-     "texto": "meios de comunicação"
+     "texto": "os alunos"
     }
    ],
    "colunaB": [
     {
      "id": "a",
-     "texto": "resume e chama a atenção"
+     "texto": "atingida"
     },
     {
      "id": "b",
-     "texto": "conta os detalhes do fato"
+     "texto": "atingido"
     },
     {
      "id": "c",
-     "texto": "ilustra o fato"
+     "texto": "atingidas"
     },
     {
      "id": "d",
-     "texto": "levam a notícia até as pessoas"
+     "texto": "atingidos"
     }
    ],
-   "enunciado": "Associe cada elemento à sua função na notícia.",
-   "pagina": "148",
    "resposta": {
     "1": "a",
     "2": "b",
@@ -387,94 +430,131 @@
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "Os meios de ____________, como jornais e televisão, trazem as notícias.",
-   "pagina": "138",
-   "resposta": "comunicação"
+   "enunciado": "O título principal da notícia é chamado de ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "manchete"
   },
   {
    "n": 14,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "O plural da maioria das palavras terminadas em -ão é feito com ____________.",
-   "pagina": "147",
-   "resposta": "-ões"
+   "enunciado": "O restante das informações, que detalha o lide, é o corpo do ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "texto"
   },
   {
    "n": 15,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "O plural de \"pão\" é ____________.",
-   "pagina": "147",
-   "resposta": "pães"
+   "enunciado": "A imagem não é obrigatória, mas serve para ilustrar e ____________ as informações.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "complementar"
   },
   {
    "n": 16,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "A concordância ____________ ocorre entre o substantivo e artigos, adjetivos, pronomes e numerais.",
-   "pagina": "145",
-   "resposta": "nominal"
+   "enunciado": "Segundo a notícia, a escola de Eldorado do Sul foi atingida pela ____________.",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "resposta": "enchente"
   },
   {
    "n": 17,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "A palavra \"pequenas\" na expressão \"pequenas ações\" é um ____________.",
-   "pagina": "144",
-   "resposta": "adjetivo"
+   "enunciado": "A campanha arrecada material ____________.",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "resposta": "escolar"
   },
   {
    "n": 18,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "O plural de \"irmão\" é ____________.",
+   "enunciado": "O plural de \"botão\" é ____________.",
    "pagina": "147",
-   "resposta": "irmãos"
+   "ajuda": "plural-ao",
+   "resposta": "botões"
   },
   {
    "n": 19,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "A notícia responde a perguntas como o quê, quem, quando, onde, por que e ____________.",
-   "pagina": "148",
-   "resposta": "como"
+   "enunciado": "Artigos, adjetivos, pronomes e numerais concordam com o ____________.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "substantivo"
   },
   {
    "n": 20,
    "parte": 3,
    "tipo": "lacuna",
    "calculo": false,
-   "enunciado": "Os adjetivos uniformes têm a mesma forma no masculino e no ____________.",
+   "enunciado": "No plural, \"aluno vindo de outra cidade\" fica \"alunos ____________ de outra cidade\".",
    "pagina": "145",
-   "resposta": "feminino"
+   "ajuda": "concordancia",
+   "resposta": "vindos"
   },
   {
    "n": 21,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Quais itens da lista AINDA FALTAM chegar?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🎒",
+    "titulo": "Campanha de material escolar",
+    "itens": [
+     "Lista pedida: caderno, lápis, borracha, tesoura, estojo e mochila.",
+     "Já chegaram: caderno, lápis, borracha e mochila."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "coraçãos"
+     "texto": "caderno e lápis"
     },
     {
      "id": "B",
-     "texto": "corações"
+     "texto": "tesoura e estojo"
     },
     {
      "id": "C",
-     "texto": "coraçães"
+     "texto": "borracha e mochila"
     }
    ],
-   "enunciado": "O plural de \"coração\" é:",
-   "pagina": "147",
    "resposta": "B"
   },
   {
@@ -482,91 +562,115 @@
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "A turma já escreveu a manchete, o lide e o corpo do texto. Qual parte ainda falta escrever?",
+   "pagina": "141",
+   "ajuda": "estrutura",
    "alternativas": [
     {
      "id": "A",
-     "texto": "informar sobre um fato"
+     "texto": "O lide."
     },
     {
      "id": "B",
-     "texto": "criar uma história de ficção"
+     "texto": "A linha-fina."
     },
     {
      "id": "C",
-     "texto": "fazer rimas"
+     "texto": "A manchete."
     }
    ],
-   "enunciado": "O objetivo principal de uma notícia é:",
-   "pagina": "140",
-   "resposta": "A"
+   "resposta": "B"
   },
   {
    "n": 23,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Qual informação NÃO aparece na notícia?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "grandes"
+     "texto": "Até quando a campanha acontece."
     },
     {
      "id": "B",
-     "texto": "iniciativas"
+     "texto": "Para qual cidade vão as doações."
     },
     {
      "id": "C",
-     "texto": "as"
+     "texto": "Quantos cadernos foram doados."
     }
    ],
-   "enunciado": "Na expressão \"grandes iniciativas\", o adjetivo é:",
-   "pagina": "144",
-   "resposta": "A"
+   "resposta": "C"
   },
   {
    "n": 24,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Uma escola preparou 9 caixas de doações e já entregou 5. Quantas caixas sobraram para entregar?",
+   "pagina": "142",
+   "ajuda": "comando",
    "alternativas": [
     {
      "id": "A",
-     "texto": "gênero e número"
+     "texto": "9"
     },
     {
      "id": "B",
-     "texto": "rima e ritmo"
+     "texto": "5"
     },
     {
      "id": "C",
-     "texto": "passado e futuro"
+     "texto": "4"
     }
    ],
-   "enunciado": "A concordância nominal combina o substantivo com outras palavras em:",
-   "pagina": "145",
-   "resposta": "A"
+   "resposta": "C"
   },
   {
    "n": 25,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "ATÉ QUANDO a campanha acontece?",
+   "pagina": "142",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "capitãos"
+     "texto": "Em Hulha Negra."
     },
     {
      "id": "B",
-     "texto": "capitães"
+     "texto": "Até este sábado (15)."
     },
     {
      "id": "C",
-     "texto": "capitões"
+     "texto": "Na Escola Monteiro Lobato."
     }
    ],
-   "enunciado": "O plural de \"capitão\" é:",
-   "pagina": "147",
    "resposta": "B"
   },
   {
@@ -574,45 +678,139 @@
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "POR QUE a campanha foi criada?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "informações sobre o assunto"
+     "texto": "Porque a Escola Monteiro Lobato celebra 62 anos."
     },
     {
      "id": "B",
-     "texto": "o final da história"
+     "texto": "Porque a escola de Eldorado do Sul ficou inundada."
     },
     {
      "id": "C",
-     "texto": "uma poesia"
+     "texto": "Porque as doações podem ser entregues na escola."
     }
    ],
-   "enunciado": "Antes do título, a notícia apresenta ao leitor:",
-   "pagina": "140",
-   "resposta": "A"
+   "resposta": "B"
   },
   {
    "n": 27,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
+   "enunciado": "Qual trecho faz parte do corpo do texto desta notícia?",
+   "pagina": "142",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "leais"
+     "texto": "Doações serão entregues para escola de Eldorado do Sul."
     },
     {
      "id": "B",
-     "texto": "leal"
+     "texto": "Escola Monteiro Lobato promove campanha de arrecadação."
     },
     {
      "id": "C",
-     "texto": "leales"
+     "texto": "A escola do aluno ficou inundada, com água a 1,8 m de altura."
     }
    ],
-   "enunciado": "Se trocarmos \"amigos leais\" por \"amigo\", o adjetivo fica:",
-   "pagina": "145",
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A notícia não mostra o julgamento pessoal de quem escreve. Isso significa que a linguagem dela é:",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "impessoal."
+    },
+    {
+     "id": "B",
+     "texto": "poética."
+    },
+    {
+     "id": "C",
+     "texto": "informal."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"pão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pães"
+    },
+    {
+     "id": "B",
+     "texto": "pãos"
+    },
+    {
+     "id": "C",
+     "texto": "pões"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A maioria das palavras em -ão faz o plural em -ões. Essa regra NÃO serve para:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "botão"
+    },
+    {
+     "id": "B",
+     "texto": "irmão"
+    },
+    {
+     "id": "C",
+     "texto": "coração"
+    }
+   ],
    "resposta": "B"
   }
  ]

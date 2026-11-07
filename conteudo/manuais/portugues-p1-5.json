@@ -1,0 +1,826 @@
+{
+ "id": "portugues-p1-5",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 5",
+ "numero": 5,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia inédita, criada para treinar a leitura de um texto novo.",
+ "materia": "portugues-noticia",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Pela notícia, ninguém ficou ferido no temporal. ( ___ )",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Pela notícia, a árvore caiu de manhã. ( ___ )",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O lide responde apenas à pergunta \"quando?\". ( ___ )",
+   "pagina": "141",
+   "ajuda": "lide",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A linguagem da notícia deve ser formal e objetiva. ( ___ )",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"o menino alegre\" e \"a menina alegre\", o adjetivo \"alegre\" é uniforme. ( ___ )",
+   "pagina": "145",
+   "ajuda": "adjetivos-uniformes",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As palavras \"opinião\" e \"textão\" são substantivos terminados em -ão. ( ___ )",
+   "pagina": "146",
+   "ajuda": "plural-ao",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Pela notícia, associe cada pergunta à sua resposta.",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "O que ocorreu?"
+    },
+    {
+     "id": "2",
+     "texto": "Por quê?"
+    },
+    {
+     "id": "3",
+     "texto": "Quando?"
+    },
+    {
+     "id": "4",
+     "texto": "Onde?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "um temporal derrubou uma árvore"
+    },
+    {
+     "id": "b",
+     "texto": "o vento passou de 80 km/h"
+    },
+    {
+     "id": "c",
+     "texto": "na quarta-feira (12)"
+    },
+    {
+     "id": "d",
+     "texto": "na Rua das Flores"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada parte da notícia ao trecho correspondente.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "manchete"
+    },
+    {
+     "id": "2",
+     "texto": "linha-fina"
+    },
+    {
+     "id": "3",
+     "texto": "lide"
+    },
+    {
+     "id": "4",
+     "texto": "corpo do texto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Temporal derruba árvore e fecha rua"
+    },
+    {
+     "id": "b",
+     "texto": "Ninguém ficou ferido; bombeiros liberaram a passagem"
+    },
+    {
+     "id": "c",
+     "texto": "Um temporal derrubou uma árvore na Rua das Flores"
+    },
+    {
+     "id": "d",
+     "texto": "Moradores ajudaram a recolher os galhos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada pronome ao substantivo com que ele concorda.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "nossa"
+    },
+    {
+     "id": "2",
+     "texto": "nosso"
+    },
+    {
+     "id": "3",
+     "texto": "nossos"
+    },
+    {
+     "id": "4",
+     "texto": "nossas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "escola"
+    },
+    {
+     "id": "b",
+     "texto": "bairro"
+    },
+    {
+     "id": "c",
+     "texto": "vizinhos"
+    },
+    {
+     "id": "d",
+     "texto": "ruas"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada numeral ao substantivo com que ele concorda.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "um"
+    },
+    {
+     "id": "2",
+     "texto": "uma"
+    },
+    {
+     "id": "3",
+     "texto": "dois"
+    },
+    {
+     "id": "4",
+     "texto": "duas"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "carro"
+    },
+    {
+     "id": "b",
+     "texto": "árvore"
+    },
+    {
+     "id": "c",
+     "texto": "carros"
+    },
+    {
+     "id": "d",
+     "texto": "árvores"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra à terminação do seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "botão"
+    },
+    {
+     "id": "2",
+     "texto": "cão"
+    },
+    {
+     "id": "3",
+     "texto": "irmão"
+    },
+    {
+     "id": "4",
+     "texto": "coração"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "-ões"
+    },
+    {
+     "id": "b",
+     "texto": "-ães"
+    },
+    {
+     "id": "c",
+     "texto": "-ãos"
+    },
+    {
+     "id": "d",
+     "texto": "-ões"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada meio de comunicação à sua descrição.",
+   "pagina": "138",
+   "ajuda": "noticia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "jornal impresso"
+    },
+    {
+     "id": "2",
+     "texto": "rádio"
+    },
+    {
+     "id": "3",
+     "texto": "televisão"
+    },
+    {
+     "id": "4",
+     "texto": "portal de internet"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "é lido no papel"
+    },
+    {
+     "id": "b",
+     "texto": "é só ouvido"
+    },
+    {
+     "id": "c",
+     "texto": "mostra imagens e sons"
+    },
+    {
+     "id": "d",
+     "texto": "é acessado pela rede"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os bombeiros cortaram o tronco em ____________ horas (escreva em número).",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "resposta": "3"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A velocidade do vento foi informada pela Defesa ____________.",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "resposta": "Civil"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Dois ____________ ficaram amassados.",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "resposta": "carros"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A notícia apresenta informações sobre um fato recente e ____________ para a sociedade.",
+   "pagina": "141",
+   "ajuda": "noticia",
+   "resposta": "relevante"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A parte que amplia as informações da manchete é a ____________-fina.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "linha"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No plural, \"rua fechada\" fica \"ruas ____________\".",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "fechadas"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"limão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "limões"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"cristão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "cristãos"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Em uma rua com 12 casas, 7 ficaram sem luz. Quantas casas ficaram COM luz?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "12"
+    },
+    {
+     "id": "B",
+     "texto": "7"
+    },
+    {
+     "id": "C",
+     "texto": "5"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Havia 10 galhos na calçada, e os moradores recolheram 6. Quantos galhos sobraram?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "4"
+    },
+    {
+     "id": "B",
+     "texto": "6"
+    },
+    {
+     "id": "C",
+     "texto": "10"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual informação NÃO aparece na notícia?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O nome do bombeiro que cortou o tronco."
+    },
+    {
+     "id": "B",
+     "texto": "A hora em que a árvore caiu."
+    },
+    {
+     "id": "C",
+     "texto": "A velocidade do vento."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual pergunta essa frase AINDA NÃO responde?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Frase escrita por uma colega",
+    "itens": [
+     "Temporal derrubou árvore no centro de Serra Azul na quarta-feira."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Por quê?"
+    },
+    {
+     "id": "B",
+     "texto": "Onde?"
+    },
+    {
+     "id": "C",
+     "texto": "Quando?"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUEM cortou o tronco?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Os bombeiros."
+    },
+    {
+     "id": "B",
+     "texto": "A Defesa Civil."
+    },
+    {
+     "id": "C",
+     "texto": "Os moradores."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O QUE aconteceu com os carros?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: o temporal",
+    "itens": [
+     "Manchete: Temporal derruba árvore e fecha rua no centro de Serra Azul",
+     "Linha-fina: Ninguém ficou ferido; bombeiros liberaram a passagem no fim da tarde",
+     "Lide: Um temporal derrubou uma árvore na Rua das Flores, no centro de Serra Azul, na quarta-feira (12), por volta das 15h. Segundo a Defesa Civil, o vento passou de 80 km/h.",
+     "Corpo do texto: Os bombeiros cortaram o tronco em 3 horas. Moradores ajudaram a recolher os galhos. Dois carros ficaram amassados."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Os bombeiros cortaram o tronco."
+    },
+    {
+     "id": "B",
+     "texto": "Dois ficaram amassados."
+    },
+    {
+     "id": "C",
+     "texto": "Os moradores recolheram os galhos."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual destas frases está com linguagem de notícia?",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Um temporal atingiu Serra Azul na quarta-feira."
+    },
+    {
+     "id": "B",
+     "texto": "Eu acho que o temporal foi assustador."
+    },
+    {
+     "id": "C",
+     "texto": "Que chuva horrível tivemos na cidade!"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Trocando \"rua fechada\" por \"portão\", a expressão correta é:",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "portão fechada"
+    },
+    {
+     "id": "B",
+     "texto": "portões fechado"
+    },
+    {
+     "id": "C",
+     "texto": "portão fechado"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"capitão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "capitães"
+    },
+    {
+     "id": "B",
+     "texto": "capitãos"
+    },
+    {
+     "id": "C",
+     "texto": "capitões"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Bia aprendeu que a maioria das palavras em -ão faz o plural em -ões e escreveu \"cões\". Ela:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "errou, porque \"cão\" é exceção e o plural é \"cães\"."
+    },
+    {
+     "id": "B",
+     "texto": "errou, porque o plural de \"cão\" é \"cãos\"."
+    },
+    {
+     "id": "C",
+     "texto": "acertou, porque a regra vale para todas as palavras."
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}
