@@ -1,0 +1,727 @@
+{
+ "id": "historia-multidisciplinar-3-4",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 4",
+ "numero": 4,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "materia": "historia-migracoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Atualmente, as pessoas continuam migrando. ( ___ )",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Ser refugiado e ser migrante comum são exatamente a mesma coisa. ( ___ )",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O Brasil se tornou um dos principais destinos de migrantes na atualidade. ( ___ )",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os venezuelanos estão entre os refugiados que vieram para o Brasil. ( ___ )",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos diz que todas as pessoas devem ser tratadas igualmente. ( ___ )",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Segundo a Declaração, uma pessoa não tem o direito de regressar ao seu país. ( ___ )",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada grupo à forma como o livro o cita.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "bolivianos"
+    },
+    {
+     "id": "2",
+     "texto": "haitianos"
+    },
+    {
+     "id": "3",
+     "texto": "venezuelanos"
+    },
+    {
+     "id": "4",
+     "texto": "afegãos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "migrantes"
+    },
+    {
+     "id": "b",
+     "texto": "migrantes"
+    },
+    {
+     "id": "c",
+     "texto": "refugiados"
+    },
+    {
+     "id": "d",
+     "texto": "refugiados"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada direito do Artigo 13 ao seu significado.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "circular"
+    },
+    {
+     "id": "2",
+     "texto": "escolher a residência"
+    },
+    {
+     "id": "3",
+     "texto": "abandonar o país"
+    },
+    {
+     "id": "4",
+     "texto": "regressar"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "andar livremente dentro de um Estado"
+    },
+    {
+     "id": "b",
+     "texto": "decidir onde morar"
+    },
+    {
+     "id": "c",
+     "texto": "sair do país em que se encontra"
+    },
+    {
+     "id": "d",
+     "texto": "voltar ao seu país"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ONU"
+    },
+    {
+     "id": "2",
+     "texto": "DUDH"
+    },
+    {
+     "id": "3",
+     "texto": "Artigo 13"
+    },
+    {
+     "id": "4",
+     "texto": "refugiado"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Organização das Nações Unidas"
+    },
+    {
+     "id": "b",
+     "texto": "Declaração Universal dos Direitos Humanos"
+    },
+    {
+     "id": "c",
+     "texto": "trata do direito de circular e de sair do país"
+    },
+    {
+     "id": "d",
+     "texto": "pessoa fora de seu país por perseguição ou conflitos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada lugar ou nome ao que o livro mostra.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ilha de Lesbos (Grécia)"
+    },
+    {
+     "id": "2",
+     "texto": "Pacaraima (RR)"
+    },
+    {
+     "id": "3",
+     "texto": "mar Egeu"
+    },
+    {
+     "id": "4",
+     "texto": "Mersene"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "chegada de refugiados sírios"
+    },
+    {
+     "id": "b",
+     "texto": "chegada de refugiados venezuelanos"
+    },
+    {
+     "id": "c",
+     "texto": "travessia dos refugiados sírios"
+    },
+    {
+     "id": "d",
+     "texto": "garota da história de uma refugiada congolesa"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada grupo à época citada no livro.",
+   "pagina": "102",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "venezuelanos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "por volta de 1824"
+    },
+    {
+     "id": "b",
+     "texto": "por volta de 1875"
+    },
+    {
+     "id": "c",
+     "texto": "em 1908"
+    },
+    {
+     "id": "d",
+     "texto": "nos últimos anos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada início de frase ao seu final, de acordo com o livro.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Todas as pessoas"
+    },
+    {
+     "id": "2",
+     "texto": "Todo ser humano"
+    },
+    {
+     "id": "3",
+     "texto": "Na realidade"
+    },
+    {
+     "id": "4",
+     "texto": "Os refugiados"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "devem ser tratadas igualmente"
+    },
+    {
+     "id": "b",
+     "texto": "tem o direito de migrar"
+    },
+    {
+     "id": "c",
+     "texto": "nem sempre isso acontece"
+    },
+    {
+     "id": "d",
+     "texto": "devem ter direito à vida e à liberdade"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As pessoas que estão fora de seu país por temor de perseguição são chamadas de ____________.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "refugiados"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos é do ano de ____________ (escreva em número).",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "1948"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os refugiados percorrem caminhos com vários ____________ até chegar ao destino.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "desafios"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Pacaraima fica no estado de ____________.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "Roraima"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Apesar das dificuldades, é possível continuar vivendo e encontrar ____________.",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "resposta": "esperança"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Toda pessoa tem o direito de escolher a sua ____________.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "residência"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O nome do documento é Declaração Universal dos Direitos ____________.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "Humanos"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Em qualquer lugar do mundo, as pessoas devem ter direito a um tratamento ____________.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "digno"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual direito AINDA FALTA Lia explicar?",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Artigo 13",
+    "itens": [
+     "Direitos: circular, escolher a residência, abandonar o país e regressar a ele.",
+     "Lia já explicou: circular, escolher a residência e abandonar o país."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "circular livremente"
+    },
+    {
+     "id": "B",
+     "texto": "regressar ao seu país"
+    },
+    {
+     "id": "C",
+     "texto": "escolher a residência"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma família de 6 pessoas chegou ao Brasil. Já têm documento 4 pessoas. Quantas ainda faltam tirar o documento?",
+   "pagina": "103",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "2"
+    },
+    {
+     "id": "B",
+     "texto": "6"
+    },
+    {
+     "id": "C",
+     "texto": "4"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual grupo NÃO é citado entre os refugiados?",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "sírios"
+    },
+    {
+     "id": "B",
+     "texto": "portugueses"
+    },
+    {
+     "id": "C",
+     "texto": "venezuelanos"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual destes NÃO é um motivo para alguém ser refugiado, segundo a ONU?",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Temor de perseguição por religião."
+    },
+    {
+     "id": "B",
+     "texto": "Conflitos armados."
+    },
+    {
+     "id": "C",
+     "texto": "Vontade de passear em outro país."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUEM adotou a Declaração Universal dos Direitos Humanos?",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em 10 de dezembro de 1948."
+    },
+    {
+     "id": "B",
+     "texto": "Todas as pessoas do mundo."
+    },
+    {
+     "id": "C",
+     "texto": "A ONU."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "ONDE chegaram os refugiados sírios mostrados na foto do livro?",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em 2015."
+    },
+    {
+     "id": "B",
+     "texto": "Na ilha de Lesbos, na Grécia."
+    },
+    {
+     "id": "C",
+     "texto": "Em um barco, depois de atravessar o mar."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma família saiu de seu país por causa de um conflito armado. Isso significa que ela é:",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "refugiada."
+    },
+    {
+     "id": "B",
+     "texto": "sem nenhum direito."
+    },
+    {
+     "id": "C",
+     "texto": "turista."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O livro diz que todos têm o direito de migrar, \"mas nem sempre essa é a realidade\". Isso significa que:",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "ninguém mais migra hoje."
+    },
+    {
+     "id": "B",
+     "texto": "o direito existe, mas nem todos conseguem usá-lo."
+    },
+    {
+     "id": "C",
+     "texto": "o documento foi cancelado."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A Declaração Universal dos Direitos Humanos é de:",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1498"
+    },
+    {
+     "id": "B",
+     "texto": "1948"
+    },
+    {
+     "id": "C",
+     "texto": "1984"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Os ucranianos aparecem de duas formas no capítulo. Quais?",
+   "pagina": "102",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Só como refugiados de hoje."
+    },
+    {
+     "id": "B",
+     "texto": "Como imigrantes do passado e como refugiados de hoje."
+    },
+    {
+     "id": "C",
+     "texto": "Só como imigrantes do passado."
+    }
+   ],
+   "resposta": "B"
+  }
+ ]
+}

@@ -135,6 +135,15 @@ export function estrelasPorNota(nota) {
   return nota >= 9 ? 3 : nota >= 7 ? 2 : 1;
 }
 
+// Simulados reescritos com mais questões: uma tentativa aberta na versão antiga responderia a questões
+// que mudaram, então sai. As concluídas ficam, porque guardam a nota, as estrelas e a carta.
+const REESCRITOS = Object.fromEntries(["portugues-p1", "historia-multidisciplinar-3", "bilingue-multidisciplinar-3"]
+  .flatMap((p) => [1, 2, 3].map((n) => [`${p}-${n}`, 30])));
+
+export function semAbertasAntigas(tentativas) {
+  return tentativas.filter((t) => t.concluida_em || !REESCRITOS[t.simulado_id] || t.total === REESCRITOS[t.simulado_id]);
+}
+
 export function validar(s) {
   const problemas = [];
   if (!s || !Array.isArray(s.questoes) || !s.questoes.length) return ["simulado sem questões"];

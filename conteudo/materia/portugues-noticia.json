@@ -1,0 +1,264 @@
+{
+ "arquivo": "portugues-noticia",
+ "titulo": "Notícia, concordância nominal e plural em -ão",
+ "fonte": "Língua Portuguesa 4º ano — Capítulo 8 (págs. 136–153 e 239–240)",
+ "topicos": {
+  "comando": {
+   "titulo": "Antes de marcar: o que a pergunta pede?",
+   "icone": "🔎",
+   "pagina": "140",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Muitas vezes, todas as alternativas trazem coisas verdadeiras, mas só uma responde ao que a pergunta pede. Por isso, leia a pergunta duas vezes antes de olhar as alternativas."
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "FALTA, RESTOU, SOBROU: a pergunta quer a outra parte, a que ainda não foi usada.",
+      "NÃO: a pergunta quer a única coisa que não aparece ou não aconteceu.",
+      "ONDE, QUANDO, QUEM, POR QUE: cada palavra pede uma informação diferente."
+     ]
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "Na fruteira havia 9 maçãs e 2 foram comidas.",
+       "nota": "\"Quantas foram comidas?\" pede 2. \"Quantas sobraram?\" pede 7."
+      },
+      {
+       "frase": "O circo chegou à praça no domingo.",
+       "nota": "\"Onde?\" pede a praça. \"Quando?\" pede o domingo."
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Antes de marcar, diga em voz baixa: \"a pergunta quer saber...\". Depois, confira se a alternativa responde a isso."
+    }
+   ]
+  },
+  "noticia": {
+   "titulo": "O que é uma notícia",
+   "icone": "📰",
+   "pagina": "141",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A notícia é um gênero textual que apresenta informações sobre um fato recente e relevante para a sociedade. O objetivo dela é informar o leitor."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Os meios de comunicação levam as notícias até as pessoas. Pode ser no papel, na tela, pelo som ou pela internet."
+    },
+    {
+     "tipo": "dica",
+     "texto": "Fato inventado ou texto só para divertir não é notícia. Notícia conta o que aconteceu de verdade."
+    }
+   ]
+  },
+  "estrutura": {
+   "titulo": "As partes da notícia",
+   "icone": "🧩",
+   "pagina": "141",
+   "blocos": [
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Parte",
+      "Para que serve"
+     ],
+     "linhas": [
+      [
+       "Manchete",
+       "É o título principal. Revela informações atrativas sobre o fato."
+      ],
+      [
+       "Linha-fina (subtítulo)",
+       "Amplia a manchete, sem revelar muitas informações."
+      ],
+      [
+       "Lide",
+       "Parágrafo(s) inicial(is), com as informações essenciais."
+      ],
+      [
+       "Corpo do texto",
+       "O restante das informações, detalhando o lide."
+      ],
+      [
+       "Imagem",
+       "Não é obrigatória. Ilustra e complementa as informações."
+      ]
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Pense na ordem de cima para baixo: primeiro a manchete, logo abaixo a linha-fina, depois o lide e, por fim, o corpo do texto."
+    }
+   ]
+  },
+  "lide": {
+   "titulo": "O lide e suas perguntas",
+   "icone": "❓",
+   "pagina": "141",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "O lide funciona como um resumo: faz a notícia apresentar primeiro as informações mais importantes e deixar os detalhes para depois."
+    },
+    {
+     "tipo": "lista",
+     "itens": [
+      "O que ocorreu?",
+      "Com quem?",
+      "Quando?",
+      "Onde?",
+      "Como?",
+      "Por quê?"
+     ]
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "Um circo chegou à praça de Lagoa Bonita no domingo.",
+       "nota": "O que: um circo chegou. Onde: à praça de Lagoa Bonita. Quando: no domingo."
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Para achar o que falta em um lide, passe pelas perguntas uma a uma e marque as que já têm resposta."
+    }
+   ]
+  },
+  "linguagem": {
+   "titulo": "A linguagem da notícia",
+   "icone": "✍️",
+   "pagina": "141",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A linguagem da notícia é impessoal, ou seja, não apresenta o julgamento pessoal do autor. Também é formal e objetiva, para evitar mais de uma interpretação e informações que não importam para o fato."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Com opinião",
+      "Linguagem de notícia"
+     ],
+     "linhas": [
+      [
+       "Que show maravilhoso!",
+       "O show reuniu 500 pessoas no sábado."
+      ],
+      [
+       "Acho que o time jogou mal.",
+       "O time perdeu por 2 a 0."
+      ]
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Se a frase diz o que alguém achou, é opinião. Se dá para conferir se é verdade, é informação."
+    }
+   ]
+  },
+  "concordancia": {
+   "titulo": "Concordância nominal",
+   "icone": "🤝",
+   "pagina": "145",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Concordância nominal é quando artigos, adjetivos, pronomes e numerais combinam com o substantivo em gênero (masculino e feminino) e número (singular e plural)."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "",
+      "Singular",
+      "Plural"
+     ],
+     "linhas": [
+      [
+       "Masculino",
+       "o sapato novo",
+       "os sapatos novos"
+      ],
+      [
+       "Feminino",
+       "a blusa nova",
+       "as blusas novas"
+      ]
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Primeiro encontre o substantivo e veja se ele é masculino ou feminino, singular ou plural. As outras palavras seguem ele."
+    }
+   ]
+  },
+  "adjetivos-uniformes": {
+   "titulo": "Adjetivos uniformes",
+   "icone": "🟰",
+   "pagina": "145",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Alguns adjetivos são uniformes: têm a mesma forma no masculino e no feminino. Eles não mudam de gênero, mas podem mudar de número."
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "o menino gentil, a menina gentil",
+       "nota": "A mesma palavra nos dois gêneros."
+      },
+      {
+       "frase": "os meninos gentis, as meninas gentis",
+       "nota": "No plural, a palavra muda."
+      }
+     ]
+    }
+   ]
+  },
+  "plural-ao": {
+   "titulo": "Plural das palavras em -ão",
+   "icone": "🎈",
+   "pagina": "147",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "A maior parte dos substantivos terminados em -ão forma o plural em -ões. Mas essa regra não vale para todos: também há plurais em -ãos e em -ães."
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Terminação",
+      "Exemplo"
+     ],
+     "linhas": [
+      [
+       "-ões (a maioria)",
+       "canção, canções"
+      ],
+      [
+       "-ãos",
+       "grão, grãos"
+      ],
+      [
+       "-ães",
+       "alemão, alemães"
+      ]
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Não existe truque que funcione para todas. Quando ficar na dúvida, pense se você já ouviu a palavra no plural e confira no dicionário."
+    }
+   ]
+  }
+ }
+}

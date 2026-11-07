@@ -1,0 +1,857 @@
+{
+ "id": "portugues-p1-3",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia das págs. 152–153 e informações da pág. 239, resumidas.",
+ "materia": "portugues-noticia",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Pela notícia, o número de municípios com incêndio diminuiu de terça para quarta-feira. ( ___ )",
+   "pagina": "152",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "resposta": "F"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A linha-fina aprofunda a manchete sem revelar muitas informações sobre o fato. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Versos e despedida são elementos que uma notícia deve ter. ( ___ )",
+   "pagina": "239",
+   "ajuda": "estrutura",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O lide faz a notícia apresentar primeiro as informações mais importantes e depois os detalhes. ( ___ )",
+   "pagina": "239",
+   "ajuda": "lide",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A frase \"Minha filho é bonito\" está com a concordância correta. ( ___ )",
+   "pagina": "240",
+   "ajuda": "concordancia",
+   "resposta": "F"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O plural de \"sótão\" é \"sótãos\". ( ___ )",
+   "pagina": "153",
+   "ajuda": "plural-ao",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Pelas informações, associe cada pergunta à sua resposta.",
+   "pagina": "239",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Informações de uma notícia: a onça-parda",
+    "itens": [
+     "O que ocorreu? O resgate de uma onça-parda.",
+     "Quando? Em 11 de setembro de 2024.",
+     "Onde? No interior de Minas Gerais.",
+     "Com quem? Com moradores da zona rural.",
+     "Como? Os moradores escutaram um barulho em um cômodo de máquinas, identificaram o animal e chamaram os bombeiros.",
+     "Por quê? As queimadas fizeram o animal buscar abrigo, segundo os bombeiros."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Quando?"
+    },
+    {
+     "id": "2",
+     "texto": "Onde?"
+    },
+    {
+     "id": "3",
+     "texto": "Com quem?"
+    },
+    {
+     "id": "4",
+     "texto": "Por quê?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "em 11 de setembro de 2024"
+    },
+    {
+     "id": "b",
+     "texto": "no interior de Minas Gerais"
+    },
+    {
+     "id": "c",
+     "texto": "com moradores da zona rural"
+    },
+    {
+     "id": "d",
+     "texto": "as queimadas fizeram o animal buscar abrigo"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada parte da notícia ao trecho correspondente.",
+   "pagina": "152",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "manchete"
+    },
+    {
+     "id": "2",
+     "texto": "linha-fina"
+    },
+    {
+     "id": "3",
+     "texto": "lide"
+    },
+    {
+     "id": "4",
+     "texto": "corpo do texto"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Queimadas aumentam em São Paulo e atingem 10 municípios"
+    },
+    {
+     "id": "b",
+     "texto": "Defesa Civil mantém ativo o alerta de Risco Elevado"
+    },
+    {
+     "id": "c",
+     "texto": "Os incêndios em áreas de mata aumentaram nesta quarta-feira"
+    },
+    {
+     "id": "d",
+     "texto": "O fogo é combatido por equipes em terra e por aeronaves"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Organize as sílabas e associe à palavra formada.",
+   "pagina": "153",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "ção - ra - co"
+    },
+    {
+     "id": "2",
+     "texto": "pi - tão - ca"
+    },
+    {
+     "id": "3",
+     "texto": "tão - só"
+    },
+    {
+     "id": "4",
+     "texto": "mão - ir"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "coração"
+    },
+    {
+     "id": "b",
+     "texto": "capitão"
+    },
+    {
+     "id": "c",
+     "texto": "sótão"
+    },
+    {
+     "id": "d",
+     "texto": "irmão"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "240",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "órgão"
+    },
+    {
+     "id": "2",
+     "texto": "cão"
+    },
+    {
+     "id": "3",
+     "texto": "botão"
+    },
+    {
+     "id": "4",
+     "texto": "leão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "órgãos"
+    },
+    {
+     "id": "b",
+     "texto": "cães"
+    },
+    {
+     "id": "c",
+     "texto": "botões"
+    },
+    {
+     "id": "d",
+     "texto": "leões"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada substantivo à palavra que concorda com ele.",
+   "pagina": "240",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "filho"
+    },
+    {
+     "id": "2",
+     "texto": "redações"
+    },
+    {
+     "id": "3",
+     "texto": "estudantes"
+    },
+    {
+     "id": "4",
+     "texto": "mochila"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "bonito"
+    },
+    {
+     "id": "b",
+     "texto": "elaboradas"
+    },
+    {
+     "id": "c",
+     "texto": "antigos"
+    },
+    {
+     "id": "d",
+     "texto": "parecida"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada termo ao seu significado.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "gênero"
+    },
+    {
+     "id": "2",
+     "texto": "número"
+    },
+    {
+     "id": "3",
+     "texto": "concordância nominal"
+    },
+    {
+     "id": "4",
+     "texto": "adjetivo uniforme"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "masculino e feminino"
+    },
+    {
+     "id": "b",
+     "texto": "singular e plural"
+    },
+    {
+     "id": "c",
+     "texto": "combinação do substantivo com as palavras ligadas a ele"
+    },
+    {
+     "id": "d",
+     "texto": "mesma forma no masculino e no feminino"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Segundo a notícia, quem mantém o alerta de risco é a Defesa ____________.",
+   "pagina": "152",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "resposta": "Civil"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Na quarta-feira, o número de municípios com focos de incêndio chegou a ____________ (escreva em número).",
+   "pagina": "152",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "resposta": "10"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A onça-parda foi resgatada no interior de ____________ Gerais.",
+   "pagina": "239",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Informações de uma notícia: a onça-parda",
+    "itens": [
+     "O que ocorreu? O resgate de uma onça-parda.",
+     "Quando? Em 11 de setembro de 2024.",
+     "Onde? No interior de Minas Gerais.",
+     "Com quem? Com moradores da zona rural.",
+     "Como? Os moradores escutaram um barulho em um cômodo de máquinas, identificaram o animal e chamaram os bombeiros.",
+     "Por quê? As queimadas fizeram o animal buscar abrigo, segundo os bombeiros."
+    ]
+   },
+   "resposta": "Minas"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Ao identificar o animal, os moradores chamaram os ____________.",
+   "pagina": "239",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Informações de uma notícia: a onça-parda",
+    "itens": [
+     "O que ocorreu? O resgate de uma onça-parda.",
+     "Quando? Em 11 de setembro de 2024.",
+     "Onde? No interior de Minas Gerais.",
+     "Com quem? Com moradores da zona rural.",
+     "Como? Os moradores escutaram um barulho em um cômodo de máquinas, identificaram o animal e chamaram os bombeiros.",
+     "Por quê? As queimadas fizeram o animal buscar abrigo, segundo os bombeiros."
+    ]
+   },
+   "resposta": "bombeiros"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Organize as sílabas \"cão - ra - fu\" e forme a palavra: ____________.",
+   "pagina": "153",
+   "ajuda": "plural-ao",
+   "resposta": "furacão"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Complete com a palavra que concorda (Aquele / Aquela): ____________ mochila é muito parecida com a minha.",
+   "pagina": "240",
+   "ajuda": "concordancia",
+   "resposta": "Aquela"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O parágrafo inicial, com as informações essenciais sobre o fato, é o ____________.",
+   "pagina": "239",
+   "ajuda": "lide",
+   "resposta": "lide"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"opinião\" é ____________.",
+   "pagina": "146",
+   "ajuda": "plural-ao",
+   "resposta": "opiniões"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Esse lide AINDA NÃO respondeu a quais perguntas?",
+   "pagina": "239",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Lide em construção: a onça-parda",
+    "itens": [
+     "O que ocorreu? O resgate de uma onça-parda.",
+     "Quando? Em 11 de setembro de 2024.",
+     "Onde? No interior de Minas Gerais.",
+     "Com quem? Com moradores da zona rural."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O que ocorreu? e Com quem?"
+    },
+    {
+     "id": "B",
+     "texto": "Quando? e Onde?"
+    },
+    {
+     "id": "C",
+     "texto": "Como? e Por quê?"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Na notícia, são sete aeronaves, e cinco delas são aviões. Quantas aeronaves NÃO são aviões?",
+   "pagina": "152",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "7"
+    },
+    {
+     "id": "B",
+     "texto": "5"
+    },
+    {
+     "id": "C",
+     "texto": "2"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual informação NÃO está no trecho da notícia?",
+   "pagina": "152",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Quantas aeronaves combatem o fogo."
+    },
+    {
+     "id": "B",
+     "texto": "Quantos municípios têm focos de incêndio."
+    },
+    {
+     "id": "C",
+     "texto": "Quantas pessoas foram socorridas."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Léo já marcou \"manchete\" e \"lide\" na lista dos elementos da notícia. Qual elemento ainda falta marcar?",
+   "pagina": "239",
+   "ajuda": "estrutura",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Despedida."
+    },
+    {
+     "id": "B",
+     "texto": "Corpo do texto."
+    },
+    {
+     "id": "C",
+     "texto": "Versos."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "COMO os moradores descobriram o animal?",
+   "pagina": "239",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Informações de uma notícia: a onça-parda",
+    "itens": [
+     "O que ocorreu? O resgate de uma onça-parda.",
+     "Quando? Em 11 de setembro de 2024.",
+     "Onde? No interior de Minas Gerais.",
+     "Com quem? Com moradores da zona rural.",
+     "Como? Os moradores escutaram um barulho em um cômodo de máquinas, identificaram o animal e chamaram os bombeiros.",
+     "Por quê? As queimadas fizeram o animal buscar abrigo, segundo os bombeiros."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "No interior de Minas Gerais."
+    },
+    {
+     "id": "B",
+     "texto": "Escutaram um barulho em um cômodo de máquinas."
+    },
+    {
+     "id": "C",
+     "texto": "As queimadas fizeram o animal buscar abrigo."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUANDO os incêndios aumentaram para dez municípios?",
+   "pagina": "152",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em áreas de mata."
+    },
+    {
+     "id": "B",
+     "texto": "Nesta quarta-feira (2)."
+    },
+    {
+     "id": "C",
+     "texto": "No estado de São Paulo."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O lide das notícias funciona como uma:",
+   "pagina": "239",
+   "ajuda": "lide",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "maneira de revelar os pensamentos dos entrevistados."
+    },
+    {
+     "id": "B",
+     "texto": "forma de contar todos os detalhes do fato."
+    },
+    {
+     "id": "C",
+     "texto": "espécie de resumo, com as informações essenciais sobre o fato."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "No trecho \"Segundo o governo do estado, o fogo é combatido...\", o jornalista:",
+   "pagina": "152",
+   "ajuda": "linguagem",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: queimadas em São Paulo",
+    "itens": [
+     "Manchete: Queimadas aumentam em São Paulo e atingem 10 municípios",
+     "Linha-fina: Defesa Civil mantém ativo o alerta de Risco Elevado para incêndios",
+     "Lide: Os incêndios em áreas de mata aumentaram no estado de São Paulo nesta quarta-feira (2). Segundo a Defesa Civil, dez municípios têm focos de incêndio. Na terça-feira (1º), eram três.",
+     "Corpo do texto: Segundo o governo do estado, o fogo é combatido por equipes em terra e por sete aeronaves: cinco aviões e dois helicópteros."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "dá a opinião dele sobre o incêndio."
+    },
+    {
+     "id": "B",
+     "texto": "reescreve com as suas palavras a fala do governo."
+    },
+    {
+     "id": "C",
+     "texto": "copia a fala exatamente como foi dita."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"cidadão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cidadões"
+    },
+    {
+     "id": "B",
+     "texto": "cidadãos"
+    },
+    {
+     "id": "C",
+     "texto": "cidadães"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A maioria das palavras em -ão faz o plural em -ões. Qual palavra forma o plural em -ães?",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "balão"
+    },
+    {
+     "id": "B",
+     "texto": "limão"
+    },
+    {
+     "id": "C",
+     "texto": "capitão"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

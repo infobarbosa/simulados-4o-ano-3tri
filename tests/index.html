@@ -29,17 +29,44 @@
     // todos os simulados do catálogo são válidos
     const todos = [];
     for (const s of catalogo) todos.push(await (await fetch(`../conteudo/${s.id}.json`)).json());
-    // Os simulados vindos de PDF têm as 27 questões do PDF. Os quatro escritos para as provas de
-    // Geografia (28/10) e Ciências (04/11) têm 30, a pedido do pai; o catálogo tem que concordar.
-    const DE_TRINTA = ["geografia-p1-4", "geografia-p1-5", "ciencias-p1-4", "ciencias-p1-5"];
-    teste("catálogo tem 45 simulados válidos: 30 questões nos quatro das provas, 27 no resto", () => {
-      igual(todos.length, 45);
+    // Os simulados vindos de PDF têm as 27 questões do PDF. Os escritos para as provas de Geografia (28/10),
+    // Ciências (04/11), Português (09/11), História e Bilíngue (11/11) têm 30, a pedido do pai; o catálogo tem que concordar.
+    const REESCRITOS = ["portugues-p1", "historia-multidisciplinar-3", "bilingue-multidisciplinar-3"]
+      .flatMap((p) => [1, 2, 3, 4, 5].map((n) => `${p}-${n}`));
+    const DE_TRINTA = ["geografia-p1-4", "geografia-p1-5", "ciencias-p1-4", "ciencias-p1-5", ...REESCRITOS];
+    teste("catálogo tem 51 simulados válidos: 30 questões nos das provas, 27 no resto", () => {
+      igual(todos.length, 51);
       for (const s of todos) {
         igual(s.questoes.length, DE_TRINTA.includes(s.id) ? 30 : 27, s.id);
         igual(M.validar(s), [], s.id);
         igual(s.questoes.map((q) => q.n), s.questoes.map((_, i) => i + 1), `${s.id}: numeração`);
         igual(catalogo.find((c) => c.id === s.id).questoes, s.questoes.length, `${s.id}: catálogo`);
       }
+    });
+
+    // Provas de novembro: 6 V/F, 6 associações, 8 lacunas e 10 múltiplas, porque a prova real é toda A/B/C.
+    teste("provas de novembro: distribuição 6/6/8/10, com mini-aula e 3 alternativas nas múltiplas", () => {
+      for (const s of todos.filter((x) => REESCRITOS.includes(x.id))) {
+        igual(s.questoes.map((q) => q.tipo), [...Array(6).fill("vf"), ...Array(6).fill("associacao"), ...Array(8).fill("lacuna"), ...Array(10).fill("multipla")], s.id);
+        ok(s.materia, s.id);
+        for (const q of s.questoes) {
+          ok(q.ajuda, `${s.id} q${q.n} sem ajuda`);
+          if (q.tipo === "multipla") {
+            igual(q.alternativas.length, 3, `${s.id} q${q.n}`);
+            ok(q.alternativas.some((a) => a.id === q.resposta), `${s.id} q${q.n}: gabarito fora das alternativas`);
+          }
+        }
+      }
+    });
+    teste("reescrita: tentativa aberta na versão antiga sai, concluída fica", () => {
+      const t = [
+        { id: 1, simulado_id: "portugues-p1-1", total: 27, concluida_em: null },
+        { id: 2, simulado_id: "portugues-p1-1", total: 27, concluida_em: "2026-10-01", nota: 8 },
+        { id: 3, simulado_id: "portugues-p1-2", total: 30, concluida_em: null },
+        { id: 4, simulado_id: "historia-p1-1", total: 27, concluida_em: null },
+        { id: 5, simulado_id: "bilingue-multidisciplinar-3-3", total: 27, concluida_em: null },
+      ];
+      igual(M.semAbertasAntigas(t).map((x) => x.id), [2, 3, 4]);
     });
 
     teste("lacuna: maiúsculas, espaços e pontuação final não importam", () => {
@@ -97,7 +124,7 @@
     // não pode virar imagem no repositório público (o gráfico dos trabalhadores, Geografia Cap. 8;
     // o mapa das indústrias virou figura desenhada, ver o teste do mapa abaixo).
     teste("contexto: as questões que dependem do livro trazem a caixa, com itens, e o gabarito segue escondido", () => {
-      const comCtx = todos.flatMap((s) => s.questoes.filter((q) => q.contexto));
+      const comCtx = todos.filter((s) => !REESCRITOS.includes(s.id)).flatMap((s) => s.questoes.filter((q) => q.contexto));
       igual(comCtx.length, 19);
       for (const q of comCtx) {
         ok(q.contexto.titulo && q.contexto.itens.length >= 1, `questão ${q.n}`);

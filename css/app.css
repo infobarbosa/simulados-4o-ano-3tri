@@ -245,6 +245,7 @@ button { font: inherit; color: inherit; }
   .item-correcao { padding-left: 0; }
 }
 @media (max-width: 340px) { .associacao { grid-template-columns: 1fr; } }
+.associacao > .coluna { min-width: 0; }
 .coluna { display: flex; flex-direction: column; gap: .6rem; }
 .coluna-titulo { font-size: .8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); }
 .item-assoc {
@@ -253,7 +254,8 @@ button { font: inherit; color: inherit; }
   flex-wrap: wrap;
 }
 .item-marca { flex: none; display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 8px; background: var(--fundo); font-weight: 800; }
-.item-texto { flex: 1; min-width: 0; }
+.item-texto { flex: 1; min-width: 0; overflow-wrap: break-word; }
+@media (max-width: 560px) { .item-assoc:not(.item-figura) .item-texto { flex-basis: 100%; } }
 .item-par:empty { display: none; }
 .item-par { flex: none; font-weight: 800; padding: .1em .5em; border-radius: 8px; background: var(--par); color: #fff; }
 .item-assoc.ligado { border-color: var(--par); background: color-mix(in srgb, var(--par) 10%, white); }
@@ -291,7 +293,7 @@ button { font: inherit; color: inherit; }
 
 .botao-materia { width: 100%; margin: 0 0 1rem; font-size: .95rem; border-style: dashed; border-color: var(--tema); color: var(--tema-escura); }
 .materia-fundo {
-  position: fixed; inset: 0; z-index: 60; display: grid; place-items: end center; padding: 0;
+  position: fixed; inset: 0; z-index: 60; display: grid; grid-template-columns: minmax(0, 1fr); place-items: end center; padding: 0;
   background: rgba(31, 36, 48, .45); animation: aparecer .15s ease-out;
 }
 @media (prefers-reduced-motion: reduce) { .materia-fundo { animation: none; } }
@@ -305,7 +307,7 @@ button { font: inherit; color: inherit; }
   background: var(--fundo); border-radius: 22px 22px 0 0;
 }
 .materia-titulo { flex: 1; font-size: 1.05rem; color: var(--tema-escura); }
-.materia-corpo { flex: 1; overflow: auto; padding: 1rem 1.1rem; line-height: 1.55; }
+.materia-corpo { flex: 1; min-width: 0; overflow: auto; padding: 1rem 1.1rem; line-height: 1.55; }
 .materia-corpo p { margin: 0 0 .9rem; }
 .materia-lista { margin: 0 0 .9rem; padding-left: 1.3rem; }
 .materia-lista li { margin-bottom: .45rem; }
@@ -317,7 +319,7 @@ button { font: inherit; color: inherit; }
 .materia-tabela { border-collapse: collapse; width: 100%; font-size: .95rem; }
 .materia-tabela th, .materia-tabela td { border: 1px solid var(--borda); padding: .45rem .6rem; text-align: left; }
 .materia-tabela thead th { background: var(--fundo); color: var(--tema-escura); }
-.materia-tabela tbody th { font-weight: 700; background: var(--fundo); white-space: nowrap; }
+.materia-tabela tbody th { font-weight: 700; background: var(--fundo); }
 .materia-dica { background: var(--meio-fundo); border-radius: 12px; padding: .7rem .9rem; }
 .materia-pagina { font-size: .88rem; font-weight: 700; color: var(--suave); margin: 0; }
 .materia-rodape { padding: .8rem 1.1rem max(.8rem, env(safe-area-inset-bottom)); border-top: 2px solid var(--borda); }

@@ -1,0 +1,276 @@
+{
+ "arquivo": "bilingue-comparativos",
+ "titulo": "Comparatives",
+ "fonte": "I Wonder — Module 5 (pages 68–69)",
+ "idioma": "pt-BR",
+ "topicos": {
+  "comando": {
+   "titulo": "Antes de marcar: o que a pergunta pede?",
+   "icone": "🔎",
+   "pagina": "69",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Leia a pergunta duas vezes antes de olhar as alternativas. Estas palavras mudam o que você deve procurar:"
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Em inglês",
+      "Quer dizer",
+      "O que procurar"
+     ],
+     "linhas": [
+      [
+       "LEFT",
+       "sobrou",
+       "a parte que ficou"
+      ],
+      [
+       "MISSING",
+       "faltando",
+       "o que ainda não está lá"
+      ],
+      [
+       "STILL",
+       "ainda",
+       "o que continua faltando"
+      ],
+      [
+       "NOT",
+       "não",
+       "o único que não serve"
+      ],
+      [
+       "WHICH, WHAT",
+       "qual, o quê",
+       "o item pedido"
+      ],
+      [
+       "HOW MUCH",
+       "quanto custa",
+       "o preço"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Em uma frase com comparação, confira também se ela é verdadeira na vida real: \"An elephant is smaller than a cat\" está certa na gramática, mas é falsa."
+    },
+    {
+     "tipo": "dica",
+     "texto": "Antes de marcar, diga em voz baixa: \"a pergunta quer saber...\"."
+    }
+   ]
+  },
+  "curtos": {
+   "titulo": "Comparativo de palavras curtas",
+   "icone": "📏",
+   "pagina": "69",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Para comparar duas coisas com um adjetivo curto, acrescentamos -er ao adjetivo e usamos than, que quer dizer \"do que\"."
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "tall, taller",
+       "nota": "alto, mais alto"
+      },
+      {
+       "frase": "Ana is taller than Rui.",
+       "nota": "Ana é mais alta do que Rui."
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Com adjetivo curto, não se usa more junto: o -er já faz esse trabalho."
+    }
+   ]
+  },
+  "more": {
+   "titulo": "Comparativo com more",
+   "icone": "➕",
+   "pagina": "69",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Com adjetivos longos, não acrescentamos -er. Usamos more antes do adjetivo e than depois."
+    },
+    {
+     "tipo": "exemplos",
+     "itens": [
+      {
+       "frase": "beautiful, more beautiful",
+       "nota": "bonito, mais bonito"
+      },
+      {
+       "frase": "This park is more beautiful than that park.",
+       "nota": "Este parque é mais bonito do que aquele."
+      }
+     ]
+    },
+    {
+     "tipo": "dica",
+     "texto": "Palavra longa: more antes. Palavra curta: -er no fim."
+    }
+   ]
+  },
+  "mudam": {
+   "titulo": "Os que mudam de forma",
+   "icone": "🔁",
+   "pagina": "69",
+   "blocos": [
+    {
+     "tipo": "texto",
+     "texto": "Alguns comparativos não seguem a regra simples:"
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "O que acontece",
+      "Exemplo parecido"
+     ],
+     "linhas": [
+      [
+       "Termina em vogal + consoante: dobra a última letra",
+       "hot, hotter"
+      ],
+      [
+       "Termina em y: troca y por i e acrescenta -er",
+       "funny, funnier"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Dois adjetivos mudam por completo, e é preciso decorar: good vira better, e bad vira worse."
+    },
+    {
+     "tipo": "dica",
+     "texto": "Good e bad são os únicos deste capítulo que trocam a palavra inteira."
+    }
+   ]
+  },
+  "vocabulario": {
+   "titulo": "Palavras de tecnologia",
+   "icone": "🎧",
+   "pagina": "68",
+   "blocos": [
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Em inglês",
+      "Em português"
+     ],
+     "linhas": [
+      [
+       "headphones",
+       "fones de ouvido"
+      ],
+      [
+       "GPS",
+       "GPS"
+      ],
+      [
+       "smartphone",
+       "celular"
+      ],
+      [
+       "remote control",
+       "controle remoto"
+      ],
+      [
+       "microwave oven",
+       "micro-ondas"
+      ],
+      [
+       "games console",
+       "console de videogame"
+      ],
+      [
+       "digital camera",
+       "câmera digital"
+      ],
+      [
+       "laptop",
+       "notebook"
+      ],
+      [
+       "toaster",
+       "torradeira"
+      ],
+      [
+       "smartwatch",
+       "relógio inteligente"
+      ],
+      [
+       "tablet",
+       "tablet"
+      ],
+      [
+       "clock",
+       "relógio de parede ou de mesa"
+      ],
+      [
+       "radio",
+       "rádio"
+      ],
+      [
+       "fridge",
+       "geladeira"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "colunas": [
+      "Comparativo",
+      "Em português"
+     ],
+     "linhas": [
+      [
+       "bigger",
+       "maior"
+      ],
+      [
+       "smaller",
+       "menor"
+      ],
+      [
+       "heavier",
+       "mais pesado"
+      ],
+      [
+       "easier",
+       "mais fácil"
+      ],
+      [
+       "better",
+       "melhor"
+      ],
+      [
+       "worse",
+       "pior"
+      ],
+      [
+       "more expensive",
+       "mais caro"
+      ],
+      [
+       "more modern",
+       "mais moderno"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Para dizer com que frequência você usa algo: every day (todos os dias), sometimes (às vezes), never (nunca). Than quer dizer \"do que\", e more quer dizer \"mais\"."
+    }
+   ]
+  }
+ }
+}

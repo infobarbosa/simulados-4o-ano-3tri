@@ -1,0 +1,764 @@
+{
+ "id": "bilingue-multidisciplinar-3-3",
+ "disciplina": "Bilíngue",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "MOCK TEST • ENGLISH (I WONDER) • YEAR 4 • MULTIDISCIPLINARY 3 (TERM 3)",
+ "titulo": "English — Mock Test 3",
+ "numero": 3,
+ "tema": "I Wonder — Module 5 • Comparatives • pages 68–69",
+ "data": "06-11-2026",
+ "idioma": "en",
+ "fonte": "I Wonder / Edebê — Module 5 (Language in Action and Wonder Grammar: Comparatives), pages 68–69.",
+ "materia": "bilingue-comparativos",
+ "partes": {
+  "1": {
+   "titulo": "True or False",
+   "instrucao": "Write T for true and F for false."
+  },
+  "2": {
+   "titulo": "Matching",
+   "instrucao": "Write, in the brackets of Column B, the number of the matching item in Column A."
+  },
+  "3": {
+   "titulo": "Complete",
+   "instrucao": "Complete each sentence with the correct word."
+  },
+  "4": {
+   "titulo": "Multiple choice",
+   "instrucao": "Read what the question asks, then tick the correct option."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "\"Better\" is the comparative of \"good\". ( ___ )",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "\"Worse\" is the comparative of \"big\". ( ___ )",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "We use \"than\" to compare two things. ( ___ )",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "The comparative of \"modern\" is \"moderner\". ( ___ )",
+   "pagina": "69",
+   "ajuda": "more",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A toaster is a piece of technology that makes toast. ( ___ )",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A laptop is smaller than a remote control. ( ___ )",
+   "pagina": "69",
+   "ajuda": "comando",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each adjective to its comparative.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "small"
+    },
+    {
+     "id": "2",
+     "texto": "good"
+    },
+    {
+     "id": "3",
+     "texto": "modern"
+    },
+    {
+     "id": "4",
+     "texto": "heavy"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "smaller"
+    },
+    {
+     "id": "b",
+     "texto": "better"
+    },
+    {
+     "id": "c",
+     "texto": "more modern"
+    },
+    {
+     "id": "d",
+     "texto": "heavier"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each description to the gadget.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "you wear it on your arm"
+    },
+    {
+     "id": "2",
+     "texto": "you play games on it"
+    },
+    {
+     "id": "3",
+     "texto": "you take photos with it"
+    },
+    {
+     "id": "4",
+     "texto": "you heat food in it"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "smartwatch"
+    },
+    {
+     "id": "b",
+     "texto": "games console"
+    },
+    {
+     "id": "c",
+     "texto": "digital camera"
+    },
+    {
+     "id": "d",
+     "texto": "microwave oven"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match the two parts of each word.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "head"
+    },
+    {
+     "id": "2",
+     "texto": "lap"
+    },
+    {
+     "id": "3",
+     "texto": "remote"
+    },
+    {
+     "id": "4",
+     "texto": "games"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "phones"
+    },
+    {
+     "id": "b",
+     "texto": "top"
+    },
+    {
+     "id": "c",
+     "texto": "control"
+    },
+    {
+     "id": "d",
+     "texto": "console"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each sentence to its meaning in Portuguese.",
+   "pagina": "69",
+   "ajuda": "vocabulario",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Smartphones are smaller than laptops."
+    },
+    {
+     "id": "2",
+     "texto": "Laptops are more expensive than remote controls."
+    },
+    {
+     "id": "3",
+     "texto": "A fridge is bigger than a toaster."
+    },
+    {
+     "id": "4",
+     "texto": "Smartphones are more modern than radios."
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Os celulares são menores do que os notebooks."
+    },
+    {
+     "id": "b",
+     "texto": "Os notebooks são mais caros do que os controles remotos."
+    },
+    {
+     "id": "c",
+     "texto": "A geladeira é maior do que a torradeira."
+    },
+    {
+     "id": "d",
+     "texto": "Os celulares são mais modernos do que os rádios."
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Match each comparative to its meaning in Portuguese.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "bigger"
+    },
+    {
+     "id": "2",
+     "texto": "better"
+    },
+    {
+     "id": "3",
+     "texto": "heavier"
+    },
+    {
+     "id": "4",
+     "texto": "easier"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "maior"
+    },
+    {
+     "id": "b",
+     "texto": "melhor"
+    },
+    {
+     "id": "c",
+     "texto": "mais pesado"
+    },
+    {
+     "id": "d",
+     "texto": "mais fácil"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Look at Tom's day and match.",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📱",
+    "titulo": "Tom's day",
+    "itens": [
+     "Tom uses a smartphone every day.",
+     "He sometimes uses a laptop.",
+     "He never uses a toaster."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "smartphone"
+    },
+    {
+     "id": "2",
+     "texto": "laptop"
+    },
+    {
+     "id": "3",
+     "texto": "toaster"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "every day"
+    },
+    {
+     "id": "b",
+     "texto": "sometimes"
+    },
+    {
+     "id": "c",
+     "texto": "never"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Smartphones are smaller ____________ laptops.",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "resposta": "than"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Remote controls are ____________ (small) than laptops.",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "resposta": "smaller"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Laptops are ____________ expensive than remote controls.",
+   "pagina": "69",
+   "ajuda": "more",
+   "resposta": "more"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A games console is ____________ (big) than a smartphone.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "bigger"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "This test is ____________ (easy) than the last one.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "easier"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "This phone is ____________ (bad) than that one.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "worse"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "My headphones are ____________ (good) than yours.",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "resposta": "better"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A smart____________ is on your arm and tells the time.",
+   "pagina": "68",
+   "ajuda": "vocabulario",
+   "resposta": "watch"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A list has 5 tasks. Mia finished 3. How many tasks are LEFT?",
+   "pagina": "69",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "5"
+    },
+    {
+     "id": "B",
+     "texto": "2"
+    },
+    {
+     "id": "C",
+     "texto": "3"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which gadgets are STILL MISSING from Mia's list?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Mia's list",
+    "itens": [
+     "Gadgets to draw: laptop, tablet, GPS, toaster, radio.",
+     "Already drawn: laptop, tablet, GPS."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "tablet and GPS"
+    },
+    {
+     "id": "B",
+     "texto": "toaster and radio"
+    },
+    {
+     "id": "C",
+     "texto": "laptop and tablet"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "What does Tom NOT use?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📱",
+    "titulo": "Tom's day",
+    "itens": [
+     "Tom uses a smartphone every day.",
+     "He sometimes uses a laptop.",
+     "He never uses a toaster."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a smartphone"
+    },
+    {
+     "id": "B",
+     "texto": "a toaster"
+    },
+    {
+     "id": "C",
+     "texto": "a laptop"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which word is NOT a comparative?",
+   "pagina": "69",
+   "ajuda": "curtos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "small"
+    },
+    {
+     "id": "B",
+     "texto": "smaller"
+    },
+    {
+     "id": "C",
+     "texto": "bigger"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "WHEN does Tom use a laptop?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📱",
+    "titulo": "Tom's day",
+    "itens": [
+     "Tom uses a smartphone every day.",
+     "He sometimes uses a laptop.",
+     "He never uses a toaster."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "never"
+    },
+    {
+     "id": "B",
+     "texto": "every day"
+    },
+    {
+     "id": "C",
+     "texto": "sometimes"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "WHAT does Tom use EVERY DAY?",
+   "pagina": "68",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📱",
+    "titulo": "Tom's day",
+    "itens": [
+     "Tom uses a smartphone every day.",
+     "He sometimes uses a laptop.",
+     "He never uses a toaster."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "a toaster"
+    },
+    {
+     "id": "B",
+     "texto": "a laptop"
+    },
+    {
+     "id": "C",
+     "texto": "a smartphone"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "\"A fridge is heavier than a microwave oven.\" This means that:",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "they weigh the same."
+    },
+    {
+     "id": "B",
+     "texto": "the microwave oven weighs more."
+    },
+    {
+     "id": "C",
+     "texto": "the microwave oven weighs less."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which sentence is correct?",
+   "pagina": "69",
+   "ajuda": "more",
+   "contexto": {
+    "icone": "🏷️",
+    "titulo": "Tech shop",
+    "itens": [
+     "GPS: €100.",
+     "Games console: €300.",
+     "Remote control: €20.",
+     "Headphones: €50."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Games consoles are more expensive than remote controls."
+    },
+    {
+     "id": "B",
+     "texto": "Games consoles are expensiver than remote controls."
+    },
+    {
+     "id": "C",
+     "texto": "Remote controls are more expensive than games consoles."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "The comparative of \"good\" is:",
+   "pagina": "69",
+   "ajuda": "mudam",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "better"
+    },
+    {
+     "id": "B",
+     "texto": "gooder"
+    },
+    {
+     "id": "C",
+     "texto": "best"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "We use \"more\" with long adjectives. Which adjective does NOT need \"more\"?",
+   "pagina": "69",
+   "ajuda": "more",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "expensive"
+    },
+    {
+     "id": "B",
+     "texto": "modern"
+    },
+    {
+     "id": "C",
+     "texto": "small"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

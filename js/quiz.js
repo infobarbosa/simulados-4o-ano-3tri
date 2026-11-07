@@ -163,7 +163,8 @@ function botaoMateria(q, sim, rotulo = "📖 Não sei — ler o conteúdo") {
     b.disabled = true;
     voz.parar();
     try {
-      abrirMateria(await api(`/api/materia/${sim.materia}/${q.ajuda}`), sim.idioma);
+      const aula = await api(`/api/materia/${sim.materia}/${q.ajuda}`);
+      abrirMateria(aula, aula.idioma || sim.idioma); // a mini-aula de Inglês é em português
     } catch {
       avisar("Não consegui abrir o conteúdo agora.", "erro");
     } finally {

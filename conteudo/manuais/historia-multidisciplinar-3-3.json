@@ -1,0 +1,727 @@
+{
+ "id": "historia-multidisciplinar-3-3",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 3",
+ "numero": 3,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "materia": "historia-migracoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Somente imigrantes europeus vieram para o Brasil. ( ___ )",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "F"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os primeiros grandes grupos de libaneses chegaram em 1880. ( ___ )",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "V"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O imperador D. Pedro II visitou o Oriente Médio em 1876. ( ___ )",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "No Brasil, o shawarma adaptado ficou conhecido como churrasco grego. ( ___ )",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram ao Brasil pelo Porto de Santos. ( ___ )",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O bairro da Liberdade só teve moradores japoneses em toda a sua história. ( ___ )",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada prato à culinária de origem.",
+   "pagina": "100",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "esfirra"
+    },
+    {
+     "id": "2",
+     "texto": "tabule"
+    },
+    {
+     "id": "3",
+     "texto": "sushi"
+    },
+    {
+     "id": "4",
+     "texto": "sashimi"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "árabe"
+    },
+    {
+     "id": "b",
+     "texto": "árabe"
+    },
+    {
+     "id": "c",
+     "texto": "japonesa"
+    },
+    {
+     "id": "d",
+     "texto": "japonesa"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada item à sua explicação.",
+   "pagina": "100",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "libaneses"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "D. Pedro II"
+    },
+    {
+     "id": "4",
+     "texto": "cartaz japonês"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "problemas econômicos e perseguições religiosas"
+    },
+    {
+     "id": "b",
+     "texto": "falta de terras e dívidas dos trabalhadores rurais"
+    },
+    {
+     "id": "c",
+     "texto": "admirou a habilidade comercial dos árabes"
+    },
+    {
+     "id": "d",
+     "texto": "incentivava a imigração para o Brasil"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada informação sobre a chegada dos japoneses.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Porto de Santos"
+    },
+    {
+     "id": "2",
+     "texto": "Kasato Maru"
+    },
+    {
+     "id": "3",
+     "texto": "cerca de 50 dias"
+    },
+    {
+     "id": "4",
+     "texto": "São Paulo, Paraná, Mato Grosso e Pará"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "local de chegada"
+    },
+    {
+     "id": "b",
+     "texto": "navio"
+    },
+    {
+     "id": "c",
+     "texto": "duração média da viagem"
+    },
+    {
+     "id": "d",
+     "texto": "estados onde muitos se estabeleceram"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada informação sobre o bairro japonês de São Paulo.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "antes dos japoneses"
+    },
+    {
+     "id": "2",
+     "texto": "1912"
+    },
+    {
+     "id": "3",
+     "texto": "hoje"
+    },
+    {
+     "id": "4",
+     "texto": "atração do bairro"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "reduto negro da cidade"
+    },
+    {
+     "id": "b",
+     "texto": "ocupação intensa por imigrantes japoneses"
+    },
+    {
+     "id": "c",
+     "texto": "maior comunidade japonesa fora do Japão"
+    },
+    {
+     "id": "d",
+     "texto": "Museu Histórico da Imigração Japonesa"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada povo a uma contribuição.",
+   "pagina": "100",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "árabes"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "alemães"
+    },
+    {
+     "id": "4",
+     "texto": "italianos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "destaque no aspecto econômico"
+    },
+    {
+     "id": "b",
+     "texto": "Medicina, Engenharia e técnicas agrícolas"
+    },
+    {
+     "id": "c",
+     "texto": "escolas religiosas e produção de couro"
+    },
+    {
+     "id": "d",
+     "texto": "plantio de uvas e produção de vinho"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada prato à forma como é servido ou preparado.",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "shawarma"
+    },
+    {
+     "id": "2",
+     "texto": "churrasco grego"
+    },
+    {
+     "id": "3",
+     "texto": "chucrute"
+    },
+    {
+     "id": "4",
+     "texto": "polenta"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "com pão fino enrolado"
+    },
+    {
+     "id": "b",
+     "texto": "geralmente com pão francês e salada"
+    },
+    {
+     "id": "c",
+     "texto": "repolho em conserva"
+    },
+    {
+     "id": "d",
+     "texto": "à base de milho"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes árabes se destacaram como bons ____________.",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "comerciantes"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Até meados do século XX, havia cerca de 190 ____________ japoneses no Brasil.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "mil"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O bairro de São Paulo conhecido pela cultura japonesa é a ____________.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "Liberdade"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No Japão, houve conflitos territoriais pela falta de ____________ para plantar.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "terras"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "As adaptações de receitas mostram as muitas culturas que compõem a cultura ____________.",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "brasileira"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os imigrantes japoneses eram, em sua maioria, ____________.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "agricultores"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os primeiros japoneses chegaram ao Brasil no ano de ____________ (escreva em número).",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "1908"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Entre os pratos típicos da Liberdade estão sushi, sashimi e ____________.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "lámen"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A viagem do Japão ao Brasil durava cerca de 50 dias. Um navio já navegou 30 dias. Quantos dias ainda faltam?",
+   "pagina": "101",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "20"
+    },
+    {
+     "id": "B",
+     "texto": "50"
+    },
+    {
+     "id": "C",
+     "texto": "30"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Quais pratos AINDA FALTAM provar?",
+   "pagina": "100",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🍽️",
+    "titulo": "Almoço árabe",
+    "itens": [
+     "Lista de pratos: esfirra, kafta, quibe, falafel e tabule.",
+     "Já provados: esfirra, quibe e tabule."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "esfirra e quibe"
+    },
+    {
+     "id": "B",
+     "texto": "kafta e falafel"
+    },
+    {
+     "id": "C",
+     "texto": "quibe e tabule"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual destes NÃO foi um motivo da vinda dos japoneses?",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O excesso de terras para plantar no Japão."
+    },
+    {
+     "id": "B",
+     "texto": "O endividamento dos trabalhadores rurais."
+    },
+    {
+     "id": "C",
+     "texto": "Os conflitos causados pela falta de terras."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual estado NÃO é citado entre os destinos dos imigrantes japoneses?",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Pará"
+    },
+    {
+     "id": "B",
+     "texto": "Mato Grosso"
+    },
+    {
+     "id": "C",
+     "texto": "Bahia"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUEM visitou o Oriente Médio em 1876?",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Os comerciantes de Curitiba."
+    },
+    {
+     "id": "B",
+     "texto": "Os primeiros libaneses."
+    },
+    {
+     "id": "C",
+     "texto": "O imperador D. Pedro II."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE os libaneses continuaram migrando para o Brasil?",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porque os primeiros grupos chegaram em 1880."
+    },
+    {
+     "id": "B",
+     "texto": "Porque a esfirra ficou conhecida no Brasil."
+    },
+    {
+     "id": "C",
+     "texto": "Por problemas econômicos e perseguições religiosas."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O shawarma foi adaptado e virou churrasco grego no Brasil. Isso significa que:",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o prato deixou de existir."
+    },
+    {
+     "id": "B",
+     "texto": "o prato é de origem japonesa."
+    },
+    {
+     "id": "C",
+     "texto": "a receita mudou ao chegar a outro lugar."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O bairro da Liberdade guarda a memória das populações negra e japonesa. Isso significa que:",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "o bairro tem a história dos dois grupos."
+    },
+    {
+     "id": "B",
+     "texto": "o bairro tem só a história da população negra."
+    },
+    {
+     "id": "C",
+     "texto": "o bairro tem só a história japonesa."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes japoneses chegaram ao Brasil em:",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1908"
+    },
+    {
+     "id": "B",
+     "texto": "1980"
+    },
+    {
+     "id": "C",
+     "texto": "1880"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Não vieram só europeus para o Brasil. Qual grupo veio de fora da Europa?",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "os sírios"
+    },
+    {
+     "id": "B",
+     "texto": "os italianos"
+    },
+    {
+     "id": "C",
+     "texto": "os ucranianos"
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

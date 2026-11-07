@@ -1,0 +1,817 @@
+{
+ "id": "portugues-p1-2",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia das págs. 142–143, resumida.",
+ "materia": "portugues-noticia",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A manchete revela informações atrativas sobre o fato. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O corpo do texto vem antes da manchete. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Uma notícia deve trazer a opinião pessoal de quem escreve. ( ___ )",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Segundo a notícia, a campanha recolhe material para uma escola atingida pela enchente. ( ___ )",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os adjetivos que têm a mesma forma no masculino e no feminino são chamados de uniformes. ( ___ )",
+   "pagina": "145",
+   "ajuda": "adjetivos-uniformes",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Todas as palavras terminadas em -ão formam o plural em -ões. ( ___ )",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Pela notícia, associe cada pergunta à sua resposta.",
+   "pagina": "142",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "O que acontece?"
+    },
+    {
+     "id": "2",
+     "texto": "Onde?"
+    },
+    {
+     "id": "3",
+     "texto": "Até quando?"
+    },
+    {
+     "id": "4",
+     "texto": "Por quê?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "uma campanha de material escolar"
+    },
+    {
+     "id": "b",
+     "texto": "em Hulha Negra"
+    },
+    {
+     "id": "c",
+     "texto": "até este sábado (15)"
+    },
+    {
+     "id": "d",
+     "texto": "uma escola foi atingida pela enchente"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada parte da notícia ao trecho correspondente.",
+   "pagina": "142",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "manchete"
+    },
+    {
+     "id": "2",
+     "texto": "linha-fina"
+    },
+    {
+     "id": "3",
+     "texto": "corpo do texto"
+    },
+    {
+     "id": "4",
+     "texto": "imagem"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Escola Monteiro Lobato promove campanha"
+    },
+    {
+     "id": "b",
+     "texto": "Doações serão entregues para escola de Eldorado do Sul"
+    },
+    {
+     "id": "c",
+     "texto": "A equipe diretiva teve a ideia da campanha"
+    },
+    {
+     "id": "d",
+     "texto": "foto de uma mochila com material escolar"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada característica da notícia ao seu significado.",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "impessoal"
+    },
+    {
+     "id": "2",
+     "texto": "objetiva"
+    },
+    {
+     "id": "3",
+     "texto": "recente"
+    },
+    {
+     "id": "4",
+     "texto": "relevante"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "não mostra julgamento pessoal do autor"
+    },
+    {
+     "id": "b",
+     "texto": "evita informações que não importam para o fato"
+    },
+    {
+     "id": "c",
+     "texto": "aconteceu há pouco tempo"
+    },
+    {
+     "id": "d",
+     "texto": "é importante para a sociedade"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "coração"
+    },
+    {
+     "id": "2",
+     "texto": "mão"
+    },
+    {
+     "id": "3",
+     "texto": "capitão"
+    },
+    {
+     "id": "4",
+     "texto": "balão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "corações"
+    },
+    {
+     "id": "b",
+     "texto": "mãos"
+    },
+    {
+     "id": "c",
+     "texto": "capitães"
+    },
+    {
+     "id": "d",
+     "texto": "balões"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra à terminação do seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "cidadão"
+    },
+    {
+     "id": "2",
+     "texto": "leão"
+    },
+    {
+     "id": "3",
+     "texto": "cão"
+    },
+    {
+     "id": "4",
+     "texto": "cristão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "-ãos"
+    },
+    {
+     "id": "b",
+     "texto": "-ões"
+    },
+    {
+     "id": "c",
+     "texto": "-ães"
+    },
+    {
+     "id": "d",
+     "texto": "-ãos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada substantivo à palavra que concorda com ele.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "a escola"
+    },
+    {
+     "id": "2",
+     "texto": "o aluno"
+    },
+    {
+     "id": "3",
+     "texto": "as escolas"
+    },
+    {
+     "id": "4",
+     "texto": "os alunos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "atingida"
+    },
+    {
+     "id": "b",
+     "texto": "atingido"
+    },
+    {
+     "id": "c",
+     "texto": "atingidas"
+    },
+    {
+     "id": "d",
+     "texto": "atingidos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O título principal da notícia é chamado de ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "manchete"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O restante das informações, que detalha o lide, é o corpo do ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "texto"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A imagem não é obrigatória, mas serve para ilustrar e ____________ as informações.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "complementar"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Segundo a notícia, a escola de Eldorado do Sul foi atingida pela ____________.",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "resposta": "enchente"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A campanha arrecada material ____________.",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "resposta": "escolar"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"botão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "botões"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Artigos, adjetivos, pronomes e numerais concordam com o ____________.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "substantivo"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No plural, \"aluno vindo de outra cidade\" fica \"alunos ____________ de outra cidade\".",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "vindos"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Quais itens da lista AINDA FALTAM chegar?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🎒",
+    "titulo": "Campanha de material escolar",
+    "itens": [
+     "Lista pedida: caderno, lápis, borracha, tesoura, estojo e mochila.",
+     "Já chegaram: caderno, lápis, borracha e mochila."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "caderno e lápis"
+    },
+    {
+     "id": "B",
+     "texto": "tesoura e estojo"
+    },
+    {
+     "id": "C",
+     "texto": "borracha e mochila"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A turma já escreveu a manchete, o lide e o corpo do texto. Qual parte ainda falta escrever?",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O lide."
+    },
+    {
+     "id": "B",
+     "texto": "A linha-fina."
+    },
+    {
+     "id": "C",
+     "texto": "A manchete."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual informação NÃO aparece na notícia?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Até quando a campanha acontece."
+    },
+    {
+     "id": "B",
+     "texto": "Para qual cidade vão as doações."
+    },
+    {
+     "id": "C",
+     "texto": "Quantos cadernos foram doados."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma escola preparou 9 caixas de doações e já entregou 5. Quantas caixas sobraram para entregar?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "9"
+    },
+    {
+     "id": "B",
+     "texto": "5"
+    },
+    {
+     "id": "C",
+     "texto": "4"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "ATÉ QUANDO a campanha acontece?",
+   "pagina": "142",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em Hulha Negra."
+    },
+    {
+     "id": "B",
+     "texto": "Até este sábado (15)."
+    },
+    {
+     "id": "C",
+     "texto": "Na Escola Monteiro Lobato."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE a campanha foi criada?",
+   "pagina": "142",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porque a Escola Monteiro Lobato celebra 62 anos."
+    },
+    {
+     "id": "B",
+     "texto": "Porque a escola de Eldorado do Sul ficou inundada."
+    },
+    {
+     "id": "C",
+     "texto": "Porque as doações podem ser entregues na escola."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual trecho faz parte do corpo do texto desta notícia?",
+   "pagina": "142",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia: campanha de material escolar",
+    "itens": [
+     "Manchete: Escola Monteiro Lobato promove campanha de arrecadação de material escolar em Hulha Negra",
+     "Linha-fina: Doações serão entregues para escola de Eldorado do Sul, atingida pela enchente. Arrecadações acontecem até este sábado (15)",
+     "Resumo: A escola, que celebra 62 anos, recebeu um aluno vindo de Eldorado do Sul. A escola dele ficou inundada, com água a 1,8 m de altura. Por isso, a equipe diretiva teve a ideia da campanha.",
+     "Quem quer participar entrega o material direto na Escola Monteiro Lobato."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Doações serão entregues para escola de Eldorado do Sul."
+    },
+    {
+     "id": "B",
+     "texto": "Escola Monteiro Lobato promove campanha de arrecadação."
+    },
+    {
+     "id": "C",
+     "texto": "A escola do aluno ficou inundada, com água a 1,8 m de altura."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A notícia não mostra o julgamento pessoal de quem escreve. Isso significa que a linguagem dela é:",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "impessoal."
+    },
+    {
+     "id": "B",
+     "texto": "poética."
+    },
+    {
+     "id": "C",
+     "texto": "informal."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"pão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "pães"
+    },
+    {
+     "id": "B",
+     "texto": "pãos"
+    },
+    {
+     "id": "C",
+     "texto": "pões"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A maioria das palavras em -ão faz o plural em -ões. Essa regra NÃO serve para:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "botão"
+    },
+    {
+     "id": "B",
+     "texto": "irmão"
+    },
+    {
+     "id": "C",
+     "texto": "coração"
+    }
+   ],
+   "resposta": "B"
+  }
+ ]
+}

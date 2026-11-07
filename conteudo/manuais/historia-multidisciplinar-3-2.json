@@ -1,0 +1,727 @@
+{
+ "id": "historia-multidisciplinar-3-2",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 2",
+ "numero": 2,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "materia": "historia-migracoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes italianos chegaram ao Brasil por volta de 1875. ( ___ )",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As colônias italianas de Caxias, Conde d'Eu e Dona Isabel ficavam no Paraná. ( ___ )",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em Bento Gonçalves, nenhum costume italiano permaneceu até hoje. ( ___ )",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "F"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A imigração ucraniana para o Brasil começou na década de 1890. ( ___ )",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A Igreja de São Miguel Arcanjo fica em Mallet, no Paraná. ( ___ )",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A matrioska é tradicional apenas na Ucrânia. ( ___ )",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada nome à informação correta.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "Caxias"
+    },
+    {
+     "id": "2",
+     "texto": "Conde d'Eu"
+    },
+    {
+     "id": "3",
+     "texto": "Dona Isabel"
+    },
+    {
+     "id": "4",
+     "texto": "São Leopoldo"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "hoje é Caxias do Sul"
+    },
+    {
+     "id": "b",
+     "texto": "hoje é Garibaldi"
+    },
+    {
+     "id": "c",
+     "texto": "hoje é Bento Gonçalves"
+    },
+    {
+     "id": "d",
+     "texto": "primeira colônia alemã"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada alimento à sua descrição.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "polenta"
+    },
+    {
+     "id": "2",
+     "texto": "brusqueta"
+    },
+    {
+     "id": "3",
+     "texto": "almôndegas"
+    },
+    {
+     "id": "4",
+     "texto": "vinho"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "alimento à base de milho"
+    },
+    {
+     "id": "b",
+     "texto": "torrada com alho, azeite e tomate"
+    },
+    {
+     "id": "c",
+     "texto": "bolinhas de carne moída"
+    },
+    {
+     "id": "d",
+     "texto": "bebida produzida com uvas"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada informação sobre os ucranianos.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "oito famílias"
+    },
+    {
+     "id": "2",
+     "texto": "Zolotiv"
+    },
+    {
+     "id": "3",
+     "texto": "Mallet"
+    },
+    {
+     "id": "4",
+     "texto": "Nikon Rodolzkie"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "primeiros imigrantes que partiram"
+    },
+    {
+     "id": "b",
+     "texto": "cidade de onde elas saíram"
+    },
+    {
+     "id": "c",
+     "texto": "município onde elas chegaram"
+    },
+    {
+     "id": "d",
+     "texto": "supervisionou a obra da igreja"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada item à presença italiana no Brasil.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "região Sul"
+    },
+    {
+     "id": "2",
+     "texto": "região Sudeste"
+    },
+    {
+     "id": "3",
+     "texto": "Bento Gonçalves (RS)"
+    },
+    {
+     "id": "4",
+     "texto": "culinária"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "colônias no Rio Grande do Sul"
+    },
+    {
+     "id": "b",
+     "texto": "trabalho nos cafezais de São Paulo"
+    },
+    {
+     "id": "c",
+     "texto": "costumes italianos que permanecem até hoje"
+    },
+    {
+     "id": "d",
+     "texto": "influência em todo o Brasil"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada pergunta sobre a matrioska à sua resposta.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "De que é feita?"
+    },
+    {
+     "id": "2",
+     "texto": "Como se encaixa?"
+    },
+    {
+     "id": "3",
+     "texto": "Qual é o outro nome?"
+    },
+    {
+     "id": "4",
+     "texto": "Onde é tradicional?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "de madeira"
+    },
+    {
+     "id": "b",
+     "texto": "da maior para a menor"
+    },
+    {
+     "id": "c",
+     "texto": "babuskas"
+    },
+    {
+     "id": "d",
+     "texto": "em países do Leste Europeu"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada ano ao fato.",
+   "pagina": "99",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1875"
+    },
+    {
+     "id": "2",
+     "texto": "1890"
+    },
+    {
+     "id": "3",
+     "texto": "1897"
+    },
+    {
+     "id": "4",
+     "texto": "1901"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "italianos chegam por volta desse ano"
+    },
+    {
+     "id": "b",
+     "texto": "década em que os ucranianos começam a chegar"
+    },
+    {
+     "id": "c",
+     "texto": "início da obra da igreja em Mallet"
+    },
+    {
+     "id": "d",
+     "texto": "fim da obra, por volta desse ano"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Em Bento Gonçalves, ainda hoje há o plantio de ____________.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "uvas"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A igreja dos ucranianos fica na Serra do ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "Tigre"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Muitos ucranianos ainda vivem no estado do ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "Paraná"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A obra da igreja foi feita por iniciativa de um ____________ ucraniano.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "padre"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Muitos italianos trabalharam nos cafezais de São ____________.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "Paulo"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O trabalho nos cafezais ajudou o Brasil a se tornar o maior exportador de ____________ do mundo.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "café"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A matrioska é um conjunto de bonecas de diferentes ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "tamanhos"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A brusqueta é um ____________ da culinária italiana.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "aperitivo"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Em quais copos AINDA FALTA colar o adesivo?",
+   "pagina": "99",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "🪆",
+    "titulo": "Matrioska de copos",
+    "itens": [
+     "Copos: 500 mL, 300 mL, 200 mL, 100 mL e 50 mL.",
+     "Já têm adesivo: 500 mL, 300 mL e 100 mL."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "nos de 500 mL e 300 mL"
+    },
+    {
+     "id": "B",
+     "texto": "nos de 300 mL e 100 mL"
+    },
+    {
+     "id": "C",
+     "texto": "nos de 200 mL e 50 mL"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Um grupo tinha 8 famílias. Já chegaram 5. Quantas famílias ainda faltam chegar?",
+   "pagina": "99",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "8"
+    },
+    {
+     "id": "B",
+     "texto": "3"
+    },
+    {
+     "id": "C",
+     "texto": "5"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual destas NÃO foi uma colônia italiana?",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Conde d'Eu"
+    },
+    {
+     "id": "B",
+     "texto": "São Leopoldo"
+    },
+    {
+     "id": "C",
+     "texto": "Caxias"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual prato NÃO é da culinária italiana citada no livro?",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "polenta"
+    },
+    {
+     "id": "B",
+     "texto": "brusqueta"
+    },
+    {
+     "id": "C",
+     "texto": "quibe"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUANDO a obra da igreja de Mallet foi iniciada?",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Na Serra do Tigre."
+    },
+    {
+     "id": "B",
+     "texto": "Por iniciativa de um padre."
+    },
+    {
+     "id": "C",
+     "texto": "Em 1897."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE muitos italianos foram para São Paulo?",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Para trabalhar nos cafezais."
+    },
+    {
+     "id": "B",
+     "texto": "Porque chegaram por volta de 1875."
+    },
+    {
+     "id": "C",
+     "texto": "Porque em Bento Gonçalves há plantio de uvas."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A igreja é mantida em boas condições graças aos habitantes de Mallet. Isso significa que:",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "ela foi abandonada."
+    },
+    {
+     "id": "B",
+     "texto": "os moradores cuidam dela."
+    },
+    {
+     "id": "C",
+     "texto": "ela foi construída no ano passado."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "As bonecas matrioska se encaixam da maior para a menor. Isso significa que:",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "todas têm o mesmo tamanho."
+    },
+    {
+     "id": "B",
+     "texto": "a menor fica dentro da maior."
+    },
+    {
+     "id": "C",
+     "texto": "a maior fica dentro da menor."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Os primeiros imigrantes italianos chegaram ao Brasil por volta de:",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1857"
+    },
+    {
+     "id": "B",
+     "texto": "1875"
+    },
+    {
+     "id": "C",
+     "texto": "1578"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Muitos italianos ficaram na região Sul, mas não todos. Para qual outra região eles também foram?",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Norte"
+    },
+    {
+     "id": "B",
+     "texto": "Nordeste"
+    },
+    {
+     "id": "C",
+     "texto": "Sudeste"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

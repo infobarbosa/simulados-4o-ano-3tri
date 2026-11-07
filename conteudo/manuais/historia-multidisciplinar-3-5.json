@@ -1,0 +1,728 @@
+{
+ "id": "historia-multidisciplinar-3-5",
+ "disciplina": "História",
+ "prova": "Multidisciplinar 3",
+ "cabecalho": "SIMULADO • HISTÓRIA • 4º ANO • MULTIDISCIPLINAR 3 (3º TRIMESTRE)",
+ "titulo": "História — Simulado 5",
+ "numero": 5,
+ "tema": "Capítulo 10 — Migrações para o Brasil • págs. 94–105",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — História 4º ano, Capítulo 10 (Migrações para o Brasil), págs. 94–105.",
+ "materia": "historia-migracoes",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Bento Gonçalves foi a primeira colônia alemã do Brasil. ( ___ )",
+   "pagina": "104",
+   "ajuda": "alemaes",
+   "resposta": "F"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A imigração japonesa começou antes da imigração italiana. ( ___ )",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A imigração libanesa contribuiu com o aspecto econômico do Brasil. ( ___ )",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A influência italiana na culinária faz parte do cotidiano de muitas pessoas. ( ___ )",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "V"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "As primeiras famílias ucranianas partiram da cidade de Zolotiv. ( ___ )",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "É importante receber migrantes e refugiados com cuidado e respeito. ( ___ )",
+   "pagina": "104",
+   "ajuda": "direito-migrar",
+   "resposta": "V"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada povo a um símbolo de sua presença.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "italianos"
+    },
+    {
+     "id": "3",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "4",
+     "texto": "japoneses"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Museu Casa do Imigrante"
+    },
+    {
+     "id": "b",
+     "texto": "plantio de uvas em Bento Gonçalves"
+    },
+    {
+     "id": "c",
+     "texto": "igreja em Mallet"
+    },
+    {
+     "id": "d",
+     "texto": "bairro da Liberdade"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada prato ao povo ligado a ele.",
+   "pagina": "97",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "kasseler"
+    },
+    {
+     "id": "2",
+     "texto": "brusqueta"
+    },
+    {
+     "id": "3",
+     "texto": "falafel"
+    },
+    {
+     "id": "4",
+     "texto": "sashimi"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "alemães"
+    },
+    {
+     "id": "b",
+     "texto": "italianos"
+    },
+    {
+     "id": "c",
+     "texto": "árabes"
+    },
+    {
+     "id": "d",
+     "texto": "japoneses"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada grupo a um motivo para deixar seu país.",
+   "pagina": "104",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "italianos"
+    },
+    {
+     "id": "2",
+     "texto": "japoneses"
+    },
+    {
+     "id": "3",
+     "texto": "libaneses"
+    },
+    {
+     "id": "4",
+     "texto": "refugiados"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "guerras de unificação e falta de terras"
+    },
+    {
+     "id": "b",
+     "texto": "conflitos por terras e dívidas dos trabalhadores"
+    },
+    {
+     "id": "c",
+     "texto": "perseguições religiosas"
+    },
+    {
+     "id": "d",
+     "texto": "temor de perseguição e conflitos armados"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada grupo a um destino citado no livro.",
+   "pagina": "102",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "alemães"
+    },
+    {
+     "id": "2",
+     "texto": "ucranianos"
+    },
+    {
+     "id": "3",
+     "texto": "japoneses"
+    },
+    {
+     "id": "4",
+     "texto": "venezuelanos"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "Rio Grande do Sul"
+    },
+    {
+     "id": "b",
+     "texto": "Paraná"
+    },
+    {
+     "id": "c",
+     "texto": "Porto de Santos (SP)"
+    },
+    {
+     "id": "d",
+     "texto": "Pacaraima (RR)"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada ano ao fato.",
+   "pagina": "103",
+   "ajuda": "povos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "1824"
+    },
+    {
+     "id": "2",
+     "texto": "1876"
+    },
+    {
+     "id": "3",
+     "texto": "1908"
+    },
+    {
+     "id": "4",
+     "texto": "1948"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "colônia de São Leopoldo"
+    },
+    {
+     "id": "b",
+     "texto": "visita de D. Pedro II ao Oriente Médio"
+    },
+    {
+     "id": "c",
+     "texto": "chegada do Kasato Maru"
+    },
+    {
+     "id": "d",
+     "texto": "Declaração Universal dos Direitos Humanos"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra à sua explicação.",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "imigrante"
+    },
+    {
+     "id": "2",
+     "texto": "colônia"
+    },
+    {
+     "id": "3",
+     "texto": "cafezal"
+    },
+    {
+     "id": "4",
+     "texto": "cafeicultor"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "quem chega a outro país para viver"
+    },
+    {
+     "id": "b",
+     "texto": "núcleo fundado por imigrantes"
+    },
+    {
+     "id": "c",
+     "texto": "plantação de café"
+    },
+    {
+     "id": "d",
+     "texto": "produtor de café"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A primeira colônia alemã do Brasil foi São ____________.",
+   "pagina": "104",
+   "ajuda": "alemaes",
+   "resposta": "Leopoldo"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Muitos imigrantes foram trabalhar nos ____________ de São Paulo.",
+   "pagina": "96",
+   "ajuda": "motivos",
+   "resposta": "cafezais"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A igreja de Mallet é conhecida como Igreja do Arcanjo ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "Miguel"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No Brasil, a adaptação do shawarma é chamada de churrasco ____________.",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "resposta": "grego"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Com o trabalho nos cafezais, o Brasil se tornou o maior exportador de ____________.",
+   "pagina": "98",
+   "ajuda": "italianos",
+   "resposta": "café"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os japoneses trouxeram conhecimentos de Medicina, Engenharia e técnicas ____________.",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "resposta": "agrícolas"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Todo ser humano tem o direito de ____________ e de residir onde quiser.",
+   "pagina": "103",
+   "ajuda": "direito-migrar",
+   "resposta": "migrar"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A matrioska é tradicional em países do Leste ____________.",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "resposta": "Europeu"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual ano AINDA FALTA na tabela?",
+   "pagina": "101",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Tabela da turma",
+    "itens": [
+     "Alemães: 1824.",
+     "Italianos: 1875.",
+     "Japoneses: ainda sem ano."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1824"
+    },
+    {
+     "id": "B",
+     "texto": "1875"
+    },
+    {
+     "id": "C",
+     "texto": "1908"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma turma fez 12 cartazes sobre imigração. Foram expostos 7. Quantos cartazes NÃO foram expostos?",
+   "pagina": "95",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "5"
+    },
+    {
+     "id": "B",
+     "texto": "7"
+    },
+    {
+     "id": "C",
+     "texto": "12"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual prato NÃO é de origem árabe?",
+   "pagina": "100",
+   "ajuda": "arabes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "polenta"
+    },
+    {
+     "id": "B",
+     "texto": "esfirra"
+    },
+    {
+     "id": "C",
+     "texto": "tabule"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O que NÃO fez parte da colônia de São Leopoldo?",
+   "pagina": "97",
+   "ajuda": "alemaes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "A criação de porcos."
+    },
+    {
+     "id": "B",
+     "texto": "O bairro da Liberdade."
+    },
+    {
+     "id": "C",
+     "texto": "As escolas religiosas."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual era o motivo principal da imigração japonesa para o Brasil?",
+   "pagina": "104",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Os conflitos pela falta de terras e as dívidas no Japão."
+    },
+    {
+     "id": "B",
+     "texto": "O navio Kasato Maru."
+    },
+    {
+     "id": "C",
+     "texto": "A chegada em 1908."
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual foi a primeira colônia alemã fundada no Brasil?",
+   "pagina": "104",
+   "ajuda": "alemaes",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Garibaldi"
+    },
+    {
+     "id": "B",
+     "texto": "São Leopoldo"
+    },
+    {
+     "id": "C",
+     "texto": "Caxias do Sul"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Uma pessoa deixou o Japão para viver e trabalhar no Brasil. Isso significa que ela é:",
+   "pagina": "101",
+   "ajuda": "japoneses",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "turista no Brasil."
+    },
+    {
+     "id": "B",
+     "texto": "imigrante no Brasil."
+    },
+    {
+     "id": "C",
+     "texto": "nascida no Brasil."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual é a diferença entre um refugiado e um migrante comum?",
+   "pagina": "102",
+   "ajuda": "migrar-hoje",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O refugiado saiu apenas para passear."
+    },
+    {
+     "id": "B",
+     "texto": "O refugiado saiu por temor de perseguição ou por conflitos."
+    },
+    {
+     "id": "C",
+     "texto": "O migrante nunca sai do seu país."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A obra da igreja de Mallet começou em:",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "1987"
+    },
+    {
+     "id": "B",
+     "texto": "1879"
+    },
+    {
+     "id": "C",
+     "texto": "1897"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Onde a matrioska é tradicional?",
+   "pagina": "99",
+   "ajuda": "ucranianos",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Em países do Leste Europeu, como Rússia, Polônia e Ucrânia."
+    },
+    {
+     "id": "B",
+     "texto": "Somente na Ucrânia."
+    },
+    {
+     "id": "C",
+     "texto": "No Japão."
+    }
+   ],
+   "resposta": "A"
+  }
+ ]
+}

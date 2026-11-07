@@ -21,10 +21,14 @@ class ErroApi extends Error {
 
 // ---------------------------------------------------------------- armazenamento
 
+function semVersaoAntiga(e) {
+  return { ...e, tentativas: M.semAbertasAntigas(e.tentativas) };
+}
+
 function lerEstado() {
   try {
     const bruto = localStorage.getItem(CHAVE);
-    if (bruto) return { ...estadoVazio(), ...JSON.parse(bruto) };
+    if (bruto) return semVersaoAntiga({ ...estadoVazio(), ...JSON.parse(bruto) });
   } catch { persistente = false; }
   return estadoVazio();
 }
@@ -78,7 +82,7 @@ async function rotaMateria(arquivo, topico) {
   const dados = await materia(arquivo);
   const t = dados.topicos[topico];
   if (!t) throw new ErroApi(404, "Conteúdo não encontrado.");
-  return { ...t, materia: dados.titulo, fonte: dados.fonte || null };
+  return { ...t, materia: dados.titulo, fonte: dados.fonte || null, idioma: dados.idioma || null };
 }
 
 const agora = () => new Date().toISOString();
@@ -268,7 +272,7 @@ export async function importarProgresso(texto) {
   try { dados = JSON.parse(texto); } catch { throw new ErroApi(400, "Esse arquivo não parece ser um backup deste app."); }
   const e = dados && dados.app === "simulados-4o-ano-3tri" ? dados.estado : null;
   if (!e || !Array.isArray(e.tentativas) || !Array.isArray(e.cartas)) throw new ErroApi(400, "Esse arquivo não parece ser um backup deste app.");
-  estado = { ...estadoVazio(), ...e };
+  estado = semVersaoAntiga({ ...estadoVazio(), ...e });
   salvar();
 }
 

@@ -1,0 +1,816 @@
+{
+ "id": "portugues-p1-4",
+ "disciplina": "Português",
+ "prova": "P1",
+ "cabecalho": "SIMULADO • PORTUGUÊS • 4º ANO • P1 (3º TRIMESTRE)",
+ "titulo": "Português — Simulado 4",
+ "numero": 4,
+ "tema": "Capítulo 8 — Notícia • concordância nominal • plural em -ão • págs. 136–153 e 239–240",
+ "data": "06-11-2026",
+ "idioma": "pt-BR",
+ "fonte": "Coleção Nautas/Edebê — Língua Portuguesa 4º ano, Capítulo 8 (Atenção na informação!), págs. 136–153 e 239–240. Notícia inédita, criada para treinar a leitura de um texto novo.",
+ "materia": "portugues-noticia",
+ "partes": {
+  "1": {
+   "titulo": "Verdadeiro ou Falso",
+   "instrucao": "Escreva V para verdadeiro e F para falso."
+  },
+  "2": {
+   "titulo": "Associação de colunas",
+   "instrucao": "Escreva, nos parênteses da Coluna B, o número da Coluna A correspondente."
+  },
+  "3": {
+   "titulo": "Complete as lacunas",
+   "instrucao": "Complete cada frase com a palavra correta."
+  },
+  "4": {
+   "titulo": "Múltipla escolha",
+   "instrucao": "Leia com atenção o que a pergunta pede e marque a alternativa correta."
+  }
+ },
+ "questoes": [
+  {
+   "n": 1,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Pela notícia, os alunos entregaram a colheita na terça-feira. ( ___ )",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "resposta": "V"
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "A frase \"Essa é a horta mais linda do mundo\" tem linguagem de notícia. ( ___ )",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "F"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Nesta notícia, \"Primeira colheita rendeu 30 pés de alface\" faz parte da linha-fina. ( ___ )",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "resposta": "V"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Uma história inventada sobre um dragão é um exemplo de notícia. ( ___ )",
+   "pagina": "141",
+   "ajuda": "noticia",
+   "resposta": "F"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "Em \"as meninas atentas\", o adjetivo concorda com o substantivo. ( ___ )",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "V"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "vf",
+   "calculo": false,
+   "enunciado": "O plural de \"cidadão\" é \"cidadões\". ( ___ )",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "F"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Pela notícia, associe cada pergunta à sua resposta.",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "O que ocorreu?"
+    },
+    {
+     "id": "2",
+     "texto": "Quem fez?"
+    },
+    {
+     "id": "3",
+     "texto": "Quando?"
+    },
+    {
+     "id": "4",
+     "texto": "Onde?"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "a entrega da primeira colheita"
+    },
+    {
+     "id": "b",
+     "texto": "alunos do 4º ano"
+    },
+    {
+     "id": "c",
+     "texto": "na terça-feira (3)"
+    },
+    {
+     "id": "d",
+     "texto": "em Vale Verde"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada parte da notícia à sua função.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "manchete"
+    },
+    {
+     "id": "2",
+     "texto": "linha-fina"
+    },
+    {
+     "id": "3",
+     "texto": "lide"
+    },
+    {
+     "id": "4",
+     "texto": "imagem"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "revela informações atrativas sobre o fato"
+    },
+    {
+     "id": "b",
+     "texto": "amplia as informações da manchete"
+    },
+    {
+     "id": "c",
+     "texto": "apresenta as informações essenciais"
+    },
+    {
+     "id": "d",
+     "texto": "ilustra e complementa as informações"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada frase ao que ela apresenta.",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "A entrega aconteceu na terça-feira."
+    },
+    {
+     "id": "2",
+     "texto": "A colheita rendeu 30 pés de alface."
+    },
+    {
+     "id": "3",
+     "texto": "Foi a festa mais bonita do ano."
+    },
+    {
+     "id": "4",
+     "texto": "Essa horta é uma maravilha."
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "informação"
+    },
+    {
+     "id": "b",
+     "texto": "informação"
+    },
+    {
+     "id": "c",
+     "texto": "opinião"
+    },
+    {
+     "id": "d",
+     "texto": "opinião"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada palavra ao seu plural.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "pão"
+    },
+    {
+     "id": "2",
+     "texto": "cristão"
+    },
+    {
+     "id": "3",
+     "texto": "limão"
+    },
+    {
+     "id": "4",
+     "texto": "leão"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "pães"
+    },
+    {
+     "id": "b",
+     "texto": "cristãos"
+    },
+    {
+     "id": "c",
+     "texto": "limões"
+    },
+    {
+     "id": "d",
+     "texto": "leões"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada artigo ao substantivo com que ele concorda.",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "o"
+    },
+    {
+     "id": "2",
+     "texto": "a"
+    },
+    {
+     "id": "3",
+     "texto": "os"
+    },
+    {
+     "id": "4",
+     "texto": "as"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "canteiro"
+    },
+    {
+     "id": "b",
+     "texto": "colheita"
+    },
+    {
+     "id": "c",
+     "texto": "caixotes"
+    },
+    {
+     "id": "d",
+     "texto": "verduras"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "associacao",
+   "calculo": false,
+   "enunciado": "Associe cada expressão à sua forma no plural.",
+   "pagina": "145",
+   "ajuda": "adjetivos-uniformes",
+   "colunaA": [
+    {
+     "id": "1",
+     "texto": "aluno feliz"
+    },
+    {
+     "id": "2",
+     "texto": "turma jovem"
+    },
+    {
+     "id": "3",
+     "texto": "amigo leal"
+    },
+    {
+     "id": "4",
+     "texto": "horta grande"
+    }
+   ],
+   "colunaB": [
+    {
+     "id": "a",
+     "texto": "alunos felizes"
+    },
+    {
+     "id": "b",
+     "texto": "turmas jovens"
+    },
+    {
+     "id": "c",
+     "texto": "amigos leais"
+    },
+    {
+     "id": "d",
+     "texto": "hortas grandes"
+    }
+   ],
+   "resposta": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+   }
+  },
+  {
+   "n": 13,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Os canteiros foram feitos com ____________ reaproveitados.",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "resposta": "caixotes"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A próxima colheita será em ____________.",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "resposta": "dezembro"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A linguagem que não mostra julgamento pessoal do autor é a linguagem ____________.",
+   "pagina": "141",
+   "ajuda": "linguagem",
+   "resposta": "impessoal"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "A linha-fina também é chamada de ____________.",
+   "pagina": "141",
+   "ajuda": "estrutura",
+   "resposta": "subtítulo"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "No feminino, \"alunos atentos\" fica \"alunas ____________\".",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "atentas"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "Trocando \"verduras frescas\" por \"alface\", a expressão fica \"alface ____________\".",
+   "pagina": "145",
+   "ajuda": "concordancia",
+   "resposta": "fresca"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"balão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "balões"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "lacuna",
+   "calculo": false,
+   "enunciado": "O plural de \"irmão\" é ____________.",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "resposta": "irmãos"
+  },
+  {
+   "n": 21,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Dos 30 pés de alface, 18 foram para o asilo e o restante ficou na escola. Quantos pés ficaram na escola?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "12"
+    },
+    {
+     "id": "B",
+     "texto": "18"
+    },
+    {
+     "id": "C",
+     "texto": "30"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 22,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Na horta, 28 alunos vão ajudar a regar. Já regaram 20. Quantos alunos ainda faltam regar?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "28"
+    },
+    {
+     "id": "B",
+     "texto": "20"
+    },
+    {
+     "id": "C",
+     "texto": "8"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 23,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual informação NÃO aparece na notícia?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "O nome da escola."
+    },
+    {
+     "id": "B",
+     "texto": "Quanto custaram os caixotes."
+    },
+    {
+     "id": "C",
+     "texto": "O dia da entrega da colheita."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 24,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual pergunta esse lide AINDA NÃO responde?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📝",
+    "titulo": "Lide escrito por uma colega",
+    "itens": [
+     "Alunos do 4º ano entregaram verduras em Vale Verde."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Quem?"
+    },
+    {
+     "id": "B",
+     "texto": "Quando?"
+    },
+    {
+     "id": "C",
+     "texto": "Onde?"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 25,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "POR QUE os alunos criaram a horta?",
+   "pagina": "141",
+   "ajuda": "comando",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Porque a próxima colheita será em dezembro."
+    },
+    {
+     "id": "B",
+     "texto": "Para aprender sobre alimentação saudável e ajudar os idosos."
+    },
+    {
+     "id": "C",
+     "texto": "Porque os canteiros foram feitos com caixotes reaproveitados."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 26,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "QUEM recebeu a colheita?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "As turmas que regam a horta."
+    },
+    {
+     "id": "B",
+     "texto": "Os alunos do 4º ano."
+    },
+    {
+     "id": "C",
+     "texto": "Os moradores do Lar Esperança."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 27,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Qual trecho é parte do lide desta notícia?",
+   "pagina": "141",
+   "ajuda": "lide",
+   "contexto": {
+    "icone": "📰",
+    "titulo": "Notícia criada para este treino: a horta",
+    "itens": [
+     "Manchete: Alunos transformam pátio em horta e doam verduras a asilo",
+     "Linha-fina: Primeira colheita rendeu 30 pés de alface para os moradores do Lar Esperança",
+     "Lide: Alunos do 4º ano da Escola Rio Claro, em Vale Verde, entregaram na terça-feira (3) a primeira colheita da horta que criaram no pátio. A ideia era aprender sobre alimentação saudável e ajudar os idosos da cidade.",
+     "Corpo do texto: Os canteiros foram feitos com caixotes reaproveitados. Cada turma rega a horta em um dia da semana. A próxima colheita será em dezembro."
+    ]
+   },
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Cada turma rega a horta em um dia da semana."
+    },
+    {
+     "id": "B",
+     "texto": "Alunos do 4º ano da Escola Rio Claro entregaram na terça-feira (3) a primeira colheita."
+    },
+    {
+     "id": "C",
+     "texto": "Alunos transformam pátio em horta e doam verduras a asilo."
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 28,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "\"Ontem, a prefeitura abriu uma nova biblioteca\" pode ser o início de uma notícia porque:",
+   "pagina": "141",
+   "ajuda": "noticia",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "conta uma história inventada."
+    },
+    {
+     "id": "B",
+     "texto": "mostra a opinião de quem escreve."
+    },
+    {
+     "id": "C",
+     "texto": "apresenta um fato recente e relevante."
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 29,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "O plural de \"cão\" é:",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cães"
+    },
+    {
+     "id": "B",
+     "texto": "cãos"
+    },
+    {
+     "id": "C",
+     "texto": "cões"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 30,
+   "parte": 4,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "A maioria das palavras em -ão faz o plural em -ões, mas há exceções. Qual plural está ERRADO?",
+   "pagina": "147",
+   "ajuda": "plural-ao",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "corações"
+    },
+    {
+     "id": "B",
+     "texto": "botões"
+    },
+    {
+     "id": "C",
+     "texto": "cidadões"
+    }
+   ],
+   "resposta": "C"
+  }
+ ]
+}

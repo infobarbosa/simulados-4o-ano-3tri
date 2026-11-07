@@ -65,6 +65,9 @@ def main(pasta: Path) -> int:
             continue
         ajustes.aplicar(dados, par["disciplina"], par["prova"])
         sid = f"{slug(par['disciplina'])}-{slug(par['prova'])}-{dados['numero']}"
+        if (MANUAIS / f"{sid}.json").exists():  # reescrito à mão: o de manuais/ substitui o do PDF
+            print(f"substituído por manual: {sid}")
+            continue
         dados = {"id": sid, "disciplina": par["disciplina"], "prova": par["prova"], **dados}
         (SAIDA / f"{sid}.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         catalogo.append({k: dados[k] for k in ("id", "disciplina", "prova", "numero", "titulo", "tema", "idioma")}
