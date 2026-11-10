@@ -2,541 +2,558 @@
  "id": "bilingue-multidisciplinar-3-2",
  "disciplina": "Bilíngue",
  "prova": "Multidisciplinar 3",
- "cabecalho": "MOCK TEST • ENGLISH (I WONDER) • YEAR 4 • MULTIDISCIPLINARY 3 (TERM 3)",
+ "cabecalho": "MOCK TEST • ENGLISH (ALADDIN) • YEAR 4 • MULTIDISCIPLINARY 3 (TERM 3)",
  "titulo": "English — Mock Test 2",
  "numero": 2,
- "tema": "I Wonder — Module 5 • Comparatives • pages 68–69",
- "data": "06-11-2026",
+ "tema": "Aladdin • StandFor Young Readers 3 • pages 3–23",
+ "data": "10-11-2026",
  "idioma": "en",
- "fonte": "I Wonder / Edebê — Module 5 (Language in Action and Wonder Grammar: Comparatives), pages 68–69.",
- "materia": "bilingue-comparativos",
+ "versao": 2,
+ "fonte": "Aladdin, retold by Rob Sved (StandFor Young Readers, Level 3, FTD), pages 3–23, and the class review of the story.",
+ "materia": "bilingue-aladdin",
  "partes": {
   "1": {
-   "titulo": "True or False",
-   "instrucao": "Write T for true and F for false."
+   "titulo": "Characters",
+   "instrucao": "Read the question, then tick the correct option."
   },
   "2": {
-   "titulo": "Matching",
-   "instrucao": "Write, in the brackets of Column B, the number of the matching item in Column A."
+   "titulo": "Who says it?",
+   "instrucao": "Read the words and tick the person who says them in the story."
   },
   "3": {
-   "titulo": "Complete",
-   "instrucao": "Complete each sentence with the correct word."
+   "titulo": "Complete according to the story",
+   "instrucao": "Tick the word that completes the sentence."
   },
   "4": {
-   "titulo": "Multiple choice",
-   "instrucao": "Read what the question asks, then tick the correct option."
+   "titulo": "What happens?",
+   "instrucao": "Read what the question asks (FIRST, LAST, NOT, TRUE), then tick the correct option."
   }
  },
  "questoes": [
   {
    "n": 1,
    "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "A smartwatch is bigger than a clock. ( ___ )",
-   "pagina": "69",
-   "ajuda": "comando",
-   "resposta": "F"
-  },
-  {
-   "n": 2,
-   "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "A microwave oven is heavier than a fridge. ( ___ )",
-   "pagina": "69",
-   "ajuda": "comando",
-   "resposta": "F"
-  },
-  {
-   "n": 3,
-   "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "Smartphones are more modern than radios. ( ___ )",
-   "pagina": "69",
-   "ajuda": "comando",
-   "resposta": "V"
-  },
-  {
-   "n": 4,
-   "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "A laptop is smaller than a tablet. ( ___ )",
-   "pagina": "69",
-   "ajuda": "comando",
-   "resposta": "F"
-  },
-  {
-   "n": 5,
-   "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "A games console is more expensive than a GPS. ( ___ )",
-   "pagina": "69",
-   "ajuda": "comando",
-   "resposta": "V"
-  },
-  {
-   "n": 6,
-   "parte": 1,
-   "tipo": "vf",
-   "calculo": false,
-   "enunciado": "We use \"more\" with long adjectives like \"expensive\". ( ___ )",
-   "pagina": "69",
-   "ajuda": "more",
-   "resposta": "V"
-  },
-  {
-   "n": 7,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Match each adjective to its comparative.",
-   "pagina": "69",
-   "ajuda": "mudam",
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "easy"
-    },
-    {
-     "id": "2",
-     "texto": "big"
-    },
-    {
-     "id": "3",
-     "texto": "expensive"
-    },
-    {
-     "id": "4",
-     "texto": "bad"
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "easier"
-    },
-    {
-     "id": "b",
-     "texto": "bigger"
-    },
-    {
-     "id": "c",
-     "texto": "more expensive"
-    },
-    {
-     "id": "d",
-     "texto": "worse"
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 8,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Match each gadget to the place where you often find it.",
-   "pagina": "68",
-   "ajuda": "vocabulario",
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "toaster"
-    },
-    {
-     "id": "2",
-     "texto": "GPS"
-    },
-    {
-     "id": "3",
-     "texto": "remote control"
-    },
-    {
-     "id": "4",
-     "texto": "smartwatch"
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "in the kitchen"
-    },
-    {
-     "id": "b",
-     "texto": "in the car"
-    },
-    {
-     "id": "c",
-     "texto": "next to the TV"
-    },
-    {
-     "id": "d",
-     "texto": "on your arm"
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 9,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Match each comparative to its adjective.",
-   "pagina": "69",
-   "ajuda": "mudam",
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "smaller"
-    },
-    {
-     "id": "2",
-     "texto": "worse"
-    },
-    {
-     "id": "3",
-     "texto": "heavier"
-    },
-    {
-     "id": "4",
-     "texto": "better"
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "small"
-    },
-    {
-     "id": "b",
-     "texto": "bad"
-    },
-    {
-     "id": "c",
-     "texto": "heavy"
-    },
-    {
-     "id": "d",
-     "texto": "good"
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 10,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Look at the prices and match.",
-   "pagina": "69",
-   "ajuda": "comando",
-   "contexto": {
-    "icone": "🏷️",
-    "titulo": "Tech shop",
-    "itens": [
-     "GPS: €100.",
-     "Games console: €300.",
-     "Remote control: €20.",
-     "Headphones: €50."
-    ]
-   },
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "GPS"
-    },
-    {
-     "id": "2",
-     "texto": "games console"
-    },
-    {
-     "id": "3",
-     "texto": "remote control"
-    },
-    {
-     "id": "4",
-     "texto": "headphones"
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "€100"
-    },
-    {
-     "id": "b",
-     "texto": "€300"
-    },
-    {
-     "id": "c",
-     "texto": "€20"
-    },
-    {
-     "id": "d",
-     "texto": "€50"
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 11,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Match each adjective to how it makes the comparative.",
-   "pagina": "69",
-   "ajuda": "mudam",
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "small"
-    },
-    {
-     "id": "2",
-     "texto": "big"
-    },
-    {
-     "id": "3",
-     "texto": "heavy"
-    },
-    {
-     "id": "4",
-     "texto": "expensive"
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "add -er"
-    },
-    {
-     "id": "b",
-     "texto": "double the g and add -er"
-    },
-    {
-     "id": "c",
-     "texto": "change y to i and add -er"
-    },
-    {
-     "id": "d",
-     "texto": "use more"
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 12,
-   "parte": 2,
-   "tipo": "associacao",
-   "calculo": false,
-   "enunciado": "Match each sentence to what it means in Portuguese.",
-   "pagina": "68",
-   "ajuda": "vocabulario",
-   "colunaA": [
-    {
-     "id": "1",
-     "texto": "I use it every day."
-    },
-    {
-     "id": "2",
-     "texto": "I sometimes use it."
-    },
-    {
-     "id": "3",
-     "texto": "I never use it."
-    },
-    {
-     "id": "4",
-     "texto": "It is smaller than a laptop."
-    }
-   ],
-   "colunaB": [
-    {
-     "id": "a",
-     "texto": "Uso todos os dias."
-    },
-    {
-     "id": "b",
-     "texto": "Às vezes eu uso."
-    },
-    {
-     "id": "c",
-     "texto": "Nunca uso."
-    },
-    {
-     "id": "d",
-     "texto": "É menor do que um notebook."
-    }
-   ],
-   "resposta": {
-    "1": "a",
-    "2": "b",
-    "3": "c",
-    "4": "d"
-   }
-  },
-  {
-   "n": 13,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "The tablet is smaller ____________ the laptop.",
-   "pagina": "69",
-   "ajuda": "curtos",
-   "resposta": "than"
-  },
-  {
-   "n": 14,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "A remote control is ____________ (small) than a TV.",
-   "pagina": "69",
-   "ajuda": "curtos",
-   "resposta": "smaller"
-  },
-  {
-   "n": 15,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "A fridge is ____________ (heavy) than a toaster.",
-   "pagina": "69",
-   "ajuda": "mudam",
-   "resposta": "heavier"
-  },
-  {
-   "n": 16,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "A laptop is ____________ (expensive) than a remote control. Write two words.",
-   "pagina": "69",
-   "ajuda": "more",
-   "resposta": "more expensive"
-  },
-  {
-   "n": 17,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "A smartphone is ____________ modern than a radio.",
-   "pagina": "69",
-   "ajuda": "more",
-   "resposta": "more"
-  },
-  {
-   "n": 18,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "You listen to music with ____________.",
-   "pagina": "68",
-   "ajuda": "vocabulario",
-   "resposta": "headphones"
-  },
-  {
-   "n": 19,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "You make toast with a ____________.",
-   "pagina": "68",
-   "ajuda": "vocabulario",
-   "resposta": "toaster"
-  },
-  {
-   "n": 20,
-   "parte": 3,
-   "tipo": "lacuna",
-   "calculo": false,
-   "enunciado": "The microwave ____________ heats food.",
-   "pagina": "68",
-   "ajuda": "vocabulario",
-   "resposta": "oven"
-  },
-  {
-   "n": 21,
-   "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "Which gadgets are STILL MISSING from the box?",
-   "pagina": "68",
-   "ajuda": "comando",
-   "contexto": {
-    "icone": "📦",
-    "titulo": "The gadget box",
-    "itens": [
-     "List: smartphone, GPS, laptop, headphones.",
-     "In the box: smartphone, GPS."
-    ]
-   },
+   "enunciado": "Who is Jafar?",
+   "pagina": "3",
+   "ajuda": "personagens",
    "alternativas": [
     {
      "id": "A",
-     "texto": "laptop and headphones"
+     "texto": "a man who wants the magic lamp"
     },
     {
      "id": "B",
-     "texto": "GPS and laptop"
+     "texto": "the Sultan's son"
     },
     {
      "id": "C",
-     "texto": "smartphone and GPS"
+     "texto": "Aladdin's friend"
     }
    ],
    "resposta": "A"
   },
   {
-   "n": 22,
-   "parte": 4,
+   "n": 2,
+   "parte": 1,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "A shop had 10 laptops. It sold 6. How many laptops are LEFT?",
-   "pagina": "68",
+   "enunciado": "Who works a lot in the story?",
+   "pagina": "4",
+   "ajuda": "personagens",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Aladdin"
+    },
+    {
+     "id": "B",
+     "texto": "Aladdin's mother"
+    },
+    {
+     "id": "C",
+     "texto": "the Sultan"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Aladdin says Princess Jasmine is very…",
+   "pagina": "13",
+   "ajuda": "personagens",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "lazy"
+    },
+    {
+     "id": "B",
+     "texto": "angry"
+    },
+    {
+     "id": "C",
+     "texto": "beautiful"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "How does Aladdin feel when he climbs into the cave?",
+   "pagina": "8",
+   "ajuda": "personagens",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "scared"
+    },
+    {
+     "id": "B",
+     "texto": "angry"
+    },
+    {
+     "id": "C",
+     "texto": "tired"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who rides through the market with his daughter?",
+   "pagina": "5",
+   "ajuda": "personagens",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "the Sultan"
+    },
+    {
+     "id": "C",
+     "texto": "the genie"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 6,
+   "parte": 1,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Which word does NOT describe Aladdin at the beginning of the story?",
+   "pagina": "4",
    "ajuda": "comando",
    "alternativas": [
     {
      "id": "A",
-     "texto": "4"
+     "texto": "poor"
     },
     {
      "id": "B",
-     "texto": "10"
+     "texto": "lazy"
     },
     {
      "id": "C",
-     "texto": "6"
+     "texto": "rich"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Aladdin, there is a lamp in this cave. Get it for me!”?",
+   "pagina": "7",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "the Sultan"
+    },
+    {
+     "id": "C",
+     "texto": "Princess Jasmine"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Please help me more, Aladdin.”?",
+   "pagina": "4",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "Aladdin's mother"
+    },
+    {
+     "id": "C",
+     "texto": "the genie"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Help me out of the cave. Then I can give you the lamp.”?",
+   "pagina": "9",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "the genie"
+    },
+    {
+     "id": "C",
+     "texto": "Aladdin"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 10,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Yes, Aladdin can marry Princess Jasmine.”?",
+   "pagina": "12",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "the Sultan"
+    },
+    {
+     "id": "B",
+     "texto": "Jafar"
+    },
+    {
+     "id": "C",
+     "texto": "Aladdin's friends"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 11,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Give me your old lamps! I can give you new lamps!”?",
+   "pagina": "14",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Aladdin"
+    },
+    {
+     "id": "B",
+     "texto": "Jafar, the old man"
+    },
+    {
+     "id": "C",
+     "texto": "the genie"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 12,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “We don't need more wishes. You are free.”?",
+   "pagina": "19",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "the Sultan"
+    },
+    {
+     "id": "C",
+     "texto": "Aladdin"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 13,
+   "parte": 2,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Who says: “Get the magic lamp!”?",
+   "pagina": "17",
+   "ajuda": "falas",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Princess Jasmine"
+    },
+    {
+     "id": "B",
+     "texto": "the genie"
+    },
+    {
+     "id": "C",
+     "texto": "the Sultan"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 14,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Aladdin lives in a small house in the ______.",
+   "pagina": "4",
+   "ajuda": "parte1",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cave"
+    },
+    {
+     "id": "B",
+     "texto": "city"
+    },
+    {
+     "id": "C",
+     "texto": "mountains"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 15,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Aladdin is lazy. He doesn't ______ his mother.",
+   "pagina": "4",
+   "ajuda": "parte1",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "know"
+    },
+    {
+     "id": "B",
+     "texto": "see"
+    },
+    {
+     "id": "C",
+     "texto": "help"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 16,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "In the cave, Aladdin sees a dirty, old ______.",
+   "pagina": "9",
+   "ajuda": "parte2",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "lamp"
+    },
+    {
+     "id": "B",
+     "texto": "horse"
+    },
+    {
+     "id": "C",
+     "texto": "palace"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 17,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "The cave is cold and ______.",
+   "pagina": "8",
+   "ajuda": "parte2",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "clean"
+    },
+    {
+     "id": "B",
+     "texto": "dark"
+    },
+    {
+     "id": "C",
+     "texto": "new"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 18,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "The Sultan likes the jewels. Now Aladdin can ______ Princess Jasmine.",
+   "pagina": "12",
+   "ajuda": "parte2",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "wash"
+    },
+    {
+     "id": "B",
+     "texto": "mend"
+    },
+    {
+     "id": "C",
+     "texto": "marry"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 19,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Princess Jasmine gives the old lamp to ______.",
+   "pagina": "14",
+   "ajuda": "parte3",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "Jafar"
+    },
+    {
+     "id": "B",
+     "texto": "Aladdin"
+    },
+    {
+     "id": "C",
+     "texto": "the genie"
+    }
+   ],
+   "resposta": "A"
+  },
+  {
+   "n": 20,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "At the end of the story, the genie is ______.",
+   "pagina": "19",
+   "ajuda": "parte4",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "angry"
+    },
+    {
+     "id": "B",
+     "texto": "free"
+    },
+    {
+     "id": "C",
+     "texto": "in the cave"
+    }
+   ],
+   "resposta": "B"
+  },
+  {
+   "n": 21,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "Aladdin and Princess Jasmine live in a big ______ with a beautiful garden.",
+   "pagina": "13",
+   "ajuda": "parte4",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "cave"
+    },
+    {
+     "id": "B",
+     "texto": "market"
+    },
+    {
+     "id": "C",
+     "texto": "palace"
+    }
+   ],
+   "resposta": "C"
+  },
+  {
+   "n": 22,
+   "parte": 3,
+   "tipo": "multipla",
+   "calculo": false,
+   "enunciado": "At Jafar's house, Princess Jasmine is ______.",
+   "pagina": "16",
+   "ajuda": "parte3",
+   "alternativas": [
+    {
+     "id": "A",
+     "texto": "crying"
+    },
+    {
+     "id": "B",
+     "texto": "laughing"
+    },
+    {
+     "id": "C",
+     "texto": "sleeping"
     }
    ],
    "resposta": "A"
@@ -546,144 +563,117 @@
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "Which item is NOT on the list?",
-   "pagina": "68",
+   "enunciado": "What happens FIRST?",
+   "pagina": "5",
    "ajuda": "comando",
-   "contexto": {
-    "icone": "🏷️",
-    "titulo": "Tech shop",
-    "itens": [
-     "GPS: €100.",
-     "Games console: €300.",
-     "Remote control: €20.",
-     "Headphones: €50."
-    ]
-   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "a GPS"
+     "texto": "Aladdin rubs the lamp."
     },
     {
      "id": "B",
-     "texto": "a games console"
+     "texto": "Aladdin sees Princess Jasmine in the market."
     },
     {
      "id": "C",
-     "texto": "a digital camera"
+     "texto": "Jafar takes Jasmine to his house."
     }
    ],
-   "resposta": "C"
+   "resposta": "B"
   },
   {
    "n": 24,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "Which sentence is NOT correct?",
-   "pagina": "69",
-   "ajuda": "curtos",
+   "enunciado": "What does Jafar do with his magic at the cave?",
+   "pagina": "10",
+   "ajuda": "parte2",
    "alternativas": [
     {
      "id": "A",
-     "texto": "A GPS is more small than a laptop."
+     "texto": "He takes Aladdin home."
     },
     {
      "id": "B",
-     "texto": "A laptop is bigger than a GPS."
+     "texto": "He makes the genie appear."
     },
     {
      "id": "C",
-     "texto": "A GPS is smaller than a laptop."
+     "texto": "He puts a big rock in front of the cave."
     }
    ],
-   "resposta": "A"
+   "resposta": "C"
   },
   {
    "n": 25,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "HOW MUCH is the laptop?",
-   "pagina": "69",
-   "ajuda": "comando",
-   "contexto": {
-    "icone": "🏷️",
-    "titulo": "Prices",
-    "itens": [
-     "Tablet: €150.",
-     "Laptop: €450."
-    ]
-   },
+   "enunciado": "The old man comes to the palace. Where is Aladdin?",
+   "pagina": "14",
+   "ajuda": "parte3",
    "alternativas": [
     {
      "id": "A",
-     "texto": "€150"
+     "texto": "He is shopping in the city."
     },
     {
      "id": "B",
-     "texto": "€450"
+     "texto": "He is in the cave."
     },
     {
      "id": "C",
-     "texto": "more expensive"
+     "texto": "He is at Jafar's house."
     }
    ],
-   "resposta": "B"
+   "resposta": "A"
   },
   {
    "n": 26,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "WHAT does Anna use SOMETIMES?",
-   "pagina": "68",
+   "enunciado": "In the story, the genie claps his hands. What does NOT disappear?",
+   "pagina": "18",
    "ajuda": "comando",
-   "contexto": {
-    "icone": "🎧",
-    "titulo": "Anna and technology",
-    "itens": [
-     "Anna uses headphones every day.",
-     "She sometimes uses a digital camera.",
-     "She never uses a GPS."
-    ]
-   },
    "alternativas": [
     {
      "id": "A",
-     "texto": "a digital camera"
+     "texto": "Aladdin's palace"
     },
     {
      "id": "B",
-     "texto": "headphones"
+     "texto": "the magic lamp"
     },
     {
      "id": "C",
-     "texto": "a GPS"
+     "texto": "Jafar"
     }
    ],
-   "resposta": "A"
+   "resposta": "B"
   },
   {
    "n": 27,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "\"The laptop is more expensive than the tablet.\" This means that:",
-   "pagina": "69",
-   "ajuda": "more",
+   "enunciado": "Jafar drinks the juice. How is he then?",
+   "pagina": "17",
+   "ajuda": "parte3",
    "alternativas": [
     {
      "id": "A",
-     "texto": "the tablet costs more."
+     "texto": "angry"
     },
     {
      "id": "B",
-     "texto": "they cost the same."
+     "texto": "happy"
     },
     {
      "id": "C",
-     "texto": "the tablet costs less."
+     "texto": "tired"
     }
    ],
    "resposta": "C"
@@ -693,81 +683,72 @@
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "Which sentence is correct?",
-   "pagina": "69",
-   "ajuda": "mudam",
-   "contexto": {
-    "icone": "⚖️",
-    "titulo": "Weights",
-    "itens": [
-     "Toaster: 2 kg.",
-     "Microwave oven: 15 kg.",
-     "Fridge: 60 kg."
-    ]
-   },
+   "enunciado": "Why does Aladdin rub the lamp?",
+   "pagina": "11",
+   "ajuda": "parte2",
    "alternativas": [
     {
      "id": "A",
-     "texto": "A microwave oven is heavier than a fridge."
+     "texto": "It is too dirty."
     },
     {
      "id": "B",
-     "texto": "A toaster is heavier than a fridge."
+     "texto": "He wants to break it."
     },
     {
      "id": "C",
-     "texto": "A fridge is heavier than a microwave oven."
+     "texto": "Jafar tells him to rub it."
     }
    ],
-   "resposta": "C"
+   "resposta": "A"
   },
   {
    "n": 29,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "The comparative of \"heavy\" is:",
-   "pagina": "69",
-   "ajuda": "mudam",
+   "enunciado": "Which sentence is TRUE?",
+   "pagina": "16",
+   "ajuda": "comando",
    "alternativas": [
     {
      "id": "A",
-     "texto": "heavier"
+     "texto": "Princess Jasmine is happy at Jafar's house."
     },
     {
      "id": "B",
-     "texto": "heavyer"
+     "texto": "Aladdin looks in the window and sees Princess Jasmine."
     },
     {
      "id": "C",
-     "texto": "heaver"
+     "texto": "Jafar gives the lamp back to Aladdin."
     }
    ],
-   "resposta": "A"
+   "resposta": "B"
   },
   {
    "n": 30,
    "parte": 4,
    "tipo": "multipla",
    "calculo": false,
-   "enunciado": "Most short adjectives add -er. Which comparative does NOT end in -er?",
-   "pagina": "69",
-   "ajuda": "mudam",
+   "enunciado": "Which word is NOT in the story of Aladdin?",
+   "pagina": "3",
+   "ajuda": "palavras",
    "alternativas": [
     {
      "id": "A",
-     "texto": "bigger"
+     "texto": "cave"
     },
     {
      "id": "B",
-     "texto": "worse"
+     "texto": "palace"
     },
     {
      "id": "C",
-     "texto": "smaller"
+     "texto": "snow"
     }
    ],
-   "resposta": "B"
+   "resposta": "C"
   }
  ]
 }

@@ -131,7 +131,7 @@ async function rotaNovaTentativa(simuladoId) {
   estado.tentativas.push({
     id, simulado_id: simuladoId, iniciada_em: agora(), concluida_em: null,
     ordem: M.sortearOrdem(conteudo.questoes, Math.floor(Math.random() * 2 ** 31)),
-    total: conteudo.questoes.length, nota: null, pontos: null, respostas: [],
+    total: conteudo.questoes.length, versao: conteudo.versao || 1, nota: null, pontos: null, respostas: [],
   });
   salvar();
   return { id };

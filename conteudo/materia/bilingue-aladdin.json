@@ -1,0 +1,147 @@
+{
+ "arquivo": "bilingue-aladdin",
+ "titulo": "Aladdin",
+ "fonte": "Aladdin, retold by Rob Sved — StandFor Young Readers, Level 3 (pages 3–23)",
+ "idioma": "pt-BR",
+ "topicos": {
+  "comando": {
+   "titulo": "Antes de marcar: o que a pergunta pede?",
+   "icone": "🔎",
+   "pagina": "3–23",
+   "blocos": [
+    {"tipo": "texto", "texto": "Leia a pergunta inteira antes de olhar as alternativas. Estas palavras mudam a resposta:"},
+    {"tipo": "tabela", "colunas": ["Em inglês", "Quer dizer", "O que procurar"], "linhas": [
+     ["FIRST", "primeiro", "o que acontece antes na história"],
+     ["LAST", "por último", "o que acontece no final"],
+     ["NOT", "não", "a única alternativa que não acontece ou não é verdade"],
+     ["TRUE", "verdadeiro", "a única frase que está certa"],
+     ["WHO", "quem", "a pessoa"],
+     ["WHERE", "onde", "o lugar"],
+     ["WHY", "por quê", "o motivo"]
+    ]},
+    {"tipo": "dica", "texto": "Às vezes duas alternativas são verdade na história, mas só uma responde à pergunta. Diga baixinho: \"a pergunta quer saber...\"."}
+   ]
+  },
+  "personagens": {
+   "titulo": "Os personagens e como eles são",
+   "icone": "👥",
+   "pagina": "3",
+   "blocos": [
+    {"tipo": "tabela", "colunas": ["Personagem", "Quem é", "Como é"], "linhas": [
+     ["Aladdin", "um menino que mora com a mãe numa casa pequena na cidade", "poor (pobre), lazy (preguiçoso: não gosta de trabalhar); depois rich (rico) e handsome (bonito)"],
+     ["Aladdin's mother", "a mãe do Aladdin; lava e remenda roupas todo dia", "poor (pobre), works a lot (trabalha muito)"],
+     ["Jafar", "o homem que quer a lâmpada mágica; usa magia", "angry (bravo); depois do suco, tired (cansado)"],
+     ["The Sultan", "o sultão, pai da princesa", "gosta das joias e deixa Aladdin casar com Jasmine"],
+     ["Princess Jasmine", "a princesa, filha (daughter) do sultão", "beautiful (bonita)"],
+     ["The genie", "o gênio que mora na lâmpada", "aparece quando alguém esfrega a lâmpada; no fim fica free (livre)"]
+    ]},
+    {"tipo": "dica", "texto": "Daughter é filha. Mother é mãe. Jasmine é a filha do sultão, não a mãe."}
+   ]
+  },
+  "falas": {
+   "titulo": "Quem diz o quê?",
+   "icone": "💬",
+   "pagina": "4–19",
+   "blocos": [
+    {"tipo": "tabela", "colunas": ["A fala", "Quem diz"], "linhas": [
+     ["Please help me more, Aladdin.", "a mãe do Aladdin"],
+     ["I want to marry Princess Jasmine.", "Aladdin"],
+     ["But you aren't rich. You're poor!", "os amigos do Aladdin"],
+     ["My name's Jafar. / I can give you a lot of money. / Get it for me!", "Jafar"],
+     ["Where is the lamp? / Give me that lamp! / Now nobody can have the lamp!", "Jafar"],
+     ["Help me out of the cave. Then I can give you the lamp.", "Aladdin"],
+     ["What is your wish?", "o gênio (sempre ele)"],
+     ["Please, take me home. / Send Jafar away. / Let's go!", "Aladdin"],
+     ["Yes, Aladdin can marry Princess Jasmine.", "o sultão"],
+     ["You are very handsome.", "Princess Jasmine"],
+     ["You are very beautiful, too.", "Aladdin"],
+     ["Give me your old lamps! I can give you new lamps! / Take away Aladdin's palace!", "Jafar, disfarçado de velho"],
+     ["Aladdin has an old lamp. He needs a new one. / Help! / Get the magic lamp!", "Princess Jasmine"],
+     ["We don't need more wishes. You are free.", "Aladdin"],
+     ["Thank you! (quando fica livre)", "o gênio"]
+    ]},
+    {"tipo": "dica", "texto": "\"Please help me\" aparece duas vezes: no começo é a mãe (\"help me more\"); na casa do Jafar é a princesa."}
+   ]
+  },
+  "parte1": {
+   "titulo": "A história, parte 1: o começo",
+   "icone": "🏠",
+   "pagina": "4–7",
+   "blocos": [
+    {"tipo": "lista", "itens": [
+     "Aladdin mora com a mãe numa casa pequena na cidade. Eles são muito pobres (very poor).",
+     "A mãe trabalha muito: lava e remenda roupas. Aladdin é preguiçoso e não ajuda a mãe.",
+     "No mercado, o sultão passa com a filha, a princesa Jasmine. Aladdin se apaixona e quer casar com ela (marry). Os amigos riem: ele é pobre!",
+     "No dia seguinte, Jafar chega à casa do Aladdin e oferece muito dinheiro (a lot of money).",
+     "Os dois vão até as montanhas (mountains) e chegam a uma caverna escura e perigosa (dark and dangerous). Jafar não quer entrar e manda Aladdin pegar a lâmpada."
+    ]}
+   ]
+  },
+  "parte2": {
+   "titulo": "A história, parte 2: a caverna e o gênio",
+   "icone": "🪔",
+   "pagina": "8–13",
+   "blocos": [
+    {"tipo": "lista", "itens": [
+     "Aladdin está com medo (scared), mas entra. A caverna é fria e escura (cold and dark).",
+     "Numa sala grande há joias por toda parte. Ele põe algumas no bolso (pockets).",
+     "Ele acha uma lâmpada suja e velha (dirty, old lamp). Jafar quer a lâmpada, mas Aladdin pede ajuda para sair primeiro.",
+     "Jafar fica bravo (angry), não ajuda e, com magia, põe uma pedra grande (a big rock) na frente da caverna. Aladdin fica sozinho (alone).",
+     "A lâmpada está suja demais; Aladdin a esfrega com a mão (rubs) e o gênio aparece. O primeiro desejo: \"Please, take me home.\"",
+     "O sultão gosta das joias e deixa Aladdin casar com Jasmine. Eles moram num palácio grande com um jardim bonito."
+    ]}
+   ]
+  },
+  "parte3": {
+   "titulo": "A história, parte 3: Jafar volta",
+   "icone": "🧓",
+   "pagina": "14–17",
+   "blocos": [
+    {"tipo": "lista", "itens": [
+     "Um velho chega ao palácio trocando lâmpadas velhas por novas. Aladdin está fazendo compras na cidade (shopping in the city).",
+     "Jasmine acha que Aladdin precisa de uma lâmpada nova e dá a lâmpada velha ao velho. Mas o velho é o Jafar!",
+     "Jafar esfrega a lâmpada e pede: \"Take away Aladdin's palace!\" O gênio bate palmas e o palácio some. Jafar leva Jasmine para a casa dele.",
+     "Aladdin fica desesperado (desperate). Na casa do Jafar, olha pela janela e vê Jasmine chorando (crying).",
+     "Bem quieto (very quiet), Aladdin põe uma poção do sono (sleeping potion) no suco do Jafar. Jafar bebe e fica cansado (tired).",
+     "Aladdin abre a porta do quarto da princesa: \"Let's go!\". Ela diz: \"Get the magic lamp!\". Eles fogem com a lâmpada."
+    ]}
+   ]
+  },
+  "parte4": {
+   "titulo": "A história, parte 4: o final",
+   "icone": "🏰",
+   "pagina": "18–19",
+   "blocos": [
+    {"tipo": "lista", "itens": [
+     "Aladdin esfrega a lâmpada e o gênio, feliz em vê-lo, aparece de novo.",
+     "Desejo: \"Send Jafar away.\" O gênio bate palmas e Jafar desaparece (disappears).",
+     "O gênio bate palmas de novo e o palácio volta.",
+     "Aladdin diz: \"We don't need more wishes. You are free.\" O gênio fica livre (free).",
+     "Aladdin e Jasmine moram no palácio e são muito felizes (very happy)."
+    ]}
+   ]
+  },
+  "palavras": {
+   "titulo": "Palavras do livro (Glossary)",
+   "icone": "📚",
+   "pagina": "22–23",
+   "blocos": [
+    {"tipo": "tabela", "colunas": ["Palavra", "Em português", "No livro (Glossary)"], "linhas": [
+     ["appear / disappear", "aparecer / desaparecer", "start to be seen / stop to be seen"],
+     ["cave", "caverna", "a hole in the side of a mountain"],
+     ["jewels", "joias", "—"],
+     ["lamp", "lâmpada (de óleo)", "—"],
+     ["palace", "palácio", "a big house; an important person lives here"],
+     ["pocket", "bolso", "a small bag inside clothes"],
+     ["potion", "poção", "a magic drink"],
+     ["rub", "esfregar", "move your hand over something"],
+     ["run", "correr", "move very quickly"],
+     ["wash / mend", "lavar / remendar", "make something clean using water / fix a hole in clothes"],
+     ["wish", "desejo", "something that you want to happen"],
+     ["lazy", "preguiçoso", "not wanting to work"]
+    ]},
+    {"tipo": "texto", "texto": "Na página 3 do livro: estão na história cave, city, jewels, lamp, mountain, palace e rock. Não estão: car, cookies, doctor, milk, police officer, rabbits, sailor e snow."}
+   ]
+  }
+ }
+}

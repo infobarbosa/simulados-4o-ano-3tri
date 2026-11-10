@@ -7,7 +7,7 @@ App web para treinar com simulados de **Matemática, Português, Gramática, Ci�
 ## Como usar
 1. Abra o endereço do GitHub Pages deste repositório no celular ou tablet (no iPhone: Compartilhar → Adicionar à Tela de Início; no Android/Chrome: ⋮ → Adicionar à tela inicial).
 2. Na primeira vez o app pergunta o nome. Ele fica só no aparelho.
-3. Escolha a matéria, a prova e o simulado (27 questões, ou 30 nos simulados 4 e 5 de Geografia e de Ciências e em todos os de Português, e de História e Bilíngue da Multidisciplinar 3: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura).
+3. Escolha a matéria, a prova e o simulado (27 questões, ou 30 nos simulados 4 e 5 de Geografia e de Ciências e em todos os de Português, e de História e Bilíngue da Multidisciplinar 3: V/F, ligar colunas, completar, múltipla escolha e, nos simulados 4 e 5 de Matemática, pintar a fração na figura). Os 5 de Bilíngue da Multidisciplinar 3 são sobre o livro *Aladdin* e só têm múltipla escolha (A/B/C), como a prova.
 
 Algumas questões trazem uma **caixa de contexto** acima do enunciado, com os dados que no livro estão em figura ou tabela (a receita e o suco, em Frações; o gráfico dos trabalhadores, em Geografia). Em Geografia, o mapa das indústrias do Brasil é **desenhado pelo app**, com legenda e a sigla de cada estado; em Ciências, o diagrama dos estados físicos da água também. Assim dá para responder sem o livro aberto.
 
@@ -41,7 +41,7 @@ No primeiro acesso o app mostra um resumo e pede o aceite de um adulto (a caixin
 ## Para quem for mexer
 ```bash
 python3 -m http.server 8000          # http://localhost:8000
-# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 26/26")
+# testes do motor: http://localhost:8000/tests/  (título da aba: "OK 28/28")
 python3 tests/e2e.py http://localhost:8000/ [pasta-de-screenshots]   # pip install playwright + Chrome (CHROME)
 ```
 As mini-aulas do botão de conteúdo ficam em `conteudo/materia/*.json`. O resto do conteúdo vem de `conteudo/*.json`, gerado a partir dos PDFs (que **não** ficam neste repositório) com `python3 tools/gerar_conteudo.py PASTA_DOS_PDFS` (precisa de `pdftotext`). Veja o `CLAUDE.md` para a arquitetura.

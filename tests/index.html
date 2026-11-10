@@ -45,9 +45,12 @@
     });
 
     // Provas de novembro: 6 V/F, 6 associações, 8 lacunas e 10 múltiplas, porque a prova real é toda A/B/C.
-    teste("provas de novembro: distribuição 6/6/8/10, com mini-aula e 3 alternativas nas múltiplas", () => {
+    // O Inglês (Aladdin, desde 10/11/2026) é todo múltipla escolha, como a prova Multidisciplinar.
+    const INGLES = (id) => id.startsWith("bilingue-multidisciplinar-3-");
+    teste("provas de novembro: distribuição 6/6/8/10 (Inglês: 30 múltiplas), com mini-aula e 3 alternativas nas múltiplas", () => {
       for (const s of todos.filter((x) => REESCRITOS.includes(x.id))) {
-        igual(s.questoes.map((q) => q.tipo), [...Array(6).fill("vf"), ...Array(6).fill("associacao"), ...Array(8).fill("lacuna"), ...Array(10).fill("multipla")], s.id);
+        igual(s.questoes.map((q) => q.tipo), INGLES(s.id) ? Array(30).fill("multipla")
+          : [...Array(6).fill("vf"), ...Array(6).fill("associacao"), ...Array(8).fill("lacuna"), ...Array(10).fill("multipla")], s.id);
         ok(s.materia, s.id);
         for (const q of s.questoes) {
           ok(q.ajuda, `${s.id} q${q.n} sem ajuda`);
@@ -65,6 +68,30 @@
         { id: 3, simulado_id: "portugues-p1-2", total: 30, concluida_em: null },
         { id: 4, simulado_id: "historia-p1-1", total: 27, concluida_em: null },
         { id: 5, simulado_id: "bilingue-multidisciplinar-3-3", total: 27, concluida_em: null },
+      ];
+      igual(M.semAbertasAntigas(t).map((x) => x.id), [2, 3, 4]);
+    });
+    teste("Inglês (Aladdin): versão do JSON bate com motor.js, gabarito A/B/C equilibrado, alternativas distintas", () => {
+      for (const s of todos) igual(s.versao || 1, M.versaoConteudo(s.id), `${s.id}: versao`);
+      for (const s of todos.filter((x) => INGLES(x.id))) {
+        igual(s.materia, "bilingue-aladdin", s.id);
+        const conta = { A: 0, B: 0, C: 0 };
+        for (const q of s.questoes) {
+          conta[q.resposta]++;
+          const textos = q.alternativas.map((a) => a.texto.trim().toLowerCase());
+          igual(new Set(textos).size, 3, `${s.id} q${q.n}: alternativas repetidas`);
+        }
+        igual(conta, { A: 10, B: 10, C: 10 }, s.id);
+        igual(new Set(s.questoes.map((q) => q.enunciado)).size, 30, `${s.id}: enunciado repetido`);
+      }
+    });
+    teste("versão do conteúdo: aberta nos comparativos (30 questões, sem versão) sai; concluída e aberta no Aladdin ficam", () => {
+      const t = [
+        { id: 1, simulado_id: "bilingue-multidisciplinar-3-4", total: 30, concluida_em: null },
+        { id: 2, simulado_id: "bilingue-multidisciplinar-3-4", total: 30, concluida_em: "2026-11-08", nota: 9 },
+        { id: 3, simulado_id: "bilingue-multidisciplinar-3-1", total: 30, versao: 2, concluida_em: null },
+        { id: 4, simulado_id: "historia-multidisciplinar-3-1", total: 30, concluida_em: null },
+        { id: 5, simulado_id: "bilingue-multidisciplinar-3-2", total: 30, versao: 1, concluida_em: null },
       ];
       igual(M.semAbertasAntigas(t).map((x) => x.id), [2, 3, 4]);
     });

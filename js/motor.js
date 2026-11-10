@@ -140,8 +140,16 @@ export function estrelasPorNota(nota) {
 const REESCRITOS = Object.fromEntries(["portugues-p1", "historia-multidisciplinar-3", "bilingue-multidisciplinar-3"]
   .flatMap((p) => [1, 2, 3].map((n) => [`${p}-${n}`, 30])));
 
+// Simulados cujo conteúdo foi trocado sem mudar o número de questões (Inglês da Multidisciplinar 3:
+// comparativos → Aladdin, em 10/11/2026). A tentativa guarda a versão em que começou (campo `versao`
+// do simulado); uma aberta em versão anterior sai. Tem que bater com o `versao` do JSON (tests/).
+export const VERSOES = Object.fromEntries([1, 2, 3, 4, 5].map((n) => [`bilingue-multidisciplinar-3-${n}`, 2]));
+export const versaoConteudo = (simuladoId) => VERSOES[simuladoId] || 1;
+
 export function semAbertasAntigas(tentativas) {
-  return tentativas.filter((t) => t.concluida_em || !REESCRITOS[t.simulado_id] || t.total === REESCRITOS[t.simulado_id]);
+  return tentativas.filter((t) => t.concluida_em || (
+    (!REESCRITOS[t.simulado_id] || t.total === REESCRITOS[t.simulado_id])
+    && (t.versao || 1) === versaoConteudo(t.simulado_id)));
 }
 
 export function validar(s) {
